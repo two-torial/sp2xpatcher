@@ -9,11 +9,6 @@ You may help the community by contributing patches.
 
 Once a pull request is merged, patches will be available within minutes at `https://sp2x.two-torial.xyz/`
 
-## Converting web to json (spice2x) patches
-
-Right now **this has to be done manually**, however we plan on having tooling available to make this easier.  
-Look at the files respective structures (html and json) and try to figure it out yourself.
-
 ## JSON Naming
 
 **Spice2x patches have one json file per game version**.  
@@ -21,3 +16,15 @@ It needs to be **[named in a very specific way](https://github.com/spice2x/spice
 
 A python [peinfo.py](https://github.com/akitakedits/peinfo) script is available to help you figure that name out for your provided game's dll file.  
 Check out [peinfo's README](https://github.com/akitakedits/peinfo/blob/main/README.md) for more information.
+
+## Converting web to json (spice2x) patches
+
+Right now **this has to be done manually**, however we plan on having tooling available to make this easier.  
+Look at the files respective structures (html and json) and try to figure it out yourself.
+
+## Porting spice2x patches
+
+It is possible to port patches from **one version of a game to another**.  
+A python [port_sp2x_patches.py](https://github.com/akitakedits/port_sp2x_patches) script is available to help you through some of that work.  
+However it will **not be able to port all patches** and it will **not always be 100% accurate**, **false positives can occur**.  
+Porting patches the script cannot, or fixing false positives will have to be done manually.
