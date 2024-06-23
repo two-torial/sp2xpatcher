@@ -16,6 +16,8 @@ Look at the files respective structures (html and json) and try to figure it out
 
 ## JSON Naming
 
-**Spice2x patches have one .json file per game version**, which needs to be **[named in a very specific way](https://github.com/spice2x/spice2x.github.io/wiki/patches.json-specification#pe-identifier)** to be recognized by the [Spice2x 'Import from URL'](https://github.com/spice2x/spice2x.github.io/wiki/Patching-DLLs-(hex-edits)#importing-patches-from-a-url) feature.  
-A python script called [peinfo.py](https://github.com/akitakedits/peinfo) is available to help you figure that name out for your provided game's dll file.  
+**Spice2x patches have one json file per game version**.  
+It needs to be **[named in a very specific way](https://github.com/spice2x/spice2x.github.io/wiki/patches.json-specification#pe-identifier)** to be recognized by the [Spice2x 'Import from URL'](https://github.com/spice2x/spice2x.github.io/wiki/Patching-DLLs-(hex-edits)#importing-patches-from-a-url) feature.
+
+A python [peinfo.py](https://github.com/akitakedits/peinfo) script is available to help you figure that name out for your provided game's dll file.  
 Check out [peinfo's README](https://github.com/akitakedits/peinfo/blob/main/README.md) for more information.
