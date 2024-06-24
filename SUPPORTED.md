@@ -23,6 +23,7 @@
 
 # Sound Voltex Exceed Gear 
 ### [KFC]
+- 2021-12-14 - [KFC-61b19602_57ac68](KFC-61b19602_57ac68.json)
 - 2024-01-16 - [KFC-659f91b3_696318](KFC-659f91b3_696318.json)
 - 2024-01-30 - [KFC-65b1fc65_69c278](KFC-65b1fc65_69c278.json)
 - 2024-02-06 - [KFC-65bb66cb_69cfb8](KFC-65bb66cb_69cfb8.json)

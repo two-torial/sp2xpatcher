@@ -1,0 +1,406 @@
+[
+    {
+        "name": "Disable power change",
+        "description": "Prevents power mode change on startup",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2048003,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Disable monitor change",
+        "description": "Prevents monitor setting changes on startup",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2048155,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force BIO2 (KFC) IO in Valkyrie mode",
+        "description": "Will only work with <spec __type=\"str\">F</spec> changed to either G or H, in ea3-config.xml.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4195125,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8705",
+                "dataEnabled": "470C"
+            }
+        ]
+    },
+    {
+        "name": "120Hz Support",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7422286,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4E",
+                "dataEnabled": "5E"
+            }
+        ]
+    },
+    {
+        "name": "Note FPS Target",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "F20F5935D1CD34000F57C0660F2EF0",
+                    "offset": 3964023
+                }
+            },
+            {
+                "name": "120 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "909090909090B878000000F20F2AF0",
+                    "offset": 3964023
+                }
+            },
+            {
+                "name": "144 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "909090909090B890000000F20F2AF0",
+                    "offset": 3964023
+                }
+            },
+            {
+                "name": "165 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "909090909090B8A5000000F20F2AF0",
+                    "offset": 3964023
+                }
+            },
+            {
+                "name": "240 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "909090909090B8F0000000F20F2AF0",
+                    "offset": 3964023
+                }
+            },
+            {
+                "name": "360 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "909090909090B868010000F20F2AF0",
+                    "offset": 3964023
+                }
+            }
+        ]
+    },
+    {
+        "name": "Force Note FPS Target",
+        "description": "Enable this if above is not Default",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3964038,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7409",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 3963952,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "745F",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Shared mode WASAPI",
+        "description": "Only replaces the first audio device init attempt. Set output to 44100Hz 16bit if it doesn't work.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4441065,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Shared mode WASAPI Valkyrie",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4440903,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Allow non E004 cards",
+        "description": "Allows cards that do not have E004 card IDs (such as mifare cards) to work.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2635,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7512",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2643,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All songs",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1534462,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "EB0533C9894F1485DB742683EB01740F83EB01741C83EB01741083FB0174048BC1EB13B802000000EB0CB803000000EB05B801000000",
+                "dataEnabled": "909033C9B803000000909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
+            },
+            {
+                "offset": 1473553,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "440FB6742440",
+                "dataEnabled": "41BE03000000"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All difficulties",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3105695,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Enable S-CRITICAL in Light Start",
+        "description": "Only in Valkyrie mode.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 480170,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7440",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 480303,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7420",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 483882,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7404",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Uncensor album jackets (for K region only)",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6935440,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "name": "Disable subscreen in Valkyrie mode",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3962512,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "83BDB800000002410F93C64488742451",
+                "dataEnabled": "41B60044887424519090909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Timer freeze",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 475350,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "84",
+                "dataEnabled": "85"
+            }
+        ]
+    },
+    {
+        "name": "Premium timer freeze",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3143813,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 2644841,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 1914430,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Hide premium guide banner",
+        "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2193817,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "634F49",
+                "dataEnabled": "1BF044"
+            }
+        ]
+    },
+    {
+        "name": "Hide bottom text",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 638479,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E82C040000",
+                "dataEnabled": "9090909090"
+            },
+            {
+                "offset": 639433,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF15993E5700",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 639317,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF150D3F5700",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 639471,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF15733E5700",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Premium Time Length",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default (10 Minutes)",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "0070C9B28B000000",
+                    "offset": 2773606
+                }
+            },
+            {
+                "name": "20 Minutes",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "00E0926517010000",
+                    "offset": 2773606
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "00505C18A3010000",
+                    "offset": 2773606
+                }
+            },
+            {
+                "name": "1 Hour",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "00A0B83046030000",
+                    "offset": 2773606
+                }
+            }
+        ]
+    }
+]
