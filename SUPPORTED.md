@@ -1,28 +1,42 @@
-# beatmania IIDX 30 RESIDENT
-### [LDJ-003]
+# Supported Games
+*Click on a game's name to reveal supported versions.*
+
+<details><summary><h2>beatmania IIDX 30 RESIDENT</h1></summary>
+
+### [LDJ-003] `bm2dx.dll`
 - 2023-09-05 - [LDJ-64ef0ff5_1037754](LDJ-64ef0ff5_1037754.json)
 
-### [LDJ-010]
+### [LDJ-010] `bm2dx.dll`
 - 2023-09-05 - [LDJ-64ef0ec9_844b10](LDJ-64ef0ec9_844b10.json)
-  
-### [LDJ-012]
+
+### [LDJ-012] `bm2dx.dll`
 - 2023-09-05 - [LDJ-64ef1153_777dc0](LDJ-64ef1153_777dc0.json)
 
-# beatmania IIDX 31 EPOLIS
-### [LDJ-012]
+</details>
+
+---
+
+<details><summary><h2>beatmania IIDX 31 EPOLIS</h1></summary>
+
+### [LDJ-012] `bm2dx.dll`
 - 2023-10-18 - [LDJ-65290d78_9254f0](LDJ-65290d78_9254f0.json)
 - 2024-03-05 - [LDJ-65de809d_94e9bc](LDJ-65de809d_94e9bc.json)
 - 2024-04-15 - [LDJ-661758fa_95ceec](LDJ-661758fa_95ceec.json)
 - 2024-05-07 - [LDJ-662a0a1f_98f11c](LDJ-662a0a1f_98f11c.json)
 - 2024-06-05 - [LDJ-665e9f8f_9a384c](LDJ-665e9f8f_9a384c.json)
 
-### [LDJ-010]
+### [LDJ-010] `bm2dx.dll`
 - 2023-12-06 - [LDJ-656d3226_a145e0](LDJ-656d3226_a145e0.json)
 - 2024-03-25 - [LDJ-65fbdb9b_a29c4c](LDJ-65fbdb9b_a29c4c.json)
 - 2024-05-07 - [LDJ-662a05c7_a5bf9c](LDJ-662a05c7_a5bf9c.json)
 
-# Sound Voltex Exceed Gear 
-### [KFC]
+</details>
+
+---
+
+<details><summary><h2>Sound Voltex Exceed Gear</h1></summary>
+
+### [KFC] `soundvoltex.dll`
 - 2021-12-14 - [KFC-61b19602_57ac68](KFC-61b19602_57ac68.json)
 - 2024-01-16 - [KFC-659f91b3_696318](KFC-659f91b3_696318.json)
 - 2024-01-30 - [KFC-65b1fc65_69c278](KFC-65b1fc65_69c278.json)
@@ -33,3 +47,7 @@
 - 2024-04-30 - [KFC-6629f133_6bcea8](KFC-6629f133_6bcea8.json)
 - 2024-05-21 - [KFC-6643ed55_663968](KFC-6643ed55_663968.json)
 - 2024-06-04 - [KFC-6656ee0c_664a78](KFC-6656ee0c_664a78.json)
+
+</details>
+
+---
