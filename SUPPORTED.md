@@ -5,6 +5,10 @@
 # beatmania IIDX 31 EPOLIS
 ### [LDJ-012]
 - 2023-10-18 - [LDJ-65290d78_9254f0](LDJ-65290d78_9254f0.json)
+- 2024-03-05 - [LDJ-65de809d_94e9bc](LDJ-65de809d_94e9bc.json)
+- 2024-04-15 - [LDJ-661758fa_95ceec](LDJ-661758fa_95ceec.json)
+- 2024-05-07 - [LDJ-662a0a1f_98f11c](LDJ-662a0a1f_98f11c.json)
+- 2024-06-05 - [LDJ-665e9f8f_9a384c](LDJ-665e9f8f_9a384c.json)
 
 ### [LDJ-010]
 - 2023-12-06 - [LDJ-656d3226_a145e0](LDJ-656d3226_a145e0.json)
