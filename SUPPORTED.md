@@ -2,6 +2,12 @@
 ### [LDJ-003]
 - 2023-09-05 - [LDJ-64ef0ff5_1037754](LDJ-64ef0ff5_1037754.json)
 
+### [LDJ-010]
+- 2023-09-05 - [LDJ-64ef0ec9_844b10](LDJ-64ef0ec9_844b10.json)
+  
+### [LDJ-012]
+- 2023-09-05 - [LDJ-64ef1153_777dc0](LDJ-64ef1153_777dc0.json)
+
 # beatmania IIDX 31 EPOLIS
 ### [LDJ-012]
 - 2023-10-18 - [LDJ-65290d78_9254f0](LDJ-65290d78_9254f0.json)
