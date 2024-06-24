@@ -78,8 +78,8 @@
                 "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
-                    "data": "F20F5935800658000F28C60F28D60F",
-                    "offset": 2874448
+                    "data": "660F6EF0F30FE6F6F20F593580065800",
+                    "offset": 2874440
                 }
             },
             {
@@ -87,8 +87,8 @@
                 "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
-                    "data": "909090909090B878000000F20F2AF0",
-                    "offset": 2874448
+                    "data": "B878000000F20F2AF0F24890F2489090",
+                    "offset": 2874440
                 }
             }
         ]
