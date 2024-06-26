@@ -173,6 +173,7 @@ Porting patches the script cannot, or fixing false positives will have to be don
 - 2023-12-06 - [LDJ-656d3226_a145e0](LDJ-656d3226_a145e0.json)
 - 2024-03-25 - [LDJ-65fbdb9b_a29c4c](LDJ-65fbdb9b_a29c4c.json)
 - 2024-05-07 - [LDJ-662a05c7_a5bf9c](LDJ-662a05c7_a5bf9c.json)
+- 2024-06-05 - [LDJ-6657c7bb_a706cc](LDJ-6657c7bb_a706cc.json)
 
 </details>
 </details>
