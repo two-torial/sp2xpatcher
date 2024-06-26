@@ -47,6 +47,8 @@ Porting patches the script cannot, or fixing false positives will have to be don
 
 *Click on a game's name to reveal supported versions.*
 
+<details><summary><b>beatmania IIDX</b></summary>
+
 <details><summary><b>beatmania IIDX 18 Resort Anthem</b></summary>
 
 ### [LDZ] `bm2dx.dll`
@@ -158,6 +160,7 @@ Porting patches the script cannot, or fixing false positives will have to be don
 - 2024-03-25 - [LDJ-65fbdb9b_a29c4c](LDJ-65fbdb9b_a29c4c.json)
 - 2024-05-07 - [LDJ-662a05c7_a5bf9c](LDJ-662a05c7_a5bf9c.json)
 
+</details>
 </details>
 <details><summary><b>Sound Voltex Exceed Gear</b></summary>
 
