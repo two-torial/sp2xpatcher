@@ -1,0 +1,288 @@
+[
+    {
+        "name": "All songs/difficulties unlocked",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1412418,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8695D02",
+                "dataEnabled": "B80D0000"
+            },
+            {
+                "offset": 1832313,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B442420E83EEBFFFF",
+                "dataEnabled": "B80300000090909090"
+            }
+        ]
+    },
+    {
+        "name": "All songs \"Safe\"",
+        "description": "Failing early won't drop you out of your session",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1548627,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "No \"Safe\" banner on jackets",
+        "description": "Remove visual clutter",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3126916,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "73",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2445514,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E821030000",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    },
+    {
+        "name": "Boot into Event Mode",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1698514,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            }
+        ]
+    },
+    {
+        "name": "Uncensor album jackets (for K region only)",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3276780,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "name": "Disable EVENT MODE/FREE PLAY text",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 784864,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8DB",
+                "dataEnabled": "EB03"
+            }
+        ]
+    },
+    {
+        "name": "PFree (Unlimited plays)",
+        "description": "Song clears/scores only, mission progress and custom settings do not save",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1928079,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "02"
+            },
+            {
+                "offset": 1928566,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B83641000008D480183F90456577F52",
+                "dataEnabled": "B8010000008983641000009056579090"
+            }
+        ]
+    },
+    {
+        "name": "Allow ARS (Alternative Rate System) Option",
+        "description": "At gauge select, go to excessive and press BT-D to enable",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1546340,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Freeze timer in all modes",
+        "description": "Useful to play with Omega Dimension Ex-Track",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 489979,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B436085C07404",
+                "dataEnabled": "90909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Non-Effective Rate gauges start at 0%",
+        "description": "This affects all \"Hard\" Gauge types",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1181488,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "1027",
+                "dataEnabled": "0100"
+            }
+        ]
+    },
+    {
+        "name": "Non-Effective Rate gauges do not recover",
+        "description": "This affects all \"Hard\" Gauge types",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1182634,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "015048",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Omega Dimension Matching scene as default",
+        "description": "Replaces stock matching scene with Omega Dimension matching",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3601048,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FC813110",
+                "dataEnabled": "94723110"
+            }
+        ]
+    },
+    {
+        "name": "QC Mode",
+        "description": "Replaces IC Card Check in test menu",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 20144,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "6AFF683BB4",
+                "dataEnabled": "E9FB0B0000"
+            },
+            {
+                "offset": 3138976,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4943204341524420434845434B",
+                "dataEnabled": "5143204D4F4445202020202020"
+            }
+        ]
+    },
+    {
+        "name": "English folder text",
+        "description": "FX-L button on appeal card and song screens",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3072323,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8352839383658342836A8385815B82B582DC82B782A98148",
+                "dataEnabled": "436F6E74696E756520506C6179696E673F00000000000000"
+            },
+            {
+                "offset": 3122408,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8352839383658358836700008356838A815B8359000000004752414445000000434C454152204D41524B0000545241434B204C5600000000835783838393838B",
+                "dataEnabled": "434F4E5445535453000000005345524945530000000000004752414445000000434C454152204D41524B0000545241434B204C560000000047454E5245000000"
+            },
+            {
+                "offset": 3123312,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "82A88B4382C993FC82E8",
+                "dataEnabled": "4641564F524954455300"
+            },
+            {
+                "offset": 3125280,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8349838A83578369838B91BC0000000042454D414E490000464C4F4F52000000837B815B834A838D834383685B737A3A31325D5B706F73723A302C2D355D544D00000000455849542054554E45530000938C95FB8341838C83938357",
+                "dataEnabled": "204F524947494E414C5300000000000042454D414E490000464C4F4F52000000564F43414C4F4944000000005B737A3A31325D5B706F73723A302C2D355D544D00000000455849542054554E45530000544F55484F55000000000000"
+            },
+            {
+                "offset": 3379196,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "83898343835A8393835800008DC58BDF8E67977082B582BD83418373834A",
+                "dataEnabled": "4C4943454E53450000000000524543454E544C5920555345440000000000"
+            }
+        ]
+    },
+    {
+        "name": "Skip global matching screen",
+        "description": "Automatically skips the screen between song select and gameplay",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3233280,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4D",
+                "dataEnabled": "4E"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Headphones",
+        "description": "Overrides headphone detection to always be enabled. Useful for cabinets.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2143256,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7405",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 2143263,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "895E48",
+                "dataEnabled": "909090"
+            }
+        ]
+    }
+]

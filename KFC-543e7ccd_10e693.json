@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Freeze timer in all modes",
+        "description": "",
+        "caution": "Not properly tested",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 229563,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B436085C07404",
+                "dataEnabled": "90909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 959226,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E821030000",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    }
+]

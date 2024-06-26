@@ -1,0 +1,90 @@
+[
+    {
+        "name": "All songs unlocked",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1232229,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E8568B01",
+                "dataEnabled": "B80B0000"
+            }
+        ]
+    },
+    {
+        "name": "Boot to Event Mode",
+        "description": "Forces Event Mode on bootup (Free play, infinite menu time).",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1422306,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            }
+        ]
+    },
+    {
+        "name": "All songs \"Safe\"",
+        "description": "Failing early won't drop you out of your session",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1320150,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "If your volume gets forced to max, turn this on.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2035290,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E821030000",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    },
+    {
+        "name": "PFree (Unlimited plays)",
+        "description": "Song clears/scores only, mission progress and custom settings do not save",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1559119,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "02"
+            },
+            {
+                "offset": 1559254,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B83780A0000",
+                "dataEnabled": "E96FD10C0090"
+            },
+            {
+                "offset": 2399306,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00000000",
+                "dataEnabled": "C783780A"
+            },
+            {
+                "offset": 2399312,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "00000000000000000000000000000000",
+                "dataEnabled": "010000008B83780A0000E97D2EF3FF00"
+            }
+        ]
+    }
+]

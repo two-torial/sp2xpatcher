@@ -162,7 +162,38 @@ Porting patches the script cannot, or fixing false positives will have to be don
 
 </details>
 </details>
-<details><summary><b>Sound Voltex Exceed Gear</b></summary>
+
+<details><summary><b>Sound Voltex</b></summary>
+
+<details><summary><b>SOUND VOLTEX II -infinite infection-</b></summary>
+
+### [KFC] `soundvoltex.dll`
+- 2014-10-22 (PhaseII) - [KFC-543e7ccd_10e693](KFC-543e7ccd_10e693.json)
+
+</details>
+<details><summary><b>SOUND VOLTEX III GRAVITY WARS</b></summary>
+
+### [KFC] `soundvoltex.dll`
+- 2015-11-16 (Season 1) - [KFC-56497884_20131c](KFC-56497884_20131c.json)
+- 2016-12-12 (Season 2) - [KFC-58365cd4_21e91c](KFC-58365cd4_21e91c.json)
+
+</details>
+<details><summary><b>SOUND VOLTEX IV HEAVENLY HAVEN</b></summary>
+
+### [KFC] `soundvoltex.dll`
+- 2018-01-16 - [KFC-5a55ed92_26d3cb](KFC-5a55ed92_26d3cb.json)
+- 2019-02-06 - [KFC-5c541c96_27bc7b](KFC-5c541c96_27bc7b.json)
+
+</details>
+<details><summary><b>SOUND VOLTEX VIVID WAVE</b></summary>
+
+### [KFC] `soundvoltex.dll`
+- 2019-10-31 (CN ver.) - [KFC-5dbaae15_36ea80](KFC-5dbaae15_36ea80.json)
+- 2020-01-15 - [KFC-5e18527b_31c780](KFC-5e18527b_31c780.json)
+- 2020-12-22 - [KFC-5fdadbea_330980](KFC-5fdadbea_330980.json)
+
+</details>
+<details><summary><b>SOUND VOLTEX EXCEED GEAR</b></summary>
 
 ### [KFC] `soundvoltex.dll`
 - 2021-12-14 - [KFC-61b19602_57ac68](KFC-61b19602_57ac68.json)
@@ -177,5 +208,6 @@ Porting patches the script cannot, or fixing false positives will have to be don
 - 2024-06-04 - [KFC-6656ee0c_664a78](KFC-6656ee0c_664a78.json)
 - 2024-06-25 - [KFC-667290d9_665948](KFC-667290d9_665948.json) (**INCOMPLETE**)
 
+</details>
 </details>
 </details>

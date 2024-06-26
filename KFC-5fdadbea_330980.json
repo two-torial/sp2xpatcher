@@ -1,0 +1,286 @@
+[
+    {
+        "name": "SSE4.2 Fix",
+        "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2542925,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F3450FB8C8",
+                "dataEnabled": "67458D48FF"
+            },
+            {
+                "offset": 2650630,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F3450FB8CA",
+                "dataEnabled": "448D4E0290"
+            },
+            {
+                "offset": 5749712,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "F30FB8C9F30FB8D0",
+                "dataEnabled": "678D0990678D50FF"
+            }
+        ]
+    },
+    {
+        "name": "All songs/difficulties unlocked",
+        "description": "Do not use when connected to online servers, will break automation paradise favoriting",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5018821,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B4C2434E8C2090000",
+                "dataEnabled": "B80300000090909090"
+            },
+            {
+                "offset": 5601234,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "E889C50800",
+                "dataEnabled": "B80D000000"
+            },
+            {
+                "offset": 4976768,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "440FB6742430",
+                "dataEnabled": "41BE03000000"
+            }
+        ]
+    },
+    {
+        "name": "All songs \"Safe\"",
+        "description": "Failing early won't drop you out of your session",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6145796,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "06",
+                "dataEnabled": "13"
+            },
+            {
+                "offset": 6145811,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "A4",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Hide premium guide banner",
+        "description": "Remove visual clutter during premium song",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4556409,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Boot into Event Mode",
+        "description": "Not compatible with premium free mode",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4959200,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "33C0C7410864050000488901C3CCCCCCCC",
+                "dataEnabled": "31C0678D4001C7410864050000488901C3"
+            }
+        ]
+    },
+    {
+        "name": "Enable ARS (Alternative Rate System) in Light Start",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5203659,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "45"
+            }
+        ]
+    },
+    {
+        "name": "All crew unlocked",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5042283,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "95",
+                "dataEnabled": "91"
+            }
+        ]
+    },
+    {
+        "name": "Skip Global Matching Screen",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7484576,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "4D",
+                "dataEnabled": "4E"
+            }
+        ]
+    },
+    {
+        "name": "All Appeal Cards Unlocked",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5039474,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "19",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Shared mode WASAPI",
+        "description": "Only replaces the first audio device init attempt. Set output to 44100Hz 16bit if it doesn't work.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6513493,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "BA03000000",
+                "dataEnabled": "BA00000000"
+            }
+        ]
+    },
+    {
+        "name": "Freeze timer in all modes",
+        "description": "Useful to play with Omega Dimension Ex-Track",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4177380,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FFCA",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Headphones",
+        "description": "Overrides headphone detection to always be enabled. Useful for cabinets.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6386168,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "898B9000000084C97408",
+                "dataEnabled": "C7839000000001000000"
+            }
+        ]
+    },
+    {
+        "name": "Infinite Premium Time",
+        "description": "Locks the timer, can still exit with key combo",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3181597,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "FF1565193700488B442430",
+                "dataEnabled": "48C7C00100000090909090"
+            }
+        ]
+    },
+    {
+        "name": "Bypass Camera",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6415472,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "7421",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Uncensor album jackets (for K region only)",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7286688,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "name": "Premium Time Length",
+        "description": "",
+        "gameCode": "KFC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default (10 Minutes)",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "0070C9B28B000000",
+                    "offset": 5216407
+                }
+            },
+            {
+                "name": "20 Minutes",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "00E0926517010000",
+                    "offset": 5216407
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "00505C18A3010000",
+                    "offset": 5216407
+                }
+            },
+            {
+                "name": "1 Hour",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "00A0B83046030000",
+                    "offset": 5216407
+                }
+            }
+        ]
+    }
+]
