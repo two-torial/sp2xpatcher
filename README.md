@@ -87,6 +87,7 @@ Porting patches the script cannot, or fixing false positives will have to be don
 - 2024-04-30 - [KFC-6629f133_6bcea8](KFC-6629f133_6bcea8.json)
 - 2024-05-21 - [KFC-6643ed55_663968](KFC-6643ed55_663968.json)
 - 2024-06-04 - [KFC-6656ee0c_664a78](KFC-6656ee0c_664a78.json)
+- 2024-06-25 - [KFC-667290d9_665948](KFC-667290d9_665948.json) (**INCOMPLETE**)
 
 </details>
 </details>
