@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 324316,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 299549,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7509",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Shorter monitor check",
+        "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 446586,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B004",
+                "dataEnabled": "2C01"
+            }
+        ]
+    },
+    {
+        "name": "6 digits in monitor check",
+        "description": "Purely visual, does not affect anything besides the FPS display",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1490389,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "34",
+                "dataEnabled": "36"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 566686,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "CS-Style Song Start Delay",
+        "description": "Holding Start will pause the song at the beginning until you release it",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 421046,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7C",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 298637,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "48",
+                "dataEnabled": "90"
+            }
+        ]
+    },
+    {
+        "name": "Volume Bug Fix",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 775065,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            }
+        ]
+    },
+    {
+        "name": "Debug mode (disables score saving!)",
+        "description": "Press F1 in-game to open menu",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 615552,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "0C01"
+            }
+        ]
+    },
+    {
+        "name": "Coin Unlock",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 22595,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "9090909090909090909090909090",
+                "dataEnabled": "6A01E876FA00008BC8E8AFFA0000"
+            }
+        ]
+    }
+]

@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 640350,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 381723,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 353197,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "48",
+                "dataEnabled": "90"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 363326,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "750A",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "CS-Style Song Start Delay",
+        "description": "Holding Start will pause the song at the beginning until you release it",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 490742,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7C",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Cursor lock",
+        "description": "After song finishes, song select remains on previous song",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 442170,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7423",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Volume Bug Fix",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 875785,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            }
+        ]
+    },
+    {
+        "name": "Replace FREE PLAY text with song name",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 85050,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "903F1210",
+                "dataEnabled": "24AA4311"
+            }
+        ]
+    },
+    {
+        "name": "Shorter monitor check",
+        "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 525914,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B004",
+                "dataEnabled": "2C01"
+            }
+        ]
+    },
+    {
+        "name": "6 digits in monitor check",
+        "description": "Purely visual, does not affect anything besides the FPS display",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1501457,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "34",
+                "dataEnabled": "36"
+            }
+        ]
+    },
+    {
+        "name": "Coin Unlock",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 86736,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "568BF1807E04007508C706000000005EC3833E007E116A326800200000E8EEDCFFFF83C408FF0E5EC3"
+            },
+            {
+                "offset": 86832,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "5355568BF1E8E6DDFEFF8BE88BDD2B5E088BCE53E8B7FEFFFF84C0741868604012106A2968F0BBB21EE8E2DEFFFF83C40C5E5D5BC385DB7E0953E8E1EFFEFF83C404578B7E0C2B7E1085FF7E0957E8EDEFFEFF83C4048D041F85C00F9FC1884E19508BCEE877FFFFFF8B560C5F896E088956105E5D5BE925FFFFFF"
+            },
+            {
+                "offset": 204016,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B001C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "568BF18D4E08E8F516000084C07404B0015EC38D4E445EE9D40C0000"
+            },
+            {
+                "offset": 204048,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B001C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "568BF18D4E08E8D516000084C07404B0015EC38D4E445EE914230000"
+            }
+        ]
+    }
+]

@@ -47,6 +47,91 @@ Porting patches the script cannot, or fixing false positives will have to be don
 
 *Click on a game's name to reveal supported versions.*
 
+<details><summary><b>beatmania IIDX 18 Resort Anthem</b></summary>
+
+### [LDZ] `bm2dx.dll`
+- 2011-07-12 - [JDZ-4e110e2b_ba839](JDZ-4e110e2b_ba839.json)
+
+</details>
+<details><summary><b>beatmania IIDX 19 Lincle</b></summary>
+
+### [KDZ] `bm2dx.dll`
+- 2012-09-03 - [KDZ-503f32fb_b6262](KDZ-503f32fb_b6262.json)
+
+</details>
+<details><summary><b>beatmania IIDX 20 tricoro</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2012-09-19 - [LDJ-5052a3ea_c4112](LDJ-5052a3ea_c4112.json)
+- 2013-09-09 - [LDJ-521ffeca_d8d73](LDJ-521ffeca_d8d73.json)
+
+</details>
+<details><summary><b>beatmania IIDX 21 SPADA</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2013-10-02 - [LDJ-525394a7_d19f3](LDJ-525394a7_d19f3.json)
+- 2014-07-16 - [LDJ-53bd1ab4_e7173](LDJ-53bd1ab4_e7173.json)
+  
+</details>
+<details><summary><b>beatmania IIDX 22 PENDUAL</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2014-09-17 - [LDJ-53ec605b_ccf53](LDJ-53ec605b_ccf53.json)
+- 2015-08-05 - [LDJ-55b9eab9_f2d73](LDJ-55b9eab9_f2d73.json)
+
+</details>
+<details><summary><b>beatmania IIDX 23 copula</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2016-08-31 - [LDJ-57ba48d8_e5d81](LDJ-57ba48d8_e5d81.json)
+
+</details>
+<details><summary><b>beatmania IIDX 24 SINOBUZ</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2017-08-28 - [LDJ-599b7176_f4fb1](LDJ-599b7176_f4fb1.json)
+
+</details>
+<details><summary><b>beatmania IIDX 25 CANNON BALLERS</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2018-09-19 - [LDJ-5b985f71_183324](LDJ-5b985f71_183324.json)
+
+</details>
+<details><summary><b>beatmania IIDX 26 Rootage</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2019-09-02 - [LDJ-5d651fc5_415844](LDJ-5d651fc5_415844.json)
+- 2019-10-07 - [LDJ-5d91850e_4158c4](LDJ-5d91850e_4158c4.json)
+
+</details>
+<details><summary><b>beatmania IIDX 27 HEROIC VERSE</b></summary>
+
+### [LDJ-003] `bm2dx.dll`
+- 2020-09-29 - [LDJ-5f713b52_6d4090](LDJ-5f713b52_6d4090.json)
+
+### [LDJ-010] `bm2dx.dll`
+- 2020-09-29 - [LDJ-5f713946_7f52b0](LDJ-5f713946_7f52b0.json)
+
+</details>
+<details><summary><b>beatmania IIDX 28 BISTROVER</b></summary>
+
+### [LDJ-003] `bm2dx.dll`
+- 2021-09-15 - [LDJ-613aa4d4_91aa00](LDJ-613aa4d4_91aa00.json)
+
+### [LDJ-010] `bm2dx.dll`
+- 2021-09-15 - [LDJ-613aa28a_9e58d0](LDJ-613aa28a_9e58d0.json)
+
+</details>
+<details><summary><b>beatmania IIDX 29 CastHour</b></summary>
+
+### [LDJ-003] `bm2dx.dll`
+- 2022-08-24 - [LDJ-63040c54_6679ac](LDJ-63040c54_6679ac.json)
+
+### [LDJ-010] `bm2dx.dll`
+- 2022-08-24 - [LDJ-63040b80_73273c](LDJ-63040b80_73273c.json)
+
+</details>
 <details><summary><b>beatmania IIDX 30 RESIDENT</b></summary>
 
 ### [LDJ-003] `bm2dx.dll`
@@ -87,6 +172,7 @@ Porting patches the script cannot, or fixing false positives will have to be don
 - 2024-04-30 - [KFC-6629f133_6bcea8](KFC-6629f133_6bcea8.json)
 - 2024-05-21 - [KFC-6643ed55_663968](KFC-6643ed55_663968.json)
 - 2024-06-04 - [KFC-6656ee0c_664a78](KFC-6656ee0c_664a78.json)
+- 2024-06-25 - [KFC-667290d9_665948](KFC-667290d9_665948.json) (**INCOMPLETE**)
 
 </details>
 </details>

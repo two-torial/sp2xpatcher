@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 595214,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 298045,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7509",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "CS-Style Song Start Delay",
+        "description": "Holding Start will pause the song at the beginning until you release it",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 434246,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7C",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 324314,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 297005,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "48",
+                "dataEnabled": "90"
+            }
+        ]
+    },
+    {
+        "name": "Hide FREE PLAY text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 81546,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "EC0B15",
+                "dataEnabled": "14C8C7"
+            }
+        ]
+    },
+    {
+        "name": "Cursor lock",
+        "description": "After song finishes, song select remains on previous song",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 377838,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7422",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Volume Bug Fix",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 828265,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            }
+        ]
+    },
+    {
+        "name": "Debug mode (disables score saving!)",
+        "description": "Press F1 in-game to open menu",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 647312,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "0C01"
+            }
+        ]
+    },
+    {
+        "name": "Free play text to LED ticker",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 81546,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "EC0B1510",
+                "dataEnabled": "F4AE4111"
+            }
+        ]
+    },
+    {
+        "name": "Shorter monitor check",
+        "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 467386,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B004",
+                "dataEnabled": "2C01"
+            }
+        ]
+    },
+    {
+        "name": "6 digits in monitor check",
+        "description": "Purely visual, does not affect anything besides the FPS display",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1646965,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "34",
+                "dataEnabled": "36"
+            }
+        ]
+    },
+    {
+        "name": "Coin Unlock",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 16099,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "9090909090909090909090909090",
+                "dataEnabled": "6A01E8F60401008BC8E82F050100"
+            }
+        ]
+    }
+]

@@ -1,0 +1,342 @@
+[
+    {
+        "name": "SSE4.2 Fix",
+        "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4164855,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "F3450F",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1497010,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7410",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All 12s",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1496672,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "83FF02740583FF05",
+                "dataEnabled": "9090909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Skip CAMERA DEVICE ERROR prompt",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3601403,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "84",
+                "dataEnabled": "81"
+            }
+        ]
+    },
+    {
+        "name": "1P Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3339719,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7514",
+                "dataEnabled": "EB14"
+            }
+        ]
+    },
+    {
+        "name": "2P Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3340133,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7455",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 3340155,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "743F",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1506477,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FFC8",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Standard/Menu Timer Freeze",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3702583,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Cursor lock",
+        "description": "After song finishes, song select remains on previous song",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3361044,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "741D",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "CS-Style Song Start Delay",
+        "description": "Holding Start will pause the song at the beginning until you release it",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3488234,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7D25",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Play video preview on all songs",
+        "description": "By default, only some songs in the beginner folder show a BGA preview on the music select screen. This edit extends this function to every song in any folder.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1165900,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0FB6",
+                "dataEnabled": "EB2F"
+            },
+            {
+                "offset": 1179134,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "740E",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Hide INSERT COIN[S] text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1077881,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "3B",
+                "dataEnabled": "3A"
+            }
+        ]
+    },
+    {
+        "name": "Hide CREDIT: %d text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1076728,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0C",
+                "dataEnabled": "0B"
+            }
+        ]
+    },
+    {
+        "name": "Hide CREDIT: %d COIN %d / %d text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1076685,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "17",
+                "dataEnabled": "16"
+            }
+        ]
+    },
+    {
+        "name": "Hide EXTRA PASELI: %d text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1076969,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "43",
+                "dataEnabled": "42"
+            }
+        ]
+    },
+    {
+        "name": "Hide PASELI: %d text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1077432,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "A4",
+                "dataEnabled": "A3"
+            }
+        ]
+    },
+    {
+        "name": "Hide PASELI: NO ACCOUNT text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1077627,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "21",
+                "dataEnabled": "20"
+            }
+        ]
+    },
+    {
+        "name": "Hide PASELI: ****** text",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1077469,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "9F",
+                "dataEnabled": "9E"
+            }
+        ]
+    },
+    {
+        "name": "Free play text to LED ticker (Bottom Right)",
+        "description": "Song Title/Ticker information will display instead of FREEPLAY",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1077151,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "352F3500",
+                "dataEnabled": "D9684402"
+            }
+        ]
+    },
+    {
+        "name": "LED Ticker (Top Left)",
+        "description": "This does NOT require FREEPLAY on",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3594112,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FCB91C00",
+                "dataEnabled": "98013A02"
+            },
+            {
+                "offset": 3594584,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "743C",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Quick Retry",
+        "description": "Guest or non-VIP Card Players - Hold VEFX and Effect during a song to quick restart",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1409983,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Expert Course Force Open (in offline or local mode)",
+        "description": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3340049,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Shorter monitor check",
+        "description": "Runs for 120 frames (2 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3567212,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B004",
+                "dataEnabled": "7800"
+            }
+        ]
+    }
+]
