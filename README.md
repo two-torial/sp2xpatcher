@@ -118,6 +118,10 @@ Porting patches the script cannot, or fixing false positives will have to be don
 </details>
 <details><summary><b>beatmania IIDX 28 BISTROVER</b></summary>
 
+### [LDJ] `bm2dx.dll`
+- 2021-04-26 - [LDJ-6080c473_8338b0](LDJ-6080c473_8338b0.json)
+- 2021-08-30 - [LDJ-612729e9_91a910](LDJ-612729e9_91a910.json)
+
 ### [LDJ-003] `bm2dx.dll`
 - 2021-09-15 - [LDJ-613aa4d4_91aa00](LDJ-613aa4d4_91aa00.json)
 
@@ -126,6 +130,16 @@ Porting patches the script cannot, or fixing false positives will have to be don
 
 </details>
 <details><summary><b>beatmania IIDX 29 CastHour</b></summary>
+
+### [LDJ] `bm2dx.dll`
+- 2021-10-13 rev.1 - [LDJ-6166642e_73d61c](LDJ-6166642e_73d61c.json)
+- 2021-10-13 - [LDJ-615f8b4f_73d62c](LDJ-615f8b4f_73d62c.json)
+- 2021-11-17 - [LDJ-618db775_73f33c](LDJ-618db775_73f33c.json)
+- 2022-03-01 - [LDJ-6214444e_6460bc](LDJ-6214444e_6460bc.json)
+- 2022-04-12 - [LDJ-624cde85_648a3c](LDJ-624cde85_648a3c.json)
+- 2022-05-09 - [LDJ-6268e9b4_64f34c](LDJ-6268e9b4_64f34c.json)
+- 2022-06-20 - [LDJ-62a2ca92_66281c](LDJ-62a2ca92_66281c.json)
+- 2022-07-13 - [LDJ-62c69413_66431c](LDJ-62c69413_66431c.json)
 
 ### [LDJ-003] `bm2dx.dll`
 - 2022-08-24 - [LDJ-63040c54_6679ac](LDJ-63040c54_6679ac.json)
