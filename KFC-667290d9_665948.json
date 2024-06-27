@@ -68,6 +68,32 @@
         ]
     },
     {
+        "type": "union",
+        "name": "Note FPS Target",
+        "description": "",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "name": "60 FPS (Default)",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "660F6EF0F30FE6F6F20F593590085800",
+                    "offset": 2878056
+                }
+            },
+            {
+                "name": "120 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B878000000F20F2AF0F24890F2489090",
+                    "offset": 2878056
+                }
+            }
+        ]
+    },
+    {
         "type": "memory",
         "name": "Shared mode WASAPI",
         "description": "",
