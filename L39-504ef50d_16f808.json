@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Coin Unlock",
+        "description": "",
+        "gameCode": "L39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 16688,
+                "dllName": "popn20.dll",
+                "dataDisabled": "33C040C3CCCC",
+                "dataEnabled": "A1D4123910C3"
+            },
+            {
+                "offset": 1362267,
+                "dllName": "popn20.dll",
+                "dataDisabled": "39",
+                "dataEnabled": "44"
+            },
+            {
+                "offset": 1362275,
+                "dllName": "popn20.dll",
+                "dataDisabled": "31",
+                "dataEnabled": "3C"
+            },
+            {
+                "offset": 1362310,
+                "dllName": "popn20.dll",
+                "dataDisabled": "741785C07E13",
+                "dataEnabled": "0F8491000000"
+            },
+            {
+                "offset": 1362323,
+                "dllName": "popn20.dll",
+                "dataDisabled": "7E0A5F5E5D89D85B83C408C35F5E5D31C05B83C408C3CCCCA175CCA175C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCA175CCA175C3CCCCCCCCCCA175CCA175C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCA175CCA175C3CCCCCCA175CCA175C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCA175CCA175C3CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "74157E0983F8040F8E7D0000005F5E5D8BC35B83C408C38B358CD4191033DBBA010000008BCBD3E28BC3D1F885D57449F6C3017419A15065381085C07402FFD06800F925106A01FFD683C408EB2B8B44841085C07E238BF8EB038D490068F4F825106A01FFD6A14C65381083C40885C07402FFD083EF0175E44383FB047CA0A15465381085C07402FFD05F5E5D33C05B83C408C3"
+            },
+            {
+                "offset": 2674358,
+                "dllName": "popn20.dll",
+                "dataDisabled": "4C3D7C3D113E3B3E4B3EE23EEB3EF13EFB3E003F123F423F473F4C3F523F593F5F3F653F8F3F9B3FA33FAB3FB13FC93FE23FF73FFC3F0000",
+                "dataEnabled": "313D4C3D7C3D113E3B3E4B3EE23EEB3EF13EFB3E003F123F423F473F4C3F523F593F5F3F653F8F3F9B3FA33FAB3FB13FC93FE23FF73FFC3F"
+            }
+        ]
+    },
+    {
+        "name": "Partial Songs Unlock",
+        "description": "Unlock a song dedicated to e-amusement that cannot be unlocked by phase MAX.",
+        "gameCode": "L39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1939156,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1939316,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1939476,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1939636,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1939796,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1939956,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1940116,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1940276,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1940436,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1940596,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1940756,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1940916,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1941076,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1941236,
+                "dllName": "popn20.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            }
+        ]
+    }
+]

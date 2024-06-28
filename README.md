@@ -225,4 +225,51 @@ Porting patches the script cannot, or fixing false positives will have to be don
 
 </details>
 </details>
+
+<details><summary><b>pop'n music</b></summary>
+
+<details><summary><b>pop'n music 19 TUNE STREET</b></summary>
+
+### [K39] `popn19.dll`
+- 2011-06-14 - [K39-4dec5a0e_1ae9c5](K39-4dec5a0e_1ae9c5.json)
+
+</details>
+<details><summary><b>pop'n music 20 fantasia</b></summary>
+
+### [L39] `popn20.dll`
+- 2012-09-19 - [L39-504ef50d_16f808](L39-504ef50d_16f808.json)
+  
+</details>
+<details><summary><b>pop'n music Sunny Park</b></summary>
+
+### [M39] `popn21.dll`
+- 2014-06-19 - [M39-5387186b_16e210](M39-5387186b_16e210.json)
+
+</details>
+<details><summary><b>pop'n music ラピストリア (Lapistoria)</b></summary>
+
+### [M39] `popn22.dll`
+- 2015-08-19 - [M39-55d18f07_18cd30](M39-55d18f07_18cd30.json)
+
+</details>
+<details><summary><b>pop'n music éclale</b></summary>
+
+### [M39] `popn22.dll`
+- 2016-10-05 - [M39-57f1fe78_16e1cc](M39-57f1fe78_16e1cc.json)
+
+</details>
+<details><summary><b>pop'n music うさぎと猫と少年の夢 (Usagi to neko to shounen no yume)</b></summary>
+
+### [M39] `popn22.dll`
+- 2018-08-21 - [M39-5b753ba7_1831e1](M39-5b753ba7_1831e1.json)
+
+</details>
+<details><summary><b>pop'n music 解明リドルズ (Kaimei riddles)</b></summary>
+
+### [M39] `popn22.dll`
+- 2022-04-25 - [M39-627cf367_1955e1](M39-627cf367_1955e1.json)
+- 2022-06-13 - [M39-629ede76_197641](M39-629ede76_197641.json)
+
+</details>
+</details>
 </details>

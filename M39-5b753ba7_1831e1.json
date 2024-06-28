@@ -1,0 +1,978 @@
+[
+    {
+        "name": "E: Drive Fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2467280,
+                "dllName": "popn22.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "Partial Song Unlock",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1967396,
+                "dllName": "popn22.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967398,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3506",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967404,
+                "dllName": "popn22.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967406,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3606",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967412,
+                "dllName": "popn22.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967414,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3706",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967420,
+                "dllName": "popn22.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967422,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3A06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967428,
+                "dllName": "popn22.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967430,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3B06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967436,
+                "dllName": "popn22.dll",
+                "dataDisabled": "03",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967438,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3C06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967444,
+                "dllName": "popn22.dll",
+                "dataDisabled": "03",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967446,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3D06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967452,
+                "dllName": "popn22.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967454,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3906",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967460,
+                "dllName": "popn22.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967462,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4206",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967468,
+                "dllName": "popn22.dll",
+                "dataDisabled": "06",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967470,
+                "dllName": "popn22.dll",
+                "dataDisabled": "44060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967476,
+                "dllName": "popn22.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967478,
+                "dllName": "popn22.dll",
+                "dataDisabled": "11060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967484,
+                "dllName": "popn22.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967486,
+                "dllName": "popn22.dll",
+                "dataDisabled": "29060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967492,
+                "dllName": "popn22.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967494,
+                "dllName": "popn22.dll",
+                "dataDisabled": "28060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967500,
+                "dllName": "popn22.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967502,
+                "dllName": "popn22.dll",
+                "dataDisabled": "21060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967508,
+                "dllName": "popn22.dll",
+                "dataDisabled": "03",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967510,
+                "dllName": "popn22.dll",
+                "dataDisabled": "27060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967516,
+                "dllName": "popn22.dll",
+                "dataDisabled": "03",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967518,
+                "dllName": "popn22.dll",
+                "dataDisabled": "15060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967524,
+                "dllName": "popn22.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967526,
+                "dllName": "popn22.dll",
+                "dataDisabled": "1F060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967532,
+                "dllName": "popn22.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967534,
+                "dllName": "popn22.dll",
+                "dataDisabled": "33060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967540,
+                "dllName": "popn22.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967542,
+                "dllName": "popn22.dll",
+                "dataDisabled": "34060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967548,
+                "dllName": "popn22.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967550,
+                "dllName": "popn22.dll",
+                "dataDisabled": "31060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967556,
+                "dllName": "popn22.dll",
+                "dataDisabled": "06",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967558,
+                "dllName": "popn22.dll",
+                "dataDisabled": "32060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967564,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967566,
+                "dllName": "popn22.dll",
+                "dataDisabled": "41060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967572,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967574,
+                "dllName": "popn22.dll",
+                "dataDisabled": "40060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967580,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967582,
+                "dllName": "popn22.dll",
+                "dataDisabled": "3F060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967588,
+                "dllName": "popn22.dll",
+                "dataDisabled": "08",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967590,
+                "dllName": "popn22.dll",
+                "dataDisabled": "43060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967596,
+                "dllName": "popn22.dll",
+                "dataDisabled": "09",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967598,
+                "dllName": "popn22.dll",
+                "dataDisabled": "46060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967604,
+                "dllName": "popn22.dll",
+                "dataDisabled": "09",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967606,
+                "dllName": "popn22.dll",
+                "dataDisabled": "47060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967612,
+                "dllName": "popn22.dll",
+                "dataDisabled": "09",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967614,
+                "dllName": "popn22.dll",
+                "dataDisabled": "45060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967620,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0A",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967622,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4A060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967628,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0A",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967630,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4B060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967636,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0A",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967638,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4C060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967644,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967646,
+                "dllName": "popn22.dll",
+                "dataDisabled": "50060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967652,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967654,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4D060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967660,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967662,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4E060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967668,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967670,
+                "dllName": "popn22.dll",
+                "dataDisabled": "4F060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967676,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0C",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967678,
+                "dllName": "popn22.dll",
+                "dataDisabled": "53060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967684,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0C",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967686,
+                "dllName": "popn22.dll",
+                "dataDisabled": "52060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967692,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0C",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967694,
+                "dllName": "popn22.dll",
+                "dataDisabled": "54060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967700,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0C",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967702,
+                "dllName": "popn22.dll",
+                "dataDisabled": "51060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967708,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0D",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967710,
+                "dllName": "popn22.dll",
+                "dataDisabled": "58060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967716,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0D",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967718,
+                "dllName": "popn22.dll",
+                "dataDisabled": "55060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967724,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0D",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967726,
+                "dllName": "popn22.dll",
+                "dataDisabled": "57060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967732,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0D",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967734,
+                "dllName": "popn22.dll",
+                "dataDisabled": "56060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967740,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0E",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967742,
+                "dllName": "popn22.dll",
+                "dataDisabled": "5B060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967748,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0E",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967750,
+                "dllName": "popn22.dll",
+                "dataDisabled": "5A060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967756,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0E",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967758,
+                "dllName": "popn22.dll",
+                "dataDisabled": "59060A",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967764,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0F",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967766,
+                "dllName": "popn22.dll",
+                "dataDisabled": "5C06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967772,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967774,
+                "dllName": "popn22.dll",
+                "dataDisabled": "5D06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967780,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967782,
+                "dllName": "popn22.dll",
+                "dataDisabled": "5E06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967788,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967790,
+                "dllName": "popn22.dll",
+                "dataDisabled": "5F06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967796,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967798,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6106",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967804,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967806,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6906",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967812,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967814,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6A06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967820,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967822,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6B06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967828,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967830,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6C06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967836,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967838,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6D06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967844,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967846,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6E06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967852,
+                "dllName": "popn22.dll",
+                "dataDisabled": "07",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967854,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6F06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967860,
+                "dllName": "popn22.dll",
+                "dataDisabled": "08",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967862,
+                "dllName": "popn22.dll",
+                "dataDisabled": "6006",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967868,
+                "dllName": "popn22.dll",
+                "dataDisabled": "09",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967870,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7306",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967876,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0A",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967878,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8F06",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967884,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0A",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967886,
+                "dllName": "popn22.dll",
+                "dataDisabled": "9006",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967892,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0A",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967894,
+                "dllName": "popn22.dll",
+                "dataDisabled": "9106",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967900,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967902,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8506",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967908,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967910,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8606",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967916,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967918,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8506",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 1967924,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0B",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967926,
+                "dllName": "popn22.dll",
+                "dataDisabled": "86060D",
+                "dataEnabled": "000000"
+            },
+            {
+                "offset": 1967932,
+                "dllName": "popn22.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 1967934,
+                "dllName": "popn22.dll",
+                "dataDisabled": "A706",
+                "dataEnabled": "0000"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Classic 8 EX as a 49",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2802139,
+                "dllName": "popn22.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "07"
+            },
+            {
+                "offset": 2802155,
+                "dllName": "popn22.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "31"
+            }
+        ]
+    },
+    {
+        "name": "Skip Tutorials",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 165419,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 165383,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Deco Parts",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 995171,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7522",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Characters",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 966126,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "HDMI Audio Fix",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1229420,
+                "dllName": "popn22.dll",
+                "dataDisabled": "85C07596",
+                "dataEnabled": "90909090"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1240688,
+                "dllName": "popn22.dll",
+                "dataDisabled": "83",
+                "dataEnabled": "C3"
+            }
+        ]
+    },
+    {
+        "name": "Boot to Event Mode",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1051152,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8B00C3CC",
+                "dataEnabled": "31C040C3"
+            }
+        ]
+    },
+    {
+        "name": "Remove Timer",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 897676,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 898034,
+                "dllName": "popn22.dll",
+                "dataDisabled": "C7453809000000",
+                "dataEnabled": "90909090909090"
+            }
+        ]
+    }
+]

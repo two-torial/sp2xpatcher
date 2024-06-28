@@ -1,0 +1,345 @@
+[
+    {
+        "name": "E: Drive Fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2324840,
+                "dllName": "popn22.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "HDMI Audio Fix",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1312460,
+                "dllName": "popn22.dll",
+                "dataDisabled": "85C07596",
+                "dataEnabled": "90909090"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1323728,
+                "dllName": "popn22.dll",
+                "dataDisabled": "83",
+                "dataEnabled": "C3"
+            }
+        ]
+    },
+    {
+        "name": "Boot to Event Mode",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1134224,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8B00C3CC",
+                "dataEnabled": "31C040C3"
+            }
+        ]
+    },
+    {
+        "name": "Remove Timer",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 963308,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip Menu and Long Note Tutorials",
+        "description": "",
+        "caution": "Might interfere with score saving on networks",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 167467,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 167431,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 604177,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1097505,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1097362,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7413",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock EX Charts",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3022744,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3024464,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3044072,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3064196,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3064712,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3108056,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3011908,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3027216,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3027560,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3028592,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3029452,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3030656,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3032376,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3034612,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3037536,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3038224,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3046136,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3055080,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3070388,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3084148,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3086384,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3103412,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 3110808,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Deco Parts",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1061267,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7522",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Characters",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1032121,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Replace COLOR CHECK test menu with debug CHARA VIEWER",
+        "description": "Press service button to exit",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2286660,
+                "dllName": "popn22.dll",
+                "dataDisabled": "434F4C4F5220434845434B0043",
+                "dataEnabled": "43484152412056494557455200"
+            },
+            {
+                "offset": 159586,
+                "dllName": "popn22.dll",
+                "dataDisabled": "AC0000",
+                "dataEnabled": "B0340C"
+            },
+            {
+                "offset": 159616,
+                "dllName": "popn22.dll",
+                "dataDisabled": "DCFEFFFF",
+                "dataEnabled": "4C270A00"
+            }
+        ]
+    },
+    {
+        "name": "Replace SCREEN CHECK test menu with debug MUSIC INFO CHECKER",
+        "description": "Press service button to exit",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2289208,
+                "dllName": "popn22.dll",
+                "dataDisabled": "53435245454E20434845434B",
+                "dataEnabled": "4D5553494320494E464F0000"
+            },
+            {
+                "offset": 159218,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8C0000",
+                "dataEnabled": "B0340C"
+            },
+            {
+                "offset": 159248,
+                "dllName": "popn22.dll",
+                "dataDisabled": "FCFEFFFF",
+                "dataEnabled": "DC550A00"
+            }
+        ]
+    }
+]
