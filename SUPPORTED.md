@@ -2,7 +2,24 @@
 
 *Click on a game to reveal its available versions.*
 
-## beatmania IIDX
+
+<details><summary>Unidentified</summary>
+
+Patches for which we don't know the corresponding game version.
+
+| Game Series | Identifier |
+|-------------|------------|
+| JuBeat | [L44-65fced28_b61e](patches/L44-65fced28_b61e.json) |
+| JuBeat | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
+| Pop'n Music (?) | [M39-6614c9cd_184d80](patches/M39-6614c9cd_184d80.json) |
+| Dancerush Stardom | [REC-5ab9d2e3_26ffe4](patches/REC-5ab9d2e3_26ffe4.json) |
+| Dancerush Stardom | [REC-63e362ce_52b700](patches/REC-63e362ce_52b700.json) |
+| Dancerush Stardom | [REC-6436048a_52b820](patches/REC-6436048a_52b820.json) |
+| Dancerush Stardom | [REC-6481728b_536180](patches/REC-6481728b_536180.json) |
+| Dancerush Stardom | [REC-64b9c7bd_53d248](patches/REC-64b9c7bd_53d248.json) |
+</details>
+
+## beatmania IIDX (2dx)
 
 <details><summary>beatmania IIDX 18 Resort Anthem</summary>
 
@@ -129,7 +146,27 @@
 | LDJ-012 | bm2dx.dll | 2024-06-05 | [LDJ-665e9f8f_9a384c](patches/LDJ-665e9f8f_9a384c.json) |
 </details>
 
-## Sound Voltex
+## Dance Dance Revolution (DDR)
+
+<details><summary>Dance Dance Revolution A3</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX-001 | gamemdx.dll | 2024-04-02 | [MDX-660511b3_165389](patches/MDX-660511b3_165389.json) |
+| MDX-001 | arkmdxp3.dll | 2024-04-02 | [MDX-65d547e4_74f1b](patches/MDX-65d547e4_74f1b.json) |
+</details>
+
+## Dancerush Stardom (DRS)
+
+<details><summary>Dancerush Stardom</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| REC | superstep.dll | 2020-12-14 | [REC-5fd067bc_527b80](patches/REC-5fd067bc_527b80.json) |
+| REC | superstep.dll | 2022-12-14 | [REC-639165c3_52b620](patches/REC-639165c3_52b620.json) |
+</details>
+
+## Sound Voltex (SDVX)
 
 <details><summary>SOUND VOLTEX II -infinite infection-</summary>
 
@@ -180,7 +217,7 @@
 | KFC | soundvoltex.dll | 2024-06-25 | [KFC-667290d9_665948](patches/KFC-667290d9_665948.json) |
 </details>
 
-## pop'n music
+## pop'n music (popn)
 
 <details><summary>pop'n music 19 TUNE STREET</summary>
 
