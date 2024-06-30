@@ -2,8 +2,7 @@
 
 *Click on a game to reveal its available versions.*
 
-
-<details><summary>Unidentified</summary>
+<details><summary><b>Unidentified</b></summary>
 
 Patches for which we don't know the corresponding game version.
 
