@@ -1,0 +1,264 @@
+[
+    {
+        "name": "E: Drive Fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2208124,
+                "dllName": "popn22.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "HDMI Audio Fix",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1236188,
+                "dllName": "popn22.dll",
+                "dataDisabled": "85C07596",
+                "dataEnabled": "90909090"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "If your volume gets forced to max, turn this on",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1247456,
+                "dllName": "popn22.dll",
+                "dataDisabled": "83",
+                "dataEnabled": "C3"
+            }
+        ]
+    },
+    {
+        "name": "Boot to Event Mode",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1043024,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8B00C3CC",
+                "dataEnabled": "31C040C3"
+            }
+        ]
+    },
+    {
+        "name": "Remove Timer",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 878492,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip Menu and Long Note Tutorials",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 161483,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 161447,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 512081,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1006140,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 974498,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7413",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock EX Charts",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3000512,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            },
+            {
+                "offset": 2947536,
+                "dllName": "popn22.dll",
+                "dataDisabled": "80",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Deco Parts",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 974655,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7522",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Characters",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 945786,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free",
+        "description": "Score buffer never resets, use offline",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1099968,
+                "dllName": "popn22.dll",
+                "dataDisabled": "FE460E",
+                "dataEnabled": "909090"
+            },
+            {
+                "offset": 1099978,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1123128,
+                "dllName": "popn22.dll",
+                "dataDisabled": "773E",
+                "dataEnabled": "EB07"
+            }
+        ]
+    },
+    {
+        "name": "Autoplay",
+        "description": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 804814,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0F8408010000",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 805048,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7453",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Replace COLOR CHECK test menu with debug CHARA VIEWER",
+        "description": "Press service button to exit",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2169852,
+                "dllName": "popn22.dll",
+                "dataDisabled": "434F4C4F5220434845434B0043",
+                "dataEnabled": "43484152412056494557455200"
+            },
+            {
+                "offset": 153634,
+                "dllName": "popn22.dll",
+                "dataDisabled": "AC0000",
+                "dataEnabled": "B0340C"
+            },
+            {
+                "offset": 153664,
+                "dllName": "popn22.dll",
+                "dataDisabled": "DCFEFFFF",
+                "dataEnabled": "0CF30800"
+            }
+        ]
+    },
+    {
+        "name": "Replace SCREEN CHECK test menu with debug MUSIC INFO CHECKER",
+        "description": "Press service button to exit",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2172400,
+                "dllName": "popn22.dll",
+                "dataDisabled": "53435245454E20434845434B",
+                "dataEnabled": "4D5553494320494E464F0000"
+            },
+            {
+                "offset": 153266,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8C0000",
+                "dataEnabled": "B0340C"
+            },
+            {
+                "offset": 153296,
+                "dllName": "popn22.dll",
+                "dataDisabled": "FCFEFFFF",
+                "dataEnabled": "1C210900"
+            }
+        ]
+    }
+]

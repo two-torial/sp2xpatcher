@@ -1,0 +1,668 @@
+[
+    {
+        "name": "Force enable fast/slow",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 917696,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8B4144",
+                "dataEnabled": "31C040"
+            }
+        ]
+    },
+    {
+        "name": "Force background judgement",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 917664,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8B41",
+                "dataEnabled": "31C0"
+            }
+        ]
+    },
+    {
+        "name": "Force darkest background",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 920782,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "750333C0",
+                "dataEnabled": "33C0B003"
+            }
+        ]
+    },
+    {
+        "name": "Opaque background for darkest background option",
+        "description": "This makes the darkest background option be 99% opaque, hiding the dancers and videos.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2235980,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "666666",
+                "dataEnabled": "A4707D"
+            }
+        ]
+    },
+    {
+        "name": "Song Unlock",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 805707,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 807590,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            },
+            {
+                "offset": 2190580,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "65",
+                "dataEnabled": "62"
+            },
+            {
+                "offset": 2190592,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "65",
+                "dataEnabled": "62"
+            },
+            {
+                "offset": 2190600,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "72",
+                "dataEnabled": "62"
+            },
+            {
+                "offset": 2190608,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6C",
+                "dataEnabled": "62"
+            },
+            {
+                "offset": 2190620,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6C",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Tutorial Skip",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 344596,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 173355,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force unlock extended paseli exclusive options",
+        "description": "Premium mode options such as ARROW COLOR and 0.25 speed mod",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 451609,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "FF248D6CF90610",
+                "dataEnabled": "E9110100009090"
+            }
+        ]
+    },
+    {
+        "name": "Enable extended speed modifiers",
+        "description": "x4.25/x7.75",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 918630,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7F3B",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Enable FLARE Gauges",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 918927,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "33C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Enable LIFE8 modifier",
+        "description": "Must be in premium mode to select",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 918948,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "PFC Mode",
+        "description": "Like Extra Encore Stage. If you hit a Great or a Good, you lose a life. This feature requires you to select LIFE8/LIFE4/RISKY on the Options, otherwise it has no effect.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 922367,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F96C0",
+                "dataEnabled": "B00190"
+            }
+        ]
+    },
+    {
+        "name": "GFC Mode",
+        "description": "Like PFC Mode with Greats permitted.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 922384,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "F2",
+                "dataEnabled": "E1"
+            }
+        ]
+    },
+    {
+        "name": "MFC Mode",
+        "description": "Like PFC Mode with Marvelous' only.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 922380,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "E1",
+                "dataEnabled": "F2"
+            }
+        ]
+    },
+    {
+        "name": "Hide all bottom text",
+        "description": "Such as EVENT MODE, PASELI, COIN, CREDIT, MAINTENANCE",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1617780,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "4556454E54204D4F444500004652454520504C41590000005300000020000000544F4B454E000000434F494E00000000257325733A2532642F2532640000000043524544495425733A25326400000000303030303000000030303030303000002A2A2A2A2A2A0000504153454C493A202573202B20257300504153454C493A2025730000455854524120504153454C493A20257300000000504153454C493A204E4F5420415641494C41424C450000004C4F43414C204D4F444500004F46464C494E45204D4F4445000000004D41494E54454E414E434500434845434B494E4700000000434845434B494E472E000000434845434B494E472E2E0000434845434B494E472E2E2E004F4E4C494E4500004552524F520000004E4F5420415641494C41424C45",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            }
+        ]
+    },
+    {
+        "name": "Autoplay",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 209987,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7440",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 209998,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7452",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Force Cabinet Type 6",
+        "description": "Gold cab, some assets (such as menu background) may not work",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 56428,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "FF248508E90010",
+                "dataEnabled": "E9890000009090"
+            }
+        ]
+    },
+    {
+        "name": "Force blue menu background",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 142580,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "740A",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Enable cabinet lights for Cabinet Type 6",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 47713,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "E8DA21",
+                "dataEnabled": "B80000"
+            },
+            {
+                "offset": 195002,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "E881E2FDFF",
+                "dataEnabled": "B800000000"
+            },
+            {
+                "offset": 196375,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "E8B48FFDFF",
+                "dataEnabled": "B801000000"
+            }
+        ]
+    },
+    {
+        "name": "Enable DDR SELECTION",
+        "description": "Even works in offline/local mode!",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 910460,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Fake PFREE - Force 2nd stage forever with saving",
+        "description": "Bug: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 76144,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "FF248578370110",
+                "dataEnabled": "EB059090909090"
+            },
+            {
+                "offset": 76232,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7466",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 138987,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "89"
+            }
+        ]
+    },
+    {
+        "name": "Mute Announcer",
+        "description": "Also mutes crowd cheering and booing during gameplay",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 185976,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 2121647,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "76",
+                "dataEnabled": "62"
+            },
+            {
+                "offset": 2121675,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "76",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Force DDR SELECTION theme everywhere",
+        "description": "Skips intro and enables the skin selected below on all songs",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 168577,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 908589,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7549",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 908602,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "773C",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 908604,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "FF24",
+                "dataEnabled": "EB11"
+            }
+        ]
+    },
+    {
+        "name": "Choose forced theme",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "union",
+        "patches": [
+            {
+                "name": "1st",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "01",
+                    "offset": 908624
+                }
+            },
+            {
+                "name": "EXTREME",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "02",
+                    "offset": 908624
+                }
+            },
+            {
+                "name": "SuperNOVA2",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "03",
+                    "offset": 908624
+                }
+            },
+            {
+                "name": "X2",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "04",
+                    "offset": 908624
+                }
+            },
+            {
+                "name": "2013",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "05",
+                    "offset": 908624
+                }
+            }
+        ]
+    },
+    {
+        "name": "Choose cabinet type timing offset",
+        "description": "Set \"Force CRT 945 p3io timing\" for individual offsets below",
+        "gameCode": "MDX",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "E852EBFEFF",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force CRT 945 p3io timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B800000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force LCD 945 p3io timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B801000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force LCD HM64 p4io timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B802000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force CRT ADE-6291 p3io timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B803000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force LCD ADE-6291 p3io timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B804000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force LCD ADE-6291 p4io timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B805000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force LCD ADE-6291 bio2 timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B806000000",
+                    "offset": 127209
+                }
+            },
+            {
+                "name": "Force LCD X10 bio2 timing",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B807000000",
+                    "offset": 127209
+                }
+            }
+        ]
+    },
+    {
+        "name": "Center arrows for single player",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 252602,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 252797,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7505",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 253246,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "83C40C8D4C2418",
+                "dataEnabled": "E9F050FCFF9090"
+            },
+            {
+                "offset": 11827,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "83C40C8D4C241836C701EF010000E9FFAE0300"
+            },
+            {
+                "offset": 253139,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "83C40C8D442418",
+                "dataEnabled": "E96F51FCFF9090"
+            },
+            {
+                "offset": 11847,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "83C40C8D44241836C700EF010000E980AE0300"
+            }
+        ]
+    },
+    {
+        "name": "Fullscreen FPS Target",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "union",
+        "patches": [
+            {
+                "name": "60 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "3C000000",
+                    "offset": 6184
+                }
+            },
+            {
+                "name": "120 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "78000000",
+                    "offset": 6184
+                }
+            },
+            {
+                "name": "144 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "90000000",
+                    "offset": 6184
+                }
+            },
+            {
+                "name": "165 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "A5000000",
+                    "offset": 6184
+                }
+            },
+            {
+                "name": "240 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "F0000000",
+                    "offset": 6184
+                }
+            },
+            {
+                "name": "360 FPS",
+                "type": "union",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "68010000",
+                    "offset": 6184
+                }
+            }
+        ]
+    }
+]

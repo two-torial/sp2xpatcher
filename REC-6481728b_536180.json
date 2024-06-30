@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "REC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3555914,
+                "dllName": "superstep.dll",
+                "dataDisabled": "89430C",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Song Unlock",
+        "description": "",
+        "gameCode": "REC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7957720,
+                "dllName": "superstep.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 7957768,
+                "dllName": "superstep.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            },
+            {
+                "offset": 7963673,
+                "dllName": "superstep.dll",
+                "dataDisabled": "7507",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 7963678,
+                "dllName": "superstep.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "03"
+            },
+            {
+                "offset": 9064245,
+                "dllName": "superstep.dll",
+                "dataDisabled": "66",
+                "dataEnabled": "62"
+            }
+        ]
+    }
+]
