@@ -1,0 +1,205 @@
+[
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Audio Output Mode",
+        "description": "",
+        "preset": false,
+        "type": "union",
+        "patches": [
+            {
+                "name": "No Change",
+                "type": "union",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "E8F8CCECFF83780803",
+                    "offset": 10441187
+                }
+            },
+            {
+                "name": "WASAPI",
+                "type": "union",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "BB00000000EB169090",
+                    "offset": 10441187
+                }
+            },
+            {
+                "name": "ASIO",
+                "type": "union",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "BB01000000EB169090",
+                    "offset": 10441187
+                }
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Use Maximum Game Volume",
+        "description": "Ignore the in-game volume settings and use the maximum possible volume level. Especially helpful for TDJ which tends to be very quiet.",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 10372789,
+                "dataDisabled": "FF909800000090",
+                "dataEnabled": "90909090909090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Standard/Menu Timer Freeze",
+        "description": "",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 9382119,
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Premium Free Timer Freeze",
+        "description": "",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 8509149,
+                "dataDisabled": "7E",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Cursor Lock",
+        "description": "Return to previous selected in music select. Requires a card.",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 8887677,
+                "dataDisabled": "7422",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "CS-style Song Start Delay",
+        "description": "Holding Start will pause the song at the beginning until you release it",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 9024263,
+                "dataDisabled": "7D36",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Unscramble Touch Screen Keypad in TDJ",
+        "description": "",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 9829253,
+                "dataDisabled": "4D03C849F7F1",
+                "dataEnabled": "BA0C00000090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Unlimited V-Disc",
+        "description": "Bypass the consumption of V-Disc",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 5860976,
+                "dataDisabled": "4D85C0",
+                "dataEnabled": "C39090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Quick Retry",
+        "description": "",
+        "preset": true,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 8288288,
+                "dataDisabled": "40534883EC20",
+                "dataEnabled": "B001C3909090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Quicker Quick Retry",
+        "description": "Shortens duration of the 'stage failed' animation.",
+        "preset": false,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 9021253,
+                "dataDisabled": "7C12",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "gameCode": "ldj",
+        "dateCode": 20240605,
+        "name": "Shorten Monitor Check",
+        "description": "Shorten monitor check time by skipping retries. Use at your own risk.",
+        "preset": false,
+        "type": "memory",
+        "patches": [
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 9153025,
+                "dataDisabled": "0F8CA6000000",
+                "dataEnabled": "E9A700000090"
+            },
+            {
+                "dllName": "bm2dx.dll",
+                "dataOffset": 9153273,
+                "dataDisabled": "7D",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]
