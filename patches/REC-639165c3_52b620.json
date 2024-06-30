@@ -50,5 +50,101 @@
                 "dataEnabled": "62"
             }
         ]
+    },
+    {
+        "name": "Hide Bottom Text",
+        "description": "Such as EVENT MODE, PASELI, COIN, CREDIT",
+        "gameCode": "REC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7666803,
+                "dllName": "superstep.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 7667451,
+                "dllName": "superstep.dll",
+                "dataDisabled": "744F",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 7667456,
+                "dllName": "superstep.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Reroute 'All Factory Settings' Test Menu",
+        "description": "AfpViewer keyboard controls are broken",
+        "gameCode": "REC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "type": "union",
+                "patch": {
+                    "dllName": "superstep.dll",
+                    "data": "10133A8001",
+                    "offset": 10695480
+                }
+            },
+            {
+                "name": "QCTestMenuScene",
+                "type": "union",
+                "patch": {
+                    "dllName": "superstep.dll",
+                    "data": "D0133A8001",
+                    "offset": 10695480
+                }
+            },
+            {
+                "name": "AfpViewerScene",
+                "type": "union",
+                "patch": {
+                    "dllName": "superstep.dll",
+                    "data": "70E6398001",
+                    "offset": 10695480
+                }
+            }
+        ]
+    },
+    {
+        "name": "Reroute 'QCTestMenuScene' Test Menu",
+        "description": "The patch above must be set to 'QCTestMenuScene'",
+        "gameCode": "REC",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "type": "union",
+                "patch": {
+                    "dllName": "superstep.dll",
+                    "data": "1CA83F00",
+                    "offset": 3803120
+                }
+            },
+            {
+                "name": "KoteraTestScene",
+                "type": "union",
+                "patch": {
+                    "dllName": "superstep.dll",
+                    "data": "0DE93D00",
+                    "offset": 3803120
+                }
+            },
+            {
+                "name": "GamePrototypeSelectScene",
+                "type": "union",
+                "patch": {
+                    "dllName": "superstep.dll",
+                    "data": "ADCE3C00",
+                    "offset": 3803120
+                }
+            }
+        ]
     }
 ]
