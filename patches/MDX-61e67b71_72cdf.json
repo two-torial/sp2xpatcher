@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Screen Setting",
+        "description": "Changes resolution based on Sceen type",
+        "gameCode": "MDX",
+        "type": "union",
+        "patches": [
+            {
+                "name": "CRT 945 P3IO SD",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "00",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD 945 P3IO",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "01",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD HM64 P4IO SD",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "02",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "CRT ADE-6291 P3IO HD",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "03",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD ADE-6291 P3IO HD (forced gold cab)",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "04",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD ADE-6291 P4IO",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "05",
+                    "offset": 413055
+                }
+            },
+            {
+                "name": "LCD ADE-6291 BIO2",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxp3.dll",
+                    "data": "06",
+                    "offset": 413055
+                }
+            }
+        ]
+    }
+]

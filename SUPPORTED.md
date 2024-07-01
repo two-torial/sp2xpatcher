@@ -186,6 +186,14 @@ Patches for which we don't know the corresponding game version.
 | MDX | gamemdx.dll | 2019-04-22 | [MDX-5cb6a13d_119399](patches/MDX-5cb6a13d_119399.json) |
 </details>
 
+<details><summary>Dance Dance Revolution A20 Plus</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX | arkmdxp3.dll | 2021-08-04 | [MDX-61e67b71_72cdf](patches/MDX-61e67b71_72cdf.json) |
+| MDX-001 | gamemdx.dll | 2022-02-02 | [MDX-61f89ff9_12b079](patches/MDX-61f89ff9_12b079.json) |
+</details>
+
 <details><summary>Dance Dance Revolution A3</summary>
 
 | Codename | Filename | Version | Identifier |
