@@ -177,6 +177,15 @@ Patches for which we don't know the corresponding game version.
 | MDX | mdxja_945.dll | 2015-12-21 | [MDX-567775b2_1c879d](patches/MDX-567775b2_1c879d.json) |
 </details>
 
+<details><summary>Dance Dance Revolution A</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX | gamemdx.dll | 2018-04-23 | [MDX-5ad5bc40_105751](patches/MDX-5ad5bc40_105751.json) |
+| MDX | gamemdx.dll | 2018-10-22 | [MDX-5bc68795_10d509](patches/MDX-5bc68795_10d509.json) |
+| MDX | gamemdx.dll | 2019-04-22 | [MDX-5cb6a13d_119399](patches/MDX-5cb6a13d_119399.json) |
+</details>
+
 <details><summary>Dance Dance Revolution A3</summary>
 
 | Codename | Filename | Version | Identifier |

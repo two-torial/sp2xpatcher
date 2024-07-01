@@ -1,0 +1,225 @@
+[
+    {
+        "name": "Force enable fast/slow",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 576096,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8B4144",
+                "dataEnabled": "31C040"
+            }
+        ]
+    },
+    {
+        "name": "Force background judgement",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 576080,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8B4140",
+                "dataEnabled": "31C040"
+            }
+        ]
+    },
+    {
+        "name": "Force darkest background",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 578875,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "750333C0",
+                "dataEnabled": "33C0B003"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs",
+        "description": "Unlocks all e-amusement songs, event mode songs, ACES FOR ACES and ENDYMION",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 585091,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            },
+            {
+                "offset": 542267,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 542417,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Tutorial Skip",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 284420,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 149095,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock options",
+        "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 501410,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force Extra Stage/Extra Encore Stage (fixed)",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 371831,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 372178,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Enable DDR SELECTION",
+        "description": "Even works in offline/local mode!",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 481140,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "E8C77101",
+                "dataEnabled": "B8010000"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free",
+        "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 117215,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "SSQ Offset",
+        "description": "Bigger numbers make arrows later",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108554,
+            "min": -1000,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Sound Offset",
+        "description": "Bigger numbers make audio later",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108549,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Input Offset",
+        "description": "Bigger numbers make judgement earlier",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108578,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Render Offset",
+        "description": "Bigger numbers make arrows later visually",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108615,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Bomb Frame Offset",
+        "description": "Bigger numbers delay explosion animation",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108544,
+            "min": 0,
+            "max": 10,
+            "size": 4
+        }
+    }
+]

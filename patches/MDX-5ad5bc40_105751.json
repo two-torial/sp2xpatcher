@@ -1,0 +1,255 @@
+[
+    {
+        "name": "Force enable fast/slow",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 544448,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8B4144",
+                "dataEnabled": "31C040"
+            }
+        ]
+    },
+    {
+        "name": "Force background judgement",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 544432,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8B4140",
+                "dataEnabled": "31C040"
+            }
+        ]
+    },
+    {
+        "name": "Force darkest background",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 544388,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCC",
+                "dataEnabled": "31C0B003C3"
+            },
+            {
+                "offset": 1763384,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "40DF0D10",
+                "dataEnabled": "845A0810"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs (old)",
+        "description": "Do not use this anymore. It's only here to toggle off.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1762700,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6C",
+                "dataEnabled": "66"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs",
+        "description": "Unlocks all e-amusement songs, event mode songs, ACES FOR ACES and ENDYMION",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 552152,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            },
+            {
+                "offset": 515838,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 515902,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Tutorial Skip",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 268356,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 143655,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock options",
+        "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 474706,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force Extra Stage/Extra Encore Stage (fixed)",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 346171,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 346560,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Disable Credit Consumption",
+        "description": "Similar to FREE PLAY, but allows premium credit options. Requires 1 credit.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 35722,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "740B",
+                "dataEnabled": "EB09"
+            },
+            {
+                "offset": 35820,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "740B",
+                "dataEnabled": "EB09"
+            },
+            {
+                "offset": 35916,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "740B",
+                "dataEnabled": "EB09"
+            },
+            {
+                "offset": 35785,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "742E",
+                "dataEnabled": "EB2C"
+            },
+            {
+                "offset": 35881,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "742E",
+                "dataEnabled": "EB2C"
+            }
+        ]
+    },
+    {
+        "name": "SSQ Offset",
+        "description": "Bigger numbers make arrows later",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108394,
+            "min": -1000,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Sound Offset",
+        "description": "Bigger numbers make audio later",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108389,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Input Offset",
+        "description": "Bigger numbers make judgement earlier",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108418,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Render Offset",
+        "description": "Bigger numbers make arrows later visually",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108455,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Bomb Frame Offset",
+        "description": "Bigger numbers delay explosion animation",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 108384,
+            "min": 0,
+            "max": 10,
+            "size": 4
+        }
+    }
+]
