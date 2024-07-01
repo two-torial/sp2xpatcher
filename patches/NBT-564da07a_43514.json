@@ -1,0 +1,30 @@
+[
+    {
+        "name": "E: drive fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 11970964,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1523894,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "4883FD107209488D7908",
+                "dataEnabled": "BB00000000E9AE010000"
+            }
+        ]
+    }
+]

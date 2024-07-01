@@ -145,6 +145,15 @@ Patches for which we don't know the corresponding game version.
 | LDJ-012 | bm2dx.dll | 2024-06-05 | [LDJ-665e9f8f_9a384c](patches/LDJ-665e9f8f_9a384c.json) |
 </details>
 
+## BeatStream
+
+<details><summary>BeatStream</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| NBT | beatstream.dll | 2015-12-01 | [NBT-564da07a_43514](patches/NBT-564da07a_43514.json) |
+</details>
+
 ## Dance Dance Revolution (DDR)
 
 <details><summary>Dance Dance Revolution A3</summary>
