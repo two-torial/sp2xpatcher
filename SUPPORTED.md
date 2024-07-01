@@ -8,8 +8,6 @@ Patches for which we don't know the corresponding game version.
 
 | Game Series | Identifier |
 |-------------|------------|
-| JuBeat | [L44-65fced28_b61e](patches/L44-65fced28_b61e.json) |
-| JuBeat | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
 | Pop'n Music (?) | [M39-6614c9cd_184d80](patches/M39-6614c9cd_184d80.json) |
 | Dancerush Stardom | [REC-5ab9d2e3_26ffe4](patches/REC-5ab9d2e3_26ffe4.json) |
 | Dancerush Stardom | [REC-63e362ce_52b700](patches/REC-63e362ce_52b700.json) |
@@ -245,6 +243,16 @@ Patches for which we don't know the corresponding game version.
 |----------|----------|---------|------------|
 | REC | superstep.dll | 2020-12-14 | [REC-5fd067bc_527b80](patches/REC-5fd067bc_527b80.json) |
 | REC | superstep.dll | 2022-12-14 | [REC-639165c3_52b620](patches/REC-639165c3_52b620.json) |
+</details>
+
+## JuBeat
+
+<details><summary>Jubeat Beyond the Ave.</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2024-02-14 | [L44-65fced28_b61e](patches/L44-65fced28_b61e.json) |
+| L44 | jubeat.dll | 2024-03-25 | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
 </details>
 
 ## Sound Voltex (SDVX)
