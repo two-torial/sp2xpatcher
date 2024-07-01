@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Unlock all songs",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 7845,
+                "dllName": "music_db.dll",
+                "dataDisabled": "740A",
+                "dataEnabled": "9090"
+            }
+        ]
+    }
+]

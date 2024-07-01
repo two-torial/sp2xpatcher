@@ -246,6 +246,16 @@ Patches for which we don't know the corresponding game version.
 
 ## JuBeat
 
+<details><summary>Jubeat Ave.</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2022-08-03 | [L44-62e8eae6_1fa8b0](patches/L44-62e8eae6_1fa8b0.json) |
+| L44 | music_db.dll | 2022-08-03 | [L44-62de87f5_b01e](patches/L44-62de87f5_b01e.json) |
+| L44 | jubeat.dll | 2023-08-08 | [L44-64cb3e88_1fec50](patches/L44-64cb3e88_1fec50.json) |
+| L44 | music_db.dll | 2023-08-08 | [L44-64ae942d_b1c0](patches/L44-64ae942d_b1c0.json) |
+</details>
+
 <details><summary>Jubeat Beyond the Ave.</summary>
 
 | Codename | Filename | Version | Identifier |

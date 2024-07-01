@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Skip Tutorial",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 861343,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Select Music Timer Freeze",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 771029,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Category Select",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 771930,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "07"
+            }
+        ]
+    },
+    {
+        "name": "Result Timer Freeze",
+        "description": "Counts down to 0 then stops",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 672411,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Online Matching",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 845215,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Force Unlock All Markers",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1444590,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1740480,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1741226,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0FB745B0",
+                "dataEnabled": "31C09090"
+            }
+        ]
+    },
+    {
+        "name": "Force Unlock All Backgrounds",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1255982,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1256715,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0FB745B0",
+                "dataEnabled": "31C09090"
+            },
+            {
+                "offset": 1444769,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Expert Option",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 882656,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "558BEC",
+                "dataEnabled": "B001C3"
+            }
+        ]
+    },
+    {
+        "name": "Default Marker For Guest Play",
+        "description": "",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "31",
+                    "offset": 370167
+                }
+            },
+            {
+                "name": "Festo",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2E",
+                    "offset": 370167
+                }
+            },
+            {
+                "name": "Qubell",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "28",
+                    "offset": 370167
+                }
+            },
+            {
+                "name": "Shutter",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "04",
+                    "offset": 370167
+                }
+            }
+        ]
+    }
+]
