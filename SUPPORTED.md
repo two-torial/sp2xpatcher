@@ -262,6 +262,14 @@ Patches for which we don't know the corresponding game version.
 | K44 | music_db.dll | 2012-07-23 | [K44-500d29bf_3ff8](patches/K44-500d29bf_3ff8.json) |
 </details>
 
+<details><summary>Jubeat Saucer</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2014-01-28 | [L44-52e0d002_150620](patches/L44-52e0d002_150620.json) |
+| L44 | music_db.dll | 2014-01-28 | [L44-52e0cff2_44f8](patches/L44-52e0cff2_44f8.json) |
+</details>
+
 <details><summary>Jubeat Prop</summary>
 
 | Codename | Filename | Version | Identifier |
