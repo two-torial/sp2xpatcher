@@ -186,6 +186,13 @@ Patches for which we don't know the corresponding game version.
 | MDX | gamemdx.dll | 2019-04-22 | [MDX-5cb6a13d_119399](patches/MDX-5cb6a13d_119399.json) |
 </details>
 
+<details><summary>Dance Dance Revolution A20</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX | gamemdx.dll | 2020-02-03 | [MDX-5e2e8e40_122d59](patches/MDX-5e2e8e40_122d59.json) |
+</details>
+
 <details><summary>Dance Dance Revolution A20 Plus</summary>
 
 | Codename | Filename | Version | Identifier |
