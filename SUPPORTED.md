@@ -134,14 +134,25 @@ Patches for which we don't know the corresponding game version.
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
+| LDJ-010 | bm2dx.dll | 2023-10-18 | [LDJ-65290944_9f2370](patches/LDJ-65290944_9f2370.json) |
 | LDJ-012 | bm2dx.dll | 2023-10-18 | [LDJ-65290d78_9254f0](patches/LDJ-65290d78_9254f0.json) |
+| LDJ-012 | bm2dx.dll | 2023-10-30 | [LDJ-6539b8d4_92bfd0](patches/LDJ-6539b8d4_92bfd0.json) |
+| LDJ-012 | bm2dx.dll | 2023-11-20 | [LDJ-65559d21_92e270](patches/LDJ-65559d21_92e270.json) |
 | LDJ-010 | bm2dx.dll | 2023-12-06 | [LDJ-656d3226_a145e0](patches/LDJ-656d3226_a145e0.json) |
+| LDJ-012 | bm2dx.dll | 2023-12-06 | [LDJ-656d366b_947760](patches/LDJ-656d366b_947760.json) |
+| LDJ-012 | bm2dx.dll | 2023-12-18 | [LDJ-657a9ecd_955d20](patches/LDJ-657a9ecd_955d20.json) |
+| LDJ-010 | bm2dx.dll | 2024-01-16 | [LDJ-65a0a4c8_a0aa8c](patches/LDJ-65a0a4c8_a0aa8c.json) |
+| LDJ-012 | bm2dx.dll | 2024-01-16 | [LDJ-65a0a911_93dc0c](patches/LDJ-65a0a911_93dc0c.json) |
+| LDJ-010 | bm2dx.dll | 2024-02-13 | [LDJ-65c2f0f7_a1269c](patches/LDJ-65c2f0f7_a1269c.json) |
+| LDJ-012 | bm2dx.dll | 2024-02-13 | [LDJ-65c2f56c_94581c](patches/LDJ-65c2f56c_94581c.json) |
+| LDJ-010 | bm2dx.dll | 2024-03-05 | [LDJ-65de7c44_a1b83c](patches/LDJ-65de7c44_a1b83c.json) |
 | LDJ-012 | bm2dx.dll | 2024-03-05 | [LDJ-65de809d_94e9bc](patches/LDJ-65de809d_94e9bc.json) |
 | LDJ-010 | bm2dx.dll | 2024-03-25 | [LDJ-65fbdb9b_a29c4c](patches/LDJ-65fbdb9b_a29c4c.json) |
+| LDJ-010 | bm2dx.dll | 2024-04-15 | [LDJ-661754b4_a29d6c](patches/LDJ-661754b4_a29d6c.json) |
 | LDJ-012 | bm2dx.dll | 2024-04-15 | [LDJ-661758fa_95ceec](patches/LDJ-661758fa_95ceec.json) |
 | LDJ-010 | bm2dx.dll | 2024-05-07 | [LDJ-662a05c7_a5bf9c](patches/LDJ-662a05c7_a5bf9c.json) |
 | LDJ-012 | bm2dx.dll | 2024-05-07 | [LDJ-662a0a1f_98f11c](patches/LDJ-662a0a1f_98f11c.json) |
-| LDJ-010 | bm2dx.dll | 2024-06-05 | [LDJ-6657c7bb_a706cc](patches/LDJ-6657c7bb_a706cc.json) |
+| LDJ-010 | bm2dx.dll | 2024-06-04 | [LDJ-6657c7bb_a706cc](patches/LDJ-6657c7bb_a706cc.json) |
 | LDJ-012 | bm2dx.dll | 2024-06-05 | [LDJ-665e9f8f_9a384c](patches/LDJ-665e9f8f_9a384c.json) |
 </details>
 
