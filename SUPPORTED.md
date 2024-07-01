@@ -270,6 +270,14 @@ Patches for which we don't know the corresponding game version.
 | L44 | music_db.dll | 2016-03-27 | [L44-56a5907c_4c5d](patches/L44-56a5907c_4c5d.json) |
 </details>
 
+<details><summary>Jubeat Qubell</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2017-06-20 | [L44-5940b7f5_17b5d5](patches/L44-5940b7f5_17b5d5.json) |
+| L44 | music_db.dll | ? | [L44-5940b7ab_585c](patches/L44-5940b7ab_585c.json) |
+</details>
+
 <details><summary>Jubeat Clan</summary>
 
 | Codename | Filename | Version | Identifier |

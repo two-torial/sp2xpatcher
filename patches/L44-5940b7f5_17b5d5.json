@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Disable Tutorial",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 699442,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "754A536800",
+                "dataEnabled": "E990000000"
+            }
+        ]
+    },
+    {
+        "name": "SELECT MUSIC Timer Lock",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 525686,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Online Matching",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 616823,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "7D",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]
