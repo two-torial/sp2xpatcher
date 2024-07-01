@@ -154,6 +154,13 @@ Patches for which we don't know the corresponding game version.
 | NBT | beatstream.dll | 2015-12-01 | [NBT-564da07a_43514](patches/NBT-564da07a_43514.json) |
 </details>
 
+<details><summary>BeatStream アニムトライヴ (AnimTribe)</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| NBT | beatstream.dll | 2016-11-14 | [NBT-57aaa1e0_471e4](patches/NBT-57aaa1e0_471e4.json) |
+</details>
+
 ## Dance Dance Revolution (DDR)
 
 <details><summary>Dance Dance Revolution A3</summary>

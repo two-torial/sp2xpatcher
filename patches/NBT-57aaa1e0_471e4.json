@@ -1,0 +1,150 @@
+[
+    {
+        "name": "E: drive fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8799740,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1494193,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "4883FD107203488B0941",
+                "dataEnabled": "BE00000000E93A010000"
+            }
+        ]
+    },
+    {
+        "name": "NIGHTMARE difficulty unlock",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1501918,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "8BCBE8DBB40E",
+                "dataEnabled": "B001E9AD0000"
+            }
+        ]
+    },
+    {
+        "name": "Increase hi-speed range to 1.0-2.5",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 10709664,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "0000003F9A99193F3333333FCDCC4C3F6666663F0000803FCDCC8C3F9A99993F6666A63F3333B33F0000C03FCDCCCC3F9A99D93F6666E63F3333F33F00000040",
+                "dataEnabled": "0000803FCDCC8C3F9A99993F6666A63F3333B33F0000C03FCDCCCC3F9A99D93F6666E63F3333F33F0000004066660640CDCC0C40333313409A99194000002040"
+            },
+            {
+                "offset": 11204240,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "A80000000000003F05000000900000009A99193F06000000780000003333333F0700000060000000CDCC4C3F08000000480000006666663F09000000300000000000803F0A00000018000000CDCC8C3F0B000000000000009A99993F0C000000E8FFFFFF6666A63F0D000000D0FFFFFF3333B33F0E000000B8FFFFFF0000C03F0F000000A0FFFFFFCDCCCC3F1000000088FFFFFF9A99D93F1100000070FFFFFF6666E63F1200000058FFFFFF3333F33F1300000040FFFFFF0000004014000000",
+                "dataEnabled": "A80000000000003F0A000000900000009A99193F0B000000780000003333333F0C00000060000000CDCC4C3F0D000000480000006666663F0E000000300000000000803F0F00000018000000CDCC8C3F10000000000000009A99993F11000000E8FFFFFF6666A63F12000000D0FFFFFF3333B33F13000000B8FFFFFF0000C03F14000000A0FFFFFFCDCCCC3F1500000088FFFFFF9A99D93F1600000070FFFFFF6666E63F1700000058FFFFFF3333F33F1800000040FFFFFF0000004019000000"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 991642,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "FF8BF8140000",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 991498,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "0183F8140000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Shorter Monitor Check",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1869687,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "1E",
+                "dataEnabled": "03"
+            }
+        ]
+    },
+    {
+        "name": "Prevent volume change on boot",
+        "description": "",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 522803,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "E848FEFDFF",
+                "dataEnabled": "9090909090"
+            },
+            {
+                "offset": 1879920,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "E80B49E9FF",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    },
+    {
+        "name": "Make attract scenes show in free play",
+        "description": "Makes demo/news/etc show in free play and makes them skippable in all modes by touching the screen. Use 8 fingers to skip the demo song.",
+        "gameCode": "NBT",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1653757,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "E80EDF0300",
+                "dataEnabled": "EB2C909090"
+            },
+            {
+                "offset": 1663948,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "488B05EDD7520183780801743D837830010F94C0",
+                "dataEnabled": "E89F8DEDFF83B888400000017540C6437901EB3A"
+            },
+            {
+                "offset": 1667920,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "488B0569C8520183780801743D837830010F94C084C07532",
+                "dataEnabled": "E81B7EEDFF83B888400000017543C6838000000001EB3A90"
+            },
+            {
+                "offset": 2436100,
+                "dllName": "beatstream.dll",
+                "dataDisabled": "488B05B50F470183780801743D837830010F94C084C07532",
+                "dataEnabled": "E867C5E1FF83B88C010000017543C6878000000001EB3A90"
+            }
+        ]
+    }
+]
