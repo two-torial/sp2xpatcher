@@ -206,7 +206,9 @@ Patches for which we don't know the corresponding game version.
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
 | MDX-001 | gamemdx.dll | 2024-04-02 | [MDX-660511b3_165389](patches/MDX-660511b3_165389.json) |
+| MDX-003 | gamemdx.dll | 2024-04-02 | [MDX-66050e15_1c0a74](patches/MDX-66050e15_1c0a74.json) |
 | MDX-001 | arkmdxp3.dll | 2024-04-02 | [MDX-65d547e4_74f1b](patches/MDX-65d547e4_74f1b.json) |
+| MDX-003 | arkmdxbio2.dll | 2024-04-02 | [MDX-65d547f3_8fd24](patches/MDX-65d547f3_8fd24.json) |
 </details>
 
 ## Dancerush Stardom (DRS)

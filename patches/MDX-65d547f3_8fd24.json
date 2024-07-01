@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Mode Layout",
+        "description": "Changes resolution based on sceen type, among other things",
+        "gameCode": "MDX",
+        "type": "union",
+        "patches": [
+            {
+                "name": "0 - SD",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxbio2.dll",
+                    "data": "00",
+                    "offset": 516633
+                }
+            },
+            {
+                "name": "1 - SD",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxbio2.dll",
+                    "data": "01",
+                    "offset": 516633
+                }
+            },
+            {
+                "name": "2 - HD (Default)",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxbio2.dll",
+                    "data": "02",
+                    "offset": 516633
+                }
+            },
+            {
+                "name": "3 - HD",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxbio2.dll",
+                    "data": "03",
+                    "offset": 516633
+                }
+            },
+            {
+                "name": "4 - HD (Gold)",
+                "type": "union",
+                "patch": {
+                    "dllName": "arkmdxbio2.dll",
+                    "data": "04",
+                    "offset": 516633
+                }
+            }
+        ]
+    }
+]
