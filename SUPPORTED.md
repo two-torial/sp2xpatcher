@@ -244,7 +244,7 @@ Patches for which we don't know the corresponding game version.
 | REC | superstep.dll | 2022-12-14 | [REC-639165c3_52b620](patches/REC-639165c3_52b620.json) |
 </details>
 
-## JuBeat
+## Jubeat
 
 <details><summary>Jubeat Knit</summary>
 
