@@ -246,6 +246,14 @@ Patches for which we don't know the corresponding game version.
 
 ## JuBeat
 
+<details><summary>Jubeat Knit</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| J44 | jubeat.dll | 2011-01-14 | [J44-4d2feca4_e8f35](patches/J44-4d2feca4_e8f35.json) |
+| J44 | music_db.dll | 2011-01-14 | [J44-4d2fea0e_43f4](patches/J44-4d2fea0e_43f4.json) |
+</details>
+
 <details><summary>Jubeat Copious</summary>
 
 | Codename | Filename | Version | Identifier |
