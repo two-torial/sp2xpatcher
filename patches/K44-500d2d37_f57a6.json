@@ -1,0 +1,16 @@
+[
+    {
+        "name": "SELECT MUSIC Timer Lock",
+        "description": "",
+        "gameCode": "K44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 622117,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]

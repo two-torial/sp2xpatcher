@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Unlock All Songs",
+        "description": "",
+        "gameCode": "K44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2935,
+                "dllName": "music_db.dll",
+                "dataDisabled": "8B55C489512833C083BD64FFFFFF000F95C08B8D4CFFFFFF88412C0FBF55B033C085D20F9DC0",
+                "dataEnabled": "BA0000000089512833C083BD64FFFFFF000F95C08B8D4CFFFFFF88412C0FBF55B033C085D290"
+            }
+        ]
+    }
+]

@@ -246,6 +246,14 @@ Patches for which we don't know the corresponding game version.
 
 ## JuBeat
 
+<details><summary>Jubeat copious</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| K44 | jubeat.dll | 2012-07-23 | [K44-500d2d37_f57a6](patches/K44-500d2d37_f57a6.json) |
+| K44 | music_db.dll | 2012-07-23 | [K44-500d29bf_3ff8](patches/K44-500d29bf_3ff8.json) |
+</details>
+
 <details><summary>Jubeat clan</summary>
 
 | Codename | Filename | Version | Identifier |
