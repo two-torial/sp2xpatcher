@@ -8,11 +8,6 @@ Patches for which we don't know the corresponding game version.
 
 | Game Series | Identifier |
 |-------------|------------|
-| Dancerush Stardom | [REC-5ab9d2e3_26ffe4](patches/REC-5ab9d2e3_26ffe4.json) |
-| Dancerush Stardom | [REC-63e362ce_52b700](patches/REC-63e362ce_52b700.json) |
-| Dancerush Stardom | [REC-6436048a_52b820](patches/REC-6436048a_52b820.json) |
-| Dancerush Stardom | [REC-6481728b_536180](patches/REC-6481728b_536180.json) |
-| Dancerush Stardom | [REC-64b9c7bd_53d248](patches/REC-64b9c7bd_53d248.json) |
 </details>
 
 ## beatmania IIDX (2dx)
@@ -240,8 +235,13 @@ Patches for which we don't know the corresponding game version.
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
+| REC | superstep.dll | 2018-03-28 | [REC-5ab9d2e3_26ffe4](patches/REC-5ab9d2e3_26ffe4.json) |
 | REC | superstep.dll | 2020-12-14 | [REC-5fd067bc_527b80](patches/REC-5fd067bc_527b80.json) |
 | REC | superstep.dll | 2022-12-14 | [REC-639165c3_52b620](patches/REC-639165c3_52b620.json) |
+| REC | superstep.dll | 2023-02-15 | [REC-63e362ce_52b700](patches/REC-63e362ce_52b700.json) |
+| REC | superstep.dll | 2023-04-18 | [REC-6436048a_52b820](patches/REC-6436048a_52b820.json) |
+| REC | superstep.dll | 2023-06-13 | [REC-6481728b_536180](patches/REC-6481728b_536180.json) |
+| REC | superstep.dll | 2023-07-26 | [REC-64b9c7bd_53d248](patches/REC-64b9c7bd_53d248.json) |
 </details>
 
 ## Jubeat
