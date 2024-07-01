@@ -270,6 +270,15 @@ Patches for which we don't know the corresponding game version.
 | L44 | music_db.dll | 2014-01-28 | [L44-52e0cff2_44f8](patches/L44-52e0cff2_44f8.json) |
 </details>
 
+<details><summary>Jubeat Saucer Fulfill</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2014-11-18 | [L44-54648f0b_172725](patches/L44-54648f0b_172725.json) |
+| L44 | coin.dll | 2014-11-18 | [L44-54648ef1_195e](patches/L44-54648ef1_195e.json) |
+| L44 | music_db.dll | 2014-11-18 | [L44-54648eef_43dd](patches/L44-54648eef_43dd.json) |
+</details>
+
 <details><summary>Jubeat Prop</summary>
 
 | Codename | Filename | Version | Identifier |

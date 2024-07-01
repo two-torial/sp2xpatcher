@@ -1,0 +1,44 @@
+[
+    {
+        "name": "SELECT MUSIC Timer Lock",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1014655,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Online Matching",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 833952,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "7D",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Coin Unlock",
+        "description": "Check the 'Coin Unlock' option in 'coin.dll'",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5981,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "EB2200000000000000000000000000000000000000000000000000000000000000000000",
+                "dataEnabled": "7422FF15F8021810FF15F40218100FB6C085C0740F6A1A68E1050000E812AC000083C408"
+            }
+        ]
+    }
+]
