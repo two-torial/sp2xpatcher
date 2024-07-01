@@ -163,6 +163,13 @@ Patches for which we don't know the corresponding game version.
 
 ## Dance Dance Revolution (DDR)
 
+<details><summary>Dance Dance Revolution 2013</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX | mdxja_945.dll | 2014-03-27 | [MDX-5333e3e1_186bff](patches/MDX-5333e3e1_186bff.json) |
+</details>
+
 <details><summary>Dance Dance Revolution A3</summary>
 
 | Codename | Filename | Version | Identifier |

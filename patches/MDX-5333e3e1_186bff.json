@@ -1,0 +1,135 @@
+[
+    {
+        "name": "NVIDIA gray arrow/freeze color fix",
+        "description": "Also affects newer AMD cards",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 165100,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "D94424248954241CDB44241C85D27D06D80580CC22108B6C242CDEF90FBE542413",
+                "dataEnabled": "8954E41CDB44E41CD944E4248B54E413DC0590CC2210D9C90FBED28B6C242CDEF9"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 147643,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7709C7453C0000",
+                "dataEnabled": "9090C7453C1027"
+            },
+            {
+                "offset": 148632,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "894D3C",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Mute crowd cheering and booing during song",
+        "description": "Use with modified voice.xwb to also mute announcer",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 295419,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip online update check",
+        "description": "30 seconds at boot",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 117168,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "6A54",
+                "dataEnabled": "EBC0"
+            }
+        ]
+    },
+    {
+        "name": "Song Unlock",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 11371,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 46990,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 47107,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 47219,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 47263,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Enable timing offset",
+        "description": "Set the value below to 2083529796 if disabled",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 317328,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "89",
+                "dataEnabled": "05"
+            },
+            {
+                "offset": 317333,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "107F043BC6760A",
+                "dataEnabled": "90909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Timing Offset",
+        "description": "Change 2083529796 to the actual default of -100. From there, in intervals of 500, subtract to make timing later or add to make it earlier.",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "mdxja_945.dll",
+            "offset": 317329,
+            "min": -10000,
+            "max": 10000,
+            "size": 4
+        }
+    }
+]
