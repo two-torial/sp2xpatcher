@@ -8,7 +8,6 @@ Patches for which we don't know the corresponding game version.
 
 | Game Series | Identifier |
 |-------------|------------|
-| Pop'n Music (?) | [M39-6614c9cd_184d80](patches/M39-6614c9cd_184d80.json) |
 | Dancerush Stardom | [REC-5ab9d2e3_26ffe4](patches/REC-5ab9d2e3_26ffe4.json) |
 | Dancerush Stardom | [REC-63e362ce_52b700](patches/REC-63e362ce_52b700.json) |
 | Dancerush Stardom | [REC-6436048a_52b820](patches/REC-6436048a_52b820.json) |
@@ -312,48 +311,49 @@ Patches for which we don't know the corresponding game version.
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| K39 | 2011-06-14 | popn19.dll | [K39-4dec5a0e_1ae9c5](patches/K39-4dec5a0e_1ae9c5.json) |
+| K39 | popn19.dll | 2011-06-14 | [K39-4dec5a0e_1ae9c5](patches/K39-4dec5a0e_1ae9c5.json) |
 </details>
 
 <details><summary>pop'n music 20 fantasia</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| L39 | 2012-09-19 | popn20.dll | [L39-504ef50d_16f808](patches/L39-504ef50d_16f808.json) |
+| L39 | popn20.dll | 2012-09-19 | [L39-504ef50d_16f808](patches/L39-504ef50d_16f808.json) |
 </details>
 
 <details><summary>pop'n music Sunny Park</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| M39 | 2014-06-19 | popn21.dll | [M39-5387186b_16e210](patches/M39-5387186b_16e210.json) |
+| M39 | popn21.dll | 2014-06-19 | [M39-5387186b_16e210](patches/M39-5387186b_16e210.json) |
 </details>
 
 <details><summary>pop'n music ラピストリア (Lapistoria)</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| M39 | 2015-08-19 | popn22.dll | [M39-55d18f07_18cd30](patches/M39-55d18f07_18cd30.json) |
+| M39 | popn22.dll | 2015-08-19 | [M39-55d18f07_18cd30](patches/M39-55d18f07_18cd30.json) |
 </details>
 
 <details><summary>pop'n music éclale</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| M39 | 2016-10-05 | popn22.dll | [M39-57f1fe78_16e1cc](patches/M39-57f1fe78_16e1cc.json) |
+| M39 | popn22.dll | 2016-10-05 | [M39-57f1fe78_16e1cc](patches/M39-57f1fe78_16e1cc.json) |
 </details>
 
 <details><summary>pop'n music うさぎと猫と少年の夢 (Usagi to neko to shounen no yume)</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|-----------|
-| M39 | 2018-08-21 | popn22.dll | [M39-5b753ba7_1831e1](patches/M39-5b753ba7_1831e1.json) |
+| M39 | popn22.dll | 2018-08-21 | [M39-5b753ba7_1831e1](patches/M39-5b753ba7_1831e1.json) |
 </details>
 
 <details><summary>pop'n music 解明リドルズ (Kaimei riddles)</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| M39 | 2022-04-25 | popn22.dll | [M39-627cf367_1955e1](patches/M39-627cf367_1955e1.json) |
-| M39 | 2022-06-13 | popn22.dll | [M39-629ede76_197641](patches/M39-629ede76_197641.json) |
+| M39 | popn22.dll | 2024-02-19 | [M39-6614c9cd_184d80](patches/M39-6614c9cd_184d80.json) |
+| M39 | popn22.dll | 2022-04-25 | [M39-627cf367_1955e1](patches/M39-627cf367_1955e1.json) |
+| M39 | popn22.dll | 2022-06-13 | [M39-629ede76_197641](patches/M39-629ede76_197641.json) |
 </details>
