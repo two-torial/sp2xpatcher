@@ -246,6 +246,14 @@ Patches for which we don't know the corresponding game version.
 
 ## JuBeat
 
+<details><summary>Jubeat clan</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2018-07-09 | [L44-5b3d85be_1a3d67](patches/L44-5b3d85be_1a3d67.json) |
+| L44 | music_db.dll | ? | [L44-5b3ca194_a2ea](patches/L44-5b3ca194_a2ea.json) |
+</details>
+
 <details><summary>Jubeat Ave.</summary>
 
 | Codename | Filename | Version | Identifier |
