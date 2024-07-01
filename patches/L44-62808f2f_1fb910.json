@@ -1,0 +1,869 @@
+[
+    {
+        "name": "Disable Tutorial",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 881775,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0F857F010000",
+                "dataEnabled": "E98001000090"
+            }
+        ]
+    },
+    {
+        "name": "SELECT MUSIC Timer Lock",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 786034,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip CATEGORY SELECT",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 786935,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "04",
+                "dataEnabled": "07"
+            }
+        ]
+    },
+    {
+        "name": "Result Timer Freeze",
+        "description": "Counts down to 0 then stops",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 687667,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Online Matching",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 865675,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0F8D7201",
+                "dataEnabled": "E9730100"
+            }
+        ]
+    },
+    {
+        "name": "Force enable Expert Option",
+        "description": "",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 904896,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "558BEC",
+                "dataEnabled": "B001C3"
+            }
+        ]
+    },
+    {
+        "name": "Force unlock all markers",
+        "description": "For guest play, online required",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1747888,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1457598,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1748634,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0FB745B0",
+                "dataEnabled": "31C09090"
+            }
+        ]
+    },
+    {
+        "name": "Force unlock all backgrounds",
+        "description": "For guest play, online required",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1269070,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1457777,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 1269803,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "0FB745B0",
+                "dataEnabled": "31C09090"
+            }
+        ]
+    },
+    {
+        "name": "Default marker for guest play",
+        "description": "",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "festo(フェスト)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2E",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "HinaBitter♪(ひなビタ♪)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2F",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "clan(クラン)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2D",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Ochazuke(お茶づけ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2C",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "AC Ver. Disney Tsum Tsum(AC版ディズニー ツムツム)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2B",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "NEW GAME!",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "2A",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Himouto! Umaru-chan(干物妹！うまるちゃん)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "29",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Qubell(キューベル)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "28",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "prop(プロップ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "27",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "QMA/CPU Sharon(QMA/CPUシャロン)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "26",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Shocho(ショッチョー)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "25",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "saucer(ソーサー)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "24",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Natural block(ナチュラルブロック)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "23",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Little owl(こびふくろう)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "22",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Circus(サーカス)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "21",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "copious(コピオス)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "20",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "jubeat-kun(jubeatくん)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "1C",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Concierge(コンシェルジュ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "1B",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Nengoro Neko(ねんごろねこ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "1F",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Stopwatch(ストップウォッチ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "1E",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Color composition(色彩構成)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "1D",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "knit(ニット)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "1A",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Stealth(ステルス)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "19",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Fusuma(襖)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "16",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Torus(トーラス)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "12",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Painting(絵画)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "17",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Blur(ブラー)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "13",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Banana(バナナ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "15",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Shoku(触)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "14",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Yubiko(ユビ子)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "18",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "ripples(リプルズ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "11",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Mirror ball(ミラーボール)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "10",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Sand art(サンドアート)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0D",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Digital block(デジタルブロック)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0C",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Blow bubbles(シャボン玉)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0E",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Ice(アイス)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0A",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Okojo(オコジョ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0F",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Gauge(ゲージ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "09",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Volcano(火山)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0B",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Tamago(たまご)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "08",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Target(ターゲット)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "07",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Fireworks(花火)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "06",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Blue ring(ブルーリング)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "05",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Shutter(シャッター)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "04",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Afro(アフロ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "03",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Flower(フラワー)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "02",
+                    "offset": 385015
+                }
+            },
+            {
+                "name": "Cyber(サイバー)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385015
+                }
+            }
+        ]
+    },
+    {
+        "name": "Default background for guest play",
+        "description": "",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Plant(プラント)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "02",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Ocean(オーシャン)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Banana(バナナ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "03",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Charcoal Grey(チャコールグレー)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "04",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Lake(レイク)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "05",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Charcoal(チャコール)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "06",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Acerola(アセロラ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "07",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Cassis(カシス)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0B",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Himouto! Umaru-chan(干物妹！うまるちゃん)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "08",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "NEW GAME!",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "09",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Ochazuke(お茶づけ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0A",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "Kotaro and Nengoro Neko(コタローとねんごろねこ)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0C",
+                    "offset": 385016
+                }
+            },
+            {
+                "name": "HinaBitter♪(ひなビタ♪)",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "0D",
+                    "offset": 385016
+                }
+            }
+        ]
+    },
+    {
+        "name": "Combo display - guest play default",
+        "description": "",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "ON",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385027
+                }
+            },
+            {
+                "name": "OFF",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "00",
+                    "offset": 385027
+                }
+            }
+        ]
+    },
+    {
+        "name": "Ranking display - guest play default",
+        "description": "",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "ON",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385026
+                }
+            },
+            {
+                "name": "OFF",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "00",
+                    "offset": 385026
+                }
+            }
+        ]
+    },
+    {
+        "name": "HARD MODE - guest play default",
+        "description": "",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "OFF",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "00",
+                    "offset": 385036
+                }
+            },
+            {
+                "name": "ON",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385036
+                }
+            }
+        ]
+    },
+    {
+        "name": "MATCHING option - guest play default",
+        "description": "Expert option required",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "ON",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385035
+                }
+            },
+            {
+                "name": "OFF",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "00",
+                    "offset": 385035
+                }
+            }
+        ]
+    },
+    {
+        "name": "HAZARD option - guest play default",
+        "description": "Expert option required",
+        "gameCode": "L44",
+        "type": "union",
+        "patches": [
+            {
+                "name": "OFF",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "00",
+                    "offset": 385043
+                }
+            },
+            {
+                "name": "EXC 1",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "01",
+                    "offset": 385043
+                }
+            },
+            {
+                "name": "EXC 2",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "02",
+                    "offset": 385043
+                }
+            },
+            {
+                "name": "EXC 3",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "03",
+                    "offset": 385043
+                }
+            },
+            {
+                "name": "FC 1",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "04",
+                    "offset": 385043
+                }
+            },
+            {
+                "name": "FC 2",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "05",
+                    "offset": 385043
+                }
+            },
+            {
+                "name": "FC 3",
+                "type": "union",
+                "patch": {
+                    "dllName": "jubeat.dll",
+                    "data": "06",
+                    "offset": 385043
+                }
+            }
+        ]
+    }
+]

@@ -246,7 +246,7 @@ Patches for which we don't know the corresponding game version.
 
 ## JuBeat
 
-<details><summary>Jubeat copious</summary>
+<details><summary>Jubeat Copious</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
@@ -254,12 +254,20 @@ Patches for which we don't know the corresponding game version.
 | K44 | music_db.dll | 2012-07-23 | [K44-500d29bf_3ff8](patches/K44-500d29bf_3ff8.json) |
 </details>
 
-<details><summary>Jubeat clan</summary>
+<details><summary>Jubeat Clan</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
 | L44 | jubeat.dll | 2018-07-09 | [L44-5b3d85be_1a3d67](patches/L44-5b3d85be_1a3d67.json) |
 | L44 | music_db.dll | ? | [L44-5b3ca194_a2ea](patches/L44-5b3ca194_a2ea.json) |
+</details>
+
+<details><summary>Jubeat Festo</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2022-05-24, 2022-02-16 | [L44-62808f2f_1fb910](patches/L44-62808f2f_1fb910.json) |
+| L44 | music_db.dll | 2020-06-11 -> 2022-05-24 | [L44-62565e37_af1e](patches/L44-62565e37_af1e.json) |
 </details>
 
 <details><summary>Jubeat Ave.</summary>
