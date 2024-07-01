@@ -170,6 +170,13 @@ Patches for which we don't know the corresponding game version.
 | MDX | mdxja_945.dll | 2014-03-27 | [MDX-5333e3e1_186bff](patches/MDX-5333e3e1_186bff.json) |
 </details>
 
+<details><summary>Dance Dance Revolution 2014</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX | mdxja_945.dll | 2015-12-21 | [MDX-567775b2_1c879d](patches/MDX-567775b2_1c879d.json) |
+</details>
+
 <details><summary>Dance Dance Revolution A3</summary>
 
 | Codename | Filename | Version | Identifier |

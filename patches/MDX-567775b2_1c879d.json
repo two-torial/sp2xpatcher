@@ -1,0 +1,197 @@
+[
+    {
+        "name": "Coinstrip",
+        "description": "Disable this to get coin functionality back",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 280,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "5168",
+                "dataEnabled": "B275"
+            },
+            {
+                "offset": 360,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "B0F04D",
+                "dataEnabled": "B16A4E"
+            },
+            {
+                "offset": 1760988,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "E84F5E0000",
+                "dataEnabled": "9090909090"
+            },
+            {
+                "offset": 1987396,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "5168",
+                "dataEnabled": "B275"
+            },
+            {
+                "offset": 2623556,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "4E88D96388BAC649930B043198A4E30C",
+                "dataEnabled": "71C48B03D9F26443B9E059E6F5A9D2C0"
+            },
+            {
+                "offset": 2700340,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "C067",
+                "dataEnabled": "2275"
+            },
+            {
+                "offset": 3523044,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "50",
+                "dataEnabled": "A0"
+            },
+            {
+                "offset": 5090950,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "A7D93D22C82A3A403F13BD5A139DB769ECA9BA",
+                "dataEnabled": "76EA2EBC16C9E1E4543B737297D16839C5FDBC"
+            },
+            {
+                "offset": 5092199,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "84051EB277BA7F1D3C5F37280CA8B5E2D49966F1300D06092A864886F70D01010105000482010078BABD917972D3E790596DA1F5399A07F676C2885F6D18975ECE2E2ED82431F5CE5E028D3AB14CC2FF87FAEC6DEE37412691FA963B47AC0B3DF565D62FA779ABFC913647C873257C6CB65B88AA60E88EED8F4CB3E5D32234674562BBCF628EA5AF72C0F9AED08FE03380F0D8C3E5F1382F9553E09EEB46EBEF30B6FD30C0265C750BF867E88996F4C70D9BBE9DCD91A9EF5C87F04436A49F11842AF0A09C5D2AD7B43A96041B150DBB27D69BE139A2BC98A3B50221B2A47357BC439B151B40B66C3D32CEE0CF1F9B010EE0B5EE790904E5E0082D42ACD2574D139A3B35531DAC084AEA8F058F312B6632743EFD1B35D6FBB1D35436B981B825221DD5A663816C",
+                "dataEnabled": "A447A150F77343AB39186D9EE1F9AA4B3D15C365300D06092A864886F70D010101050004820100663787EBBEA34206E7DEB55B5284B2666426F8A9488FAD6B7D09073FD01754E9E3097A4C9B0F78ED9634BE4B5A5BCD848EAEBEC3F4F162FD99375FE5DD318C3DAE91CDAA3BEA1CF7A78BB08341558DE25220EF288EBF8B706C42D87D8B94C8DEBBAEA7C85569F4074C7928466E31B4B2FB86FE0DB4AEBAB26848BE097CC845CC8E0FB2074F0AE28EE1EC91649270E62A99BA014B3DCC236A60E47BF389565FC742101A093620A925EEE6BBA3562BC99D312C5D812F10FCDA84C6A78DC63A9858ECC3651315C3C7FDF7EBEACA15295617D7264F14C2583B31C262E4717866B652578D7BA325057F222312DC68988502E1960EF1FF90795D80D0A24ABD063328D9"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free",
+        "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9157,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "FF80E4160000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 165787,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7709C7433C0000",
+                "dataEnabled": "9090C7433C1027"
+            },
+            {
+                "offset": 166712,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "894B3C",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Mute crowd cheering and booing during song",
+        "description": "Use with modified voice.xwb to also mute announcer",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 329729,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip online update check",
+        "description": "30 seconds at boot",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 129607,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "6A54",
+                "dataEnabled": "EBB4"
+            }
+        ]
+    },
+    {
+        "name": "Song Unlock",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 14771,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 55870,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 55923,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 55967,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 56027,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Enable timing offset",
+        "description": "Set the value below to 993010756 if disabled",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 352957,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "89",
+                "dataEnabled": "05"
+            },
+            {
+                "offset": 352962,
+                "dllName": "mdxja_945.dll",
+                "dataDisabled": "D67C107F043BC6760A",
+                "dataEnabled": "909090909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Timing Offset",
+        "description": "Change 993010756 to the actual default of -100. From there, in intervals of 500, subtract to make timing later or add to make it earlier.",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "mdxja_945.dll",
+            "offset": 352958,
+            "min": -10000,
+            "max": 10000,
+            "size": 4
+        }
+    }
+]
