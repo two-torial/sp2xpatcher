@@ -262,6 +262,14 @@ Patches for which we don't know the corresponding game version.
 | K44 | music_db.dll | 2012-07-23 | [K44-500d29bf_3ff8](patches/K44-500d29bf_3ff8.json) |
 </details>
 
+<details><summary>Jubeat Prop</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| L44 | jubeat.dll | 2016-03-27 | [L44-56a59099_217e92](patches/L44-56a59099_217e92.json) |
+| L44 | music_db.dll | 2016-03-27 | [L44-56a5907c_4c5d](patches/L44-56a5907c_4c5d.json) |
+</details>
+
 <details><summary>Jubeat Clan</summary>
 
 | Codename | Filename | Version | Identifier |
