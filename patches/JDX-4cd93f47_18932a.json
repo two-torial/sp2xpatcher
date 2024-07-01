@@ -1,0 +1,161 @@
+[
+    {
+        "name": "NVIDIA gray arrow/freeze color fix",
+        "description": "Also affects newer AMD cards",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 141809,
+                "dllName": "ddr.dll",
+                "dataDisabled": "85C9D944241C894C2428DB4424287D06D80520C421100FBE542413",
+                "dataEnabled": "894CE428DB44E428D944E41C8B54E413DC0530C42110D9C90FBED2"
+            }
+        ]
+    },
+    {
+        "name": "Coinstrip",
+        "description": "Disable this to get coin functionality back",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1194439,
+                "dllName": "ddr.dll",
+                "dataDisabled": "0F859000000080FCA875",
+                "dataEnabled": "E9910000009080FCA8EB"
+            },
+            {
+                "offset": 1243563,
+                "dllName": "ddr.dll",
+                "dataDisabled": "8B159CC7AF208B0DA0C7AF208B3590C7AF20F7D2F7D123D123D6231598C7AF2083C40C57B900080000E8A76B00008A1DB8C7AF2083C4040FB6D350528B1594C7AF20B900100000E8896B00008B0DE4B8C620C1E90C80E1010AC183C4048BD6B9001000005053E86A6B00008B15E0B8C620C1EA0C80E2010AC283C40450E8831A0000",
+                "dataEnabled": "90909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
+            },
+            {
+                "offset": 1250480,
+                "dllName": "ddr.dll",
+                "dataDisabled": "5333DB381D85C7AF20744C385C24107446381D78C2AF207530A198C2AF202B0594C2AF208B0DC8C2AF202B0DC4C2AF200305A0C2AF20030DD0C2AF20A3A8C2AF20890DD8C2AF20EB078305A8C2AF2001830584C2AF200155565733FF8D6424008D047FC1E004058CC2AF203BFB740D8A542418668B0D82C7AF20EB0B8A5424140FB70D80C7AF208B70100FB7C903F12B303AD3897008741383402C0183782C647E0CC60588C2AF2001EB0389582C8B70082B70043BF37E06013584C2AF2033C93BFB0F95C18D0C49C1E1048BA9A8C2AF202BA998C2AF208B91A0C2AF2003A994C2AF203BEA7C293BD37E2501500C8B50280150208BA9A8C2AF202BA998C2AF208B91A0C2AF2003A994C2AF203BEA7DD78B480833D23BF30F9EC283C70189480483EA0123D683FF028950180F8C2FFFFFFF391D84C2AF205F5E891D7CC2AF205D7E2AA180C2AF208BD0B90100000003C183FA04A380C2AF207E12290D84C2AF20891D80C2AF20890D7CC2AF205BC3",
+                "dataEnabled": "909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 127240,
+                "dllName": "ddr.dll",
+                "dataDisabled": "894D38",
+                "dataEnabled": "909090"
+            },
+            {
+                "offset": 128200,
+                "dllName": "ddr.dll",
+                "dataDisabled": "894D38",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Mute crowd cheering and booing during song",
+        "description": "Use with modified voice.xwb to also mute announcer",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 308371,
+                "dllName": "ddr.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force DATA check OK",
+        "description": "Use with modified VOICE.xwb to mute announcer",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1097949,
+                "dllName": "ddr.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Song Unlock",
+        "description": "",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 12373,
+                "dllName": "ddr.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 47056,
+                "dllName": "ddr.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 47173,
+                "dllName": "ddr.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 47217,
+                "dllName": "ddr.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 47319,
+                "dllName": "ddr.dll",
+                "dataDisabled": "7206",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Enable timing offset",
+        "description": "Set the value below to 2116822084 if disabled",
+        "gameCode": "JDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 306046,
+                "dllName": "ddr.dll",
+                "dataDisabled": "89",
+                "dataEnabled": "05"
+            },
+            {
+                "offset": 306051,
+                "dllName": "ddr.dll",
+                "dataDisabled": "062BC68944242C",
+                "dataEnabled": "8944242C909090"
+            }
+        ]
+    },
+    {
+        "name": "Timing Offset",
+        "description": "Change 2116822084 to the actual default of -1. From there, subtract to make timing later or add to make it earlier.",
+        "gameCode": "JDX",
+        "type": "number",
+        "patch": {
+            "dllName": "ddr.dll",
+            "offset": 306047,
+            "min": -20,
+            "max": 20,
+            "size": 4
+        }
+    }
+]

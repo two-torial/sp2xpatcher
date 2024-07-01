@@ -163,6 +163,14 @@ Patches for which we don't know the corresponding game version.
 
 ## Dance Dance Revolution (DDR)
 
+<details><summary>Dance Dance Revolution X2</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| JDX | ddr.dll | 2010-11-10 | [JDX-4cd93f47_18932a](patches/JDX-4cd93f47_18932a.json) |
+| JDX | ddr.exe | 2010-12-07 (US) | [JDX-4cfe04e1_16b582](patches/JDX-4cfe04e1_16b582.json) |
+</details>
+
 <details><summary>Dance Dance Revolution 2013</summary>
 
 | Codename | Filename | Version | Identifier |
