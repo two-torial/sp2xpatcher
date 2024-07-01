@@ -171,6 +171,13 @@ Patches for which we don't know the corresponding game version.
 | JDX | ddr.exe | 2010-12-07 (US) | [JDX-4cfe04e1_16b582](patches/JDX-4cfe04e1_16b582.json) |
 </details>
 
+<details><summary>Dance Dance Revolution X3</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KDX | ddr.dll | 2012-11-26 | [MDX-50b1ea68_1a04ed](patches/KDX-50b1ea68_1a04ed.json) |
+</details>
+
 <details><summary>Dance Dance Revolution 2013</summary>
 
 | Codename | Filename | Version | Identifier |
