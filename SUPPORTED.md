@@ -175,7 +175,7 @@ Patches for which we don't know the corresponding game version.
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| KDX | ddr.dll | 2012-11-26 | [MDX-50b1ea68_1a04ed](patches/KDX-50b1ea68_1a04ed.json) |
+| KDX | ddr.dll | 2012-11-26 | [KDX-50b1ea68_1a04ed](patches/KDX-50b1ea68_1a04ed.json) |
 </details>
 
 <details><summary>Dance Dance Revolution 2013</summary>
