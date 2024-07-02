@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "LDJ",
+        "version": "2016-08-31",
+        "lastUpdated": "2024-07-02 23:19:37",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Premium Free",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Premium Free (2 player mode)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -60,7 +63,6 @@
         "name": "Premium Free Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -75,7 +77,6 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -90,7 +91,6 @@
         "name": "Level 12 Unlocked",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -105,7 +105,6 @@
         "name": "Cursor lock",
         "description": "After song finishes, song select remains on previous song",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -120,7 +119,6 @@
         "name": "CS-Style Song Start Delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -135,7 +133,6 @@
         "name": "Disable HCN Tutorial",
         "description": "Don't show tutorial for Hell Charge Notes",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -150,7 +147,6 @@
         "name": "Quick Retry",
         "description": "Hold VEFX and Effect during a song to restart",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -165,7 +161,6 @@
         "name": "Dark Mode",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -180,7 +175,6 @@
         "name": "Volume Bug Fix",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -195,7 +189,6 @@
         "name": "FREE PLAY text",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "union",
         "patches": [
             {
@@ -231,7 +224,6 @@
         "name": "Shorter monitor check",
         "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -246,7 +238,6 @@
         "name": "6 digits in monitor check",
         "description": "Purely visual, does not affect anything besides the FPS display",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {
@@ -261,7 +252,6 @@
         "name": "Coin Unlock",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2016-08-31",
         "type": "memory",
         "patches": [
             {

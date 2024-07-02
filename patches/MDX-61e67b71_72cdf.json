@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "MDX",
+        "version": "2021-08-04",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Screen Setting",
         "description": "Changes resolution based on Sceen type",
         "gameCode": "MDX",
-        "dateCode": "2021-08-04",
         "type": "union",
         "patches": [
             {

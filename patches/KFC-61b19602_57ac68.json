@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "KFC",
+        "version": "2021-12-14",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Disable power change",
         "description": "Prevents power mode change on startup",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Disable monitor change",
         "description": "Prevents monitor setting changes on startup",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Force BIO2 (KFC) IO in Valkyrie mode",
         "description": "Will only work with <spec __type=\"str\">F</spec> changed to either G or H, in ea3-config.xml.",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +51,6 @@
         "name": "120Hz Support",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -63,7 +65,6 @@
         "name": "Note FPS Target",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "union",
         "patches": [
             {
@@ -126,7 +127,6 @@
         "name": "Force Note FPS Target",
         "description": "Enable this if above is not Default",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -147,7 +147,6 @@
         "name": "Shared mode WASAPI",
         "description": "Only replaces the first audio device init attempt. Set output to 44100Hz 16bit if it doesn't work.",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -162,7 +161,6 @@
         "name": "Shared mode WASAPI Valkyrie",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -177,7 +175,6 @@
         "name": "Allow non E004 cards",
         "description": "Allows cards that do not have E004 card IDs (such as mifare cards) to work.",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -198,7 +195,6 @@
         "name": "Unlock All songs",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -219,7 +215,6 @@
         "name": "Unlock All difficulties",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -234,7 +229,6 @@
         "name": "Enable S-CRITICAL in Light Start",
         "description": "Only in Valkyrie mode.",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -261,7 +255,6 @@
         "name": "Uncensor album jackets (for K region only)",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -276,7 +269,6 @@
         "name": "Disable subscreen in Valkyrie mode",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -291,7 +283,6 @@
         "name": "Timer freeze",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -306,7 +297,6 @@
         "name": "Premium timer freeze",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -333,7 +323,6 @@
         "name": "Hide premium guide banner",
         "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -348,7 +337,6 @@
         "name": "Hide bottom text",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "memory",
         "patches": [
             {
@@ -381,7 +369,6 @@
         "name": "Premium Time Length",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2021-12-14",
         "type": "union",
         "patches": [
             {

@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "MDX",
+        "version": "2024-04-02 (001)",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Mode Layout",
         "description": "Changes resolution based on sceen type, among other things",
         "gameCode": "MDX",
-        "dateCode": "2024-04-02 (001)",
         "type": "union",
         "patches": [
             {

@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "LDJ",
+        "version": "2021-09-15 (003)",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "SSE4.2 Fix",
         "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this. This is known to cause a crash when using WASAPI audio.",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Bypass lightning monitor error",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Shim Lightning Mode IO (for spicetools)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -54,7 +57,6 @@
         "name": "Lightning Mode camera crash fix (for spicetools)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -69,7 +71,6 @@
         "name": "Force LDJ software video decoder for all boot modes",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -84,7 +85,6 @@
         "name": "Force 120hz timing and adapter mode in LDJ",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -111,7 +111,6 @@
         "name": "WASAPI Shared Mode (with 44100Hz)",
         "description": "Turns WASAPI Exclusive Mode into Shared Mode. Audio device's default format must be set to 44100Hz for this to work.",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -126,7 +125,6 @@
         "name": "Unscramble touch screen keypad in TDJ",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -141,7 +139,6 @@
         "name": "Skip CAMERA DEVICE ERROR prompt",
         "description": "Prevents the CAMERA DEVICE ERROR message from popping up on boot",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -156,7 +153,6 @@
         "name": "1P Premium Free",
         "description": "Forcibly enables Premium Free option for 1P",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -171,7 +167,6 @@
         "name": "2P Premium Free",
         "description": "Forcibly enables Premium Free option for 2P",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -192,7 +187,6 @@
         "name": "2P force ARENA",
         "description": "Allows selecting Arena option on 2P side",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -207,7 +201,6 @@
         "name": "Force BPL BATTLE",
         "description": "Forcibly enables BPL BATTLE option",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -222,7 +215,6 @@
         "name": "Skip Decide Screen",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -237,7 +229,6 @@
         "name": "CS-style song start delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -252,7 +243,6 @@
         "name": "Cursor Lock",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -267,7 +257,6 @@
         "name": "Quick Retry",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -282,7 +271,6 @@
         "name": "Quicker Quick Retry",
         "description": "Shortens duration of the 'stage failed' animation.",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -297,7 +285,6 @@
         "name": "Always show FAST/SLOW total",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -318,7 +305,6 @@
         "name": "Force max V-Discs",
         "description": "Allows for infinite Leggendaria plays in Premium Free",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -333,7 +319,6 @@
         "name": "Hide time limit display on results screen",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -348,7 +333,6 @@
         "name": "Premium Free Timer Freeze",
         "description": "Freezes the timer in PREMIUM FREE mode, allowing unlimited play until exit",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -363,7 +347,6 @@
         "name": "Show Lightning Model folder in LDJ",
         "description": "This folder is normally exclusive to TDJ mode",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -378,7 +361,6 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -393,7 +375,6 @@
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -408,7 +389,6 @@
         "name": "Hide bottom text",
         "description": "Hides the CREDIT, INSERT COINS, NO ACCOUNT, NOT AVAILABLE, and EXTRA PASELI messages",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -447,7 +427,6 @@
         "name": "Also hide \"PASELI: ******\" message",
         "description": "Disable if using PASELI display to LED ticker patch",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -462,7 +441,6 @@
         "name": "Redirect LED ticker to FREE PLAY",
         "description": "Displays LED ticker messages on bottom right when FREE PLAY is enabled",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -477,7 +455,6 @@
         "name": "Redirect LED ticker to PASELI display",
         "description": "Displays LED ticker messages on bottom left when PASELI messages are present",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -498,7 +475,6 @@
         "name": "Disable News Sound",
         "description": "Disables the sound played when news banners appear.",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -513,7 +489,6 @@
         "name": "Increase game volume",
         "description": "Ignore the in-game volume settings and use the maximum possible volume level. Especially helpful for TDJ which tends to be very quiet.",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {
@@ -528,7 +503,6 @@
         "name": "QWERTY keyboard layout for song search",
         "description": "Changes the touch keyboard layout from alphabetical to QWERTY in song and artist search menu (TDJ only)",
         "gameCode": "LDJ",
-        "dateCode": "2021-09-15 (003)",
         "type": "memory",
         "patches": [
             {

@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "M39",
+        "version": "2014-06-19",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Coin Unlock",
         "description": "",
         "gameCode": "M39",
-        "dateCode": "2014-06-19",
         "type": "memory",
         "patches": [
             {

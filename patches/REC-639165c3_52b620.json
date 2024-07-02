@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "REC",
+        "version": "2022-12-14",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "REC",
-        "dateCode": "2022-12-14",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "REC",
-        "dateCode": "2022-12-14",
         "type": "memory",
         "patches": [
             {
@@ -57,7 +61,6 @@
         "name": "Hide Bottom Text",
         "description": "Such as EVENT MODE, PASELI, COIN, CREDIT",
         "gameCode": "REC",
-        "dateCode": "2022-12-14",
         "type": "memory",
         "patches": [
             {
@@ -84,7 +87,6 @@
         "name": "Reroute 'All Factory Settings' Test Menu",
         "description": "AfpViewer keyboard controls are broken",
         "gameCode": "REC",
-        "dateCode": "2022-12-14",
         "type": "union",
         "patches": [
             {
@@ -120,7 +122,6 @@
         "name": "Reroute 'QCTestMenuScene' Test Menu",
         "description": "The patch above must be set to 'QCTestMenuScene'",
         "gameCode": "REC",
-        "dateCode": "2022-12-14",
         "type": "union",
         "patches": [
             {

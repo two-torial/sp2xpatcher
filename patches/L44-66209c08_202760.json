@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L44",
+        "version": "2024-03-25",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Skip Tutorial",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Select Music Timer Freeze",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Skip Category Select",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +51,6 @@
         "name": "Result Timer Freeze",
         "description": "Counts down to 0 then stops",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -63,7 +65,6 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -78,7 +79,6 @@
         "name": "Force Unlock All Markers",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -105,7 +105,6 @@
         "name": "Force Unlock All Backgrounds",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -132,7 +131,6 @@
         "name": "Force Enable Expert Option",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "memory",
         "patches": [
             {
@@ -147,7 +145,6 @@
         "name": "Default Marker For Guest Play",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2024-03-25",
         "type": "union",
         "patches": [
             {

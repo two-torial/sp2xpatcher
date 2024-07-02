@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "MDX",
+        "version": "2015-12-21",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Coinstrip",
         "description": "Disable this to get coin functionality back",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -66,7 +71,6 @@
         "name": "Premium Free",
         "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -81,7 +85,6 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -102,7 +105,6 @@
         "name": "Mute crowd cheering and booing during song",
         "description": "Use with modified voice.xwb to also mute announcer",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -117,7 +119,6 @@
         "name": "Skip online update check",
         "description": "30 seconds at boot",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -132,7 +133,6 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -171,7 +171,6 @@
         "name": "Enable timing offset",
         "description": "Set the value below to 993010756 if disabled",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "memory",
         "patches": [
             {
@@ -192,7 +191,6 @@
         "name": "Timing Offset",
         "description": "Change 993010756 to the actual default of -100. From there, in intervals of 500, subtract to make timing later or add to make it earlier.",
         "gameCode": "MDX",
-        "dateCode": "2015-12-21",
         "type": "number",
         "patch": {
             "dllName": "mdxja_945.dll",

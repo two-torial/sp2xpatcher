@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L44",
+        "version": "2014-11-18",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Coin Unlock",
         "description": "Check the 'Coin Unlock' option in 'jubeat.dll'",
         "gameCode": "L44",
-        "dateCode": "2014-11-18",
         "type": "memory",
         "patches": [
             {

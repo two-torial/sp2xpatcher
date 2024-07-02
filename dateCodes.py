@@ -1,37 +1,44 @@
+from datetime import datetime, timezone
 import re
 import json
 
-# Matches SUPPORTED.md lines with game information on them, splitting the needed data into groups
 regex = re.compile(r"\| ([^|]*) \| ([^|]*) \| ([^|]*) \| \[.*?\]\((.*?)\) \|")
 
-# Updates every entry in a json file with the dateCode
 def update_json_file(json_path, dateCode):
     try:
         with open(json_path, "r", encoding="utf-8") as json_file:
             data = json.load(json_file)
         
-        entries = 0
-        if isinstance(data, list):
-            for entry in data:
-                if "gameCode" in entry:
-                    new_entry = {}
-                    for key, value in entry.items():
-                        new_entry[key] = value
-                        if key == "gameCode":
-                            new_entry["dateCode"] = dateCode
-                    entry.clear()
-                    entry.update(new_entry)
-                    entries += 1
-        
+        if isinstance(data, list) and data:
+            if "name" not in data[0]:
+                data.pop(0)
+            
+            if data:
+                first_entry = data[0]
+                gameCode = first_entry.get("gameCode", "")
+
+                lastUpdated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+                new_entry = {
+                    "gameCode": gameCode,
+                    "version": dateCode,
+                    "lastUpdated": lastUpdated,
+                    "source": 'https://sp2x.two-torial.xyz/',
+                }
+                data.insert(0, new_entry)
+
+                for entry in data[1:]:
+                    if "dateCode" in entry:
+                        del entry["dateCode"]
+
         with open(json_path, "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, indent=4, ensure_ascii=False)
         
         print(f"'{json_path}' -> \"dateCode\": \"{dateCode}\"")
-        return entries
+        return 1
     except Exception as e:
         print(e)
+        return 0
 
-# Main function iterating through SUPPORTED.md, finding relevant lines, processing json files for each game version
 def iterate(file_path):
     try:
         entries = 0
@@ -43,7 +50,7 @@ def iterate(file_path):
                     variant = match.group(1).strip()
                     dateCode = match.group(3).strip()
                     if "-" in variant:
-                        dateCode_with_variant = f"{dateCode} ({variant.split("-")[1]})"
+                        dateCode_with_variant = f"{dateCode} ({variant.split('-')[1]})"
                     else:
                         dateCode_with_variant = dateCode
                     json_path = match.group(4).strip()
@@ -52,7 +59,7 @@ def iterate(file_path):
         return [ entries, count ]
     except Exception as e:
         print(f"Error processing file '{file_path}': {e}")
-
+        return [0, 0]  # Return [0, 0] if there is an exception
 
 entries, count = iterate("SUPPORTED.md")
 print(f"\nUpdated {entries} entries over {count} files.")

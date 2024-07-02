@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "LDJ",
+        "version": "2022-05-09",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Premium Free Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Hide Time Limit Display on Results Screen",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +51,6 @@
         "name": "Hide Background Color Banners on Song List",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -69,7 +71,6 @@
         "name": "Cursor Lock",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -84,7 +85,6 @@
         "name": "Unlock All Songs and Charts",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -99,7 +99,6 @@
         "name": "CS-style Song Start Delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -114,7 +113,6 @@
         "name": "Show Lightning Model Folder in LDJ",
         "description": "This folder is normally exclusive to TDJ mode",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -129,7 +127,6 @@
         "name": "Bypass Lightning Monitor Error",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -144,7 +141,6 @@
         "name": "Shim Lightning Mode IO (for spicetools)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -165,7 +161,6 @@
         "name": "Lightning Mode Camera Crash Fix (for spicetools)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -180,7 +175,6 @@
         "name": "Force LDJ Software Video Decoder for All Boot Modes",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -195,7 +189,6 @@
         "name": "Force Custom Timing and Adapter Mode in LDJ (Experimental)",
         "description": "Enable this if the patch below is not default",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -216,7 +209,6 @@
         "name": "Choose Custom LDJ Timing/Adapter FPS",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -288,7 +280,6 @@
         "name": "Choose Custom TDJ Timing/Adapter FPS",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -351,7 +342,6 @@
         "name": "Choose Fullscreen Monitor Check FPS Target",
         "description": "Match with the two patches above if >120",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -414,7 +404,6 @@
         "name": "Skip Monitor Check",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -429,7 +418,6 @@
         "name": "Choose Skip Monitor Check FPS",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -501,7 +489,6 @@
         "name": "Monitor Adjust Offset",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "number",
         "patch": {
             "dllName": "bm2dx.dll",
@@ -515,7 +502,6 @@
         "name": "Skip CAMERA DEVICE ERROR Prompt",
         "description": "Prevents the CAMERA DEVICE ERROR message from popping up on boot",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -530,7 +516,6 @@
         "name": "Unscramble Touch Screen Keypad in TDJ",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -545,7 +530,6 @@
         "name": "Enable 1P Premium Free",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -560,7 +544,6 @@
         "name": "Enable 2P Premium Free",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -581,7 +564,6 @@
         "name": "Enable ARENA",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -596,7 +578,6 @@
         "name": "Enable BPL BATTLE",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -611,7 +592,6 @@
         "name": "All Notes Preview 12s",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -632,7 +612,6 @@
         "name": "Dark Mode",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -647,7 +626,6 @@
         "name": "Hide Measure Lines",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -662,7 +640,6 @@
         "name": "WASAPI Shared Mode (with 44100Hz)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -677,7 +654,6 @@
         "name": "SSE4.2 Fix",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -692,7 +668,6 @@
         "name": "Skip Decide Screen",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -707,7 +682,6 @@
         "name": "Quick Retry",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -722,7 +696,6 @@
         "name": "Disable News Sound",
         "description": "Disables the sound played when news banners appear.",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -737,7 +710,6 @@
         "name": "Increase Game Volume",
         "description": "Ignore the in-game volume settings and use the maximum possible volume level. Especially helpful for TDJ which tends to be very quiet.",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -752,7 +724,6 @@
         "name": "QWERTY Keyboard Layout for Song Search",
         "description": "Changes the touch keyboard layout from alphabetical to QWERTY in song and artist search menu (TDJ only)",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -767,7 +738,6 @@
         "name": "Hide All Bottom Text",
         "description": "Except for FREE PLAY",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -782,7 +752,6 @@
         "name": "Reroute FREE PLAY Text",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -818,7 +787,6 @@
         "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -833,7 +801,6 @@
         "name": "Debug Mode",
         "description": "While in game, press F1 to enable menu.  (Disables Profile/Score saving)",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -848,7 +815,6 @@
         "name": "Increase 'All Factory Settings' Buffer",
         "description": "Enable this if the option below is not default",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {
@@ -869,7 +835,6 @@
         "name": "Reroute 'All Factory Settings' Test Menu",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -923,7 +888,6 @@
         "name": "Reroute 'I/O Check -> Camera Check -> 2D Code check' Test Menu",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "union",
         "patches": [
             {
@@ -968,7 +932,6 @@
         "name": "Omnimix",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2022-05-09",
         "type": "memory",
         "patches": [
             {

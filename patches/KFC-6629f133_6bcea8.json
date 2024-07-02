@@ -1,10 +1,15 @@
 [
     {
+        "gameCode": "KFC",
+        "version": "2024-04-30",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "type": "memory",
         "name": "Disable power change",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 3023508,
@@ -19,7 +24,6 @@
         "name": "Disable monitor change",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 3023660,
@@ -34,7 +38,6 @@
         "name": "Force BIO2 (KFC) IO in Valkyrie mode",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 5459477,
@@ -49,7 +52,6 @@
         "name": "Game FPS Target",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "name": "60 FPS (Default)",
@@ -76,7 +78,6 @@
         "name": "Note FPS Target",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "name": "60 FPS (Default)",
@@ -103,7 +104,6 @@
         "name": "Shared mode WASAPI",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 5697876,
@@ -118,7 +118,6 @@
         "name": "Shared mode WASAPI Valkyrie",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 5698211,
@@ -133,7 +132,6 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 6295870,
@@ -154,7 +152,6 @@
         "name": "Unlock All Difficulties",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 4307297,
@@ -169,7 +166,6 @@
         "name": "Uncensor album jackets (for K region only)",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 8553088,
@@ -184,7 +180,6 @@
         "name": "Hide all bottom text",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 8171424,
@@ -265,7 +260,6 @@
         "name": "Disable subscreen in Valkyrie mode",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 5166206,
@@ -280,7 +274,6 @@
         "name": "Timer freeze",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 1327541,
@@ -295,7 +288,6 @@
         "name": "Premium timer freeze",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 4352581,
@@ -322,7 +314,6 @@
         "name": "Hide premium guide banner",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 3249096,
@@ -337,7 +328,6 @@
         "name": "Premium Time Length",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "name": "00:00",
@@ -463,7 +453,6 @@
         "name": "Valkyrie Mode 60Hz",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 3023699,
@@ -490,7 +479,6 @@
         "name": "Fake Japan Region",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2024-04-30",
         "patches": [
             {
                 "offset": 2078959,

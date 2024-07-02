@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "REC",
+        "version": "2023-04-18",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "REC",
-        "dateCode": "2023-04-18",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "REC",
-        "dateCode": "2023-04-18",
         "type": "memory",
         "patches": [
             {

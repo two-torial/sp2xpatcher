@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L44",
+        "version": "2014-11-18",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "SELECT MUSIC Timer Lock",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2014-11-18",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2014-11-18",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Coin Unlock",
         "description": "Check the 'Coin Unlock' option in 'coin.dll'",
         "gameCode": "L44",
-        "dateCode": "2014-11-18",
         "type": "memory",
         "patches": [
             {

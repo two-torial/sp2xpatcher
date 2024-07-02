@@ -1,10 +1,15 @@
 [
     {
+        "gameCode": "LDJ",
+        "version": "2023-10-18 (012)",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "type": "memory",
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 8033719,
@@ -19,7 +24,6 @@
         "name": "Premium Free Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7272013,
@@ -34,7 +38,6 @@
         "name": "Hide Time Limit Display on Results Screen",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7728179,
@@ -49,7 +52,6 @@
         "name": "Hide Background Color Banners on Song List",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 11018325,
@@ -82,7 +84,6 @@
         "name": "Cursor Lock",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7556877,
@@ -97,7 +98,6 @@
         "name": "Unlock All Songs and Charts",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7247146,
@@ -112,7 +112,6 @@
         "name": "CS-style Song Start Delay",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7690839,
@@ -127,7 +126,6 @@
         "name": "Enable 1P Premium Free",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7534473,
@@ -142,7 +140,6 @@
         "name": "Enable 2P Premium Free",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7534954,
@@ -163,7 +160,6 @@
         "name": "Force Max V-Discs",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 4946483,
@@ -178,7 +174,6 @@
         "name": "All Notes Preview 12s",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7643197,
@@ -199,7 +194,6 @@
         "name": "Enable ARENA",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7535040,
@@ -214,7 +208,6 @@
         "name": "Enable BPL BATTLE",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7535060,
@@ -229,7 +222,6 @@
         "name": "ARENA Quick Close",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 8002734,
@@ -250,7 +242,6 @@
         "name": "Dark Mode",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7639143,
@@ -265,7 +256,6 @@
         "name": "Hide Measure Lines",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 6775302,
@@ -280,7 +270,6 @@
         "name": "Disable Background Movies",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7945196,
@@ -301,7 +290,6 @@
         "name": "Force TDJ Mode",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 8902930,
@@ -316,7 +304,6 @@
         "name": "Bypass Lightning Monitor Error",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7811476,
@@ -331,7 +318,6 @@
         "name": "Force LDJ Software Video Decoder for All Boot Modes",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 8288337,
@@ -346,7 +332,6 @@
         "name": "Show Lightning Model Folder in LDJ",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7064212,
@@ -361,7 +346,6 @@
         "name": "Force Custom Timing and Adapter Mode in LDJ (Experimental)",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 6760051,
@@ -382,7 +366,6 @@
         "name": "Choose Custom LDJ Timing/Adapter FPS",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "name": "60 FPS",
@@ -445,7 +428,6 @@
         "name": "Choose Fullscreen Monitor Check FPS Target",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "name": "60 FPS",
@@ -508,7 +490,6 @@
         "name": "Skip Monitor Check",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7811462,
@@ -523,7 +504,6 @@
         "name": "Choose Skip Monitor Check FPS",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "name": "Default",
@@ -595,7 +575,6 @@
         "name": "Skip Decide Screen",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 5053824,
@@ -610,7 +589,6 @@
         "name": "Quick Retry",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7081792,
@@ -625,7 +603,6 @@
         "name": "Quicker Quick Retry",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7687941,
@@ -640,7 +617,6 @@
         "name": "Disable News Sound",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 11516272,
@@ -655,7 +631,6 @@
         "name": "QWERTY Keyboard Layout for Song Search",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 11190298,
@@ -670,7 +645,6 @@
         "name": "Increase Game Volume",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 9040181,
@@ -685,7 +659,6 @@
         "name": "Skip CAMERA DEVICE ERROR Prompt",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7862059,
@@ -700,7 +673,6 @@
         "name": "Unscramble Touch Screen Keypad in TDJ",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 8472565,
@@ -715,7 +687,6 @@
         "name": "Debug Mode",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7865904,
@@ -730,7 +701,6 @@
         "name": "Hide All Bottom Text",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 10972880,
@@ -745,7 +715,6 @@
         "name": "Reroute FREE PLAY Text",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "name": "Default",
@@ -781,7 +750,6 @@
         "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 4937069,
@@ -796,7 +764,6 @@
         "name": "Set Mode Select Default",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "name": "Standard",
@@ -868,7 +835,6 @@
         "name": "Auto Play",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 6960425,
@@ -883,7 +849,6 @@
         "name": "Disable Recording Lock",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7081615,
@@ -898,7 +863,6 @@
         "name": "Disable Premium Area Functions Server Region Check",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 6000541,
@@ -913,7 +877,6 @@
         "name": "Remove Camera Boot Delay",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7857937,
@@ -934,7 +897,6 @@
         "name": "Force Enable Dummy Cameras",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 9026102,
@@ -955,7 +917,6 @@
         "name": "Stock LDJ 120Hz Light Speed",
         "description": "",
         "gameCode": "LDJ",
-        "dateCode": "2023-10-18 (012)",
         "patches": [
             {
                 "offset": 7613941,

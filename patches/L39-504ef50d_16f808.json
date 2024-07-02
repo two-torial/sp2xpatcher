@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L39",
+        "version": "2012-09-19",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Coin Unlock",
         "description": "",
         "gameCode": "L39",
-        "dateCode": "2012-09-19",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +53,6 @@
         "name": "Partial Songs Unlock",
         "description": "Unlock a song dedicated to e-amusement that cannot be unlocked by phase MAX.",
         "gameCode": "L39",
-        "dateCode": "2012-09-19",
         "type": "memory",
         "patches": [
             {

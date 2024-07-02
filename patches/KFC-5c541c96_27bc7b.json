@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "KFC",
+        "version": "2019-02-06",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "All songs/difficulties unlocked",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -24,7 +29,6 @@
         "name": "All songs \"Safe\"",
         "description": "Failing early won't drop you out of your session",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -39,7 +43,6 @@
         "name": "No \"Safe\" banner on jackets",
         "description": "Remove visual clutter",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -54,7 +57,6 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -69,7 +71,6 @@
         "name": "Boot into Event Mode",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -84,7 +85,6 @@
         "name": "Uncensor album jackets (for K region only)",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -99,7 +99,6 @@
         "name": "Disable EVENT MODE/FREE PLAY text",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -114,7 +113,6 @@
         "name": "PFree (Unlimited plays)",
         "description": "Song clears/scores only, mission progress and custom settings do not save",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -135,7 +133,6 @@
         "name": "Allow ARS (Alternative Rate System) Option",
         "description": "At gauge select, go to excessive and press BT-D to enable",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -150,7 +147,6 @@
         "name": "Freeze timer in all modes",
         "description": "Useful to play with Omega Dimension Ex-Track",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -165,7 +161,6 @@
         "name": "Non-Effective Rate gauges start at 0%",
         "description": "This affects all \"Hard\" Gauge types",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -180,7 +175,6 @@
         "name": "Non-Effective Rate gauges do not recover",
         "description": "This affects all \"Hard\" Gauge types",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -195,7 +189,6 @@
         "name": "Omega Dimension Matching scene as default",
         "description": "Replaces stock matching scene with Omega Dimension matching",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -210,7 +203,6 @@
         "name": "QC Mode",
         "description": "Replaces IC Card Check in test menu",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -231,7 +223,6 @@
         "name": "English folder text",
         "description": "FX-L button on appeal card and song screens",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -270,7 +261,6 @@
         "name": "Skip global matching screen",
         "description": "Automatically skips the screen between song select and gameplay",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {
@@ -285,7 +275,6 @@
         "name": "Force Enable Headphones",
         "description": "Overrides headphone detection to always be enabled. Useful for cabinets.",
         "gameCode": "KFC",
-        "dateCode": "2019-02-06",
         "type": "memory",
         "patches": [
             {

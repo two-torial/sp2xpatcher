@@ -1,10 +1,15 @@
 [
     {
+        "gameCode": "KFC",
+        "version": "2014-10-22 (PhaseII)",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Freeze timer in all modes",
         "description": "",
         "caution": "Not properly tested",
         "gameCode": "KFC",
-        "dateCode": "2014-10-22 (PhaseII)",
         "type": "memory",
         "patches": [
             {
@@ -19,7 +24,6 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "KFC",
-        "dateCode": "2014-10-22 (PhaseII)",
         "type": "memory",
         "patches": [
             {

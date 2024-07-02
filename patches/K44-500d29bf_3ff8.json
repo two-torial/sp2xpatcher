@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "K44",
+        "version": "2012-07-23",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "K44",
-        "dateCode": "2012-07-23",
         "type": "memory",
         "patches": [
             {

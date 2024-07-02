@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "MDX",
+        "version": "2014-03-27",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "NVIDIA gray arrow/freeze color fix",
         "description": "Also affects newer AMD cards",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "memory",
         "patches": [
             {
@@ -39,7 +43,6 @@
         "name": "Mute crowd cheering and booing during song",
         "description": "Use with modified voice.xwb to also mute announcer",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "memory",
         "patches": [
             {
@@ -54,7 +57,6 @@
         "name": "Skip online update check",
         "description": "30 seconds at boot",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "memory",
         "patches": [
             {
@@ -69,7 +71,6 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "memory",
         "patches": [
             {
@@ -108,7 +109,6 @@
         "name": "Enable timing offset",
         "description": "Set the value below to 2083529796 if disabled",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "memory",
         "patches": [
             {
@@ -129,7 +129,6 @@
         "name": "Timing Offset",
         "description": "Change 2083529796 to the actual default of -100. From there, in intervals of 500, subtract to make timing later or add to make it earlier.",
         "gameCode": "MDX",
-        "dateCode": "2014-03-27",
         "type": "number",
         "patch": {
             "dllName": "mdxja_945.dll",

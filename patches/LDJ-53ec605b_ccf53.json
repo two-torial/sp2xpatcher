@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "LDJ",
+        "version": "2014-09-17",
+        "lastUpdated": "2024-07-02 23:19:37",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Shorter monitor check",
         "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
         "gameCode": "LDJ",
-        "dateCode": "2014-09-17",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "6 digits in monitor check",
         "description": "Purely visual, does not affect anything besides the FPS display",
         "gameCode": "LDJ",
-        "dateCode": "2014-09-17",
         "type": "memory",
         "patches": [
             {

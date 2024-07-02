@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "K39",
+        "version": "2011-06-14",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Partial Songs Unlock",
         "description": "Unlock a song dedicated to e-amusement that cannot be unlocked by phase MAX.",
         "gameCode": "K39",
-        "dateCode": "2011-06-14",
         "type": "memory",
         "patches": [
             {

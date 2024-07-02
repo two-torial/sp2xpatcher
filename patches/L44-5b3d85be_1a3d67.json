@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L44",
+        "version": "2018-07-09",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Disable Tutorial",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2018-07-09",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "SELECT MUSIC Timer Lock",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2018-07-09",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Expert Options Lock",
         "description": "As soon as you toggle on expert option, every subsequent play will keep it on.",
         "gameCode": "L44",
-        "dateCode": "2018-07-09",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +51,6 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2018-07-09",
         "type": "memory",
         "patches": [
             {
@@ -63,7 +65,6 @@
         "name": "English Concierge Menu Text",
         "description": "If text is incorrectly spaced, set your system locale to Japanese.",
         "gameCode": "L44",
-        "dateCode": "2018-07-09",
         "type": "memory",
         "patches": [
             {

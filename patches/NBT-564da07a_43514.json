@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "NBT",
+        "version": "2015-12-01",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "E: drive fix",
         "description": "Fix crash caused by no E: drive",
         "gameCode": "NBT",
-        "dateCode": "2015-12-01",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Unlock all songs",
         "description": "",
         "gameCode": "NBT",
-        "dateCode": "2015-12-01",
         "type": "memory",
         "patches": [
             {

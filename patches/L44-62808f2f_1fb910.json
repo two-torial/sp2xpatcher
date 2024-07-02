@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L44",
+        "version": "2022-05-24, 2022-02-16",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Disable Tutorial",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "SELECT MUSIC Timer Lock",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Skip CATEGORY SELECT",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +51,6 @@
         "name": "Result Timer Freeze",
         "description": "Counts down to 0 then stops",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -63,7 +65,6 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -78,7 +79,6 @@
         "name": "Force enable Expert Option",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -93,7 +93,6 @@
         "name": "Force unlock all markers",
         "description": "For guest play, online required",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -120,7 +119,6 @@
         "name": "Force unlock all backgrounds",
         "description": "For guest play, online required",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "memory",
         "patches": [
             {
@@ -147,7 +145,6 @@
         "name": "Default marker for guest play",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {
@@ -579,7 +576,6 @@
         "name": "Default background for guest play",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {
@@ -705,7 +701,6 @@
         "name": "Combo display - guest play default",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {
@@ -732,7 +727,6 @@
         "name": "Ranking display - guest play default",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {
@@ -759,7 +753,6 @@
         "name": "HARD MODE - guest play default",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {
@@ -786,7 +779,6 @@
         "name": "MATCHING option - guest play default",
         "description": "Expert option required",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {
@@ -813,7 +805,6 @@
         "name": "HAZARD option - guest play default",
         "description": "Expert option required",
         "gameCode": "L44",
-        "dateCode": "2022-05-24, 2022-02-16",
         "type": "union",
         "patches": [
             {

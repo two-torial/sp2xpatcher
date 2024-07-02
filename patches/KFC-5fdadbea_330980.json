@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "KFC",
+        "version": "2020-12-22",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "SSE4.2 Fix",
         "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this.",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -30,7 +35,6 @@
         "name": "All songs/difficulties unlocked",
         "description": "Do not use when connected to online servers, will break automation paradise favoriting",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -57,7 +61,6 @@
         "name": "All songs \"Safe\"",
         "description": "Failing early won't drop you out of your session",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -78,7 +81,6 @@
         "name": "Hide premium guide banner",
         "description": "Remove visual clutter during premium song",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -93,7 +95,6 @@
         "name": "Boot into Event Mode",
         "description": "Not compatible with premium free mode",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -108,7 +109,6 @@
         "name": "Enable ARS (Alternative Rate System) in Light Start",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -123,7 +123,6 @@
         "name": "All crew unlocked",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -138,7 +137,6 @@
         "name": "Skip Global Matching Screen",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -153,7 +151,6 @@
         "name": "All Appeal Cards Unlocked",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -168,7 +165,6 @@
         "name": "Shared mode WASAPI",
         "description": "Only replaces the first audio device init attempt. Set output to 44100Hz 16bit if it doesn't work.",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -183,7 +179,6 @@
         "name": "Freeze timer in all modes",
         "description": "Useful to play with Omega Dimension Ex-Track",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -198,7 +193,6 @@
         "name": "Force Enable Headphones",
         "description": "Overrides headphone detection to always be enabled. Useful for cabinets.",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -213,7 +207,6 @@
         "name": "Infinite Premium Time",
         "description": "Locks the timer, can still exit with key combo",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -228,7 +221,6 @@
         "name": "Bypass Camera",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -243,7 +235,6 @@
         "name": "Uncensor album jackets (for K region only)",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "memory",
         "patches": [
             {
@@ -258,7 +249,6 @@
         "name": "Premium Time Length",
         "description": "",
         "gameCode": "KFC",
-        "dateCode": "2020-12-22",
         "type": "union",
         "patches": [
             {

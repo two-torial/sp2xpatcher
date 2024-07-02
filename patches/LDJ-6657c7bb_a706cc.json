@@ -1,7 +1,12 @@
 [
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
+        "version": "2024-06-04 (010)",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "gameCode": "ldj",
         "name": "Audio Output Mode",
         "description": "",
         "preset": false,
@@ -38,7 +43,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Use Maximum Game Volume",
         "description": "Ignore the in-game volume settings and use the maximum possible volume level. Especially helpful for TDJ which tends to be very quiet.",
         "preset": true,
@@ -54,7 +58,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "preset": true,
@@ -70,7 +73,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Premium Free Timer Freeze",
         "description": "",
         "preset": true,
@@ -86,7 +88,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Cursor Lock",
         "description": "Return to previous selected in music select. Requires a card.",
         "preset": true,
@@ -102,7 +103,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "CS-style Song Start Delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "preset": true,
@@ -118,7 +118,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Unscramble Touch Screen Keypad in TDJ",
         "description": "",
         "preset": true,
@@ -134,7 +133,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Unlimited V-Disc",
         "description": "Bypass the consumption of V-Disc",
         "preset": true,
@@ -150,7 +148,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Quick Retry",
         "description": "",
         "preset": true,
@@ -166,7 +163,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Quicker Quick Retry",
         "description": "Shortens duration of the 'stage failed' animation.",
         "preset": false,
@@ -182,7 +178,6 @@
     },
     {
         "gameCode": "ldj",
-        "dateCode": 20240605,
         "name": "Shorten Monitor Check",
         "description": "Shorten monitor check time by skipping retries. Use at your own risk.",
         "preset": false,

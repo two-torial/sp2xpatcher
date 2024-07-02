@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "L44",
+        "version": "2017-06-20",
+        "lastUpdated": "2024-07-02 23:19:38",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Disable Tutorial",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2017-06-20",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "SELECT MUSIC Timer Lock",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2017-06-20",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
-        "dateCode": "2017-06-20",
         "type": "memory",
         "patches": [
             {

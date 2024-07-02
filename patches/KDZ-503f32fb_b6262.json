@@ -1,9 +1,14 @@
 [
     {
+        "gameCode": "KDZ",
+        "version": "2012-09-03",
+        "lastUpdated": "2024-07-02 23:19:37",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Remove Local Play Banner",
         "description": "",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -18,7 +23,6 @@
         "name": "Premium Free",
         "description": "",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -33,7 +37,6 @@
         "name": "Beatfree",
         "description": "",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -48,7 +51,6 @@
         "name": "Enable Monitor Types C - F",
         "description": "",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -63,7 +65,6 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -78,7 +79,6 @@
         "name": "Use E and F Folders",
         "description": "",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -93,7 +93,6 @@
         "name": "Mixer Bug Fix 1",
         "description": "if sound card has a large number of unreasonable mixer channels, use it.",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
@@ -108,7 +107,6 @@
         "name": "Mixer Bug Fix 2",
         "description": "if sound card has a large number of unreasonable mixer channels, use it.",
         "gameCode": "KDZ",
-        "dateCode": "2012-09-03",
         "type": "memory",
         "patches": [
             {
