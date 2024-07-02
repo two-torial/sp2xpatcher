@@ -80,9 +80,9 @@
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 8632710,
+                "offset": 8806669,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "741D",
+                "dataDisabled": "7422",
                 "dataEnabled": "9090"
             }
         ]
