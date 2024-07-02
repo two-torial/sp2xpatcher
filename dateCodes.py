@@ -24,7 +24,7 @@ def update_json_file(json_path, dateCode):
                     entries += 1
         
         with open(json_path, "w", encoding="utf-8") as json_file:
-            json.dump(data, json_file, indent=4)
+            json.dump(data, json_file, indent=4, ensure_ascii=False)
         
         print(f"'{json_path}' -> \"dateCode\": \"{dateCode}\"")
         return entries
