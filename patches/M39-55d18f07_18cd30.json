@@ -3,6 +3,7 @@
         "name": "Unlock all the things",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2015-08-19",
         "type": "memory",
         "patches": [
             {
@@ -2981,6 +2982,7 @@
         "name": "E: Drive Fix",
         "description": "Fix crash caused by no E: drive",
         "gameCode": "M39",
+        "dateCode": "2015-08-19",
         "type": "memory",
         "patches": [
             {
@@ -2995,6 +2997,7 @@
         "name": "HDMI Audio Fix",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2015-08-19",
         "type": "memory",
         "patches": [
             {
@@ -3009,6 +3012,7 @@
         "name": "'NO' selected for tutorial by default",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2015-08-19",
         "type": "memory",
         "patches": [
             {
@@ -3023,6 +3027,7 @@
         "name": "Remove Timer",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2015-08-19",
         "type": "memory",
         "patches": [
             {
@@ -3037,6 +3042,7 @@
         "name": "Coin Unlock",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2015-08-19",
         "type": "memory",
         "patches": [
             {

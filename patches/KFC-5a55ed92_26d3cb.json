@@ -3,6 +3,7 @@
         "name": "All songs/difficulties unlocked",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -23,6 +24,7 @@
         "name": "All songs \"Safe\"",
         "description": "Failing early won't drop you out of your session",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -37,6 +39,7 @@
         "name": "No \"Safe\" banner on jackets",
         "description": "Remove visual clutter",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -51,6 +54,7 @@
         "name": "Boot into Event Mode",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -65,6 +69,7 @@
         "name": "PFree (Unlimited plays)",
         "description": "Song clears/scores only, mission progress and custom settings do not save",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -85,6 +90,7 @@
         "name": "Hide PASELI text",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Omega Dimension Matching scene as default",
         "description": "Replaces stock matching scene with Omega Dimension matching",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -113,6 +120,7 @@
         "name": "QC Mode",
         "description": "Replaces IC Card Check in test menu",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {
@@ -133,6 +141,7 @@
         "name": "English folder text",
         "description": "FX-L button on appeal card and song screens",
         "gameCode": "KFC",
+        "dateCode": "2018-01-16",
         "type": "memory",
         "patches": [
             {

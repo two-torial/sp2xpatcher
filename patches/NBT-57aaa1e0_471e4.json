@@ -3,6 +3,7 @@
         "name": "E: drive fix",
         "description": "Fix crash caused by no E: drive",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Unlock all songs",
         "description": "",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "NIGHTMARE difficulty unlock",
         "description": "",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Increase hi-speed range to 1.0-2.5",
         "description": "",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -65,6 +69,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -85,6 +90,7 @@
         "name": "Shorter Monitor Check",
         "description": "",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Prevent volume change on boot",
         "description": "",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {
@@ -119,6 +126,7 @@
         "name": "Make attract scenes show in free play",
         "description": "Makes demo/news/etc show in free play and makes them skippable in all modes by touching the screen. Use 8 fingers to skip the demo song.",
         "gameCode": "NBT",
+        "dateCode": "2016-11-14",
         "type": "memory",
         "patches": [
             {

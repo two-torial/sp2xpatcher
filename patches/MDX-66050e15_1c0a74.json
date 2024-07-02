@@ -3,6 +3,7 @@
         "name": "Force enable fast/slow",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Force background judgement",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Force darkest background",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Opaque background for darkest background option",
         "description": "This makes the darkest background option be 99% opaque, hiding the dancers and videos.",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -110,6 +115,7 @@
         "description": "",
         "caution": "Not recommended with cards on networks",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -124,6 +130,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -138,6 +145,7 @@
         "name": "Force unlock extended paseli exclusive options",
         "description": "Premium mode options such as ARROW COLOR and 0.25 speed mod",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -152,6 +160,7 @@
         "name": "Enable extended speed modifiers",
         "description": "x4.25/x7.75",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -166,6 +175,7 @@
         "name": "Enable FLARE Gauges",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -180,6 +190,7 @@
         "name": "Enable LIFE8 modifier",
         "description": "Must be in premium mode to select",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -194,6 +205,7 @@
         "name": "PFC Mode",
         "description": "Like Extra Encore Stage. If you hit a Great or a Good, you lose a life. This feature requires you to select LIFE8/LIFE4/RISKY on the Options, otherwise it has no effect.",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -209,6 +221,7 @@
         "description": "Like PFC Mode with Greats permitted.",
         "caution": "Requires PFC Mode to be enabled and MFC Mode to be disabled.",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -224,6 +237,7 @@
         "description": "Like PFC Mode with Marvelous' only.",
         "caution": "Requires PFC Mode to be enabled and GFC Mode to be disabled.",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -238,6 +252,7 @@
         "name": "Hide all bottom text",
         "description": "Such as EVENT MODE, PASELI, COIN, CREDIT, MAINTENANCE",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -252,6 +267,7 @@
         "name": "Force Cabinet Type 6",
         "description": "Gold cab",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -272,6 +288,7 @@
         "name": "Enable DDR SELECTION",
         "description": "Even works in offline/local mode!",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -287,6 +304,7 @@
         "description": "Bug: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved",
         "caution": "Make sure your network supports this before enabling.",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -325,6 +343,7 @@
         "name": "Mute Announcer",
         "description": "Also mutes crowd cheering and booing during gameplay",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -351,6 +370,7 @@
         "name": "Force DDR SELECTION theme everywhere",
         "description": "Skips intro and enables the skin selected below on all songs",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -383,6 +403,7 @@
         "name": "Choose forced theme",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "union",
         "patches": [
             {
@@ -436,6 +457,7 @@
         "name": "Choose cabinet type timing offset",
         "description": "Set \"Force LCD 945 p3io timing\" for individual offsets below",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "union",
         "patches": [
             {
@@ -534,6 +556,7 @@
         "name": "Sound Offset",
         "description": "Default = 87",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -547,6 +570,7 @@
         "name": "Input Offset",
         "description": "Default = 28",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -560,6 +584,7 @@
         "name": "Render Offset",
         "description": "Default = 17",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -573,6 +598,7 @@
         "name": "Center arrows for single player",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "memory",
         "patches": [
             {
@@ -606,6 +632,7 @@
         "description": "",
         "caution": "Experimental: fast animations and menu scrolling",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "union",
         "patches": [
             {

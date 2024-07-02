@@ -3,6 +3,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "90sec Music Select Timer",
         "description": "Make sure your Select Time option is set to \"45 SEC\" in the Game Options for this to work!",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Premium Free (2 player mode)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -71,6 +75,7 @@
         "name": "Premium Free Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -85,6 +90,7 @@
         "name": "Level 12 Unlocked",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -113,6 +120,7 @@
         "name": "Unlock All Daily Bonuses",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -127,6 +135,7 @@
         "name": "Cursor lock",
         "description": "After song finishes, song select remains on previous song",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -141,6 +150,7 @@
         "name": "CS-Style Song Start Delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -155,6 +165,7 @@
         "name": "Dark Mode",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -169,6 +180,7 @@
         "name": "Disable Bar Lines",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -183,6 +195,7 @@
         "name": "Remove Rainbow Banners",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -197,6 +210,7 @@
         "name": "Volume Bug Fix",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -211,6 +225,7 @@
         "name": "Free play text to LED ticker",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -225,6 +240,7 @@
         "name": "Free play text to LED ticker (Upper left)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -245,6 +261,7 @@
         "name": "Debug mode (disables score saving!)",
         "description": "Press F1 in-game to open menu",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -259,6 +276,7 @@
         "name": "Skip Card Entry",
         "description": "Useful for those without service or to prevent login",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -273,6 +291,7 @@
         "name": "Quick Retry",
         "description": "Hold VEFX and Effect during a song to restart",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -287,6 +306,7 @@
         "name": "Shorter monitor check",
         "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {
@@ -301,6 +321,7 @@
         "name": "6 digits in monitor check",
         "description": "Purely visual, does not affect anything besides the FPS display",
         "gameCode": "LDJ",
+        "dateCode": "2017-08-28",
         "type": "memory",
         "patches": [
             {

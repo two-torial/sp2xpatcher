@@ -3,6 +3,7 @@
         "name": "Coin Unlock",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2014-06-19",
         "type": "memory",
         "patches": [
             {

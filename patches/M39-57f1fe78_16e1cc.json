@@ -3,6 +3,7 @@
         "name": "Song/EX unlock",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -29,6 +30,7 @@
         "name": "'NO' selected for tutorial by default",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -43,6 +45,7 @@
         "name": "Remove Timer",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -57,6 +60,7 @@
         "name": "Unlock Classic 8 EX as a 49",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -77,6 +81,7 @@
         "name": "E: Drive Fix",
         "description": "Fix crash caused by no E: drive",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -91,6 +96,7 @@
         "name": "HDMI Audio Fix",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -105,6 +111,7 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {
@@ -119,6 +126,7 @@
         "name": "Boot to Event Mode",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2016-10-05",
         "type": "memory",
         "patches": [
             {

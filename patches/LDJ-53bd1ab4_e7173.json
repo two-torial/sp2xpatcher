@@ -3,6 +3,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Unlock all songs",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "CS-Style Song Start Delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "Premium Free Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -73,6 +78,7 @@
         "name": "Hide FREE PLAY text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -87,6 +93,7 @@
         "name": "Cursor lock",
         "description": "After song finishes, song select remains on previous song",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -101,6 +108,7 @@
         "name": "Volume Bug Fix",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -115,6 +123,7 @@
         "name": "Debug mode (disables score saving!)",
         "description": "Press F1 in-game to open menu",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -129,6 +138,7 @@
         "name": "Free play text to LED ticker",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -143,6 +153,7 @@
         "name": "Shorter monitor check",
         "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -157,6 +168,7 @@
         "name": "6 digits in monitor check",
         "description": "Purely visual, does not affect anything besides the FPS display",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {
@@ -171,6 +183,7 @@
         "name": "Coin Unlock",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2014-07-16",
         "type": "memory",
         "patches": [
             {

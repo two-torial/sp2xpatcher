@@ -3,6 +3,7 @@
         "name": "Unlock all songs",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2020-06-11 -> 2022-05-24",
         "type": "memory",
         "patches": [
             {

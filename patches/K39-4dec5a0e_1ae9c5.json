@@ -3,6 +3,7 @@
         "name": "Partial Songs Unlock",
         "description": "Unlock a song dedicated to e-amusement that cannot be unlocked by phase MAX.",
         "gameCode": "K39",
+        "dateCode": "2011-06-14",
         "type": "memory",
         "patches": [
             {

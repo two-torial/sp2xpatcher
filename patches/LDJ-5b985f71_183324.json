@@ -3,6 +3,7 @@
         "name": "SSE4.2 Fix",
         "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this.",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Unlock All 12s",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Skip CAMERA DEVICE ERROR prompt",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "1P Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -73,6 +78,7 @@
         "name": "2P Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -93,6 +99,7 @@
         "name": "Premium Free Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -107,6 +114,7 @@
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -121,6 +129,7 @@
         "name": "90sec Music Select Timer",
         "description": "Make sure your Select Time option is set to \"45 SEC\" in the Game Options for this to work!",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -135,6 +144,7 @@
         "name": "Cursor lock",
         "description": "After song finishes, song select remains on previous song",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -149,6 +159,7 @@
         "name": "CS-Style Song Start Delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -163,6 +174,7 @@
         "name": "Play video preview on all songs",
         "description": "By default, only some songs in the beginner folder show a BGA preview on the music select screen. This edit extends this function to every song in any folder.",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -183,6 +195,7 @@
         "name": "Hide INSERT COIN[S] text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -197,6 +210,7 @@
         "name": "Hide CREDIT: %d text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -211,6 +225,7 @@
         "name": "Hide CREDIT: %d COIN %d / %d text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -225,6 +240,7 @@
         "name": "Hide EXTRA PASELI: %d text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -239,6 +255,7 @@
         "name": "Hide PASELI: %d text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -253,6 +270,7 @@
         "name": "Hide PASELI: NO ACCOUNT text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -267,6 +285,7 @@
         "name": "Hide PASELI: ****** text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -281,6 +300,7 @@
         "name": "Free play text to LED ticker (Bottom Right)",
         "description": "Song Title/Ticker information will display instead of FREEPLAY",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -295,6 +315,7 @@
         "name": "LED Ticker (Top Left)",
         "description": "This does NOT require FREEPLAY on",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -315,6 +336,7 @@
         "name": "Dark Mode",
         "description": "Removes frame assets from playfield during song",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -329,6 +351,7 @@
         "name": "Disable Bar Lines",
         "description": "Removes white measure bars during song. Great with Dark Mode.",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -343,6 +366,7 @@
         "name": "Remove Song Select Color Banners",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -375,6 +399,7 @@
         "name": "Quick Retry",
         "description": "Guest or non-VIP Card Players - Hold VEFX and Effect during a song to quick restart",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -389,6 +414,7 @@
         "name": "Debug Mode",
         "description": "While in game, press F1 to enable menu.  (Disables Profile/Score saving)",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -403,6 +429,7 @@
         "name": "Skip Card Entry",
         "description": "Useful for those without service or wish to prevent login",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -417,6 +444,7 @@
         "name": "Expert Course Force Open (in offline or local mode)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -431,6 +459,7 @@
         "name": "Shorter monitor check",
         "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -445,6 +474,7 @@
         "name": "6 digits in monitor check",
         "description": "Purely visual, does not affect anything besides the FPS display",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {
@@ -459,6 +489,7 @@
         "name": "Skip decide screen",
         "description": "Immediately loads into chart after selection.",
         "gameCode": "LDJ",
+        "dateCode": "2018-09-19",
         "type": "memory",
         "patches": [
             {

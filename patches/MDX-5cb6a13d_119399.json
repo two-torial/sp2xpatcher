@@ -3,6 +3,7 @@
         "name": "Force enable fast/slow",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Force background judgement",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Force darkest background",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Song Unlock (Incomplete)",
         "description": "Unlocks all event mode songs, ACES FOR ACES and ENDYMION, A20 (including ORCA), but still requires a musicdb edit to remove all restrictions.",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -71,6 +75,7 @@
         "name": "Tutorial Skip",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -85,6 +90,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Unlock options",
         "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -113,6 +120,7 @@
         "name": "Force Cabinet Type 6",
         "description": "This will cause the game to load a different theme, some assets (such as menu background) may not work with this forced code.",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -127,6 +135,7 @@
         "name": "Force ENDYMION menu background",
         "description": "This will force the game to use the red cloud background instead of the default one.",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -141,6 +150,7 @@
         "name": "Skip A20 menu background loading",
         "description": "This skips the check for the golden menu background completely, and instead will load the default",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -155,6 +165,7 @@
         "name": "Opaque background for darkest background option",
         "description": "This makes the background for the darkest background option be 99% opaque, hiding the background dancers and videos.",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -169,6 +180,7 @@
         "name": "Enable cabinet lights for Cabinet Type 6",
         "description": "This enables the use of cabinet lighting for Cabinet Type 6",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -195,6 +207,7 @@
         "name": "Enable DDR SELECTION",
         "description": "Even works in offline/local mode!",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -209,6 +222,7 @@
         "name": "Premium Free",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -223,6 +237,7 @@
         "name": "Mute announcer",
         "description": "Also mutes crowd cheering and booing during gameplay",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -249,6 +264,7 @@
         "name": "Force DDR SELECTION theme everywhere",
         "description": "Skips intro and enables the skin selected below on all songs",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "memory",
         "patches": [
             {
@@ -281,6 +297,7 @@
         "name": "Choose forced theme",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "union",
         "patches": [
             {
@@ -334,6 +351,7 @@
         "name": "SSQ Offset",
         "description": "Bigger numbers make arrows later",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -347,6 +365,7 @@
         "name": "Sound Offset",
         "description": "Bigger numbers make audio later",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -360,6 +379,7 @@
         "name": "Input Offset",
         "description": "Bigger numbers make judgement earlier",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -373,6 +393,7 @@
         "name": "Render Offset",
         "description": "Bigger numbers make arrows later visually",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -386,6 +407,7 @@
         "name": "Bomb Frame Offset",
         "description": "Bigger numbers delay explosion animation",
         "gameCode": "MDX",
+        "dateCode": "2019-04-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",

@@ -3,6 +3,7 @@
         "name": "Mode Layout",
         "description": "Changes resolution based on sceen type, among other things",
         "gameCode": "MDX",
+        "dateCode": "2024-04-02 (003)",
         "type": "union",
         "patches": [
             {

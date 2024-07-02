@@ -4,6 +4,7 @@
         "description": "",
         "caution": "Not properly tested",
         "gameCode": "KFC",
+        "dateCode": "2014-10-22 (PhaseII)",
         "type": "memory",
         "patches": [
             {
@@ -18,6 +19,7 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "KFC",
+        "dateCode": "2014-10-22 (PhaseII)",
         "type": "memory",
         "patches": [
             {

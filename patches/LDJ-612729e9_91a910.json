@@ -3,6 +3,7 @@
         "name": "SSE4.2 Fix",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Skip Camera Error",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Force 120hz timing and adapter mode in LDJ (Experimental)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -57,6 +60,7 @@
         "name": "Shim Lightning Mode IO (for spicetools)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -83,6 +87,7 @@
         "name": "Bypass lightning monitor error",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -97,6 +102,7 @@
         "name": "Force LDJ software video decoder for all boot modes",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -111,6 +117,7 @@
         "name": "Unscramble touch screen keypad in TDJ",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -125,6 +132,7 @@
         "name": "1P Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -139,6 +147,7 @@
         "name": "2P Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -159,6 +168,7 @@
         "name": "2P Force ARENA",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -173,6 +183,7 @@
         "name": "Force BPL Battle",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -187,6 +198,7 @@
         "name": "Force Max V-Discs",
         "description": "Only for infinity retry when playing LEGENDARIA charts in Premium Free mode",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -201,6 +213,7 @@
         "name": "Hide all bottom text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -251,6 +264,7 @@
         "name": "Hide Time Limit at result",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -265,6 +279,7 @@
         "name": "Premium Free Timer Freeze",
         "description": "Freezes the timer in PREMIUM FREE mode, allowing unlimited play until exit",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -279,6 +294,7 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -293,6 +309,7 @@
         "name": "Unlock All 12s",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -307,6 +324,7 @@
         "name": "Skip Decide Screen",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -321,6 +339,7 @@
         "name": "CS-style song start delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -335,6 +354,7 @@
         "name": "Cursor Lock",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -349,6 +369,7 @@
         "name": "Quick Retry",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -363,6 +384,7 @@
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -377,6 +399,7 @@
         "name": "WASAPI Shared Mode (with 44100Hz)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {
@@ -391,6 +414,7 @@
         "name": "Always show FAST/SLOW total",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-08-30",
         "type": "memory",
         "patches": [
             {

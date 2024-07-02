@@ -3,6 +3,7 @@
         "name": "E/F drive fix",
         "description": "",
         "gameCode": "JDZ",
+        "dateCode": "2011-07-12",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Premium Free",
         "description": "",
         "gameCode": "JDZ",
+        "dateCode": "2011-07-12",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Nvidia card fix",
         "description": "Disables 3D models, skips MODEL DATA ERROR",
         "gameCode": "JDZ",
+        "dateCode": "2011-07-12",
         "type": "memory",
         "patches": [
             {
@@ -51,6 +54,7 @@
         "name": "Unlock all songs",
         "description": "May crash the game",
         "gameCode": "JDZ",
+        "dateCode": "2011-07-12",
         "type": "memory",
         "patches": [
             {
@@ -71,6 +75,7 @@
         "name": "Skip data errors",
         "description": "Skips MUSIC DATA, .1, and COURSE DATA errors",
         "gameCode": "JDZ",
+        "dateCode": "2011-07-12",
         "type": "memory",
         "patches": [
             {
@@ -97,6 +102,7 @@
         "name": "Shorter Monitor Check",
         "description": "",
         "gameCode": "JDZ",
+        "dateCode": "2011-07-12",
         "type": "memory",
         "patches": [
             {

@@ -3,6 +3,7 @@
         "name": "SELECT MUSIC Timer Lock",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2014-01-28",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2014-01-28",
         "type": "memory",
         "patches": [
             {

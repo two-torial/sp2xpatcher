@@ -3,6 +3,7 @@
         "name": "NVIDIA gray arrow/freeze color fix",
         "description": "Also affects newer AMD cards",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Mute crowd cheering and booing during song",
         "description": "Use with modified voice.xwb to also mute announcer",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Force DATA check OK",
         "description": "Use with modified VOICE.xwb to mute announcer",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "memory",
         "patches": [
             {
@@ -73,6 +78,7 @@
         "name": "Enable timing offset",
         "description": "Set the value below to 2116822084 if disabled",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "memory",
         "patches": [
             {
@@ -93,6 +99,7 @@
         "name": "Timing Offset",
         "description": "Change 2116822084 to the actual default of -1. From there, subtract to make timing later or add to make it earlier.",
         "gameCode": "JDX",
+        "dateCode": "2010-12-07 (US)",
         "type": "number",
         "patch": {
             "dllName": "ddr.exe",

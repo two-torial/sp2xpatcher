@@ -3,6 +3,7 @@
         "name": "All songs unlocked",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2015-11-16 (Season 1)",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Boot to Event Mode",
         "description": "Forces Event Mode on bootup (Free play, infinite menu time).",
         "gameCode": "KFC",
+        "dateCode": "2015-11-16 (Season 1)",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "All songs \"Safe\"",
         "description": "Failing early won't drop you out of your session",
         "gameCode": "KFC",
+        "dateCode": "2015-11-16 (Season 1)",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on.",
         "gameCode": "KFC",
+        "dateCode": "2015-11-16 (Season 1)",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "PFree (Unlimited plays)",
         "description": "Song clears/scores only, mission progress and custom settings do not save",
         "gameCode": "KFC",
+        "dateCode": "2015-11-16 (Season 1)",
         "type": "memory",
         "patches": [
             {

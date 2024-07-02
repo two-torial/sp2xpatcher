@@ -3,6 +3,7 @@
         "name": "All songs unlocked",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -23,6 +24,7 @@
         "name": "All songs \"Safe\"",
         "description": "Failing early won't drop you out of your session",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -37,6 +39,7 @@
         "name": "No \"Safe\" banner on jackets",
         "description": "Remove visual clutter",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -51,6 +54,7 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -65,6 +69,7 @@
         "name": "Boot to Event Mode",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -79,6 +84,7 @@
         "name": "Disable EVENT MODE/FREE PLAY text",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -93,6 +99,7 @@
         "name": "Replace EVENT MODE/FREE PLAY text with player name",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -113,6 +120,7 @@
         "name": "PFree (Unlimited plays)",
         "description": "Song clears/scores only, mission progress and custom settings do not save",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -133,6 +141,7 @@
         "name": "Force Alternative Rate System",
         "description": "When EXCESSIVE GAUGE is depleted, you are switched to EFFECTIVE RATE",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -147,6 +156,7 @@
         "name": "Levels up to 99",
         "description": "Use with modified music_db.xml for SDVX IV difficulties",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -179,6 +189,7 @@
         "name": "Level folders from 5-20",
         "description": "Default 1-16. Requires 'Levels up to 99'",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -301,6 +312,7 @@
         "name": "Hispeed values from 0.1 to 20.0",
         "description": "Default 0.5-7.0",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "memory",
         "patches": [
             {
@@ -333,6 +345,7 @@
         "name": "Score",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2016-12-12 (Season 2)",
         "type": "union",
         "patches": [
             {

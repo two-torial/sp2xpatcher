@@ -3,6 +3,7 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2014-01-28",
         "type": "memory",
         "patches": [
             {

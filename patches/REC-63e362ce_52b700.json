@@ -3,6 +3,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "REC",
+        "dateCode": "2023-02-15",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "REC",
+        "dateCode": "2023-02-15",
         "type": "memory",
         "patches": [
             {

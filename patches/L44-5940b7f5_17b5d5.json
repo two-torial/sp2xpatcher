@@ -3,6 +3,7 @@
         "name": "Disable Tutorial",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2017-06-20",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "SELECT MUSIC Timer Lock",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2017-06-20",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2017-06-20",
         "type": "memory",
         "patches": [
             {

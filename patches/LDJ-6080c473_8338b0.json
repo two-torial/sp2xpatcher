@@ -3,6 +3,7 @@
         "name": "SSE4.2 Fix",
         "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this. This is known to cause a crash when using WASAPI audio.",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Skip Camera Error",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Force 120hz timing and adapter mode in LDJ",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -57,6 +60,7 @@
         "name": "Shim Lightning Mode IO (for spicetools)",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -83,6 +87,7 @@
         "name": "Bypass lightning monitor error",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -97,6 +102,7 @@
         "name": "Force LDJ software video decoder for all boot modes",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -111,6 +117,7 @@
         "name": "Unscramble touch screen keypad in TDJ",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -125,6 +132,7 @@
         "name": "1P Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -139,6 +147,7 @@
         "name": "2P Premium Free",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -159,6 +168,7 @@
         "name": "Premium Free Timer Freeze",
         "description": "Freezes the timer in PREMIUM FREE mode, allowing unlimited play until exit",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -173,6 +183,7 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -187,6 +198,7 @@
         "name": "Unlock All 12s",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -201,6 +213,7 @@
         "name": "Skip Decide Screen",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -215,6 +228,7 @@
         "name": "CS-style song start delay",
         "description": "Holding Start will pause the song at the beginning until you release it",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -229,6 +243,7 @@
         "name": "Cursor Lock",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -243,6 +258,7 @@
         "name": "Quick Retry",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -257,6 +273,7 @@
         "name": "Standard/Menu Timer Freeze",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -271,6 +288,7 @@
         "name": "WASAPI Shared Mode (with 44100Hz)",
         "description": "Turns WASAPI Exclusive Mode into Shared Mode. Audio device's default format must be set to 44100Hz for this to work.",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -285,6 +303,7 @@
         "name": "Always show FAST/SLOW total",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -305,6 +324,7 @@
         "name": "Hide all bottom text",
         "description": "",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {
@@ -349,6 +369,7 @@
         "name": "FREE PLAY text to LED ticker",
         "description": "Song Title/Ticker information will display instead of FREEPLAY",
         "gameCode": "LDJ",
+        "dateCode": "2021-04-26",
         "type": "memory",
         "patches": [
             {

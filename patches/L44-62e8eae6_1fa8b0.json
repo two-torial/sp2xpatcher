@@ -3,6 +3,7 @@
         "name": "Skip Tutorial",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Select Music Timer Freeze",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Skip Category Select",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Result Timer Freeze",
         "description": "Counts down to 0 then stops",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "Skip Online Matching",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -73,6 +78,7 @@
         "name": "Force Unlock All Markers",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Force Unlock All Backgrounds",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -125,6 +132,7 @@
         "name": "Force Enable Expert Option",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "memory",
         "patches": [
             {
@@ -139,6 +147,7 @@
         "name": "Default Marker For Guest Play",
         "description": "",
         "gameCode": "L44",
+        "dateCode": "2022-08-03",
         "type": "union",
         "patches": [
             {

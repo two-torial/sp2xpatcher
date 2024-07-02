@@ -3,6 +3,7 @@
         "name": "Force enable fast/slow",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Force background judgement",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Force darkest background",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Opaque background for darkest background option",
         "description": "This makes the darkest background option be 99% opaque, hiding the dancers and videos.",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "Song Unlock",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -109,6 +114,7 @@
         "name": "Tutorial Skip",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -124,6 +130,7 @@
         "description": "",
         "caution": "Breaks World/Area/Shop/Rival score display",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -138,6 +145,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -152,6 +160,7 @@
         "name": "Unlock options",
         "description": "Extended e-amusement exclusive options such as ARROW COLOR and 0.25 speed mod",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -172,6 +181,7 @@
         "name": "Enable all Speed Modifiers",
         "description": "Including x4.25/x7.75, Must have the Unlock Options patch enabled",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -186,6 +196,7 @@
         "name": "Enable LIFE8 Modifier",
         "description": "Must have the Unlock Options patch enabled",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -206,6 +217,7 @@
         "name": "PFC Mode",
         "description": "Like Extra Encore Stage. If you hit a Great or a Good, you lose a life. This feature requires you to select LIFE8/LIFE4/RISKY on the Options, otherwise it has no effect.",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -220,6 +232,7 @@
         "name": "MFC Mode",
         "description": "Like PFC Mode except this time no Perfects. Requires PFC Mode to be enabled.",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -234,6 +247,7 @@
         "name": "Hide all bottom text",
         "description": "Such as EVENT MODE, PASELI, COIN, CREDIT, MAINTENANCE",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -248,6 +262,7 @@
         "name": "Force Cabinet Type 6",
         "description": "Gold cab, some assets (such as menu background) may not work",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -262,6 +277,7 @@
         "name": "Force blue menu background",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -276,6 +292,7 @@
         "name": "Enable cabinet lights for Cabinet Type 6",
         "description": "This enables the use of cabinet lighting for Cabinet Type 6",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -302,6 +319,7 @@
         "name": "Enable DDR SELECTION",
         "description": "Even works in offline/local mode!",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -317,6 +335,7 @@
         "description": "",
         "caution": "Breaks score saving unless the patch below is also enabled.",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -332,6 +351,7 @@
         "description": "",
         "caution": "Make sure your network supports this before enabling.",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -352,6 +372,7 @@
         "name": "Mute Announcer",
         "description": "Also mutes crowd cheering and booing during gameplay",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -378,6 +399,7 @@
         "name": "Force DDR SELECTION theme everywhere",
         "description": "Skips intro and enables the skin selected below on all songs",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {
@@ -410,6 +432,7 @@
         "name": "Choose forced theme",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "union",
         "patches": [
             {
@@ -463,6 +486,7 @@
         "name": "Choose cabinet type timing offset",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "union",
         "patches": [
             {
@@ -543,6 +567,7 @@
         "name": "SSQ Offset",
         "description": "Bigger numbers make arrows later",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -556,6 +581,7 @@
         "name": "Sound Offset",
         "description": "Bigger numbers make audio later",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -569,6 +595,7 @@
         "name": "Input Offset",
         "description": "Bigger numbers make judgement earlier",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -582,6 +609,7 @@
         "name": "Render Offset",
         "description": "Bigger numbers make arrows later visually",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -595,6 +623,7 @@
         "name": "Bomb Frame Offset",
         "description": "Bigger numbers delay explosion animation",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -608,6 +637,7 @@
         "name": "Center arrows for single player",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2022-02-02 (001)",
         "type": "memory",
         "patches": [
             {

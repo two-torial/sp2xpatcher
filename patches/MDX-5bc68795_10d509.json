@@ -3,6 +3,7 @@
         "name": "Force enable fast/slow",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "Force background judgement",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Force darkest background",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Unlock all songs",
         "description": "Unlocks all e-amusement songs, event mode songs, ACES FOR ACES and ENDYMION",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -71,6 +75,7 @@
         "name": "Tutorial Skip",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -85,6 +90,7 @@
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Unlock options",
         "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -113,6 +120,7 @@
         "name": "Force Extra Stage/Extra Encore Stage (fixed)",
         "description": "",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -133,6 +141,7 @@
         "name": "Enable DDR SELECTION",
         "description": "Even works in offline/local mode!",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -147,6 +156,7 @@
         "name": "Premium Free",
         "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "memory",
         "patches": [
             {
@@ -161,6 +171,7 @@
         "name": "SSQ Offset",
         "description": "Bigger numbers make arrows later",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -174,6 +185,7 @@
         "name": "Sound Offset",
         "description": "Bigger numbers make audio later",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -187,6 +199,7 @@
         "name": "Input Offset",
         "description": "Bigger numbers make judgement earlier",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -200,6 +213,7 @@
         "name": "Render Offset",
         "description": "Bigger numbers make arrows later visually",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
@@ -213,6 +227,7 @@
         "name": "Bomb Frame Offset",
         "description": "Bigger numbers delay explosion animation",
         "gameCode": "MDX",
+        "dateCode": "2018-10-22",
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",

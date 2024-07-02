@@ -3,6 +3,7 @@
         "name": "E: Drive Fix",
         "description": "Fix crash caused by no E: drive",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -17,6 +18,7 @@
         "name": "HDMI Audio Fix",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -31,6 +33,7 @@
         "name": "Prevent Windows volume change on boot",
         "description": "If your volume gets forced to max, turn this on",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -45,6 +48,7 @@
         "name": "Boot to Event Mode",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -59,6 +63,7 @@
         "name": "Remove Timer",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -73,6 +78,7 @@
         "name": "Skip Menu and Long Note Tutorials",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Unlock All Songs",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -119,6 +126,7 @@
         "name": "Unlock EX Charts",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -265,6 +273,7 @@
         "name": "Unlock Deco Parts",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -279,6 +288,7 @@
         "name": "Unlock Characters",
         "description": "",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -293,6 +303,7 @@
         "name": "Premium Free",
         "description": "Score buffer never resets, use offline",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -319,6 +330,7 @@
         "name": "Replace COLOR CHECK test menu with debug CHARA VIEWER",
         "description": "Press service button to exit",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {
@@ -345,6 +357,7 @@
         "name": "Replace SCREEN CHECK test menu with debug MUSIC INFO CHECKER",
         "description": "Press service button to exit",
         "gameCode": "M39",
+        "dateCode": "2022-04-25",
         "type": "memory",
         "patches": [
             {

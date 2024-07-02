@@ -3,6 +3,7 @@
         "name": "Screen Setting",
         "description": "Changes resolution based on Sceen type",
         "gameCode": "MDX",
+        "dateCode": "2021-08-04",
         "type": "union",
         "patches": [
             {

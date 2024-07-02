@@ -3,6 +3,7 @@
         "name": "SSE4.2 Fix",
         "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this.",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -23,6 +24,7 @@
         "name": "All songs/difficulties unlocked",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -43,6 +45,7 @@
         "name": "All songs \"Safe\"",
         "description": "Failing early won't drop you out of your session",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -57,6 +60,7 @@
         "name": "No \"Safe\" banner on jackets",
         "description": "Remove visual clutter",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -71,6 +75,7 @@
         "name": "Boot into Event Mode",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -85,6 +90,7 @@
         "name": "PFree (Unlimited plays)",
         "description": "If you crash, you will finish your session unless you use 'All songs \"Safe\"'. Song clears/scores only, mission progress and custom settings do not save",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -99,6 +105,7 @@
         "name": "Allow ARS (Alternative Rate System) Option",
         "description": "Selectable at gauge tab in FX-L+R menu",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -113,6 +120,7 @@
         "name": "Freeze timer in all modes",
         "description": "Useful to play with Omega Dimension Ex-Track",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -127,6 +135,7 @@
         "name": "Unlock all Nemsys Crew",
         "description": "",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -141,6 +150,7 @@
         "name": "Non-Effective Rate gauges start at 0%",
         "description": "This affects all \"Hard\" Gauge types",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -155,6 +165,7 @@
         "name": "Non-Effective Rate gauges do not recover",
         "description": "This affects all \"Hard\" Gauge types",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
@@ -169,6 +180,7 @@
         "name": "Shared mode WASAPI",
         "description": "Only replaces the first audio device init attempt. Set output to 44100Hz 16bit if it doesn't work.",
         "gameCode": "KFC",
+        "dateCode": "2019-10-31 (CN)",
         "type": "memory",
         "patches": [
             {
