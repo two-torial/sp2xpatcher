@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import sys
 import re
 import json
 
@@ -39,7 +40,7 @@ def update_json_file(json_path, dateCode):
         print(e)
         return 0
 
-def iterate(file_path):
+def process(file_path, json=''):
     try:
         entries = 0
         count = 0
@@ -47,19 +48,29 @@ def iterate(file_path):
             for line in file:
                 match = regex.search(line)
                 if match:
-                    variant = match.group(1).strip()
-                    dateCode = match.group(3).strip()
-                    if "-" in variant:
-                        dateCode_with_variant = f"{dateCode} ({variant.split('-')[1]})"
-                    else:
-                        dateCode_with_variant = dateCode
                     json_path = match.group(4).strip()
-                    entries += update_json_file(json_path, dateCode_with_variant)
-                    count += 1
+                    # NOT DONE
+                    if json == '' or json.replace('\\', '/').replace("./", '') in json_path:
+                        variant = match.group(1).strip()
+                        dateCode = match.group(3).strip()
+                        if "-" in variant:
+                            dateCode_with_variant = f"{dateCode} ({variant.split('-')[1]})"
+                        else:
+                            dateCode_with_variant = dateCode
+                        entries += update_json_file(json_path, dateCode_with_variant)
+                        count += 1
         return [ entries, count ]
     except Exception as e:
         print(f"Error processing file '{file_path}': {e}")
-        return [0, 0]  # Return [0, 0] if there is an exception
+        return [0, 0] 
 
-entries, count = iterate("SUPPORTED.md")
-print(f"\nUpdated {entries} entries over {count} files.")
+if __name__ == "__main__":
+    json_path = ''
+    len_args = len(sys.argv)
+    if len_args in range(2, 3):
+        json_path = sys.argv[1]
+    else:
+        exit("Usage: python makeHeader.py <(optional)json_path>")
+        
+    entries, count = process("SUPPORTED.md", json_path)
+    print(f"\nUpdated {entries} entrie(s) over {count} file(s)")
