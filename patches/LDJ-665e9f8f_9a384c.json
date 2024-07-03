@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-06-05 (012)",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-03 13:46:58",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -86,9 +86,9 @@
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 7852294,
+                "offset": 8047341,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "741D",
+                "dataDisabled": "7422",
                 "dataEnabled": "9090"
             }
         ]
