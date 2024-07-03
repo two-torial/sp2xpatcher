@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-04-02",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-03 17:19:22",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -475,16 +475,42 @@
         ]
     },
     {
-        "type": "memory",
-        "name": "Fake Japan Region",
+        "type": "union",
+        "name": "Fake Region",
         "description": "",
         "gameCode": "KFC",
         "patches": [
             {
-                "offset": 2077983,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "E81C7D310085C00F85FA000000",
-                "dataEnabled": "31C0A3C4909E80010000009090"
+                "name": "None (Default)",
+                "patch": {
+                    "data": "E81C7D310085C00F85FA000000",
+                    "offset": 2077983,
+                    "dllName": "soundvoltex.dll"
+                }
+            },
+            {
+                "name": "Japan",
+                "patch": {
+                    "data": "B80000000089059ACF7E009090",
+                    "offset": 2077983,
+                    "dllName": "soundvoltex.dll"
+                }
+            },
+            {
+                "name": "Korea",
+                "patch": {
+                    "data": "B80100000089059ACF7E009090",
+                    "offset": 2077983,
+                    "dllName": "soundvoltex.dll"
+                }
+            },
+            {
+                "name": "America",
+                "patch": {
+                    "data": "B80200000089059ACF7E009090",
+                    "offset": 2077983,
+                    "dllName": "soundvoltex.dll"
+                }
             }
         ]
     }
