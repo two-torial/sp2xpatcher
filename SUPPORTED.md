@@ -146,6 +146,7 @@ Patches for which we don't know the corresponding game version.
 | LDJ-012 | bm2dx.dll | 2024-05-07 | [LDJ-662a0a1f_98f11c](patches/LDJ-662a0a1f_98f11c.json) |
 | LDJ-010 | bm2dx.dll | 2024-06-04 | [LDJ-6657c7bb_a706cc](patches/LDJ-6657c7bb_a706cc.json) |
 | LDJ-012 | bm2dx.dll | 2024-06-05 | [LDJ-665e9f8f_9a384c](patches/LDJ-665e9f8f_9a384c.json) |
+| LDJ-012 | bm2dx.dll | 2024-07-02 | [LDJ-667bbdca_9a798c](patches/LDJ-667bbdca_9a798c.json) |
 </details>
 
 ## BeatStream
