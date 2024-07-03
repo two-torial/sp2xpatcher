@@ -49,7 +49,6 @@ def process(file_path, json=''):
                 match = regex.search(line)
                 if match:
                     json_path = match.group(4).strip()
-                    # NOT DONE
                     if json == '' or json.replace('\\', '/').replace("./", '') in json_path:
                         variant = match.group(1).strip()
                         dateCode = match.group(3).strip()
