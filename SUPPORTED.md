@@ -245,6 +245,16 @@ Patches for which we don't know the corresponding game version.
 | REC | superstep.dll | 2023-07-26 | [REC-64b9c7bd_53d248](patches/REC-64b9c7bd_53d248.json) |
 </details>
 
+## Gitadora
+
+<details><summary>Gitadora Exchain</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2019-09-24 | [M32-5d6db41e_178960](patches/M32-5d6db41e_178960.json) |
+| M32 | libshare-pj.dll | 2019-09-24 | [M32-5d6db3bb_838f0](patches/M32-5d6db3bb_838f0.json) |
+</details>
+
 ## Jubeat
 
 <details><summary>Jubeat Knit</summary>

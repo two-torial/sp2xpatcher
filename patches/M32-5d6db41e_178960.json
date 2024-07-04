@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 48167,
+                "dllName": "game.dll",
+                "dataDisabled": "0F85AA010000",
+                "dataEnabled": "E9AB01000090"
+            }
+        ]
+    }
+]
