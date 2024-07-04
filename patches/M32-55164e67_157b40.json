@@ -1,5 +1,11 @@
 [
     {
+        "gameCode": "M32",
+        "version": "2015-03-27",
+        "lastUpdated": "2024-07-04 22:33:47",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Timer Freeze",
         "description": "",
         "gameCode": "M32",

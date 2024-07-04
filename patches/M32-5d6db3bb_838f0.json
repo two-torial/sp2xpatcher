@@ -1,5 +1,11 @@
 [
     {
+        "gameCode": "M32",
+        "version": "2019-09-24",
+        "lastUpdated": "2024-07-04 22:33:47",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Fix \"IP CHANGE ERROR\"",
         "description": "",
         "gameCode": "M32",
