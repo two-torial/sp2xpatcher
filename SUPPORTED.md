@@ -261,6 +261,13 @@ Patches for which we don't know the corresponding game version.
 | M32 | game.dll | 2016-11-23 | [M32-5833ff6c_15c290](patches/M32-5833ff6c_15c290.json) |
 </details>
 
+<details><summary>Gitadora Tri-Boost Re:Evolve</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2017-08-02 | [M32-597e840d_15d360](patches/M32-597e840d_15d360.json) |
+</details>
+
 <details><summary>Gitadora Matixx</summary>
 
 | Codename | Filename | Version | Identifier |
