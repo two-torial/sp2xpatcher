@@ -299,6 +299,25 @@ Patches for which we don't know the corresponding game version.
 | M32 | game.dll | 2022-10-24 | [M32-634910da_15daec](patches/M32-634910da_15daec.json) |
 </details>
 
+<details><summary>Gitadora Fuzz-Up</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2022-12-14 | [M32-638ff451_155fac](patches/M32-638ff451_155fac.json) |
+| M32 | game.dll | 2023-02-15 | [M32-63ead129_1598bc](patches/M32-63ead129_1598bc.json) |
+| M32 | game.dll | 2023-03-29 | [M32-641a7b2c_15c9ec](patches/M32-641a7b2c_15c9ec.json) |
+| M32 | game.dll | 2023-04-25 | [M32-643de95b_15ccbc](patches/M32-643de95b_15ccbc.json) |
+| M32 | game.dll | 2023-06-13 | [M32-64797636_15dbcc](patches/M32-64797636_15dbcc.json) |
+| M32 | game.dll | 2023-08-01, 2023-08-07, 2023-09-04 | [M32-64bdcb40_15f89c](patches/M32-64bdcb40_15f89c.json) |
+| M32 | game.dll | 2023-09-12 | [M32-64f55073_160b6c](patches/M32-64f55073_160b6c.json) |
+| M32 | game.dll | 2023-10-11 | [M32-65150aca_15fb60](patches/M32-65150aca_15fb60.json) |
+| M32 | game.dll | 2023-11-07 | [M32-653f02be_160018](patches/M32-653f02be_160018.json) |
+| M32 | game.dll | 2023-11-28 | [M32-6555b26b_160128](patches/M32-6555b26b_160128.json) |
+| M32 | game.dll | 2023-12-19 | [M32-6571527d_15fce8](patches/M32-6571527d_15fce8.json) |
+| M32 | game.dll | 2024-01-16 | [M32-6595ffbf_161d88](patches/M32-6595ffbf_161d88.json) |
+| M32 | game.dll | 2024-02-20 | [M32-65c44dda_162048](patches/M32-65c44dda_162048.json) |
+</details>
+
 ## Jubeat
 
 <details><summary>Jubeat Knit</summary>
