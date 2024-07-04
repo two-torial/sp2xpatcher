@@ -247,6 +247,13 @@ Patches for which we don't know the corresponding game version.
 
 ## Gitadora
 
+<details><summary>Gitadora OverDrive</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2015-03-27 | [M32-55164e67_157b40](patches/M32-55164e67_157b40.json) |
+</details>
+
 <details><summary>Gitadora Matixx</summary>
 
 | Codename | Filename | Version | Identifier |
