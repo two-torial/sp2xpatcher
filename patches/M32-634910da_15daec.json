@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1004607,
+                "dllName": "game.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Cursor Hold",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 761062,
+                "dllName": "game.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Stage Freeze",
+        "description": "Breaks score submission to server",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1143921,
+                "dllName": "game.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip Tutorial",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 946042,
+                "dllName": "game.dll",
+                "dataDisabled": "0F87",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1901842,
+                "dllName": "game.dll",
+                "dataDisabled": "6100",
+                "dataEnabled": "4D01"
+            },
+            {
+                "offset": 1901866,
+                "dllName": "game.dll",
+                "dataDisabled": "6300",
+                "dataEnabled": "4D01"
+            },
+            {
+                "offset": 1185758,
+                "dllName": "game.dll",
+                "dataDisabled": "7508",
+                "dataEnabled": "EB11"
+            }
+        ]
+    },
+    {
+        "name": "Enable Long Music",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1186036,
+                "dllName": "game.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]

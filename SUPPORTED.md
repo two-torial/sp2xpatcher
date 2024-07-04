@@ -255,6 +255,14 @@ Patches for which we don't know the corresponding game version.
 | M32 | libshare-pj.dll | 2019-09-24 | [M32-5d6db3bb_838f0](patches/M32-5d6db3bb_838f0.json) |
 </details>
 
+<details><summary>Gitadora High-Voltage</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2021-04-21 | [M32-6073d298_15bd6c](patches/M32-6073d298_15bd6c.json) |
+| M32 | game.dll | 2022-10-24 | [M32-634910da_15daec](patches/M32-634910da_15daec.json) |
+</details>
+
 ## Jubeat
 
 <details><summary>Jubeat Knit</summary>
