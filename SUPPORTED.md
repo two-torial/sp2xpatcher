@@ -263,6 +263,13 @@ Patches for which we don't know the corresponding game version.
 | M32 | libshare-pj.dll | 2019-09-24 | [M32-5d6db3bb_838f0](patches/M32-5d6db3bb_838f0.json) |
 </details>
 
+<details><summary>Gitadora Nex+Age</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2021-02-15 | [M32-6020734a_174fac](patches/M32-6020734a_174fac.json) |
+</details>
+
 <details><summary>Gitadora High-Voltage</summary>
 
 | Codename | Filename | Version | Identifier |
