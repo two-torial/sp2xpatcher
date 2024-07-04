@@ -247,6 +247,14 @@ Patches for which we don't know the corresponding game version.
 
 ## Gitadora
 
+<details><summary>Gitadora Matixx</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | game.dll | 2018-07-17 | [M32-5b4486ca_16ba60](patches/M32-5b4486ca_16ba60.json) |
+| M32 | libshare-pj.dll | 2018-07-17 | [M32-5b448679_84660](patches/M32-5b448679_84660.json) |
+</details>
+
 <details><summary>Gitadora Exchain</summary>
 
 | Codename | Filename | Version | Identifier |

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Fix IP change error",
+        "description": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 144245,
+                "dllName": "libshare-pj.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]
