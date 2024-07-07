@@ -1,0 +1,78 @@
+[
+    {
+        "name": "E: drive fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2669648,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "Timer freeze",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1284107,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "894E18",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Unscramble PIN pad",
+        "description": "Disable randomization of PIN input when carding in",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 721631,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "03C0",
+                "dataEnabled": "29C0"
+            },
+            {
+                "offset": 2421232,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "00000000010000000200000003000000040000000500000006000000070000000800000009000000",
+                "dataEnabled": "07000000080000000900000004000000050000000600000001000000020000000300000000000000"
+            }
+        ]
+    },
+    {
+        "name": "Remove CREDIT / FREE PLAY / EVENT MODE bottom text",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1472832,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "E82BE3F0FF",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    },
+    {
+        "name": "Remove PASELI bottom text",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1472411,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "E8D0E4F0FF",
+                "dataEnabled": "9090909090"
+            }
+        ]
+    }
+]

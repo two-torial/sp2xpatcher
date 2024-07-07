@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Menu Timer Freeze",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3161395,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "41FFC8",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Shorter Monitor Check",
+        "description": "Similar to Rootage, recommended only if you have a stable framerate",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2205434,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "1E",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Hide \"EXTRA PASELI: %d\"",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3177426,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "CA2F2A",
+                "dataEnabled": "047226"
+            },
+            {
+                "offset": 3177454,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "7E2F2A",
+                "dataEnabled": "E87126"
+            }
+        ]
+    },
+    {
+        "name": "Hide \"PASELI: *****\"",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3177070,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "FF1514420900",
+                "dataEnabled": "E9AD01000090"
+            }
+        ]
+    },
+    {
+        "name": "Hide Credit Count",
+        "description": "Hides \"CREDIT: %d\" and \"CREDIT %d  COIN: %d / %d\"",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3178033,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "BB2B2A",
+                "dataEnabled": "A56F26"
+            },
+            {
+                "offset": 3178061,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "7F2B2A",
+                "dataEnabled": "896F26"
+            }
+        ]
+    }
+]

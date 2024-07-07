@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Unlock all songs",
+        "description": "",
+        "gameCode": "KBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 392459,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all difficulties",
+        "description": "",
+        "gameCode": "KBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 358495,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "7405",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Timer freeze",
+        "description": "",
+        "gameCode": "KBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 62224,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "7403",
+                "dataEnabled": "9090"
+            }
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "name": "E: drive fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2698548,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all songs/difficulties",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 548483,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "C7400C02000000E92C010000"
+            },
+            {
+                "offset": 548724,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "C740080F000000E903FFFFFF"
+            },
+            {
+                "offset": 548780,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "89500889500C885014885015895010",
+                "dataEnabled": "8850148850158918897004EBBB9090"
+            },
+            {
+                "offset": 702562,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Timer freeze",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1318655,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "85C0",
+                "dataEnabled": "B001"
+            },
+            {
+                "offset": 1559141,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "85C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    }
+]

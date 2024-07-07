@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Menu Timer Freeze",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3174467,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "41FFC8",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Shorter Monitor Check",
+        "description": "Similar to Op.2, recommended only if you have a stable framerate",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2182938,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "1E",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "name": "Unscramble PIN pad",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2859238,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "488D0C804803C9",
+                "dataEnabled": "48C7C178000000"
+            }
+        ]
+    },
+    {
+        "name": "Hide \"EXTRA PASELI: %d\"",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6050080,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "455854",
+                "dataEnabled": "005854"
+            },
+            {
+                "offset": 6050128,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "455854",
+                "dataEnabled": "005854"
+            }
+        ]
+    },
+    {
+        "name": "Hide \"PASELI: *****\"",
+        "description": "",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3190126,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "FF151C7F0900",
+                "dataEnabled": "E9AD01000090"
+            }
+        ]
+    },
+    {
+        "name": "Hide Credit Count",
+        "description": "Hides \"CREDIT: %d\" and \"CREDIT %d  COIN: %d / %d\"",
+        "gameCode": "PAN",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 6050040,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "435245",
+                "dataEnabled": "005245"
+            },
+            {
+                "offset": 6050008,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "435245",
+                "dataEnabled": "005245"
+            }
+        ]
+    }
+]

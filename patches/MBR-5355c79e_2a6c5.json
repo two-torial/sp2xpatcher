@@ -1,0 +1,44 @@
+[
+    {
+        "name": "E: drive fix",
+        "description": "Fix crash caused by no E: drive",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2593955,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "00653A2F",
+                "dataEnabled": "5C646576"
+            }
+        ]
+    },
+    {
+        "name": "Unlock all difficulties",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 607434,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "7D",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Timer freeze",
+        "description": "",
+        "gameCode": "MBR",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1436148,
+                "dllName": "reflecbeat.dll",
+                "dataDisabled": "7513",
+                "dataEnabled": "9090"
+            }
+        ]
+    }
+]

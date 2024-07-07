@@ -149,6 +149,57 @@ Patches for which we don't know the corresponding game version.
 | LDJ-012 | bm2dx.dll | 2024-07-02 | [LDJ-667bbdca_9a798c](patches/LDJ-667bbdca_9a798c.json) |
 </details>
 
+## Sound Voltex (SDVX)
+
+<details><summary>SOUND VOLTEX II -infinite infection-</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KFC | soundvoltex.dll | 2014-10-22 (PhaseII) | [KFC-543e7ccd_10e693](patches/KFC-543e7ccd_10e693.json) |
+</details>
+
+<details><summary>SOUND VOLTEX III GRAVITY WARS</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KFC | soundvoltex.dll | 2015-11-16 (Season 1) | [KFC-56497884_20131c](patches/KFC-56497884_20131c.json) |
+| KFC | soundvoltex.dll | 2016-12-12 (Season 2) | [KFC-58365cd4_21e91c](patches/KFC-58365cd4_21e91c.json) |
+</details>
+
+<details><summary>SOUND VOLTEX IV HEAVENLY HAVEN</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KFC | soundvoltex.dll | 2018-01-16 | [KFC-5a55ed92_26d3cb](patches/KFC-5a55ed92_26d3cb.json) |
+| KFC | soundvoltex.dll | 2019-02-06 | [KFC-5c541c96_27bc7b](patches/KFC-5c541c96_27bc7b.json) |
+</details>
+
+<details><summary>SOUND VOLTEX V VIVID WAVE</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KFC | soundvoltex.dll | 2019-10-31 (CN) | [KFC-5dbaae15_36ea80](patches/KFC-5dbaae15_36ea80.json) |
+| KFC | soundvoltex.dll | 2020-01-15 | [KFC-5e18527b_31c780](patches/KFC-5e18527b_31c780.json) |
+| KFC | soundvoltex.dll | 2020-12-22 | [KFC-5fdadbea_330980](patches/KFC-5fdadbea_330980.json) |
+</details>
+
+<details><summary>SOUND VOLTEX VI EXCEED GEAR</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KFC | soundvoltex.dll | 2021-12-14 | [KFC-61b19602_57ac68](patches/KFC-61b19602_57ac68.json) |
+| KFC | soundvoltex.dll | 2024-01-16 | [KFC-659f91b3_696318](patches/KFC-659f91b3_696318.json) |
+| KFC | soundvoltex.dll | 2024-01-30 | [KFC-65b1fc65_69c278](patches/KFC-65b1fc65_69c278.json) |
+| KFC | soundvoltex.dll | 2024-02-06 | [KFC-65bb66cb_69cfb8](patches/KFC-65bb66cb_69cfb8.json) |
+| KFC | soundvoltex.dll | 2024-02-20 | [KFC-65cda95b_6a5748](patches/KFC-65cda95b_6a5748.json) |
+| KFC | soundvoltex.dll | 2024-03-18 | [KFC-65f174e7_6ae218](patches/KFC-65f174e7_6ae218.json) |
+| KFC | soundvoltex.dll | 2024-04-02 | [KFC-66039c56_6be478](patches/KFC-66039c56_6be478.json) |
+| KFC | soundvoltex.dll | 2024-04-30 | [KFC-6629f133_6bcea8](patches/KFC-6629f133_6bcea8.json) |
+| KFC | soundvoltex.dll | 2024-05-21 | [KFC-6643ed55_663968](patches/KFC-6643ed55_663968.json) |
+| KFC | soundvoltex.dll | 2024-06-04 | [KFC-6656ee0c_664a78](patches/KFC-6656ee0c_664a78.json) |
+| KFC | soundvoltex.dll | 2024-06-25 | [KFC-667290d9_665948](patches/KFC-667290d9_665948.json) |
+</details>
+
 ## BeatStream
 
 <details><summary>BeatStream</summary>
@@ -403,57 +454,6 @@ Patches for which we don't know the corresponding game version.
 | L44 | jubeat.dll | 2024-03-25 | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
 </details>
 
-## Sound Voltex (SDVX)
-
-<details><summary>SOUND VOLTEX II -infinite infection-</summary>
-
-| Codename | Filename | Version | Identifier |
-|----------|----------|---------|------------|
-| KFC | soundvoltex.dll | 2014-10-22 (PhaseII) | [KFC-543e7ccd_10e693](patches/KFC-543e7ccd_10e693.json) |
-</details>
-
-<details><summary>SOUND VOLTEX III GRAVITY WARS</summary>
-
-| Codename | Filename | Version | Identifier |
-|----------|----------|---------|------------|
-| KFC | soundvoltex.dll | 2015-11-16 (Season 1) | [KFC-56497884_20131c](patches/KFC-56497884_20131c.json) |
-| KFC | soundvoltex.dll | 2016-12-12 (Season 2) | [KFC-58365cd4_21e91c](patches/KFC-58365cd4_21e91c.json) |
-</details>
-
-<details><summary>SOUND VOLTEX IV HEAVENLY HAVEN</summary>
-
-| Codename | Filename | Version | Identifier |
-|----------|----------|---------|------------|
-| KFC | soundvoltex.dll | 2018-01-16 | [KFC-5a55ed92_26d3cb](patches/KFC-5a55ed92_26d3cb.json) |
-| KFC | soundvoltex.dll | 2019-02-06 | [KFC-5c541c96_27bc7b](patches/KFC-5c541c96_27bc7b.json) |
-</details>
-
-<details><summary>SOUND VOLTEX V VIVID WAVE</summary>
-
-| Codename | Filename | Version | Identifier |
-|----------|----------|---------|------------|
-| KFC | soundvoltex.dll | 2019-10-31 (CN) | [KFC-5dbaae15_36ea80](patches/KFC-5dbaae15_36ea80.json) |
-| KFC | soundvoltex.dll | 2020-01-15 | [KFC-5e18527b_31c780](patches/KFC-5e18527b_31c780.json) |
-| KFC | soundvoltex.dll | 2020-12-22 | [KFC-5fdadbea_330980](patches/KFC-5fdadbea_330980.json) |
-</details>
-
-<details><summary>SOUND VOLTEX VI EXCEED GEAR</summary>
-
-| Codename | Filename | Version | Identifier |
-|----------|----------|---------|------------|
-| KFC | soundvoltex.dll | 2021-12-14 | [KFC-61b19602_57ac68](patches/KFC-61b19602_57ac68.json) |
-| KFC | soundvoltex.dll | 2024-01-16 | [KFC-659f91b3_696318](patches/KFC-659f91b3_696318.json) |
-| KFC | soundvoltex.dll | 2024-01-30 | [KFC-65b1fc65_69c278](patches/KFC-65b1fc65_69c278.json) |
-| KFC | soundvoltex.dll | 2024-02-06 | [KFC-65bb66cb_69cfb8](patches/KFC-65bb66cb_69cfb8.json) |
-| KFC | soundvoltex.dll | 2024-02-20 | [KFC-65cda95b_6a5748](patches/KFC-65cda95b_6a5748.json) |
-| KFC | soundvoltex.dll | 2024-03-18 | [KFC-65f174e7_6ae218](patches/KFC-65f174e7_6ae218.json) |
-| KFC | soundvoltex.dll | 2024-04-02 | [KFC-66039c56_6be478](patches/KFC-66039c56_6be478.json) |
-| KFC | soundvoltex.dll | 2024-04-30 | [KFC-6629f133_6bcea8](patches/KFC-6629f133_6bcea8.json) |
-| KFC | soundvoltex.dll | 2024-05-21 | [KFC-6643ed55_663968](patches/KFC-6643ed55_663968.json) |
-| KFC | soundvoltex.dll | 2024-06-04 | [KFC-6656ee0c_664a78](patches/KFC-6656ee0c_664a78.json) |
-| KFC | soundvoltex.dll | 2024-06-25 | [KFC-667290d9_665948](patches/KFC-667290d9_665948.json) |
-</details>
-
 ## pop'n music (popn)
 
 <details><summary>pop'n music 19 TUNE STREET</summary>
@@ -505,4 +505,82 @@ Patches for which we don't know the corresponding game version.
 | M39 | popn22.dll | 2024-02-19 | [M39-6614c9cd_184d80](patches/M39-6614c9cd_184d80.json) |
 | M39 | popn22.dll | 2022-04-25 | [M39-627cf367_1955e1](patches/M39-627cf367_1955e1.json) |
 | M39 | popn22.dll | 2022-06-13 | [M39-629ede76_197641](patches/M39-629ede76_197641.json) |
+</details>
+
+## MÚSECA
+
+<details><summary>MÚSECA</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| PIX | museca.dll | 2016-07-13 | [PIX-573ef888_3398bc](patches/PIX-573ef888_3398bc.json) |
+</details>
+
+<details><summary>MÚSECA 1+1/2</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| PIX | museca.dll | 2018-07-30 | [PIX-5b59963c_1065c4](patches/PIX-5b59963c_1065c4.json) |
+</details>
+
+## Nostalgia
+
+<details><summary>Nostalgia Op.2</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| PAN | nostalgia.dll | 2019-10-02, 2019-11-27 | [PAN-5d8de6c0_dd580](patches/PAN-5d8de6c0_dd580.json) |
+</details>
+
+<details><summary>Nostalgia Op.3</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| PAN | nostalgia.dll | 2021-12-22 | [PAN-61bc1831_e43f0](patches/PAN-61bc1831_e43f0.json) |
+| PAN | nostalgia.dll | 2022-04-26 | [PAN-62625cf9_e4900](patches/PAN-62625cf9_e4900.json) |
+</details>
+
+## REFLEC BEAT
+
+<details><summary>REFLEC BEAT</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KBR | reflecbeat.dll | 2011-08-22 | [KBR-4e4a7a57_9fb2f](patches/KBR-4e4a7a57_9fb2f.json) |
+</details>
+
+<details><summary>REFLEC BEAT limelight</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| LBR | reflecbeat.dll | 2012-08-29 | [LBR-5034498b_1bb0f](patches/LBR-5034498b_1bb0f.json) |
+</details>
+
+<details><summary>REFLEC BEAT colette</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MBR | reflecbeat.dll | 2014-01-16 | [MBR-52d5e645_2a2f5](patches/MBR-52d5e645_2a2f5.json) |
+| MBR | reflecbeat.dll | 2014-05-26 | [MBR-5355c79e_2a6c5](patches/MBR-5355c79e_2a6c5.json) |
+</details>
+
+<details><summary>REFLEC BEAT groovin'!!</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MBR | reflecbeat.dll | 2015-10-21 | [MBR-560def91_35811](patches/MBR-560def91_35811.json) |
+</details>
+
+<details><summary>REFLEC BEAT limelight</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MBR | reflecbeat.dll | 2016-10-04 | [MBR-57ec8a2e_3ab88](patches/MBR-57ec8a2e_3ab88.json) |
+</details>
+
+<details><summary>REFLEC BEAT limelight</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MBR | reflecbeat.dll | 2019-12-11 | [MBR-5de9b843_3335c](patches/MBR-5de9b843_3335c.json) |
 </details>

@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Song 1 Lock",
+        "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2613447,
+                "dllName": "museca.dll",
+                "dataDisabled": "FF838C090000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    }
+]

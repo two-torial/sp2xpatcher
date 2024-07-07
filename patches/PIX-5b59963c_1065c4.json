@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Infinite Final Layer",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1566087,
+                "dllName": "museca.dll",
+                "dataDisabled": "FF8348140000",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 1565919,
+                "dllName": "museca.dll",
+                "dataDisabled": "7F08",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 1564768,
+                "dllName": "museca.dll",
+                "dataDisabled": "8B8148140000",
+                "dataEnabled": "B80300000090"
+            }
+        ]
+    },
+    {
+        "name": "Auto Event Mode Toggled (Freeplay (Coin Options) must be \"ON\" for this to work efficiently)",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1664049,
+                "dllName": "museca.dll",
+                "dataDisabled": "8901884110C7411401000000C3CCCCCCCC",
+                "dataEnabled": "C70101000000884110C7411401000000C3"
+            }
+        ]
+    },
+    {
+        "name": "Rerate song folders from 1-15 to 2-16",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2746619,
+                "dllName": "museca.dll",
+                "dataDisabled": "F8",
+                "dataEnabled": "F9"
+            },
+            {
+                "offset": 3619456,
+                "dllName": "museca.dll",
+                "dataDisabled": "4C4556454C2031004C4556454C2032004C4556454C2033004C4556454C2034004C4556454C2035004C4556454C2036004C4556454C2037004C4556454C2038004C4556454C2039004C4556454C20313000000000000000004C4556454C20313100000000000000004C4556454C20313200000000000000004C4556454C20313300000000000000004C4556454C20313400000000000000004C4556454C203135",
+                "dataEnabled": "4C4556454C2032004C4556454C2033004C4556454C2034004C4556454C2035004C4556454C2036004C4556454C2037004C4556454C2038004C4556454C2039004C4556454C203130004C4556454C203131000000000000004C4556454C20313200000000000000004C4556454C20313300000000000000004C4556454C20313400000000000000004C4556454C20313500000000000000004C4556454C203136"
+            },
+            {
+                "offset": 2656961,
+                "dllName": "museca.dll",
+                "dataDisabled": "03",
+                "dataEnabled": "04"
+            }
+        ]
+    },
+    {
+        "name": "Increase default coloris from 30k to 100k",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2573726,
+                "dllName": "museca.dll",
+                "dataDisabled": "307500",
+                "dataEnabled": "A08601"
+            }
+        ]
+    },
+    {
+        "name": "Remove 20191231 date limit for charts",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 675632,
+                "dllName": "museca.dll",
+                "dataDisabled": "8D81FB",
+                "dataEnabled": "B001C3"
+            }
+        ]
+    },
+    {
+        "name": "Make game respect server-sent option to disable local matching",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2393381,
+                "dllName": "museca.dll",
+                "dataDisabled": "750C",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Timer freeze",
+        "description": "",
+        "gameCode": "PIX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2680336,
+                "dllName": "museca.dll",
+                "dataDisabled": "0F85260100",
+                "dataEnabled": "E927010000"
+            },
+            {
+                "offset": 2653246,
+                "dllName": "museca.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]
