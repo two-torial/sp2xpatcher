@@ -571,14 +571,14 @@ Patches for which we don't know the corresponding game version.
 | MBR | reflecbeat.dll | 2015-10-21 | [MBR-560def91_35811](patches/MBR-560def91_35811.json) |
 </details>
 
-<details><summary>REFLEC BEAT limelight</summary>
+<details><summary>REFLEC BEAT VOLZZA 2</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
 | MBR | reflecbeat.dll | 2016-10-04 | [MBR-57ec8a2e_3ab88](patches/MBR-57ec8a2e_3ab88.json) |
 </details>
 
-<details><summary>REFLEC BEAT limelight</summary>
+<details><summary>REFLEC BEAT The Reflesia of Eternity</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
