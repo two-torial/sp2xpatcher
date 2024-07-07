@@ -1,5 +1,11 @@
 [
     {
+        "gameCode": "MBR",
+        "version": "2019-12-11",
+        "lastUpdated": "2024-07-07 15:13:20",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "E: drive fix",
         "description": "Fix crash caused by no E: drive",
         "gameCode": "MBR",

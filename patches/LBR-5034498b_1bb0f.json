@@ -1,5 +1,11 @@
 [
     {
+        "gameCode": "LBR",
+        "version": "2012-08-29",
+        "lastUpdated": "2024-07-07 15:12:05",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Unlock all songs",
         "description": "",
         "gameCode": "LBR",

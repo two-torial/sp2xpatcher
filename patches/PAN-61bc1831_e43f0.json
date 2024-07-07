@@ -1,5 +1,11 @@
 [
     {
+        "gameCode": "PAN",
+        "version": "2021-12-22",
+        "lastUpdated": "2024-07-07 15:11:15",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
         "name": "Menu Timer Freeze",
         "description": "",
         "gameCode": "PAN",
