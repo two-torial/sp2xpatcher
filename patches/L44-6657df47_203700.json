@@ -134,7 +134,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 169232,
+                "offset": 906592,
                 "dllName": "jubeat.dll",
                 "dataDisabled": "558BEC",
                 "dataEnabled": "B001C3"
