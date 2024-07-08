@@ -8,6 +8,7 @@ Patches for which we don't know the corresponding game version.
 
 | Game Series | Identifier |
 |-------------|------------|
+| JuBeat | [L44-65fced28_b61e](patches/L44-65fced28_b61e.json) |
 </details>
 
 ## beatmania IIDX (2dx)
@@ -450,8 +451,7 @@ Patches for which we don't know the corresponding game version.
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| L44 | jubeat.dll | 2024-02-14 | [L44-65fced28_b61e](patches/L44-65fced28_b61e.json) |
-| L44 | jubeat.dll | 2024-03-25 | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
+| L44 | jubeat.dll | 2024-04-22 | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
 </details>
 
 ## pop'n music (popn)
