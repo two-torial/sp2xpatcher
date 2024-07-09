@@ -1052,5 +1052,19 @@
                 "dataEnabled": "59"
             }
         ]
+    },
+    {
+        "type": "memory",
+        "name": "Remove Song Count Limit (for omnimix)",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8371638,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7F19",
+                "dataEnabled": "9090"
+            }
+        ]
     }
 ]
