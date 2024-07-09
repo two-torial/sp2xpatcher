@@ -2,7 +2,7 @@
     {
         "gameCode": "M39",
         "version": "2024-02-19",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-09 18:01:25",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -192,26 +192,6 @@
                 "dllName": "popn22.dll",
                 "dataDisabled": "773E",
                 "dataEnabled": "EB07"
-            }
-        ]
-    },
-    {
-        "name": "Autoplay",
-        "description": "",
-        "gameCode": "M39",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 804814,
-                "dllName": "popn22.dll",
-                "dataDisabled": "0F8408010000",
-                "dataEnabled": "909090909090"
-            },
-            {
-                "offset": 805048,
-                "dllName": "popn22.dll",
-                "dataDisabled": "7453",
-                "dataEnabled": "9090"
             }
         ]
     },

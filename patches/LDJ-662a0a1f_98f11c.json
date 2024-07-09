@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-05-07 (012)",
-        "lastUpdated": "2024-07-03 13:46:58",
+        "lastUpdated": "2024-07-09 18:01:03",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -876,20 +876,6 @@
                     "data": "08",
                     "offset": 7944662
                 }
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Auto Play",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 7266889,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "00",
-                "dataEnabled": "01"
             }
         ]
     },
