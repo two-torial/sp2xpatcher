@@ -473,5 +473,49 @@
                 "dataEnabled": "75"
             }
         ]
+    },
+    {
+        "type": "union",
+        "name": "Fake Region",
+        "description": "",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "name": "None (Default)",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "E8AC532E0085C00F85FA000000",
+                    "offset": 2171471
+                }
+            },
+            {
+                "name": "Japan",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80000000089055EA07B009090",
+                    "offset": 2171471
+                }
+            },
+            {
+                "name": "Korea",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80100000089055EA07B009090",
+                    "offset": 2171471
+                }
+            },
+            {
+                "name": "America",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80200000089055EA07B009090",
+                    "offset": 2171471
+                }
+            }
+        ]
     }
 ]
