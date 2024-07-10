@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2021-12-14",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -69,7 +69,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "F20F5935D1CD34000F57C0660F2EF0",
@@ -78,7 +77,6 @@
             },
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "909090909090B878000000F20F2AF0",
@@ -87,7 +85,6 @@
             },
             {
                 "name": "144 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "909090909090B890000000F20F2AF0",
@@ -96,7 +93,6 @@
             },
             {
                 "name": "165 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "909090909090B8A5000000F20F2AF0",
@@ -105,7 +101,6 @@
             },
             {
                 "name": "240 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "909090909090B8F0000000F20F2AF0",
@@ -114,7 +109,6 @@
             },
             {
                 "name": "360 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "909090909090B868010000F20F2AF0",
@@ -373,7 +367,6 @@
         "patches": [
             {
                 "name": "Default (10 Minutes)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "0070C9B28B000000",
@@ -382,7 +375,6 @@
             },
             {
                 "name": "20 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00E0926517010000",
@@ -391,7 +383,6 @@
             },
             {
                 "name": "30 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00505C18A3010000",
@@ -400,7 +391,6 @@
             },
             {
                 "name": "1 Hour",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00A0B83046030000",

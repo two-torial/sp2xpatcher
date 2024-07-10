@@ -2,7 +2,7 @@
     {
         "gameCode": "L44",
         "version": "2022-05-24, 2022-02-16",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -149,7 +149,6 @@
         "patches": [
             {
                 "name": "festo(フェスト)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2E",
@@ -158,7 +157,6 @@
             },
             {
                 "name": "HinaBitter♪(ひなビタ♪)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2F",
@@ -167,7 +165,6 @@
             },
             {
                 "name": "clan(クラン)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2D",
@@ -176,7 +173,6 @@
             },
             {
                 "name": "Ochazuke(お茶づけ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2C",
@@ -185,7 +181,6 @@
             },
             {
                 "name": "AC Ver. Disney Tsum Tsum(AC版ディズニー ツムツム)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2B",
@@ -194,7 +189,6 @@
             },
             {
                 "name": "NEW GAME!",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2A",
@@ -203,7 +197,6 @@
             },
             {
                 "name": "Himouto! Umaru-chan(干物妹！うまるちゃん)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "29",
@@ -212,7 +205,6 @@
             },
             {
                 "name": "Qubell(キューベル)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "28",
@@ -221,7 +213,6 @@
             },
             {
                 "name": "prop(プロップ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "27",
@@ -230,7 +221,6 @@
             },
             {
                 "name": "QMA/CPU Sharon(QMA/CPUシャロン)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "26",
@@ -239,7 +229,6 @@
             },
             {
                 "name": "Shocho(ショッチョー)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "25",
@@ -248,7 +237,6 @@
             },
             {
                 "name": "saucer(ソーサー)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "24",
@@ -257,7 +245,6 @@
             },
             {
                 "name": "Natural block(ナチュラルブロック)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "23",
@@ -266,7 +253,6 @@
             },
             {
                 "name": "Little owl(こびふくろう)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "22",
@@ -275,7 +261,6 @@
             },
             {
                 "name": "Circus(サーカス)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "21",
@@ -284,7 +269,6 @@
             },
             {
                 "name": "copious(コピオス)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "20",
@@ -293,7 +277,6 @@
             },
             {
                 "name": "jubeat-kun(jubeatくん)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "1C",
@@ -302,7 +285,6 @@
             },
             {
                 "name": "Concierge(コンシェルジュ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "1B",
@@ -311,7 +293,6 @@
             },
             {
                 "name": "Nengoro Neko(ねんごろねこ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "1F",
@@ -320,7 +301,6 @@
             },
             {
                 "name": "Stopwatch(ストップウォッチ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "1E",
@@ -329,7 +309,6 @@
             },
             {
                 "name": "Color composition(色彩構成)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "1D",
@@ -338,7 +317,6 @@
             },
             {
                 "name": "knit(ニット)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "1A",
@@ -347,7 +325,6 @@
             },
             {
                 "name": "Stealth(ステルス)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "19",
@@ -356,7 +333,6 @@
             },
             {
                 "name": "Fusuma(襖)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "16",
@@ -365,7 +341,6 @@
             },
             {
                 "name": "Torus(トーラス)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "12",
@@ -374,7 +349,6 @@
             },
             {
                 "name": "Painting(絵画)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "17",
@@ -383,7 +357,6 @@
             },
             {
                 "name": "Blur(ブラー)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "13",
@@ -392,7 +365,6 @@
             },
             {
                 "name": "Banana(バナナ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "15",
@@ -401,7 +373,6 @@
             },
             {
                 "name": "Shoku(触)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "14",
@@ -410,7 +381,6 @@
             },
             {
                 "name": "Yubiko(ユビ子)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "18",
@@ -419,7 +389,6 @@
             },
             {
                 "name": "ripples(リプルズ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "11",
@@ -428,7 +397,6 @@
             },
             {
                 "name": "Mirror ball(ミラーボール)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "10",
@@ -437,7 +405,6 @@
             },
             {
                 "name": "Sand art(サンドアート)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0D",
@@ -446,7 +413,6 @@
             },
             {
                 "name": "Digital block(デジタルブロック)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0C",
@@ -455,7 +421,6 @@
             },
             {
                 "name": "Blow bubbles(シャボン玉)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0E",
@@ -464,7 +429,6 @@
             },
             {
                 "name": "Ice(アイス)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0A",
@@ -473,7 +437,6 @@
             },
             {
                 "name": "Okojo(オコジョ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0F",
@@ -482,7 +445,6 @@
             },
             {
                 "name": "Gauge(ゲージ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "09",
@@ -491,7 +453,6 @@
             },
             {
                 "name": "Volcano(火山)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0B",
@@ -500,7 +461,6 @@
             },
             {
                 "name": "Tamago(たまご)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "08",
@@ -509,7 +469,6 @@
             },
             {
                 "name": "Target(ターゲット)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "07",
@@ -518,7 +477,6 @@
             },
             {
                 "name": "Fireworks(花火)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "06",
@@ -527,7 +485,6 @@
             },
             {
                 "name": "Blue ring(ブルーリング)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "05",
@@ -536,7 +493,6 @@
             },
             {
                 "name": "Shutter(シャッター)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "04",
@@ -545,7 +501,6 @@
             },
             {
                 "name": "Afro(アフロ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "03",
@@ -554,7 +509,6 @@
             },
             {
                 "name": "Flower(フラワー)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "02",
@@ -563,7 +517,6 @@
             },
             {
                 "name": "Cyber(サイバー)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -580,7 +533,6 @@
         "patches": [
             {
                 "name": "Plant(プラント)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "02",
@@ -589,7 +541,6 @@
             },
             {
                 "name": "Ocean(オーシャン)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -598,7 +549,6 @@
             },
             {
                 "name": "Banana(バナナ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "03",
@@ -607,7 +557,6 @@
             },
             {
                 "name": "Charcoal Grey(チャコールグレー)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "04",
@@ -616,7 +565,6 @@
             },
             {
                 "name": "Lake(レイク)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "05",
@@ -625,7 +573,6 @@
             },
             {
                 "name": "Charcoal(チャコール)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "06",
@@ -634,7 +581,6 @@
             },
             {
                 "name": "Acerola(アセロラ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "07",
@@ -643,7 +589,6 @@
             },
             {
                 "name": "Cassis(カシス)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0B",
@@ -652,7 +597,6 @@
             },
             {
                 "name": "Himouto! Umaru-chan(干物妹！うまるちゃん)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "08",
@@ -661,7 +605,6 @@
             },
             {
                 "name": "NEW GAME!",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "09",
@@ -670,7 +613,6 @@
             },
             {
                 "name": "Ochazuke(お茶づけ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0A",
@@ -679,7 +621,6 @@
             },
             {
                 "name": "Kotaro and Nengoro Neko(コタローとねんごろねこ)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0C",
@@ -688,7 +629,6 @@
             },
             {
                 "name": "HinaBitter♪(ひなビタ♪)",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "0D",
@@ -705,7 +645,6 @@
         "patches": [
             {
                 "name": "ON",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -714,7 +653,6 @@
             },
             {
                 "name": "OFF",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "00",
@@ -731,7 +669,6 @@
         "patches": [
             {
                 "name": "ON",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -740,7 +677,6 @@
             },
             {
                 "name": "OFF",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "00",
@@ -757,7 +693,6 @@
         "patches": [
             {
                 "name": "OFF",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "00",
@@ -766,7 +701,6 @@
             },
             {
                 "name": "ON",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -783,7 +717,6 @@
         "patches": [
             {
                 "name": "ON",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -792,7 +725,6 @@
             },
             {
                 "name": "OFF",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "00",
@@ -809,7 +741,6 @@
         "patches": [
             {
                 "name": "OFF",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "00",
@@ -818,7 +749,6 @@
             },
             {
                 "name": "EXC 1",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "01",
@@ -827,7 +757,6 @@
             },
             {
                 "name": "EXC 2",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "02",
@@ -836,7 +765,6 @@
             },
             {
                 "name": "EXC 3",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "03",
@@ -845,7 +773,6 @@
             },
             {
                 "name": "FC 1",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "04",
@@ -854,7 +781,6 @@
             },
             {
                 "name": "FC 2",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "05",
@@ -863,7 +789,6 @@
             },
             {
                 "name": "FC 3",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "06",

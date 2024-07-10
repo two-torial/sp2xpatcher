@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2024-04-02 (001)",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:37",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -13,7 +13,6 @@
         "patches": [
             {
                 "name": "0 - SD",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "00",
@@ -22,7 +21,6 @@
             },
             {
                 "name": "1 - SD",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "01",
@@ -31,7 +29,6 @@
             },
             {
                 "name": "2 - HD (Default)",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "02",
@@ -40,7 +37,6 @@
             },
             {
                 "name": "3 - HD",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "03",
@@ -49,7 +45,6 @@
             },
             {
                 "name": "4 - HD (Gold)",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "04",

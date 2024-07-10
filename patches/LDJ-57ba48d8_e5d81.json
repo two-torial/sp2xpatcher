@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2016-08-31",
-        "lastUpdated": "2024-07-02 23:19:37",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -193,7 +193,6 @@
         "patches": [
             {
                 "name": "On",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "883D1110",
@@ -202,7 +201,6 @@
             },
             {
                 "name": "Off",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "873D1110",
@@ -211,7 +209,6 @@
             },
             {
                 "name": "Replace with song name",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "541D4211",

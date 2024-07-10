@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2016-12-12 (Season 2)",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -343,7 +343,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "8B85500100008B9D480100008B8D540100008B954C01000056573BC375083BCA0F84860000008BF881C77C9F02008BF183D6003BD67C1C7F043BDF7616052643000083D100898550010000898D54010000EB598BF881C7264300008BF183D6003BD67C1C7F043BDF7616056216000083D100898550",
@@ -352,7 +351,6 @@
             },
             {
                 "name": "Subtractive",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "56575251BE90717C188B465C6A00996A025250E83FC421008BC88B46588BFA996A0001C111D768809698005751E825C421008BFA8B56188BC88B82802C000001C09952505751E8AC362100B980969800BF0000000029C119D78BDF8BF9595A8B45088B4004EB57",
@@ -361,7 +359,6 @@
             },
             {
                 "name": "Average",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "56575251BE90717C188B4654996A006A025250E83FC421008BC88BFA8B46589901C111D76A0068809698005751E825C421008BFA8BC88B46548B565801D08B565C01D001C09983F8000F850F000000BF00000000BB00000000E90D00000052505751E8903621008BF88BDA595A8B45088B4004EB49",

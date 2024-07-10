@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2020-09-29 (003)",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -515,7 +515,6 @@
         "patches": [
             {
                 "name": "TestAllFactorySettingsScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "17880100",
@@ -524,7 +523,6 @@
             },
             {
                 "name": "AfpViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "5772D4FF",
@@ -533,7 +531,6 @@
             },
             {
                 "name": "QproViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "0703D5FF",
@@ -542,7 +539,6 @@
             },
             {
                 "name": "SoundViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "3769D5FF",
@@ -559,7 +555,6 @@
         "patches": [
             {
                 "name": "TestIOCheckQrCheckScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "A7490100",
@@ -568,7 +563,6 @@
             },
             {
                 "name": "CustomizeViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "8792D4FF",
@@ -577,7 +571,6 @@
             },
             {
                 "name": "SoundRankingViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "472BD5FF",
@@ -586,7 +579,6 @@
             },
             {
                 "name": "SystemSoundViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "479ED5FF",

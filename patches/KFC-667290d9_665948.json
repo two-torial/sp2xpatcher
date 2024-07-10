@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-06-25",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -55,7 +55,6 @@
         "patches": [
             {
                 "name": "60 FPS (Default)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "0000000000004E40",
@@ -64,7 +63,6 @@
             },
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "0000000000005E40",
@@ -81,7 +79,6 @@
         "patches": [
             {
                 "name": "60 FPS (Default)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "660F6EF0F30FE6F6F20F593590085800",
@@ -90,7 +87,6 @@
             },
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B878000000F20F2AF0F24890F2489090",
@@ -331,7 +327,6 @@
         "patches": [
             {
                 "name": "00:00",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "AAB9650000000000",
@@ -340,7 +335,6 @@
             },
             {
                 "name": "00:01",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00CA9A3B00000000",
@@ -349,7 +343,6 @@
             },
             {
                 "name": "04:20",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "002835893C000000",
@@ -358,7 +351,6 @@
             },
             {
                 "name": "13:37",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00AAFE38BE000000",
@@ -367,7 +359,6 @@
             },
             {
                 "name": "57:30",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "0044064423030000",
@@ -376,7 +367,6 @@
             },
             {
                 "name": "69:00",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00B83AEBC3030000",
@@ -385,7 +375,6 @@
             },
             {
                 "name": "10 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "0070C9B28B000000",
@@ -394,7 +383,6 @@
             },
             {
                 "name": "15 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00282E8CD1000000",
@@ -403,7 +391,6 @@
             },
             {
                 "name": "20 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00E0926517010000",
@@ -412,7 +399,6 @@
             },
             {
                 "name": "30 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00505C18A3010000",
@@ -421,7 +407,6 @@
             },
             {
                 "name": "45 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00788AA474020000",
@@ -430,7 +415,6 @@
             },
             {
                 "name": "60 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00A0B83046030000",
@@ -439,7 +423,6 @@
             },
             {
                 "name": "90 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00F01449E9040000",
@@ -482,7 +465,6 @@
         "patches": [
             {
                 "name": "None (Default)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "E81C142E0085C00F85FA000000",
@@ -491,7 +473,6 @@
             },
             {
                 "name": "Japan (J)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B8000000008905EE247A009090",
@@ -500,7 +481,6 @@
             },
             {
                 "name": "Korea (K)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B8010000008905EE247A009090",
@@ -509,7 +489,6 @@
             },
             {
                 "name": "Asia (A)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B8020000008905EE247A009090",
@@ -518,7 +497,6 @@
             },
             {
                 "name": "Indonesia (Y)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B8030000008905EE247A009090",
@@ -527,7 +505,6 @@
             },
             {
                 "name": "America (U)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B8040000008905EE247A009090",

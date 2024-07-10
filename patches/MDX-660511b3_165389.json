@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2024-04-02 (001)",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:37",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -434,7 +434,6 @@
         "patches": [
             {
                 "name": "1st",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "01",
@@ -443,7 +442,6 @@
             },
             {
                 "name": "EXTREME",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "02",
@@ -452,7 +450,6 @@
             },
             {
                 "name": "SuperNOVA2",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "03",
@@ -461,7 +458,6 @@
             },
             {
                 "name": "X2",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "04",
@@ -470,7 +466,6 @@
             },
             {
                 "name": "2013",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "05",
@@ -487,7 +482,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "E852EBFEFF",
@@ -496,7 +490,6 @@
             },
             {
                 "name": "Force CRT 945 p3io timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B800000000",
@@ -505,7 +498,6 @@
             },
             {
                 "name": "Force LCD 945 p3io timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B801000000",
@@ -514,7 +506,6 @@
             },
             {
                 "name": "Force LCD HM64 p4io timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B802000000",
@@ -523,7 +514,6 @@
             },
             {
                 "name": "Force CRT ADE-6291 p3io timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B803000000",
@@ -532,7 +522,6 @@
             },
             {
                 "name": "Force LCD ADE-6291 p3io timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B804000000",
@@ -541,7 +530,6 @@
             },
             {
                 "name": "Force LCD ADE-6291 p4io timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B805000000",
@@ -550,7 +538,6 @@
             },
             {
                 "name": "Force LCD ADE-6291 bio2 timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B806000000",
@@ -559,7 +546,6 @@
             },
             {
                 "name": "Force LCD X10 bio2 timing",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B807000000",
@@ -686,7 +672,6 @@
         "patches": [
             {
                 "name": "60 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "3C000000",
@@ -695,7 +680,6 @@
             },
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "78000000",
@@ -704,7 +688,6 @@
             },
             {
                 "name": "144 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "90000000",
@@ -713,7 +696,6 @@
             },
             {
                 "name": "165 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "A5000000",
@@ -722,7 +704,6 @@
             },
             {
                 "name": "240 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "F0000000",
@@ -731,7 +712,6 @@
             },
             {
                 "name": "360 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "68010000",

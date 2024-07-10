@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2020-01-15",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -241,7 +241,6 @@
         "patches": [
             {
                 "name": "Default (10 Minutes)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "0070C9B28B000000",
@@ -250,7 +249,6 @@
             },
             {
                 "name": "20 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00E0926517010000",
@@ -259,7 +257,6 @@
             },
             {
                 "name": "30 Minutes",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00505C18A3010000",
@@ -268,7 +265,6 @@
             },
             {
                 "name": "1 Hour",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "00A0B83046030000",

@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2020-02-03",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -227,7 +227,6 @@
         "patches": [
             {
                 "name": "1st",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "01",
@@ -236,7 +235,6 @@
             },
             {
                 "name": "EXTREME",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "02",
@@ -245,7 +243,6 @@
             },
             {
                 "name": "SuperNOVA2",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "03",
@@ -254,7 +251,6 @@
             },
             {
                 "name": "X2",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "04",
@@ -263,7 +259,6 @@
             },
             {
                 "name": "2013",
-                "type": "union",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "05",

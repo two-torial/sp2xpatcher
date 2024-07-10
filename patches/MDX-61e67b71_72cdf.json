@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2021-08-04",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -13,7 +13,6 @@
         "patches": [
             {
                 "name": "CRT 945 P3IO SD",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "00",
@@ -22,7 +21,6 @@
             },
             {
                 "name": "LCD 945 P3IO",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "01",
@@ -31,7 +29,6 @@
             },
             {
                 "name": "LCD HM64 P4IO SD",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "02",
@@ -40,7 +37,6 @@
             },
             {
                 "name": "CRT ADE-6291 P3IO HD",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "03",
@@ -49,7 +45,6 @@
             },
             {
                 "name": "LCD ADE-6291 P3IO HD (forced gold cab)",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "04",
@@ -58,7 +53,6 @@
             },
             {
                 "name": "LCD ADE-6291 P4IO",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "05",
@@ -67,7 +61,6 @@
             },
             {
                 "name": "LCD ADE-6291 BIO2",
-                "type": "union",
                 "patch": {
                     "dllName": "arkmdxp3.dll",
                     "data": "06",

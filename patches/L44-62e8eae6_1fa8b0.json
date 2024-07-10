@@ -2,7 +2,7 @@
     {
         "gameCode": "L44",
         "version": "2022-08-03",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -149,7 +149,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "31",
@@ -158,7 +157,6 @@
             },
             {
                 "name": "Festo",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "2E",
@@ -167,7 +165,6 @@
             },
             {
                 "name": "Qubell",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "28",
@@ -176,7 +173,6 @@
             },
             {
                 "name": "Shutter",
-                "type": "union",
                 "patch": {
                     "dllName": "jubeat.dll",
                     "data": "04",

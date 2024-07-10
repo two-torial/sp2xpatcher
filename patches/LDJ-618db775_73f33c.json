@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2021-11-17",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -213,7 +213,6 @@
         "patches": [
             {
                 "name": "60 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "3C00",
@@ -222,7 +221,6 @@
             },
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "7800",
@@ -231,7 +229,6 @@
             },
             {
                 "name": "144 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "9000",
@@ -240,7 +237,6 @@
             },
             {
                 "name": "165 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "A500",
@@ -249,7 +245,6 @@
             },
             {
                 "name": "170 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "AA00",
@@ -258,7 +253,6 @@
             },
             {
                 "name": "240 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "F000",
@@ -267,7 +261,6 @@
             },
             {
                 "name": "360 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "6801",
@@ -284,7 +277,6 @@
         "patches": [
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "C745DB78000000C7450B02000000488B45D74889450FC745D701000000C745DB78000000",
@@ -293,7 +285,6 @@
             },
             {
                 "name": "144 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "C745DB90000000C7450B02000000488B45D74889450FC745D701000000C745DB90000000",
@@ -302,7 +293,6 @@
             },
             {
                 "name": "165 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "C745DBA5000000C7450B02000000488B45D74889450FC745D701000000C745DBA5000000",
@@ -311,7 +301,6 @@
             },
             {
                 "name": "170 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "C745DBAA000000C7450B02000000488B45D74889450FC745D701000000C745DBAA000000",
@@ -320,7 +309,6 @@
             },
             {
                 "name": "240 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "C745DBF0000000C7450B02000000488B45D74889450FC745D701000000C745DBF0000000",
@@ -329,7 +317,6 @@
             },
             {
                 "name": "360 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "C745DB68010000C7450B02000000488B45D74889450FC745D701000000C745DB68010000",
@@ -346,7 +333,6 @@
         "patches": [
             {
                 "name": "120 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "7800",
@@ -355,7 +341,6 @@
             },
             {
                 "name": "144 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "9000",
@@ -364,7 +349,6 @@
             },
             {
                 "name": "165 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "A500",
@@ -373,7 +357,6 @@
             },
             {
                 "name": "170 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "AA00",
@@ -382,7 +365,6 @@
             },
             {
                 "name": "240 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "F000",
@@ -391,7 +373,6 @@
             },
             {
                 "name": "360 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "6801",
@@ -422,7 +403,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "448B91480B0000448BCA4C8BD94181C267010000B8B7600BB60F57",
@@ -431,7 +411,6 @@
             },
             {
                 "name": "120.0000 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "48B80000000000005E4066480F6EC0F20F58C8C3CCCCCCCCCCCCCC",
@@ -440,7 +419,6 @@
             },
             {
                 "name": "144.0000 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "48B8000000000000624066480F6EC0F20F58C8C3CCCCCCCCCCCCCC",
@@ -449,7 +427,6 @@
             },
             {
                 "name": "165.0860 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "48B8986E1283C0A2644066480F6EC0F20F58C8C3CCCCCCCCCCCCCC",
@@ -458,7 +435,6 @@
             },
             {
                 "name": "170.0000 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "48B8000000000040654066480F6EC0F20F58C8C3CCCCCCCCCCCCCC",
@@ -467,7 +443,6 @@
             },
             {
                 "name": "240.0000 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "48B80000000000006E4066480F6EC0F20F58C8C3CCCCCCCCCCCCCC",
@@ -476,7 +451,6 @@
             },
             {
                 "name": "360.0000 FPS",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "48B8000000000080764066480F6EC0F20F58C8C3CCCCCCCCCCCCCC",
@@ -756,7 +730,6 @@
         "patches": [
             {
                 "name": "FREE PLAY",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "1DB04D00",
@@ -765,7 +738,6 @@
             },
             {
                 "name": "Song Title/Ticker information",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "D9173006",
@@ -774,7 +746,6 @@
             },
             {
                 "name": "Hide",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "41BE5900",
@@ -839,7 +810,6 @@
         "patches": [
             {
                 "name": "TestAllFactorySettingsScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "E78C0100",
@@ -848,7 +818,6 @@
             },
             {
                 "name": "AfpViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "A77FEEFF",
@@ -857,7 +826,6 @@
             },
             {
                 "name": "QproViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "F710EFFF",
@@ -866,7 +834,6 @@
             },
             {
                 "name": "SoundViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "9782EFFF",
@@ -875,7 +842,6 @@
             },
             {
                 "name": "TestICCardQCScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "A7DBEFFF",
@@ -892,7 +858,6 @@
         "patches": [
             {
                 "name": "TestIOCheckQrCheckScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "F74C0100",
@@ -901,7 +866,6 @@
             },
             {
                 "name": "CustomizeViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "47A0EEFF",
@@ -910,7 +874,6 @@
             },
             {
                 "name": "SoundRankingViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "9739EFFF",
@@ -919,7 +882,6 @@
             },
             {
                 "name": "SystemSoundViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "57BBEFFF",

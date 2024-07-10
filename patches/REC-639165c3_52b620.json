@@ -2,7 +2,7 @@
     {
         "gameCode": "REC",
         "version": "2022-12-14",
-        "lastUpdated": "2024-07-02 23:19:38",
+        "lastUpdated": "2024-07-10 19:19:37",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -91,7 +91,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "superstep.dll",
                     "data": "10133A8001",
@@ -100,7 +99,6 @@
             },
             {
                 "name": "QCTestMenuScene",
-                "type": "union",
                 "patch": {
                     "dllName": "superstep.dll",
                     "data": "D0133A8001",
@@ -109,7 +107,6 @@
             },
             {
                 "name": "AfpViewerScene",
-                "type": "union",
                 "patch": {
                     "dllName": "superstep.dll",
                     "data": "70E6398001",
@@ -126,7 +123,6 @@
         "patches": [
             {
                 "name": "Default",
-                "type": "union",
                 "patch": {
                     "dllName": "superstep.dll",
                     "data": "1CA83F00",
@@ -135,7 +131,6 @@
             },
             {
                 "name": "KoteraTestScene",
-                "type": "union",
                 "patch": {
                     "dllName": "superstep.dll",
                     "data": "0DE93D00",
@@ -144,7 +139,6 @@
             },
             {
                 "name": "GamePrototypeSelectScene",
-                "type": "union",
                 "patch": {
                     "dllName": "superstep.dll",
                     "data": "ADCE3C00",
