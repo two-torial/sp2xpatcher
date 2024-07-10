@@ -482,7 +482,6 @@
         "patches": [
             {
                 "name": "None (Default)",
-                "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "E8AC532E0085C00F85FA000000",
@@ -490,8 +489,7 @@
                 }
             },
             {
-                "name": "Japan",
-                "type": "union",
+                "name": "Japan (J)",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B80000000089055EA07B009090",
@@ -499,8 +497,7 @@
                 }
             },
             {
-                "name": "Korea",
-                "type": "union",
+                "name": "Korea (K)",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B80100000089055EA07B009090",
@@ -508,11 +505,26 @@
                 }
             },
             {
-                "name": "America",
-                "type": "union",
+                "name": "Asia (A)",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B80200000089055EA07B009090",
+                    "offset": 2171471
+                }
+            },
+            {
+                "name": "Indonesia (Y)",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80300000089055EA07B009090",
+                    "offset": 2171471
+                }
+            },
+            {
+                "name": "America (U)",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80400000089055EA07B009090",
                     "offset": 2171471
                 }
             }

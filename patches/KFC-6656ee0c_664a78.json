@@ -490,7 +490,7 @@
                 }
             },
             {
-                "name": "Japan",
+                "name": "Japan (J)",
                 "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
@@ -499,7 +499,7 @@
                 }
             },
             {
-                "name": "Korea",
+                "name": "Korea (K)",
                 "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
@@ -508,11 +508,29 @@
                 }
             },
             {
-                "name": "America",
+                "name": "Asia (A)",
                 "type": "union",
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B80200000089057A0C7A009090",
+                    "offset": 1942959
+                }
+            },
+            {
+                "name": "Indonesia (Y)",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80300000089057A0C7A009090",
+                    "offset": 1942959
+                }
+            },
+            {
+                "name": "America (U)",
+                "type": "union",
+                "patch": {
+                    "dllName": "soundvoltex.dll",
+                    "data": "B80400000089057A0C7A009090",
                     "offset": 1942959
                 }
             }
