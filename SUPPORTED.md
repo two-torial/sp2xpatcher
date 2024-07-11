@@ -17,7 +17,7 @@ Patches for which we don't know the corresponding game version.
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
-| LDZ | bm2dx.dll | 2011-07-12 | [JDZ-4e110e2b_ba839](patches/JDZ-4e110e2b_ba839.json) |
+| JDZ | bm2dx.dll | 2011-07-12 | [JDZ-4e110e2b_ba839](patches/JDZ-4e110e2b_ba839.json) |
 </details>
 
 <details><summary>beatmania IIDX 19 Lincle</summary>
