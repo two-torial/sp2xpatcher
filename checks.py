@@ -18,7 +18,7 @@ def git_files(command):
 # Get a list of changes json files using git
 def get_changed_jsons():
     commands = [
-        # ['git', 'diff', '--name-only'], # changed files
+        ['git', 'diff', '--name-only'], # changed files
         ['git', 'diff', '--cached', '--name-only'], # staged files
         ['git', 'log', 'origin/main..HEAD', '--name-only', '--pretty=format:'] # comitted files
     ]
