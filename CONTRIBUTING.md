@@ -4,10 +4,17 @@
 
 ## How?
 
-**Fork** the project, **add/modify** files, propose a **Pull Request** and we'll get to it asap.  
-**Important Note:** When adding a new game version, add it to the [List of supported games](SUPPORTED.md) using the existing format, we won't merge your PR until you do.
+1. **Fork** the project if you don't already have it
+2. **Add/Modify/Stage/Commit** files as necessary **BUT don't Push/Sync them yet**
+3. **Run** the `checks.py` script with `python checks.py`
+4. If the script did anything: **Commit** its changes
+5. **Push/Sync** the changes to your repo
+6. **Propose a Pull Request** and we'll get to it asap
 
 Once a pull request is merged, patches will be available within minutes at `https://sp2x.two-torial.xyz/`
+
+### /!\ Important Note 
+When adding a new game version, add it to the [List of supported games](SUPPORTED.md) using the existing format, we won't merge your PR until you do.
 
 ## JSON Naming
 
