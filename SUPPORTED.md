@@ -283,6 +283,14 @@ Patches for which we don't know the corresponding game version.
 | MDX-003 | arkmdxbio2.dll | 2024-04-02 | [MDX-65d547f3_8fd24](patches/MDX-65d547f3_8fd24.json) |
 </details>
 
+<details><summary>Dance Dance Revolution World</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| MDX-003 | gamemdx.dll | 2024-06-13 | [MDX-66692e1b_1926a9](patches/MDX-66692e1b_1926a9.json) |
+| MDX-001 | gamemdx.dll | 2024-07-04 | [MDX-667c9d10_197659](patches/MDX-667c9d10_197659.json) |
+</details>
+
 ## Dancerush Stardom (DRS)
 
 <details><summary>Dancerush Stardom</summary>

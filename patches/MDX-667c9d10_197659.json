@@ -1,0 +1,83 @@
+[
+    {
+        "gameCode": "MDX",
+        "version": "2024-07-04 (001)",
+        "lastUpdated": "2024-07-11 14:58:53",
+        "source": "https://getze56901.github.io/ddrworld.html"
+    },
+    {
+        "name": "Mute Announcer",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 214019,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 2520188,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "76",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 184078,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Disable Konami Song and Skip Konami Logo",
+        "description": "",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2518016,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6C",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Sound Offset",
+        "description": "Bigger numbers make audio later.",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 140340,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
+    },
+    {
+        "name": "Fake PFREE",
+        "description": "WARNING: Make sure your network supports and allows this before enabling! Bug: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 150794,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "89"
+            }
+        ]
+    }
+]
