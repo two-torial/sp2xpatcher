@@ -74,15 +74,15 @@
     {
         "type": "union",
         "name": "Note FPS Target",
-        "description": "Untested",
+        "description": "",
         "gameCode": "KFC",
         "patches": [
             {
                 "name": "60 FPS (Default)",
                 "patch": {
                     "dllName": "soundvoltex.dll",
-                    "data": "660F6EC00F5BC0F30F590513D358000F",
-                    "offset": 3104994
+                    "data": "660F6EF0F30FE6F6F20F5935C8CF5800",
+                    "offset": 3106536
                 }
             },
             {
@@ -90,7 +90,7 @@
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B878000000F20F2AF0F24890F2489090",
-                    "offset": 3104994
+                    "offset": 3106536
                 }
             }
         ]
