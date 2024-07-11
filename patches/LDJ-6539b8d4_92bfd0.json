@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2023-10-30 (012)",
-        "lastUpdated": "2024-07-10 19:19:36",
+        "lastUpdated": "2024-07-11 08:56:59",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -526,20 +526,6 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "73797373645F6E6577735F637574696E5F7365",
                 "dataEnabled": "73797373645F64756D6D790000000000000000"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "QWERTY Keyboard Layout for Song Search",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 11219498,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "4142434445464748494A4B4C4D4E4F505152535455565758595A2D",
-                "dataEnabled": "51574552545955494F504153444647484A4B4C2D5A584356424E4D"
             }
         ]
     },
