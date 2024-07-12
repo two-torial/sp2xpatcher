@@ -308,7 +308,7 @@
     {
         "type": "memory",
         "name": "Hide premium guide banner",
-        "description": "Untested",
+        "description": "",
         "gameCode": "KFC",
         "patches": [
             {
