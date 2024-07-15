@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-07-09",
-        "lastUpdated": "2024-07-12 16:18:10",
+        "lastUpdated": "2024-07-15 13:58:13",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -120,6 +120,20 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "07",
                 "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "ASIO 2 Channels Mode",
+        "description": "ONLY IF USING ASIO AUDIO. Use 2 channels instead of 8. Useful for some audio cards.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 5571194,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08",
+                "dataEnabled": "05"
             }
         ]
     },
