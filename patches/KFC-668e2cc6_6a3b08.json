@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-07-11",
-        "lastUpdated": "2024-07-12 16:18:10",
+        "lastUpdated": "2024-07-24 21:39:41",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -82,7 +82,7 @@
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "660F6EF0F30FE6F6F20F593548CF5800",
-                    "offset": 3106536
+                    "offset": 3106664
                 }
             },
             {
@@ -90,7 +90,7 @@
                 "patch": {
                     "dllName": "soundvoltex.dll",
                     "data": "B878000000F20F2AF0F24890F2489090",
-                    "offset": 3106536
+                    "offset": 3106664
                 }
             }
         ]
