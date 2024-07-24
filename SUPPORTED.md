@@ -202,7 +202,7 @@ Patches for which we don't know the corresponding game version.
 | KFC | soundvoltex.dll | 2024-06-25 | [KFC-667290d9_665948](patches/KFC-667290d9_665948.json) |
 | KFC | soundvoltex.dll | 2024-07-09 | [KFC-668651b8_6a3558](patches/KFC-668651b8_6a3558.json) |
 | KFC | soundvoltex.dll | 2024-07-11 | [KFC-668e2cc6_6a3b08](patches/KFC-668e2cc6_6a3b08.json) |
-| KFC | soundvoltex.dll | 2024-07-17 | [KFC-66976a90_6a47e8](patches/KFC-66976a90_6a47e8.json) |
+| KFC | soundvoltex.dll | 2024-07-23 | [KFC-66976a90_6a47e8](patches/KFC-66976a90_6a47e8.json) |
 </details>
 
 ## BeatStream
