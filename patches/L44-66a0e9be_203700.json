@@ -2,7 +2,7 @@
     {
         "gameCode": "L44",
         "version": "2024-07-30",
-        "lastUpdated": "2024-08-01 14:51:34",
+        "lastUpdated": "2024-08-02 02:42:52",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -82,7 +82,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8,
+                "offset": 4,
                 "dllName": "jubeat.dll",
                 "dataDisabled": "03",
                 "dataEnabled": "EB"
