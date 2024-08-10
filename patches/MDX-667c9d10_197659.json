@@ -55,7 +55,7 @@
     },
     {
         "name": "Render Offset (?)",
-        "description": "",
+        "description": "Default: 2",
         "gameCode": "MDX",
         "type": "number",
         "patch": {
@@ -68,7 +68,7 @@
     },
     {
         "name": "Bomb Frame Offset",
-        "description": "",
+        "description": "Default: 1",
         "gameCode": "MDX",
         "type": "number",
         "patch": {
@@ -81,7 +81,7 @@
     },
     {
         "name": "Sound Offset",
-        "description": "Bigger numbers make audio later",
+        "description": "Default: 87 - Bigger numbers make audio later",
         "gameCode": "MDX",
         "type": "number",
         "patch": {
