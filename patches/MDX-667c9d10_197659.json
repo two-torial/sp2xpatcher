@@ -153,16 +153,16 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2530464,
+                "offset": 2515917,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "00000000646174612F6D64625F6170782F6D6F7669652F006C69747000000000",
-                "dataEnabled": "00000000646174612F6D64625F6170782F5F6F7669652F006C69747000000000"
+                "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
+                "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
             },
             {
-                "offset": 2515904,
+                "offset": 2530468,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "28D728103B591910B02312102F646174612F6D64625F6170782F6D6F76696500",
-                "dataEnabled": "28D728103B591910B02312102F646174612F6D64625F6170782F5F6F76696500"
+                "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
+                "dataEnabled":  "646174612F6D64625F6170782F5F6F766965"
             }
         ]
     }
