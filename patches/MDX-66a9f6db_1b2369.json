@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2024-08-06 (001)",
-        "lastUpdated": "2024-08-10 08:22:57",
+        "lastUpdated": "2024-08-12 09:10:32",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -130,13 +130,13 @@
                 "offset": 2639649,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
-                "dataEnabled":  "646174612F6D64625F6170782F6D6F766965"
+                "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
             },
             {
                 "offset": 2655892,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "646174612F6D64625F6170782F5F6F766965",
-                "dataEnabled":  "646174612F6D64625F6170782F5F6F766965"
+                "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
+                "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
             }
         ]
     }
