@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (012)",
-        "lastUpdated": "2024-08-27 18:15:10",
+        "lastUpdated": "2024-08-27 19:20:05",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -95,6 +95,20 @@
     },
     {
         "type": "memory",
+        "name": "Unlock All Songs and Charts",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 7696458,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "CS-style Song Start Delay",
         "description": "",
         "gameCode": "LDJ",
@@ -103,6 +117,40 @@
                 "offset": 8241655,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7D36",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Enable 1P Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8080889,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Enable 2P Premium Free",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8081370,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "741B",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8081392,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7405",
                 "dataEnabled": "9090"
             }
         ]
@@ -118,6 +166,26 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F84",
                 "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "All Notes Preview 12s",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8192637,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "0C"
+            },
+            {
+                "offset": 8193003,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "0C"
             }
         ]
     },
@@ -245,6 +313,26 @@
     },
     {
         "type": "memory",
+        "name": "Disable Background Movies",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8508492,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F849E000000",
+                "dataEnabled": "31C090909090"
+            },
+            {
+                "offset": 8154551,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "Force TDJ Mode",
         "description": "",
         "gameCode": "LDJ",
@@ -268,6 +356,34 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "0F85",
                 "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force LDJ Software Video Decoder for All Boot Modes",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8857025,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F8586000000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Show Lightning Model Folder in LDJ",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 7481678,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "750A",
+                "dataEnabled": "9090"
             }
         ]
     },
@@ -350,6 +466,20 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "48895C24",
                 "dataEnabled": "488BC1C3"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Quick Retry",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 7499232,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "40534883EC20",
+                "dataEnabled": "B001C3909090"
             }
         ]
     },
@@ -526,6 +656,20 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "4084FF",
                 "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable Premium Area Functions Server Region Check",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 6397101,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7475",
+                "dataEnabled": "9090"
             }
         ]
     },
