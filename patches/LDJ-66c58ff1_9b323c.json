@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (012)",
-        "lastUpdated": "2024-08-27 19:20:05",
+        "lastUpdated": "2024-08-28 19:24:33",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -86,9 +86,9 @@
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 7906326,
+                "offset": 8104903,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "741D",
+                "dataDisabled": "7422",
                 "dataEnabled": "9090"
             }
         ]
@@ -333,6 +333,20 @@
     },
     {
         "type": "memory",
+        "name": "Mute Navigator Voices",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8661391,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "750B",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "Force TDJ Mode",
         "description": "",
         "gameCode": "LDJ",
@@ -342,6 +356,98 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
                 "dataEnabled": "03"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "TDJonLDJ",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9577389,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8E",
+                "dataEnabled": "8F"
+            },
+            {
+                "offset": 9592850,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7E",
+                "dataEnabled": "7F"
+            },
+            {
+                "offset": 8403238,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "3C",
+                "dataEnabled": "78"
+            },
+            {
+                "offset": 8643260,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
+            },
+            {
+                "offset": 9569777,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
+            },
+            {
+                "offset": 9594523,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "44",
+                "dataEnabled": "45"
+            },
+            {
+                "offset": 8420970,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "85",
+                "dataEnabled": "84"
+            },
+            {
+                "offset": 9591751,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7E",
+                "dataEnabled": "7F"
+            },
+            {
+                "offset": 9591367,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7E",
+                "dataEnabled": "7F"
+            },
+            {
+                "offset": 9591471,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7E",
+                "dataEnabled": "7F"
+            },
+            {
+                "offset": 9592082,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7E",
+                "dataEnabled": "7F"
+            },
+            {
+                "offset": 9569073,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
+            },
+            {
+                "offset": 9571199,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
+            },
+            {
+                "offset": 7479832,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
             }
         ]
     },
@@ -583,6 +689,322 @@
     },
     {
         "type": "union",
+        "name": "Reroute FREE PLAY Text",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "5D176500",
+                    "offset": 5053999
+                }
+            },
+            {
+                "name": "Song Title/Ticker information",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "095BAF06",
+                    "offset": 5053999
+                }
+            },
+            {
+                "name": "Hide",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "81DA7400",
+                    "offset": 5053999
+                }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 5054317,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "C7166500",
+                "dataEnabled": "CB59AF06"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Increase 'All Factory Settings' Buffer",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8624878,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "60010000",
+                "dataEnabled": "22611400"
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Reroute 'All Factory Settings' Test Menu",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "D7840100",
+                    "offset": 8624901
+                }
+            },
+            {
+                "name": "AfpViewerScene",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "473AEBFF",
+                    "offset": 8624901
+                }
+            },
+            {
+                "name": "QproViewerScene",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "57D2EBFF",
+                    "offset": 8624901
+                }
+            },
+            {
+                "name": "SoundViewerScene",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "2742ECFF",
+                    "offset": 8624901
+                }
+            },
+            {
+                "name": "CustomizeViewerScene",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "E75FEBFF",
+                    "offset": 8624901
+                }
+            },
+            {
+                "name": "SoundRankingViewerScene",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "0702ECFF",
+                    "offset": 8624901
+                }
+            },
+            {
+                "name": "SystemSoundViewerScene",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "7788ECFF",
+                    "offset": 8624901
+                }
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Set Override Music Select BGM",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "E8D5F5FF",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "Standard",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8F0250000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "Free",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B890260000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "Premium Free",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8D0270000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "Class",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B870280000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "Step Up",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B810290000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "Arena",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8C0960000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "BPL Battle",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8E0990000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map 1",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B800A20000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map 2",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B850A20000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map 3",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8A0A20000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map Final",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8F0A20000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System I",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8E0A80000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System II",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B880A90000",
+                    "offset": 8106262
+                }
+            },
+            {
+                "name": "EPOLIS RESTORATION",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B870AA0000",
+                    "offset": 8106262
+                }
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Set Override Music Select Decide BGM",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "E805BFF6",
+                    "offset": 8111894
+                }
+            },
+            {
+                "name": "Standard",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8F02A0000",
+                    "offset": 8111894
+                }
+            },
+            {
+                "name": "Arena",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B810970000",
+                    "offset": 8111894
+                }
+            },
+            {
+                "name": "BPL Battle",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8309A0000",
+                    "offset": 8111894
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System I",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B830A90000",
+                    "offset": 8111894
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System II",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8D0A90000",
+                    "offset": 8111894
+                }
+            },
+            {
+                "name": "EPOLIS RESTORATION",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B8B0AB0000",
+                    "offset": 8111894
+                }
+            }
+        ]
+    },
+    {
+        "type": "union",
         "name": "Set Mode Select Default",
         "description": "",
         "gameCode": "LDJ",
@@ -710,6 +1132,98 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Stock LDJ 120Hz Light Speed",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8163253,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78",
+                "dataEnabled": "F0"
+            },
+            {
+                "offset": 8234097,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78",
+                "dataEnabled": "F0"
+            },
+            {
+                "offset": 8163245,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FF",
+                "dataEnabled": "FD"
+            },
+            {
+                "offset": 4769454,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCC",
+                "dataEnabled": "D1F9"
+            },
+            {
+                "offset": 8638398,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8B0D70A97806",
+                "dataEnabled": "B92000000090"
+            },
+            {
+                "offset": 8164354,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "6A",
+                "dataEnabled": "67"
+            },
+            {
+                "offset": 8163181,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCCCC",
+                "dataEnabled": "8B713C"
+            },
+            {
+                "offset": 8163281,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8B4B3C",
+                "dataEnabled": "D1FE90"
+            },
+            {
+                "offset": 8163290,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "E903D1",
+                "dataEnabled": "EE01F2"
+            },
+            {
+                "offset": 8163306,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "2BC8",
+                "dataEnabled": "29C6"
+            },
+            {
+                "offset": 8163309,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "F9",
+                "dataEnabled": "FE"
+            },
+            {
+                "offset": 8642551,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "448B491841D1F9EB10"
+            },
+            {
+                "offset": 8642605,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "448B4318",
+                "dataEnabled": "458BC190"
+            },
+            {
+                "offset": 8643226,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "72",
+                "dataEnabled": "59"
             }
         ]
     },
