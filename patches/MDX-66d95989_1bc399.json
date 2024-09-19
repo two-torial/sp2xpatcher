@@ -1,11 +1,11 @@
 [
     {
-		"gameCode": "MDX",
-		"version": "2024-09-10",
-		"lastUpdated": "2024-09-19 10:04:36",
-		"source": "https://sp2x.two-torial.xyz/"
+        "gameCode": "MDX",
+        "version": "2024-09-10",
+        "lastUpdated": "2024-09-19 10:04:36",
+        "source": "https://sp2x.two-torial.xyz/"
     },
-	{
+    {
         "name": "Mute Announcer",
         "description": "",
         "gameCode": "MDX",
