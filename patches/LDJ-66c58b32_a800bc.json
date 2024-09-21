@@ -1110,20 +1110,6 @@
         ]
     },
     {
-        "name": "Auto Play",
-        "patches": [
-            {
-                "offset": 8215513,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "00",
-                "dataEnabled": "01"
-            }
-        ],
-        "gameCode": "LDJ",
-        "description": "",
-        "type": "memory"
-    },
-    {
         "name": "Disable Recording Lock",
         "patches": [
             {
