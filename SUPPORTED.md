@@ -155,6 +155,8 @@ Patches for which we don't know the corresponding game version.
 
 <details><summary>beatmania IIDX 32 PINKY CRUSH</summary>
 
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
 | LDJ-010 | bm2dx.dll | 2024-10-09 | [LDJ-66ff4ffa_b3273c](patches/LDJ-66ff4ffa_b3273c.json) |
 | LDJ-012 | bm2dx.dll | 2024-10-09 | [LDJ-66ff5733_a6589c](patches/LDJ-66ff5733_a6589c.json) |
 </details>
