@@ -153,6 +153,12 @@ Patches for which we don't know the corresponding game version.
 | LDJ-012 | bm2dx.dll | 2024-08-26 | [LDJ-66c58ff1_9b323c](patches/LDJ-66c58ff1_9b323c.json) |
 </details>
 
+<details><summary>beatmania IIDX 32 PINKY CRUSH</summary>
+
+| LDJ-010 | bm2dx.dll | 2024-10-09 | [LDJ-66ff4ffa_b3273c](patches/LDJ-66ff4ffa_b3273c.json) |
+| LDJ-012 | bm2dx.dll | 2024-10-09 | [LDJ-66ff5733_a6589c](patches/LDJ-66ff5733_a6589c.json) |
+</details>
+
 ## Sound Voltex (SDVX)
 
 <details><summary>SOUND VOLTEX II -infinite infection-</summary>
