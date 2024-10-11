@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (012)",
-        "lastUpdated": "2024-08-28 19:24:33",
+        "lastUpdated": "2024-10-11 20:47:12",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -1229,15 +1229,83 @@
     },
     {
         "type": "memory",
-        "name": "Remove Song Count Limit (for omnimix)",
+        "name": "Omnimix",
         "description": "",
         "gameCode": "LDJ",
         "patches": [
+            {
+                "offset": 7476276,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7425",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8497424,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7473",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8497477,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "41",
+                "dataEnabled": "58"
+            },
+            {
+                "offset": 8511599,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
             {
                 "offset": 8511622,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7F19",
                 "dataEnabled": "9090"
+            },
+            {
+                "offset": 11956743,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "6F"
+            },
+            {
+                "offset": 12686451,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "64617461",
+                "dataEnabled": "6F6D6E69"
+            },
+            {
+                "offset": 7476141,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "E86EA90300",
+                "dataEnabled": "B801000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Omnimix Lightning Model Extras",
+        "description": "Requires music_artist_omni.xml, music_title_omni.xml, and video_music_omni.xml",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 11933930,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "796F6D69",
+                "dataEnabled": "6F6D6E69"
+            },
+            {
+                "offset": 11933971,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "796F6D69",
+                "dataEnabled": "6F6D6E69"
+            },
+            {
+                "offset": 12761249,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "6C697374",
+                "dataEnabled": "6F6D6E69"
             }
         ]
     }
