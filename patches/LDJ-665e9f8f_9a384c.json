@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-06-05 (012)",
-        "lastUpdated": "2024-07-11 08:56:51",
+        "lastUpdated": "2024-10-11 20:54:09",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -912,20 +912,6 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "72",
                 "dataEnabled": "59"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Remove Song Count Limit (for omnimix)",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8452822,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7F19",
-                "dataEnabled": "9090"
             }
         ]
     }
