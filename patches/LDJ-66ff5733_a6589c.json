@@ -684,6 +684,32 @@
     },
     {
         "type": "memory",
+        "name": "Disable Tutorial Prompt",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8852466,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "85C0",
+                "dataEnabled": "B001"
+            },
+            {
+                "offset": 8874156,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "752B",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8836678,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "85C0",
+                "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "Disable Recording Lock",
         "description": "",
         "gameCode": "LDJ",
