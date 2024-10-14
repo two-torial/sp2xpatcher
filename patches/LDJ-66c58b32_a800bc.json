@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-10-11 20:47:12",
+        "lastUpdated": "2024-10-14 16:26:06",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -1178,7 +1178,7 @@
     {
         "type": "memory",
         "name": "Omnimix",
-        "description": "",
+        "description": "Requires music_omni.bin and mdato.ifs (and additional sound/movie data etc.)",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -1254,6 +1254,44 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "6C697374",
                 "dataEnabled": "6F6D6E69"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Omnimix Increase Buffer",
+        "description": "music_*.bin 3MB -> 6MB",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9348187,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8D",
+                "dataEnabled": "8B"
+            },
+            {
+                "offset": 9348272,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8D",
+                "dataEnabled": "8B"
+            },
+            {
+                "offset": 9348347,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8D",
+                "dataEnabled": "8B"
+            },
+            {
+                "offset": 9348721,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8D",
+                "dataEnabled": "8B"
+            },
+            {
+                "offset": 9351437,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "85C07F0ABB0A000000E98B000000488D4C2440E85BC715004863C84881F9000030007607BB14000000EB6E41B800003000488D157B3F33068BCBFF",
+                "dataEnabled": "B900006000BA01000000E878802000EB204889024883C010488942104883E8104889C289D941B800006000EB0D90909090488D157B3F3306EBD7FF"
             }
         ]
     }

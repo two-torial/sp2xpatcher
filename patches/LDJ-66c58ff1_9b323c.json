@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (012)",
-        "lastUpdated": "2024-10-11 20:47:12",
+        "lastUpdated": "2024-10-14 16:26:06",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -1230,7 +1230,7 @@
     {
         "type": "memory",
         "name": "Omnimix",
-        "description": "",
+        "description": "Requires music_omni.bin and mdato.ifs (and additional sound/movie data etc.)",
         "gameCode": "LDJ",
         "patches": [
             {
