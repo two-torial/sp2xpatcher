@@ -1,7 +1,7 @@
 [
     {
         "gameCode": "MDX",
-        "version": "2024-07-02 (001)",
+        "version": "2024-10-15 (001)",
         "lastUpdated": "2024-10-19 09:04:19",
         "source": "https://sp2x.two-torial.xyz/"
     },
@@ -12,13 +12,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 214019,
+                "offset": 241187,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "0F84",
                 "dataEnabled": "90E9"
             },
             {
-                "offset": 2520188,
+                "offset": 2702212,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "76",
                 "dataEnabled": "62"
@@ -32,7 +32,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 184078,
+                "offset": 197134,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "0F84",
                 "dataEnabled": "90E9"
@@ -46,7 +46,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2518016,
+                "offset": 2699840,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "6C",
                 "dataEnabled": "62"
@@ -60,7 +60,7 @@
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
-            "offset": 140350,
+            "offset": 150286,
             "size": 4,
             "min": 0,
             "max": 1000
@@ -73,7 +73,7 @@
         "type": "number",
         "patch": {
             "dllName": "gamemdx.dll",
-            "offset": 140335,
+            "offset": 150271,
             "size": 4,
             "min": 0,
             "max": 10
@@ -85,7 +85,7 @@
         "gameCode": "MDX",
         "type": "number",
         "patch": {
-            "offset": 140340,
+            "offset": 150276,
             "dllName": "gamemdx.dll",
             "size": 4,
             "min": 0,
@@ -99,36 +99,10 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 150794,
+                "offset": 161115,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "01",
                 "dataEnabled": "89"
-            }
-        ]
-    },
-    {
-        "name": "Force Premium Play as Galaxy Play",
-        "description": "WARNING: Make sure your network supports and allows this before enabling!",
-        "gameCode": "MDX",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 438992,
-                "dllName": "gamemdx.dll",
-                "dataDisabled": "82B40610C6B4061011B5061094B50610",
-                "dataEnabled": "82B40610C6B4061011B5061002B60610"
-            },
-            {
-                "offset": 458032,
-                "dllName": "gamemdx.dll",
-                "dataDisabled": "2F020710620207106B010710A2010710",
-                "dataEnabled": "62020710620207106B010710A2010710"
-            },
-            {
-                "offset": 458016,
-                "dllName": "gamemdx.dll",
-                "dataDisabled": "87FF0610C700071018010710FD010710",
-                "dataEnabled": "87FF06101801071018010710FD010710"
             }
         ]
     },
@@ -139,7 +113,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2013036,
+                "offset": 2194892,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "4556454E54204D4F444500004652454520504C41590000005300000020000000544F4B454E000000434F494E00000000257325733A2532642F2532640000000043524544495425733A25326400000000303030303000000030303030303000002A2A2A2A2A2A0000504153454C493A202573202B20257300504153454C493A2025730000455854524120504153454C493A20257300000000504153454C493A204E4F5420415641494C41424C450000004C4F43414C204D4F444500004F46464C494E45204D4F4445000000004D41494E54454E414E434500434845434B494E4700000000434845434B494E472E000000434845434B494E472E2E0000434845434B494E472E2E2E004F4E4C494E4500004552524F520000004E4F5420415641494C41424C45",
                 "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
@@ -153,13 +127,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2515917,
+                "offset": 2697745,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
                 "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
             },
             {
-                "offset": 2530468,
+                "offset": 2714004,
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
                 "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
