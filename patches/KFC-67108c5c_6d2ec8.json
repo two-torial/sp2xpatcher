@@ -274,7 +274,7 @@
     {
         "type": "union",
         "name": "Premium Time Length",
-        "description": "",
+        "description": "Time at which the Premium timer starts. If you have it frozen, that'll be the time shown at all times.",
         "gameCode": "KFC",
         "patches": [
             {
@@ -394,7 +394,7 @@
     {
         "type": "memory",
         "name": "Valkyrie Mode 60Hz",
-        "description": "",
+        "description": "ONLY for Valkyrie (G Spec). Allows the game to run at 60Hz. Might require \"Force BIO2 (KFC) IO in Valkyrie mode\" enabled to work.",
         "gameCode": "KFC",
         "patches": [
             {
@@ -434,7 +434,7 @@
     {
         "type": "union",
         "name": "Fake Region",
-        "description": "",
+        "description": "Forces the game to run as a specific region without altering language, which allows for region-specific content locking. Use Japan for everything to be unlocked.",
         "gameCode": "KFC",
         "patches": [
             {
