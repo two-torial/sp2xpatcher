@@ -36,7 +36,7 @@
     {
         "type": "memory",
         "name": "Force BIO2 (KFC) IO in Valkyrie mode",
-        "description": "",
+        "description": "MOSTLY just for cabs. If you don't know why you need this, don't enable it.",
         "gameCode": "KFC",
         "patches": [
             {
