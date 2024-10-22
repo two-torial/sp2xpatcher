@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-10-09 (010)",
-        "lastUpdated": "2024-10-09 19:06:40",
+        "lastUpdated": "2024-10-22 21:41:07",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -378,7 +378,7 @@
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "3C00",
-                    "offset": 2
+                    "offset": 10001414
                 }
             },
             {
@@ -386,7 +386,7 @@
                 "patch": {
                     "dllName": "bm2dx.dll",
                     "data": "7800",
-                    "offset": 2
+                    "offset": 10001414
                 }
             }
         ]
@@ -494,13 +494,6 @@
                 "dataEnabled": "21"
             }
         ]
-    },
-    {
-        "type": "number",
-        "name": "Monitor Adjust Offset",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": []
     },
     {
         "type": "memory",
