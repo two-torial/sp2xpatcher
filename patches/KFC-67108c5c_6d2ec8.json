@@ -441,7 +441,7 @@
                 "name": "None (Default)",
                 "patch": {
                     "dllName": "soundvoltex.dll",
-                    "data": "E88C762E0085C00F85FA000000",
+                    "data": "E88CCB2E0085C00F85FA000000",
                     "offset": 2295647
                 }
             },
