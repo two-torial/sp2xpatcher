@@ -542,6 +542,13 @@ Patches for which we don't know the corresponding game version.
 | M39 | popn22.dll | 2022-06-13 | [M39-629ede76_197641](patches/M39-629ede76_197641.json) |
 </details>
 
+<details><summary>pop'n music UniLab</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M39 | popn22.dll | 2024-07-31 | [M39-66978613_184bc0](patches/M39-66978613_184bc0.json) |
+</details>
+
 ## MÚSECA
 
 <details><summary>MÚSECA</summary>
