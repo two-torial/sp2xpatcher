@@ -340,7 +340,7 @@
     {
         "type": "union",
         "name": "Fake Region",
-        "description": "",
+        "description": "Forces the game to run as a specific region without altering language, which allows for region-specific content locking. Use Japan for everything to be unlocked.",
         "gameCode": "KFC",
         "patches": [
             {
