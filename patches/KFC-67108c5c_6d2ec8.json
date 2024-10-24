@@ -2,50 +2,8 @@
     {
         "gameCode": "KFC",
         "version": "2024-10-22",
-        "lastUpdated": "2024-10-22 18:09:23",
+        "lastUpdated": "2024-10-24 11:39:54",
         "source": "https://sp2x.two-torial.xyz/"
-    },
-    {
-        "type": "memory",
-        "name": "Disable power change",
-        "description": "Prevents the game from changing power settings. Typically not required with spice2x.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 3236942,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "75",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Disable monitor change",
-        "description": "Prevents the game from changing monitor settings. Typically not required with spice2x.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 3236942,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "75",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Force BIO2 (KFC) IO in Valkyrie mode",
-        "description": "MOSTLY just for cabs. If you don't know why you need this, don't enable it.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 5491941,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "8705",
-                "dataEnabled": "A70C"
-            }
-        ]
     },
     {
         "type": "union",
@@ -98,7 +56,8 @@
     {
         "type": "memory",
         "name": "Shared mode WASAPI",
-        "description": "ONLY For Nemsys (F spec). Allows non-exclusive WASAPI audio. You may need to set your audio device to 48000Hz sample rate for this to work properly.",
+        "description": "Allows non-exclusive WASAPI audio in Nemsys mode.",
+        "caution": "ONLY For Nemsys (F spec). Might require 48000Hz sample rate. Will slightly increase audio latency.",
         "gameCode": "KFC",
         "patches": [
             {
@@ -112,7 +71,8 @@
     {
         "type": "memory",
         "name": "Shared mode WASAPI Valkyrie",
-        "description": "ONLY For Valkyrie (G spec). Allows non-exclusive WASAPI audio. You may need to set your audio device to 48000Hz sample rate for this to work properly.",
+        "description": "Allows non-exclusive WASAPI audio in Valkyrie mode.",
+        "caution": "ONLY For Valkyrie (G spec). Might require 48000Hz sample rate. Will slightly increase audio latency.",
         "gameCode": "KFC",
         "patches": [
             {
@@ -125,15 +85,15 @@
     },
     {
         "type": "memory",
-        "name": "ASIO 2 Channels Mode",
-        "description": "ONLY for ASIO audio users. Use 2 channels instead of 8. Useful for some audio cards.",
+        "name": "Hide premium guide banner",
+        "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr.",
         "gameCode": "KFC",
         "patches": [
             {
-                "offset": 5728666,
+                "offset": 3462907,
                 "dllName": "soundvoltex.dll",
-                "dataDisabled": "08",
-                "dataEnabled": "05"
+                "dataDisabled": "A9BF5000",
+                "dataEnabled": "D9BF5000"
             }
         ]
     },
@@ -219,20 +179,6 @@
     },
     {
         "type": "memory",
-        "name": "Disable subscreen in Valkyrie mode",
-        "description": "ONLY for Valkyrie (G spec). Forcefully disables the subscreen.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 5190670,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "83BDB800000002410F93C64488742451",
-                "dataEnabled": "41B60044887424519090909090909090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
         "name": "Timer freeze",
         "description": "Freezes all non-premium area timers.",
         "gameCode": "KFC",
@@ -274,7 +220,7 @@
     {
         "type": "union",
         "name": "Premium Time Length",
-        "description": "Time at which the Premium timer starts. If you have it frozen, that'll be the time shown at all times.",
+        "description": "Time at which the Premium timer starts. If you have it frozen, that'll be the time shown at all times",
         "gameCode": "KFC",
         "patches": [
             {
@@ -392,46 +338,6 @@
         ]
     },
     {
-        "type": "memory",
-        "name": "Valkyrie Mode 60Hz",
-        "description": "ONLY for Valkyrie (G Spec). Allows the game to run at 60Hz. Might require \"Force BIO2 (KFC) IO in Valkyrie mode\" enabled to work.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 3237133,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "75"
-            },
-            {
-                "offset": 5192267,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "75"
-            },
-            {
-                "offset": 5194608,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "75"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Hide premium guide banner",
-        "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 3462907,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "A9BF5000",
-                "dataEnabled": "D9BF5000"
-            }
-        ]
-    },
-    {
         "type": "union",
         "name": "Fake Region",
         "description": "Forces the game to run as a specific region without altering language, which allows for region-specific content locking. Use Japan for everything to be unlocked.",
@@ -484,6 +390,108 @@
                     "data": "B80400000089056A127E009090",
                     "offset": 2295647
                 }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable subscreen in Valkyrie mode",
+        "description": "Forcefully disables the subscreen.",
+        "caution": "ONLY for Valkyrie (G spec). Consider using spice2x's \"-sdvxnosub\" option instead.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 5190670,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "83BDB800000002410F93C64488742451",
+                "dataEnabled": "41B60044887424519090909090909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "ASIO 2 Channels Mode",
+        "description": "Use 2 channels instead of 8. Useful for some audio cards.",
+        "caution": "ONLY for ASIO audio users.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 5728666,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "08",
+                "dataEnabled": "05"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable power change",
+        "description": "Prevents the game from changing power settings.",
+        "caution": "Typically not required with spice2x.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 3236942,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable monitor change",
+        "description": "Prevents the game from changing monitor settings.",
+        "caution": "Typically not required with spice2x.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 3236942,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Valkyrie Mode 60Hz",
+        "description": "Allows the game to run at 60Hz.",
+        "caution": "ONLY for Valkyrie (G Spec). Might require \"Force BIO2 (KFC) IO in Valkyrie mode\" to work.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 3237133,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "75"
+            },
+            {
+                "offset": 5192267,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "75"
+            },
+            {
+                "offset": 5194608,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "75"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force BIO2 (KFC) IO in Valkyrie mode",
+        "description": "Forces the game to use BIO2 IO in Valkyrie mode.",
+        "caution": "Can be useful for arcade cabinets. If you don't know why you need this, ignore it.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 5491941,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8705",
+                "dataEnabled": "A70C"
             }
         ]
     }
