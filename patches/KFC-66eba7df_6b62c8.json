@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-09-24",
-        "lastUpdated": "2024-10-24 11:39:54",
+        "lastUpdated": "2024-10-27 17:19:33",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -14,17 +14,17 @@
             {
                 "name": "60 FPS (Default)",
                 "patch": {
+                    "offset": 9017902,
                     "dllName": "soundvoltex.dll",
-                    "data": "4E",
-                    "offset": 9017902
+                    "data": "4E"
                 }
             },
             {
                 "name": "120 FPS",
                 "patch": {
+                    "offset": 9017902,
                     "dllName": "soundvoltex.dll",
-                    "data": "5E",
-                    "offset": 9017902
+                    "data": "5E"
                 }
             }
         ]
@@ -38,17 +38,17 @@
             {
                 "name": "60 FPS (Default)",
                 "patch": {
+                    "offset": 3148552,
                     "dllName": "soundvoltex.dll",
-                    "data": "660F6EF0F30FE6F6F20F5935D08C5900",
-                    "offset": 3148552
+                    "data": "660F6EF0F30FE6F6F20F5935D08C5900"
                 }
             },
             {
                 "name": "120 FPS",
                 "patch": {
+                    "offset": 3148552,
                     "dllName": "soundvoltex.dll",
-                    "data": "B878000000F20F2AF0F24890F2489090",
-                    "offset": 3148552
+                    "data": "B878000000F20F2AF0F24890F2489090"
                 }
             }
         ]
@@ -100,7 +100,7 @@
     {
         "type": "memory",
         "name": "Hide all bottom text",
-        "description": "Hides all text typically found in the bottom corners of the screen such as \"PASELI\" or \"FREE PLAY\"",
+        "description": "Hides all text typically found in the bottom corners of the screen such as \"PASELI\" or \"FREE PLAY\".",
         "gameCode": "KFC",
         "patches": [
             {
@@ -179,7 +179,7 @@
     },
     {
         "type": "memory",
-        "name": "Timer freeze",
+        "name": "Standard/Menu Timer Freeze",
         "description": "Freezes all non-premium area timers.",
         "gameCode": "KFC",
         "patches": [
@@ -193,8 +193,8 @@
     },
     {
         "type": "memory",
-        "name": "Premium timer freeze",
-        "description": "Freezes premium area timers.",
+        "name": "Premium Free Timer Freeze",
+        "description": "Freezes all premium area timers.",
         "gameCode": "KFC",
         "patches": [
             {
@@ -226,113 +226,113 @@
             {
                 "name": "00:00",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "AAB9650000000000",
-                    "offset": 4120649
+                    "data": "AAB9650000000000"
                 }
             },
             {
                 "name": "00:01",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00CA9A3B00000000",
-                    "offset": 4120649
+                    "data": "00CA9A3B00000000"
                 }
             },
             {
                 "name": "04:20",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "002835893C000000",
-                    "offset": 4120649
+                    "data": "002835893C000000"
                 }
             },
             {
                 "name": "07:27",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00B6461368000000",
-                    "offset": 4120649
+                    "data": "00B6461368000000"
                 }
             },
             {
                 "name": "13:37",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00AAFE38BE000000",
-                    "offset": 4120649
+                    "data": "00AAFE38BE000000"
                 }
             },
             {
                 "name": "57:30",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "0044064423030000",
-                    "offset": 4120649
+                    "data": "0044064423030000"
                 }
             },
             {
                 "name": "69:00",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00B83AEBC3030000",
-                    "offset": 4120649
+                    "data": "00B83AEBC3030000"
                 }
             },
             {
                 "name": "10 Minutes (Default)",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "0070C9B28B000000",
-                    "offset": 4120649
+                    "data": "0070C9B28B000000"
                 }
             },
             {
                 "name": "15 Minutes",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00282E8CD1000000",
-                    "offset": 4120649
+                    "data": "00282E8CD1000000"
                 }
             },
             {
                 "name": "20 Minutes",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00E0926517010000",
-                    "offset": 4120649
+                    "data": "00E0926517010000"
                 }
             },
             {
                 "name": "30 Minutes",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00505C18A3010000",
-                    "offset": 4120649
+                    "data": "00505C18A3010000"
                 }
             },
             {
                 "name": "45 Minutes",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00788AA474020000",
-                    "offset": 4120649
+                    "data": "00788AA474020000"
                 }
             },
             {
                 "name": "60 Minutes",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00A0B83046030000",
-                    "offset": 4120649
+                    "data": "00A0B83046030000"
                 }
             },
             {
                 "name": "90 Minutes",
                 "patch": {
+                    "offset": 4120649,
                     "dllName": "soundvoltex.dll",
-                    "data": "00F01449E9040000",
-                    "offset": 4120649
+                    "data": "00F01449E9040000"
                 }
             }
         ]
@@ -346,65 +346,50 @@
             {
                 "name": "None (Default)",
                 "patch": {
+                    "offset": 2213007,
                     "dllName": "soundvoltex.dll",
-                    "data": "E88C762E0085C00F85FA000000",
-                    "offset": 2213007
+                    "data": "E88C762E0085C00F85FA000000"
                 }
             },
             {
                 "name": "Japan (J)",
                 "patch": {
+                    "offset": 2213007,
                     "dllName": "soundvoltex.dll",
-                    "data": "B8000000008905C2947C009090",
-                    "offset": 2213007
+                    "data": "B8000000008905C2947C009090"
                 }
             },
             {
                 "name": "Korea (K)",
                 "patch": {
+                    "offset": 2213007,
                     "dllName": "soundvoltex.dll",
-                    "data": "B8010000008905C2947C009090",
-                    "offset": 2213007
+                    "data": "B8010000008905C2947C009090"
                 }
             },
             {
                 "name": "Asia (A)",
                 "patch": {
+                    "offset": 2213007,
                     "dllName": "soundvoltex.dll",
-                    "data": "B8020000008905C2947C009090",
-                    "offset": 2213007
+                    "data": "B8020000008905C2947C009090"
                 }
             },
             {
                 "name": "Indonesia (Y)",
                 "patch": {
+                    "offset": 2213007,
                     "dllName": "soundvoltex.dll",
-                    "data": "B8030000008905C2947C009090",
-                    "offset": 2213007
+                    "data": "B8030000008905C2947C009090"
                 }
             },
             {
                 "name": "America (U)",
                 "patch": {
+                    "offset": 2213007,
                     "dllName": "soundvoltex.dll",
-                    "data": "B8040000008905F68C7C009090",
-                    "offset": 2213007
+                    "data": "B8040000008905F68C7C009090"
                 }
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Disable subscreen in Valkyrie mode",
-        "description": "Forcefully disables the subscreen.",
-        "caution": "ONLY for Valkyrie (G spec). Consider using spice2x's \"-sdvxnosub\" option instead.",
-        "gameCode": "KFC",
-        "patches": [
-            {
-                "offset": 5086894,
-                "dllName": "soundvoltex.dll",
-                "dataDisabled": "83BDB800000002410F93C64488742451",
-                "dataEnabled": "41B60044887424519090909090909090"
             }
         ]
     },
@@ -450,6 +435,21 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable Subscreen in Valkyrie mode",
+        "description": "Forcefully disables the subscreen.",
+        "caution": "ONLY for Valkyrie (G spec). Consider using spice2x's \"-sdvxnosub\" option instead.",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 5086894,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "83BDB800000002410F93C64488742451",
+                "dataEnabled": "41B60044887424519090909090909090"
             }
         ]
     },
