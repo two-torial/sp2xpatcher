@@ -477,26 +477,6 @@
     },
     {
         "type": "memory",
-        "name": "Force Monitor Adjust Offset",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 10064290,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7426",
-                "dataEnabled": "EB0B"
-            },
-            {
-                "offset": 10064323,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "08",
-                "dataEnabled": "21"
-            }
-        ]
-    },
-    {
-        "type": "memory",
         "name": "Skip CAMERA DEVICE ERROR Prompt",
         "description": "",
         "gameCode": "LDJ",
