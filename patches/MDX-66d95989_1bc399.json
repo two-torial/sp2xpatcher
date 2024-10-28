@@ -2,14 +2,14 @@
     {
         "gameCode": "MDX",
         "version": "2024-09-10 (001)",
-        "lastUpdated": "2024-10-19 09:04:19",
+        "lastUpdated": "2024-10-28 23:21:30",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
-        "name": "Mute Announcer",
-        "description": "",
-        "gameCode": "MDX",
         "type": "memory",
+        "name": "Mute Announcer",
+        "description": "Mutes the announcer voice.",
+        "gameCode": "MDX",
         "patches": [
             {
                 "offset": 238387,
@@ -26,10 +26,10 @@
         ]
     },
     {
-        "name": "Timer Freeze",
-        "description": "",
-        "gameCode": "MDX",
         "type": "memory",
+        "name": "Timer Freeze",
+        "description": "Freezes all timers.",
+        "gameCode": "MDX",
         "patches": [
             {
                 "offset": 194622,
@@ -40,10 +40,10 @@
         ]
     },
     {
-        "name": "Disable Konami Song and Skip Konami Logo",
-        "description": "",
-        "gameCode": "MDX",
         "type": "memory",
+        "name": "Disable Konami Song and Skip Konami Logo",
+        "description": "Disables the Konami jingle and its animation when starting the game.",
+        "gameCode": "MDX",
         "patches": [
             {
                 "offset": 2693696,
@@ -54,10 +54,10 @@
         ]
     },
     {
-        "name": "Render Offset (?)",
-        "description": "Default: 2",
-        "gameCode": "MDX",
         "type": "number",
+        "name": "Render Offset",
+        "description": "Sets the render offset (Default: 2).",
+        "gameCode": "MDX",
         "patch": {
             "dllName": "gamemdx.dll",
             "offset": 148254,
@@ -67,10 +67,10 @@
         }
     },
     {
-        "name": "Bomb Frame Offset",
-        "description": "Default: 1",
-        "gameCode": "MDX",
         "type": "number",
+        "name": "Bomb Frame Offset",
+        "description": "Sets the bomb frame offset (Default: 1).",
+        "gameCode": "MDX",
         "patch": {
             "dllName": "gamemdx.dll",
             "offset": 148239,
@@ -80,23 +80,24 @@
         }
     },
     {
-        "name": "Sound Offset",
-        "description": "Default: 87 - Bigger numbers make audio later",
-        "gameCode": "MDX",
         "type": "number",
+        "name": "Sound Offset",
+        "description": "Larger numbers make audio later (Default: 87)",
+        "gameCode": "MDX",
         "patch": {
-            "offset": 148244,
             "dllName": "gamemdx.dll",
+            "offset": 148244,
             "size": 4,
             "min": 0,
             "max": 1000
         }
     },
     {
-        "name": "Fake PFREE",
-        "description": "WARNING: Make sure your network supports and allows this before enabling! Bug: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved.",
-        "gameCode": "MDX",
         "type": "memory",
+        "name": "Fake Premium Free",
+        "description": "Fakes a Premium Free-like mode.",
+        "caution": "Make sure your network supports and allows this before enabling! BUG: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved.",
+        "gameCode": "MDX",
         "patches": [
             {
                 "offset": 161090,
@@ -107,10 +108,10 @@
         ]
     },
     {
-        "name": "Hide all bottom text",
-        "description": "",
-        "gameCode": "MDX",
         "type": "memory",
+        "name": "Hide all bottom text",
+        "description": "Hides all text typically found in the bottom corners of the screen such as \"CREDITS\", \"TOKEN\", \"PASELI\", \"FREE PLAY\", etc..",
+        "gameCode": "MDX",
         "patches": [
             {
                 "offset": 2188748,
@@ -121,22 +122,22 @@
         ]
     },
     {
-        "name": "Hide background music video",
-        "description": "",
-        "gameCode": "MDX",
         "type": "memory",
+        "name": "Disable Background Movies",
+        "description": "Disables background movies from playing during gameplay.",
+        "gameCode": "MDX",
         "patches": [
             {
-                "offset": 2691601,
+                "offset": 2691614,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
-                "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
             },
             {
-                "offset": 2707908,
+                "offset": 2707921,
                 "dllName": "gamemdx.dll",
-                "dataDisabled": "646174612F6D64625F6170782F6D6F766965",
-                "dataEnabled": "646174612F6D64625F6170782F5F6F766965"
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
             }
         ]
     }
