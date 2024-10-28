@@ -2,13 +2,89 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-10-27 19:33:55",
+        "lastUpdated": "2024-10-28 23:38:02",
         "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "type": "union",
+        "name": "Force Audio Output Mode",
+        "description": "Forces the game to use a specific audio protocol.",
+        "caution": "This patch is REQUIRED for WASAPI users. Spice2x's \"-iidxsounddevice\" no longer works for Epolis and above.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 10502307,
+                    "dllName": "bm2dx.dll",
+                    "data": "E8E8C3ECFF83780803"
+                }
+            },
+            {
+                "name": "WASAPI",
+                "patch": {
+                    "offset": 10502307,
+                    "dllName": "bm2dx.dll",
+                    "data": "BB00000000EB169090"
+                }
+            },
+            {
+                "name": "ASIO",
+                "patch": {
+                    "offset": 10502307,
+                    "dllName": "bm2dx.dll",
+                    "data": "BB01000000EB169090"
+                }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Shared Mode WASAPI",
+        "description": "Allows non-exclusive WASAPI audio.",
+        "caution": "Requires \"Force Audio Output Mode\" to WASAPI. Requires 48000Hz sample rate. Will slightly increase audio latency.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 4729083,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "448BF2",
+                "dataEnabled": "4D31F6"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Increase Game Volume",
+        "description": "Increases game volume as it can be a bit low on home setups by default.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 10433941,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FF9098000000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force LDJ Mode",
+        "description": "Forces the game to run as LDJ (012, 60Hz) instead of TDJ (010, 120Hz).",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 10296007,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "03",
+                "dataEnabled": "02"
+            }
+        ]
     },
     {
         "type": "memory",
         "name": "Standard/Menu Timer Freeze",
-        "description": "",
+        "description": "Freezes all non-premium area timers.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -22,7 +98,7 @@
     {
         "type": "memory",
         "name": "Premium Free Timer Freeze",
-        "description": "",
+        "description": "Freezes all premium area timers.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -35,34 +111,200 @@
     },
     {
         "type": "memory",
-        "name": "Allow 1-99m Premium Free Length",
-        "description": "",
+        "name": "CS-style Song Start Delay",
+        "description": "Lets you pause at the start of a song by holding Start.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 5828286,
+                "offset": 9081991,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "06",
-                "dataEnabled": "01"
-            },
-            {
-                "offset": 5828299,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "19",
-                "dataEnabled": "63"
-            },
-            {
-                "offset": 5812098,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "84C0",
+                "dataDisabled": "7D36",
                 "dataEnabled": "9090"
             }
         ]
     },
     {
         "type": "memory",
+        "name": "All Notes Preview 12s",
+        "description": "Always shows note previews at the start of a song, no matter the level.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9032973,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "0C"
+            },
+            {
+                "offset": 9033339,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "05",
+                "dataEnabled": "0C"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Unscramble Touch Screen Keypad in TDJ",
+        "description": "Unscrambles the touchscreen's Keypad in TDJ.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9888149,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "4D03C849F7F1",
+                "dataEnabled": "BA0C00000090"
+            },
+            {
+                "offset": 9887771,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "33D248F7F3",
+                "dataEnabled": "BA0C000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Quick Retry",
+        "description": "Makes retrying a song quicker.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8339568,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "40534883EC20",
+                "dataEnabled": "B001C3909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Quicker Quick Retry",
+        "description": "Makes retrying a song even quicker. Shortens the duration of the 'Stage Failed' animation.",
+        "caution": "To be used along with \"Quick Retry\".",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9078981,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7C12",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Mute Navigator Voices",
+        "description": "Mutes voices you hear when carding in/out of the game.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9501327,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "750B",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable News Sound",
+        "description": "Disables news sounds.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 13135704,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "73797373645F6E6577735F637574696E5F7365",
+                "dataEnabled": "73797373645F64756D6D790000000000000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable Background Movies",
+        "description": "Disables background movies from playing during gameplay.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9348428,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F849E000000",
+                "dataEnabled": "31C090909090"
+            },
+            {
+                "offset": 8994887,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Disable Recording Lock",
+        "description": "Allows ALL songs to be recorded in-game. Still requires TDJ.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8339375,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "4084FF",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Reroute FREE PLAY Text",
+        "description": "Reroute FREE PLAY Text to show something different.",
+        "caution": "Requires FREE PLAY enabled in the test menu.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 5896223,
+                    "dllName": "bm2dx.dll",
+                    "data": "4D2D6500"
+                }
+            },
+            {
+                "name": "Song Title/Ticker information",
+                "patch": {
+                    "offset": 5896223,
+                    "dllName": "bm2dx.dll",
+                    "data": "5991B206"
+                }
+            },
+            {
+                "name": "Hide",
+                "patch": {
+                    "offset": 5896223,
+                    "dllName": "bm2dx.dll",
+                    "data": "A1EF7400"
+                }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Hide All Bottom Text",
+        "description": "Hides all text typically found in the bottom corners of the screen such as \"PASELI\" or \"FREE PLAY\".",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 12523904,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "4352454449543A20256420434F494E3A202564202F20256400000000000000004352454449543A202564000000000000504153454C493A204E4F5420415641494C41424C45000000455854524120504153454C493A2025640000000000000000455854524120504153454C493A2025730000000000000000504153454C493A202564000000000000504153454C493A202573000000000000504153454C493A202A2A2A2A2A2A0000202B202564000000202B202573000000504153454C493A204E4F204143434F554E54000000000000494E5345525420434F494E5B535D0000504153454C493A202A2A2A2A2A2A202B20303030303000004352454449543A20393920434F494E3A203939202F203130",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "Hide Time Limit Display on Results Screen",
-        "description": "",
+        "description": "Hides the time limit display on results screen.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -76,7 +318,7 @@
     {
         "type": "memory",
         "name": "Hide Background Color Banners on Song List",
-        "description": "",
+        "description": "Hides all \"listb_\" elements.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -107,54 +349,12 @@
     },
     {
         "type": "memory",
-        "name": "Cursor Lock",
-        "description": "",
+        "name": "Hide Measure Lines",
+        "description": "Hides measure lines during gameplay.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 8945239,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7422",
-                "dataEnabled": "9090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Unlock All Songs and Charts",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8536794,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "32C0",
-                "dataEnabled": "B001"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "CS-style Song Start Delay",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9081991,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7D36",
-                "dataEnabled": "9090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Enable 1P Premium Free",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8921225,
+                "offset": 8029222,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
@@ -163,110 +363,22 @@
     },
     {
         "type": "memory",
-        "name": "Enable 2P Premium Free",
-        "description": "",
+        "name": "Hide Judge Combo Count",
+        "description": "Hides the Combo Count during gameplay.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 8921706,
+                "offset": 9494530,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "741B",
-                "dataEnabled": "9090"
-            },
-            {
-                "offset": 8921728,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7405",
-                "dataEnabled": "9090"
+                "dataDisabled": "FFC0",
+                "dataEnabled": "31C0"
             }
         ]
     },
     {
         "type": "memory",
-        "name": "Force Max V-Discs",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 5904979,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "0F84",
-                "dataEnabled": "90E9"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "All Notes Preview 12s",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9032973,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "05",
-                "dataEnabled": "0C"
-            },
-            {
-                "offset": 9033339,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "05",
-                "dataEnabled": "0C"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Enable ARENA",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8921792,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7430",
-                "dataEnabled": "9090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Enable BPL BATTLE",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8921812,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "741C",
-                "dataEnabled": "9090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "ARENA Quick Close",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9408046,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "BB01000000",
-                "dataEnabled": "E975982E00"
-            },
-            {
-                "offset": 12461736,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "0000000000000000000000000000000000000000",
-                "dataEnabled": "8B0590AC4F06F7D0A80C750199FFC3E97767D1FF"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Dark Mode",
-        "description": "",
+        "name": "Dark Gameplay Mode",
+        "description": "Makes a lot of gameplay UI elements completely black.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -279,102 +391,58 @@
     },
     {
         "type": "memory",
-        "name": "Hide Measure Lines",
-        "description": "",
+        "name": "Unlock All Songs and Charts",
+        "description": "Unlocks all songs and charts.",
+        "caution": "ONLY for offline testing purposes. DO NOT use on online networks, you could get banned as they handle this server-side.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 8029222,
+                "offset": 8535382,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "75",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
-        "type": "union",
-        "name": "Force Audio Output Mode",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "E8E8C3ECFF83780803",
-                    "offset": 10502307
-                }
-            },
-            {
-                "name": "WASAPI",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "BB00000000EB169090",
-                    "offset": 10502307
-                }
-            },
-            {
-                "name": "ASIO",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "BB01000000EB169090",
-                    "offset": 10502307
-                }
+                "dataDisabled": "32C0",
+                "dataEnabled": "B001"
             }
         ]
     },
     {
         "type": "memory",
-        "name": "WASAPI Shared Mode",
-        "description": "",
+        "name": "Force Max V-Discs",
+        "description": "Forces your V-Discs to be maxed out.",
+        "caution": "May(?) cause issues on online networks, use at your own risk.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 4729083,
+                "offset": 5904979,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "448BF2",
-                "dataEnabled": "4D31F6"
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
             }
         ]
     },
     {
         "type": "memory",
-        "name": "Disable Background Movies",
-        "description": "",
+        "name": "Remove Camera Boot Delay",
+        "description": "Removes the camera delay at boot.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 9348428,
+                "offset": 9258525,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "0F849E000000",
-                "dataEnabled": "31C090909090"
+                "dataDisabled": "5802",
+                "dataEnabled": "0100"
             },
             {
-                "offset": 8994887,
+                "offset": 10367474,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Mute Navigator Voices",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9501327,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "750B",
-                "dataEnabled": "9090"
+                "dataDisabled": "0300",
+                "dataEnabled": "0100"
             }
         ]
     },
     {
         "type": "memory",
         "name": "Bypass Lightning Monitor Error",
-        "description": "",
+        "description": "Bypasses a monitor-related error in Lightning mode.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -387,22 +455,23 @@
     },
     {
         "type": "memory",
-        "name": "Force LDJ Software Video Decoder for All Boot Modes",
-        "description": "",
+        "name": "Bypass CAMERA DEVICE ERROR Prompt",
+        "description": "Bypasses CAMERA DEVICE ERROR prompt, in case you're having issues.",
+        "caution": "Shouldn't be needed on spice2x. Use \"-iidxdisablecams\" or \"-iidxtdjcamhook\" with a webcam instead.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 9696257,
+                "offset": 9262651,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "0F8586000000",
-                "dataEnabled": "909090909090"
+                "dataDisabled": "84",
+                "dataEnabled": "81"
             }
         ]
     },
     {
         "type": "memory",
         "name": "Show Lightning Model Folder in LDJ",
-        "description": "",
+        "description": "Shows the Lightning Model Folder normally exclusive to TDJ, in LDJ.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -415,8 +484,23 @@
     },
     {
         "type": "memory",
-        "name": "Force Custom Timing and Adapter Mode in LDJ (Experimental)",
-        "description": "",
+        "name": "Force LDJ Software Video Decoder",
+        "description": "Forces LDJ Software Video Decoder for all boot modes, could help on systems that can't load videos properly.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9696257,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F8586000000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force LDJ Custom Timing/Adapter FPS",
+        "description": "Forces Custom Timing/Adapter FPS in LDJ.",
+        "caution": "Enable this if \"Custom LDJ Timing/Adapter FPS\" is not default. May cause desync. Consider \"Force TDJ/LDJ Mode\" patches instead.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -435,24 +519,25 @@
     },
     {
         "type": "union",
-        "name": "Choose Custom LDJ Timing/Adapter FPS",
-        "description": "",
+        "name": "Choose LDJ Custom Timing/Adapter FPS",
+        "description": "Sets the Timing/Adapter FPS in LDJ.",
+        "caution": "Requires \"Force Custom Timing/Adapter in LDJ\" to be enabled. May cause desync. Consider \"Force TDJ/LDJ Mode\" patches instead.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "name": "60 FPS",
+                "name": "60 FPS (Default)",
                 "patch": {
+                    "offset": 10295297,
                     "dllName": "bm2dx.dll",
-                    "data": "C745DB3C000000C745FF01000000488B45D748894503C745D701000000C745DB3C000000",
-                    "offset": 10295297
+                    "data": "C745DB3C000000C745FF01000000488B45D748894503C745D701000000C745DB3C000000"
                 }
             },
             {
                 "name": "120 FPS",
                 "patch": {
+                    "offset": 10295297,
                     "dllName": "bm2dx.dll",
-                    "data": "C745DB78000000C745FF01000000488B45D748894503C745D701000000C745DB78000000",
-                    "offset": 10295297
+                    "data": "C745DB78000000C745FF01000000488B45D748894503C745D701000000C745DB78000000"
                 }
             }
         ]
@@ -460,149 +545,33 @@
     {
         "type": "union",
         "name": "Choose Fullscreen Monitor Check FPS Target",
-        "description": "",
+        "description": "Sets the Monitor Check FPS Target.",
+        "caution": "May cause desync. Consider \"Force TDJ/LDJ Mode\" patches instead.",
         "gameCode": "LDJ",
         "patches": [
             {
                 "name": "60 FPS",
                 "patch": {
+                    "offset": 9243206,
                     "dllName": "bm2dx.dll",
-                    "data": "3C00",
-                    "offset": 9243206
+                    "data": "3C00"
                 }
             },
             {
                 "name": "120 FPS",
                 "patch": {
+                    "offset": 9243206,
                     "dllName": "bm2dx.dll",
-                    "data": "7800",
-                    "offset": 9243206
+                    "data": "7800"
                 }
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Skip Decide Screen",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 6018448,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "48895C24",
-                "dataEnabled": "488BC1C3"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Quick Retry",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8339568,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "40534883EC20",
-                "dataEnabled": "B001C3909090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Quicker Quick Retry",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9078981,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7C12",
-                "dataEnabled": "9090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Disable News Sound",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 13135704,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "73797373645F6E6577735F637574696E5F7365",
-                "dataEnabled": "73797373645F64756D6D790000000000000000"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Increase Game Volume",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 10433941,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "FF9098000000",
-                "dataEnabled": "909090909090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Skip CAMERA DEVICE ERROR Prompt",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9262651,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "84",
-                "dataEnabled": "81"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Hide Judge Combo Count",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9494530,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "FFC0",
-                "dataEnabled": "31C0"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Unscramble Touch Screen Keypad in TDJ",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9888149,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "4D03C849F7F1",
-                "dataEnabled": "BA0C00000090"
-            },
-            {
-                "offset": 9887771,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "33D248F7F3",
-                "dataEnabled": "BA0C000000"
             }
         ]
     },
     {
         "type": "memory",
         "name": "Debug Mode",
-        "description": "",
+        "description": "While in game, press F1 to enable menu. (Disables Profile/Score saving)",
+        "caution": "Ignore if you're not sure know what this does.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -615,576 +584,9 @@
     },
     {
         "type": "memory",
-        "name": "Hide All Bottom Text",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 12523904,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "4352454449543A20256420434F494E3A202564202F20256400000000000000004352454449543A202564000000000000504153454C493A204E4F5420415641494C41424C45000000455854524120504153454C493A2025640000000000000000455854524120504153454C493A2025730000000000000000504153454C493A202564000000000000504153454C493A202573000000000000504153454C493A202A2A2A2A2A2A0000202B202564000000202B202573000000504153454C493A204E4F204143434F554E54000000000000494E5345525420434F494E5B535D0000504153454C493A202A2A2A2A2A2A202B20303030303000004352454449543A20393920434F494E3A203939202F203130",
-                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
-            }
-        ]
-    },
-    {
-        "type": "union",
-        "name": "Reroute FREE PLAY Text",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "4D2D6500",
-                    "offset": 5896223
-                }
-            },
-            {
-                "name": "Song Title/Ticker information",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "5991B206",
-                    "offset": 5896223
-                }
-            },
-            {
-                "name": "Hide",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "A1EF7400",
-                    "offset": 5896223
-                }
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 5896541,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "B72C6500",
-                "dataEnabled": "1B90B206"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Increase 'All Factory Settings' Buffer",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9464814,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "60010000",
-                "dataEnabled": "22611400"
-            }
-        ]
-    },
-    {
-        "type": "union",
-        "name": "Reroute 'All Factory Settings' Test Menu",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "77840100",
-                    "offset": 9464837
-                }
-            },
-            {
-                "name": "AfpViewerScene",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "D73BEBFF",
-                    "offset": 9464837
-                }
-            },
-            {
-                "name": "QproViewerScene",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "E7D3EBFF",
-                    "offset": 9464837
-                }
-            },
-            {
-                "name": "SoundViewerScene",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B743ECFF",
-                    "offset": 9464837
-                }
-            },
-            {
-                "name": "CustomizeViewerScene",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "7761EBFF",
-                    "offset": 9464837
-                }
-            },
-            {
-                "name": "SoundRankingViewerScene",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "9703ECFF",
-                    "offset": 9464837
-                }
-            },
-            {
-                "name": "SystemSoundViewerScene",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "078AECFF",
-                    "offset": 9464837
-                }
-            }
-        ]
-    },
-    {
-        "type": "union",
-        "name": "Set Override Music Select BGM",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "E8D5F5FFFF",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "Standard",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8F0250000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "Free",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B890260000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "Premium Free",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8D0270000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "Class",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B870280000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "Step Up",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B810290000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "Arena",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8C0960000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "BPL Battle",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8E0990000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "MY POLIS DESIGNER - Map 1",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B800A20000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "MY POLIS DESIGNER - Map 2",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B850A20000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "MY POLIS DESIGNER - Map 3",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8A0A20000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "MY POLIS DESIGNER - Map Final",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8F0A20000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "EPOLIS SINGULARITY - System I",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8E0A80000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "EPOLIS SINGULARITY - System II",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B880A90000",
-                    "offset": 8946598
-                }
-            },
-            {
-                "name": "EPOLIS RESTORATION",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B870AA0000",
-                    "offset": 8946598
-                }
-            }
-        ]
-    },
-    {
-        "type": "union",
-        "name": "Set Override Music Select Decide BGM",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "E805BFF6FF",
-                    "offset": 8952230
-                }
-            },
-            {
-                "name": "Standard",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8F02A0000",
-                    "offset": 8952230
-                }
-            },
-            {
-                "name": "Arena",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B810970000",
-                    "offset": 8952230
-                }
-            },
-            {
-                "name": "BPL Battle",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8309A0000",
-                    "offset": 8952230
-                }
-            },
-            {
-                "name": "EPOLIS SINGULARITY - System I",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B830A90000",
-                    "offset": 8952230
-                }
-            },
-            {
-                "name": "EPOLIS SINGULARITY - System II",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8D0A90000",
-                    "offset": 8952230
-                }
-            },
-            {
-                "name": "EPOLIS RESTORATION",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "B8B0AB0000",
-                    "offset": 8952230
-                }
-            }
-        ]
-    },
-    {
-        "type": "union",
-        "name": "Set Mode Select Default",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Standard",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "00",
-                    "offset": 8921862
-                }
-            },
-            {
-                "name": "Free",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "01",
-                    "offset": 8921862
-                }
-            },
-            {
-                "name": "Class",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "03",
-                    "offset": 8921862
-                }
-            },
-            {
-                "name": "Step Up",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "05",
-                    "offset": 8921862
-                }
-            },
-            {
-                "name": "Premium Free",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "06",
-                    "offset": 8921862
-                }
-            },
-            {
-                "name": "Arena",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "07",
-                    "offset": 8921862
-                }
-            },
-            {
-                "name": "BPL Battle",
-                "patch": {
-                    "dllName": "bm2dx.dll",
-                    "data": "08",
-                    "offset": 8921862
-                }
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Disable Recording Lock",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 8339375,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "4084FF",
-                "dataEnabled": "909090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Disable Premium Area Functions Server Region Check",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 7237405,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7475",
-                "dataEnabled": "9090"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Remove Camera Boot Delay",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9258525,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "5802",
-                "dataEnabled": "0100"
-            },
-            {
-                "offset": 10367473,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "E803",
-                "dataEnabled": "0100"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Force Enable Dummy Cameras",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 10419526,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "EB"
-            },
-            {
-                "offset": 10419736,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Stock LDJ 120Hz Light Speed",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 9003589,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "78",
-                "dataEnabled": "F0"
-            },
-            {
-                "offset": 9074433,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "78",
-                "dataEnabled": "F0"
-            },
-            {
-                "offset": 9003581,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "5F",
-                "dataEnabled": "5D"
-            },
-            {
-                "offset": 5611678,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "CCCC",
-                "dataEnabled": "D1F9"
-            },
-            {
-                "offset": 9478334,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "8B0DB0E87B06",
-                "dataEnabled": "B92000000090"
-            },
-            {
-                "offset": 9004690,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "6A",
-                "dataEnabled": "67"
-            },
-            {
-                "offset": 9003517,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "CCCCCC",
-                "dataEnabled": "8B713C"
-            },
-            {
-                "offset": 9003617,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "8B4B3C",
-                "dataEnabled": "D1FE90"
-            },
-            {
-                "offset": 9003626,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "E903D1",
-                "dataEnabled": "EE01F2"
-            },
-            {
-                "offset": 9003642,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "2BC8",
-                "dataEnabled": "29C6"
-            },
-            {
-                "offset": 9003645,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "F9",
-                "dataEnabled": "FE"
-            },
-            {
-                "offset": 9482487,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "CCCCCCCCCCCCCCCCCC",
-                "dataEnabled": "448B491841D1F9EB10"
-            },
-            {
-                "offset": 9482541,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "448B4318",
-                "dataEnabled": "458BC190"
-            },
-            {
-                "offset": 9483162,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "72",
-                "dataEnabled": "59"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Force LDJ Mode",
-        "description": "",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "offset": 10296007,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "03",
-                "dataEnabled": "02"
-            }
-        ]
-    },
-    {
-        "type": "memory",
         "name": "Omnimix",
         "description": "Requires music_omni.bin and mdato.ifs (and additional sound/movie data etc.)",
+        "caution": "Make sure your network supports and allows this before enabling!",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -1241,6 +643,7 @@
         "type": "memory",
         "name": "Omnimix Lightning Model Extras",
         "description": "Requires music_artist_omni.xml, music_title_omni.xml, and video_music_omni.xml",
+        "caution": "Make sure your network supports and allows this before enabling!",
         "gameCode": "LDJ",
         "patches": [
             {
