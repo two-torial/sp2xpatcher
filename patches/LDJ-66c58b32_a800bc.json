@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-10-29 11:51:29",
+        "lastUpdated": "2024-10-29 17:24:55",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -133,6 +133,40 @@
                 "offset": 8945239,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7422",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Enable 1P Premium Free",
+        "description": "Force enables 1P Premium Free.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8921225,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Enable 2P Premium Free",
+        "description": "Force enables 2P Premium Free.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8921706,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "741B",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8921728,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7405",
                 "dataEnabled": "9090"
             }
         ]
@@ -297,6 +331,276 @@
                     "offset": 5896223,
                     "dllName": "bm2dx.dll",
                     "data": "A1EF7400"
+                }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
+        "description": "Reroute PASELI: ****** Text to show Song Title/Ticker Information.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 5896541,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B72C6500",
+                "dataEnabled": "1B90B206"
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Set Override Music Select BGM",
+        "description": "Overrides the Music Select BGM.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "E8D5F5FFFF"
+                }
+            },
+            {
+                "name": "Standard",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8F0250000"
+                }
+            },
+            {
+                "name": "Free",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B890260000"
+                }
+            },
+            {
+                "name": "Premium Free",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8D0270000"
+                }
+            },
+            {
+                "name": "Class",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B870280000"
+                }
+            },
+            {
+                "name": "Step Up",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B810290000"
+                }
+            },
+            {
+                "name": "Arena",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8C0960000"
+                }
+            },
+            {
+                "name": "BPL Battle",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8E0990000"
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map 1",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B800A20000"
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map 2",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B850A20000"
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map 3",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8A0A20000"
+                }
+            },
+            {
+                "name": "MY POLIS DESIGNER - Map Final",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8F0A20000"
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System I",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8E0A80000"
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System II",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B880A90000"
+                }
+            },
+            {
+                "name": "EPOLIS RESTORATION",
+                "patch": {
+                    "offset": 8946598,
+                    "dllName": "bm2dx.dll",
+                    "data": "B870AA0000"
+                }
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Set Override Music Select Decide BGM",
+        "description": "Overrides the Music Select Decide BGM.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "E805BFF6FF"
+                }
+            },
+            {
+                "name": "Standard",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8F02A0000"
+                }
+            },
+            {
+                "name": "Arena",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "B810970000"
+                }
+            },
+            {
+                "name": "BPL Battle",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8309A0000"
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System I",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "B830A90000"
+                }
+            },
+            {
+                "name": "EPOLIS SINGULARITY - System II",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8D0A90000"
+                }
+            },
+            {
+                "name": "EPOLIS RESTORATION",
+                "patch": {
+                    "offset": 8952230,
+                    "dllName": "bm2dx.dll",
+                    "data": "B8B0AB0000"
+                }
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Set Mode Select Default",
+        "description": "Sets the gamemode selected by default.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Standard",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "00"
+                }
+            },
+            {
+                "name": "Free",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "01"
+                }
+            },
+            {
+                "name": "Class",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "03"
+                }
+            },
+            {
+                "name": "Step Up",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "05"
+                }
+            },
+            {
+                "name": "Premium Free",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "06"
+                }
+            },
+            {
+                "name": "Arena",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "07"
+                }
+            },
+            {
+                "name": "BPL Battle",
+                "patch": {
+                    "offset": 8921862,
+                    "dllName": "bm2dx.dll",
+                    "data": "08"
                 }
             }
         ]
