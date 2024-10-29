@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-10-28 23:38:02",
+        "lastUpdated": "2024-10-29 03:33:29",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -119,6 +119,20 @@
                 "offset": 9081991,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7D36",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Cursor Lock",
+        "description": "After playing a song, brings your cursor back to it in song select.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8945239,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7422",
                 "dataEnabled": "9090"
             }
         ]
