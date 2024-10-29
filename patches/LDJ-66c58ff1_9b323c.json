@@ -213,6 +213,20 @@
     },
     {
         "type": "memory",
+        "name": "Skip Decide Screen",
+        "description": "Skips the splash animation that appears upon starting a song.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 5176736,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "48895C24",
+                "dataEnabled": "488BC1C3"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "Quick Retry",
         "description": "Makes retrying a song quicker.",
         "gameCode": "LDJ",
