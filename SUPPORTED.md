@@ -581,6 +581,17 @@ Patches for which we don't know the corresponding game version.
 |----------|----------|---------|------------|
 | PAN | nostalgia.dll | 2021-12-22 | [PAN-61bc1831_e43f0](patches/PAN-61bc1831_e43f0.json) |
 | PAN | nostalgia.dll | 2022-04-26 | [PAN-62625cf9_e4900](patches/PAN-62625cf9_e4900.json) |
+| PAN | nostalgia.dll | 2022-12-20 | [PAN-639ad78f_e4900](patches/PAN-639ad78f_e4900.json) |
+| PAN | nostalgia.dll | 2023-01-25 | [PAN-63ca3876_e4970](patches/PAN-63ca3876_e4970.json) |
+| PAN | nostalgia.dll | 2023-03-29 | [PAN-6417a48f_e4970](patches/PAN-6417a48f_e4970.json) |
+| PAN | nostalgia.dll | 2023-05-24 | [PAN-645d7427_e4970](patches/PAN-645d7427_e4970.json) |
+| PAN | nostalgia.dll | 2023-08-08 | [PAN-64cc8d53_e4970](patches/PAN-64cc8d53_e4970.json) |
+| PAN | nostalgia.dll | 2023-10-25 | [PAN-6530fb26_e4970](patches/PAN-6530fb26_e4970.json) |
+| PAN | nostalgia.dll | 2023-11-29 | [PAN-655fd653_e4970](patches/PAN-655fd653_e4970.json) |
+| PAN | nostalgia.dll | 2023-12-06 | [PAN-656d266b_e4970](patches/PAN-656d266b_e4970.json) |
+| PAN | nostalgia.dll | 2024-01-31 | [PAN-65af9ebb_e49b0](patches/PAN-65af9ebb_e49b0.json) |
+| PAN | nostalgia.dll | 2024-03-27 | [PAN-65fd521c_e49b0](patches/PAN-65fd521c_e49b0.json) |
+| PAN | nostalgia.dll | 2024-06-12 | [PAN-66613a78_e49b0](patches/PAN-66613a78_e49b0.json) |
 </details>
 
 ## REFLEC BEAT
