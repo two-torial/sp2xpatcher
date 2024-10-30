@@ -1,0 +1,84 @@
+[
+    {
+        "gameCode": "PAN",
+        "version": "2023-11-29",
+        "lastUpdated": "2024-10-30 05:22:31",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "type": "memory",
+        "name": "Menu Timer Freeze",
+        "description": "Freezes menu timers.",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 3188851,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "41FFC8",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Shorter Monitor Check",
+        "description": "Similar to Op.2, recommended only if you have a stable framerate.",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 2193258,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "1E",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Unscramble Touch Screen Keypad",
+        "description": "Unscrambles the touchscreen's Keypad.",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 2873462,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "488D0C804803C9",
+                "dataEnabled": "48C7C178000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Hide \"PASELI: *****\" Text",
+        "description": "Hides the bottom text \"PASELI: *****\".",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 3204510,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "FF15EC760900",
+                "dataEnabled": "E9AD01000090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Hide Credit/Coin Text",
+        "description": "Hides \"CREDIT: %d\" and \"CREDIT %d  COIN: %d / %d\".",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 6275056,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "435245",
+                "dataEnabled": "005245"
+            },
+            {
+                "offset": 6275024,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "435245",
+                "dataEnabled": "005245"
+            }
+        ]
+    }
+]

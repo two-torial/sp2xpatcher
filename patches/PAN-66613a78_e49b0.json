@@ -1,0 +1,104 @@
+[
+    {
+        "gameCode": "PAN",
+        "version": "2024-06-12",
+        "lastUpdated": "2024-10-30 05:22:31",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "type": "memory",
+        "name": "Menu Timer Freeze",
+        "description": "Freezes menu timers.",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 3190579,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "41FFC8",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Shorter Monitor Check",
+        "description": "Similar to Op.2, recommended only if you have a stable framerate.",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 2194682,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "1E",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Unscramble Touch Screen Keypad",
+        "description": "Unscrambles the touchscreen's Keypad.",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 2874998,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "488D0C804803C9",
+                "dataEnabled": "48C7C178000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Hide \"EXTRA PASELI: %d\" Text",
+        "description": "Hides the bottom text \"EXTRA PASELI: %d\".",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 6294768,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "455854",
+                "dataEnabled": "005854"
+            },
+            {
+                "offset": 6294816,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "455854",
+                "dataEnabled": "005854"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Hide \"PASELI: *****\" Text",
+        "description": "Hides the bottom text \"PASELI: *****\".",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 3206238,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "FF152C800900",
+                "dataEnabled": "E9AD01000090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Hide Credit/Coin Text",
+        "description": "Hides \"CREDIT: %d\" and \"CREDIT %d  COIN: %d / %d\".",
+        "gameCode": "PAN",
+        "patches": [
+            {
+                "offset": 6294728,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "435245",
+                "dataEnabled": "005245"
+            },
+            {
+                "offset": 6294696,
+                "dllName": "nostalgia.dll",
+                "dataDisabled": "435245",
+                "dataEnabled": "005245"
+            }
+        ]
+    }
+]
