@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (012)",
-        "lastUpdated": "2024-10-29 17:24:55",
+        "lastUpdated": "2024-11-01 20:46:17",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -956,16 +956,16 @@
                 "dataEnabled": "B801000000"
             },
             {
-                "offset": 7696259,
+                "offset": 5380671,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "32C0",
-                "dataEnabled": "0C01"
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
             },
             {
-                "offset": 7696273,
+                "offset": 5181993,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "0F94C0",
-                "dataEnabled": "0C0190"
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
             }
         ]
     },

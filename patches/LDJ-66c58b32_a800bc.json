@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-10-29 17:24:55",
+        "lastUpdated": "2024-11-01 20:46:17",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -111,6 +111,20 @@
     },
     {
         "type": "memory",
+        "name": "Video Purchase Timer Freeze",
+        "description": "Freezes the subscreen countdown on the transition from result to music select.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9809213,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FFC8",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "CS-style Song Start Delay",
         "description": "Lets you pause at the start of a song by holding Start.",
         "gameCode": "LDJ",
@@ -126,7 +140,7 @@
     {
         "type": "memory",
         "name": "Cursor Lock",
-        "description": "After playing a song, brings your cursor back to it in song select.",
+        "description": "After playing a song, brings your cursor back to it in music select.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -313,6 +327,35 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "4084FF",
                 "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Faster video Uploads",
+        "description": "Makes video upload put request 1000 times faster in theory, by expanding InternetWriteFile() body chunk size to 0x3200000.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 10484234,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "41BE00320000",
+                "dataEnabled": "41BE00002003"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force 120 FPS Recording Output .mp4",
+        "description": "Forces the game to record at 120 FPS.",
+        "caution": "Make sure your hardware and network support this!",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 10484234,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "41BE00320000",
+                "dataEnabled": "41BE00002003"
             }
         ]
     },
@@ -970,16 +1013,16 @@
                 "dataEnabled": "B801000000"
             },
             {
-                "offset": 8536595,
+                "offset": 6220975,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "32C0",
-                "dataEnabled": "0C01"
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
             },
             {
-                "offset": 8536609,
+                "offset": 6023705,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "0F94C0",
-                "dataEnabled": "0C0190"
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
             }
         ]
     },
