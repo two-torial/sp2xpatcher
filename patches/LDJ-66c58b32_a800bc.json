@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-11-01 20:46:17",
+        "lastUpdated": "2024-11-01 20:53:38",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -153,8 +153,8 @@
     },
     {
         "type": "memory",
-        "name": "Enable 1P Premium Free",
-        "description": "Force enables 1P Premium Free.",
+        "name": "Force Enable 1P Premium Free",
+        "description": "Forcefully enables 1P Premium Free even in a context where it wouldn't normally apppear, like in Free Play.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -168,7 +168,7 @@
     {
         "type": "memory",
         "name": "Enable 2P Premium Free",
-        "description": "Force enables 2P Premium Free.",
+        "description": "Forcefully enables 2P Premium Free even in a context where it wouldn't normally apppear, like in Free Play.",
         "gameCode": "LDJ",
         "patches": [
             {
