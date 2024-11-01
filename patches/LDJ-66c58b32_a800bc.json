@@ -167,7 +167,7 @@
     },
     {
         "type": "memory",
-        "name": "Enable 2P Premium Free",
+        "name": "Force Enable 2P Premium Free",
         "description": "Forcefully enables 2P Premium Free even in a context where it wouldn't normally apppear, like in Free Play.",
         "gameCode": "LDJ",
         "patches": [
