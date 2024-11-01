@@ -352,10 +352,10 @@
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 10484234,
+                "offset": 13679448,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "41BE00320000",
-                "dataEnabled": "41BE00002003"
+                "dataDisabled": "3C",
+                "dataEnabled": "78"
             }
         ]
     },
