@@ -1,8 +1,8 @@
 # [TWO-TORIAL](https://two-torial.xyz)'s Spice2x Patcher
 
 ### URL: `https://sp2x.two-torial.xyz/`
-
-## [Supported Games](SUPPORTED.md)
+### [List of Supported Games](SUPPORTED.md)
+### [Join our Discord server!](https://discord.gg/cZRUmEPK78)
 
 ## About
 
