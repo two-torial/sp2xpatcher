@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-10-09 (010)",
-        "lastUpdated": "2024-10-27 19:31:23",
+        "lastUpdated": "2024-11-05 18:24:52",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -284,6 +284,20 @@
                     "dllName": "bm2dx.dll",
                     "data": "71576E00"
                 }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
+        "description": "Reroute PASELI: ****** Text to Song Title/Ticker Information.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 6902509,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "A7BE5F00",
+                "dataEnabled": "5B84680A"
             }
         ]
     },
