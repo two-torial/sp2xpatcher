@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-10-09 (010)",
-        "lastUpdated": "2024-11-05 18:24:52",
+        "lastUpdated": "2024-11-05 19:26:58",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -111,6 +111,21 @@
     },
     {
         "type": "memory",
+        "name": "Video Purchase Timer Freeze",
+        "description": "Freezes the subscreen countdown on the transition from result to music select.",
+        "caution": "Only useful with a TDJ (010) dll.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 10573181,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FFC8",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
         "name": "CS-style Song Start Delay",
         "description": "Lets you pause at the start of a song by holding Start.",
         "gameCode": "LDJ",
@@ -160,6 +175,20 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "33D248F7F3",
                 "dataEnabled": "BA0C000000"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Skip Decide Screen",
+        "description": "Skips the splash animation that appears upon starting a song.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 7009472,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "488BC455",
+                "dataEnabled": "488BC1C3"
             }
         ]
     },
@@ -243,7 +272,8 @@
     {
         "type": "memory",
         "name": "Disable Recording Lock",
-        "description": "Allows ALL songs to be recorded in-game. Still requires TDJ.",
+        "description": "Allows ALL songs to be recorded in-game.",
+        "caution": "Only useful with a TDJ (010) dll.",
         "gameCode": "LDJ",
         "patches": [
             {
@@ -251,6 +281,36 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "4084FF",
                 "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Faster Video Uploads",
+        "description": "Makes video upload put request 1000 times faster in theory, by expanding InternetWriteFile() body chunk size to 0x3200000.",
+        "caution": "Only useful with a TDJ (010) dll.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 11233100,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "00320000",
+                "dataEnabled": "00002003"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force 120 FPS Recording Output .mp4",
+        "description": "Forces the game to record at 120 FPS.",
+        "caution": "Only useful with a TDJ (010) dll. Also make sure your hardware and network support this!",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 14252760,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "3C",
+                "dataEnabled": "78"
             }
         ]
     },
