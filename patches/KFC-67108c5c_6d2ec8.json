@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-10-22",
-        "lastUpdated": "2024-10-27 17:19:33",
+        "lastUpdated": "2024-11-05 11:07:56",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -344,51 +344,51 @@
         "gameCode": "KFC",
         "patches": [
             {
-                "name": "None (Default)",
+                "name": "Default",
                 "patch": {
+                    "offset": 2295647,
                     "dllName": "soundvoltex.dll",
-                    "data": "E88CCB2E0085C00F85FA000000",
-                    "offset": 2295647
+                    "data": "E88CCB2E0085C00F85FA000000"
                 }
             },
             {
                 "name": "Japan (J)",
                 "patch": {
+                    "offset": 2295647,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80000000089056A127E009090",
-                    "offset": 2295647
+                    "data": "B80000000089056A127E009090"
                 }
             },
             {
                 "name": "Korea (K)",
                 "patch": {
+                    "offset": 2295647,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80100000089056A127E009090",
-                    "offset": 2295647
+                    "data": "B80100000089056A127E009090"
                 }
             },
             {
                 "name": "Asia (A)",
                 "patch": {
+                    "offset": 2295647,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80200000089056A127E009090",
-                    "offset": 2295647
+                    "data": "B80200000089056A127E009090"
                 }
             },
             {
                 "name": "Indonesia (Y)",
                 "patch": {
+                    "offset": 2295647,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80300000089056A127E009090",
-                    "offset": 2295647
+                    "data": "B80300000089056A127E009090"
                 }
             },
             {
                 "name": "America (U)",
                 "patch": {
+                    "offset": 2295647,
                     "dllName": "soundvoltex.dll",
-                    "data": "B80400000089056A127E009090",
-                    "offset": 2295647
+                    "data": "B80400000089056A127E009090"
                 }
             }
         ]
@@ -431,7 +431,7 @@
         "gameCode": "KFC",
         "patches": [
             {
-                "offset": 3236942,
+                "offset": 3237094,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
