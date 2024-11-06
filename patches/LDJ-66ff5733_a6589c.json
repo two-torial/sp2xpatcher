@@ -2,14 +2,13 @@
     {
         "gameCode": "LDJ",
         "version": "2024-10-09 (012)",
-        "lastUpdated": "2024-11-05 19:26:58",
+        "lastUpdated": "2024-11-06 11:44:56",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
         "type": "union",
         "name": "Force Audio Output Mode",
         "description": "Forces the game to use a specific audio protocol.",
-        "caution": "This patch is REQUIRED for WASAPI users. Spice2x's \"-iidxsounddevice\" no longer works for Epolis and above.",
         "gameCode": "LDJ",
         "patches": [
             {
