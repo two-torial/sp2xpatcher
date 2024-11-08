@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-10-09 (012)",
-        "lastUpdated": "2024-11-06 11:44:56",
+        "lastUpdated": "2024-11-08 11:30:39",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -564,6 +564,20 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "750A",
                 "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force LDJ Software Video Decoder",
+        "description": "Forces LDJ Software Video Decoder for all boot modes, could help on systems that can't load videos properly.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 9614417,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F8586000000",
+                "dataEnabled": "909090909090"
             }
         ]
     },
