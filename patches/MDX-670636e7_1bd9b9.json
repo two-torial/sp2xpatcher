@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2024-10-15 (001)",
-        "lastUpdated": "2024-10-28 23:21:30",
+        "lastUpdated": "2024-11-15 19:48:43",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -138,6 +138,39 @@
                 "dllName": "gamemdx.dll",
                 "dataDisabled": "6D",
                 "dataEnabled": "5F"
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Force Cab Mode",
+        "description": "Forces the game to use a specific cab mode.",
+        "caution": "Do not use if you are not sure what you are doing.",
+        "gameCode": "MDX",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 61163,
+                    "dllName": "gamemdx.dll",
+                    "data": "01"
+                }
+            },
+            {
+                "name": "Gold Cab 1st gen (ADE-6291, BIO2)",
+                "patch": {
+                    "offset": 61163,
+                    "dllName": "gamemdx.dll",
+                    "data": "06"
+                }
+            },
+            {
+                "name": "Gold Cab 2nd gen (X10LSQ, BIO2)",
+                "patch": {
+                    "offset": 61163,
+                    "dllName": "gamemdx.dll",
+                    "data": "07"
+                }
             }
         ]
     }
