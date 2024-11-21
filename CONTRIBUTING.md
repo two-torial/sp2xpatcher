@@ -1,37 +1,41 @@
 # Contributing
 
-*You may help the community by contributing patches.*
+*We welcome your contributions to enhance this patcher.*
 
-## How?
+## How to Contribute
 
-1. **Fork** the project if you don't already have it
-2. **Add/Modify/Stage/Commit** files as necessary **BUT don't Push/Sync them yet**
-3. **Run** the `checks.py` script with `python checks.py`
-4. If the script did anything: **Commit** its changes
-5. **Push/Sync** the changes to your repo
-6. **Propose a Pull Request** and we'll get to it asap
+1. **Fork the Repository**  
+   If you haven't already, fork the repository to your GitHub account.
 
-Once a pull request is merged, patches will be available within minutes at `https://sp2x.two-torial.xyz/`
+2. **Make Your Changes**  
+   Add, modify, stage, and commit your changes locally. **Do not push/sync yet.**
 
-### /!\ Important Note 
-When adding a new game version, add it to the [List of supported games](SUPPORTED.md) using the existing format, we won't merge your PR until you do.
+3. **Run Checks**  
+   Execute the `checks.py` script by running: `python checks.py`  
+   If the script makes any changes, commit those changes.
+
+4. **Push Your Changes**  
+   Push/sync your changes to your forked repository.
+
+5. **Submit a Pull Request**  
+   Submit a pull request to the main repository. We will review it promptly, address any issues, and merge it.
+
+Once your pull request is merged, the patches will be available within minutes at `https://sp2x.two-torial.xyz/`.
+
+### Important Note
+When adding a new game version, ensure it is included in the [List of Supported Games](SUPPORTED.md) using the existing format. Your PR will not be merged until this is done.
 
 ## JSON Naming
 
-**Spice2x patches have one json file per game version**.  
-It needs to be **[named in a very specific way](https://github.com/spice2x/spice2x.github.io/wiki/patches.json-specification#pe-identifier)** to be recognized by the [Spice2x 'Import from URL'](https://github.com/spice2x/spice2x.github.io/wiki/Patching-DLLs-(hex-edits)#importing-patches-from-a-url) feature.
+**Each Spice2x patch must have a separate JSON file for each game version.**  
+The file must be [named according to specific guidelines](https://github.com/spice2x/spice2x.github.io/wiki/patches.json-specification#pe-identifier) to be recognized by the [Spice2x 'Import from URL'](https://github.com/spice2x/spice2x.github.io/wiki/Patching-DLLs-(hex-edits)#importing-patches-from-a-url) feature.
 
-A python [peinfo.py](https://github.com/akitakedits/peinfo) script is available to help you figure that name out for your provided game's dll file.  
-Check out [peinfo's README](https://github.com/akitakedits/peinfo/blob/main/README.md) for more information.
+A Python script, [peinfo.py](https://github.com/akitakedits/peinfo), is available to help you determine the correct name for your game's DLL file.
 
-## Converting web to json (spice2x) patches
+## Creating Spice2x Patches
 
-Right now **this has to be done manually**, however we plan on having tooling available to make this easier.  
-Look at the files respective structures (html and json) and try to figure it out yourself.
+**To support a new game version, you need to create its Spice2x patches from scratch.**  
+Hexadecimal signature matching can help in porting patches between different game versions.  
+This method is not foolproof and patches could break if the game changes too much, but it's still highly effective for MOST patches.
 
-## Porting spice2x patches
-
-It is possible to port patches from **one version of a game to another**.  
-A python [port_sp2x_patches.py](https://github.com/akitakedits/port_sp2x_patches) script is available to help you through some of that work.  
-However it will **not be able to port all patches** and it will **not always be 100% accurate**, **false positives can occur**.  
-Porting patches the script cannot, or fixing false positives will have to be done manually.
+**You can use the Python script [find_sp2x_patches.py](https://github.com/akitakedits/find_sp2x_patches) to facilitate this process.**
