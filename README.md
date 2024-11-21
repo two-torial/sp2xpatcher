@@ -6,8 +6,11 @@
 
 ## About
 
-This repository offers patches for the [Spice2x 'Import from URL'](https://github.com/spice2x/spice2x.github.io/wiki/Patching-DLLs-(hex-edits)#importing-patches-from-a-url) feature. For other options, check our [web patcher](https://patcher.two-torial.xyz/).  
-We aim to keep this repository public and the URL active for as long as possible. Feel free to [contribute patches](CONTRIBUTING.md) via pull requests!
+This repository offers patches for the [Spice2x 'Import from URL'](https://github.com/spice2x/spice2x.github.io/wiki/Patching-DLLs-(hex-edits)#importing-patches-from-a-url) feature.  
+For other options, check our [web patcher](https://patcher.two-torial.xyz/).  
+
+We aim to keep this repository public and the URL active for as long as possible.  
+Feel free to [contribute patches](CONTRIBUTING.md) via pull requests!
 
 ## Usage
 

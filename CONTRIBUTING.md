@@ -23,7 +23,8 @@
 Once your pull request is merged, the patches will be available within minutes at `https://sp2x.two-torial.xyz/`.
 
 ### Important Note
-When adding a new game version, ensure it is included in the [List of Supported Games](SUPPORTED.md) using the existing format. Your PR will not be merged until this is done.
+When adding a new game version, ensure it is included in the [List of Supported Games](SUPPORTED.md) using the existing format.  
+**Your PR will not be merged until this is done.**
 
 ## JSON Naming
 
