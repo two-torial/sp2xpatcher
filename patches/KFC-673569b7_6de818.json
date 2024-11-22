@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-11-19",
-        "lastUpdated": "2024-11-22 15:40:26",
+        "lastUpdated": "2024-11-22 16:13:15",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -188,6 +188,32 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "84",
                 "dataEnabled": "85"
+            }
+        ]
+    },
+    {
+        "name": "Premium Free Timer Freeze",
+        "description": "Freezes all premium area timers.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4410562,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 4111843,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 3067056,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
             }
         ]
     },
