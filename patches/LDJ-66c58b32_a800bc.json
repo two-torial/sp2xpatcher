@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-11-06 11:44:56",
+        "lastUpdated": "2024-11-26 21:05:09",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -180,6 +180,20 @@
                 "offset": 8921728,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7405",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Force Enable BPL BATTLE",
+        "description": "Forcefully enables BPL Battle even in a context where it wouldn't normally apppear.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 8921812,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "741C",
                 "dataEnabled": "9090"
             }
         ]
