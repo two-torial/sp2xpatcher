@@ -2,12 +2,12 @@
     {
         "gameCode": "L44",
         "version": "2024-04-22",
-        "lastUpdated": "2024-07-10 19:19:36",
+        "lastUpdated": "2024-12-15 18:17:03",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
         "name": "Skip Tutorial",
-        "description": "",
+        "description": "Skips the tutorial.",
         "gameCode": "L44",
         "type": "memory",
         "patches": [
@@ -20,50 +20,8 @@
         ]
     },
     {
-        "name": "Select Music Timer Freeze",
-        "description": "",
-        "gameCode": "L44",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 791615,
-                "dllName": "jubeat.dll",
-                "dataDisabled": "75",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
-        "name": "Skip Category Select",
-        "description": "",
-        "gameCode": "L44",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 792523,
-                "dllName": "jubeat.dll",
-                "dataDisabled": "04",
-                "dataEnabled": "07"
-            }
-        ]
-    },
-    {
-        "name": "Result Timer Freeze",
-        "description": "Counts down to 0 then stops",
-        "gameCode": "L44",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 691851,
-                "dllName": "jubeat.dll",
-                "dataDisabled": "75",
-                "dataEnabled": "EB"
-            }
-        ]
-    },
-    {
         "name": "Skip Online Matching",
-        "description": "",
+        "description": "Skips online matching when starting a song.",
         "gameCode": "L44",
         "type": "memory",
         "patches": [
@@ -76,15 +34,58 @@
         ]
     },
     {
-        "name": "Force Unlock All Markers",
-        "description": "",
+        "name": "Skip Category Select",
+        "description": "Skips category select.",
         "gameCode": "L44",
         "type": "memory",
         "patches": [
             {
-                "offset": 4,
+                "offset": 792523,
                 "dllName": "jubeat.dll",
-                "dataDisabled": "03",
+                "dataDisabled": "04",
+                "dataEnabled": "07"
+            }
+        ]
+    },
+    {
+        "name": "Song Select Timer Freeze",
+        "description": "Freezes the song select timer.",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 791615,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Song Result Timer Freeze",
+        "description": "Freezes the song result timer. It'll still go down to 0 but then stop.",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 691851,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Force Unlock All Markers",
+        "description": "Force unlocks all markers.",
+        "caution": "If possible, do this server-side instead of patching.",
+        "gameCode": "L44",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1471885,
+                "dllName": "jubeat.dll",
+                "dataDisabled": "75",
                 "dataEnabled": "EB"
             },
             {
@@ -103,7 +104,8 @@
     },
     {
         "name": "Force Unlock All Backgrounds",
-        "description": "",
+        "description": "Force unlocks all backgrounds.",
+        "caution": "If possible, do this server-side instead of patching.",
         "gameCode": "L44",
         "type": "memory",
         "patches": [
@@ -129,7 +131,8 @@
     },
     {
         "name": "Force Enable Expert Option",
-        "description": "",
+        "description": "Force enables the expert option.",
+        "caution": "If possible, do this server-side instead of patching.",
         "gameCode": "L44",
         "type": "memory",
         "patches": [
@@ -142,41 +145,42 @@
         ]
     },
     {
-        "name": "Default Marker For Guest Play",
-        "description": "",
+        "name": "Force Default Marker For Guest Play",
+        "description": "Force sets the default marker for guest play.",
+        "caution": "If possible use a network and card-in instead of playing as a guest and using this.",
         "gameCode": "L44",
         "type": "union",
         "patches": [
             {
                 "name": "Default",
                 "patch": {
+                    "offset": 381287,
                     "dllName": "jubeat.dll",
-                    "data": "31",
-                    "offset": 381287
+                    "data": "31"
                 }
             },
             {
                 "name": "Festo",
                 "patch": {
+                    "offset": 381287,
                     "dllName": "jubeat.dll",
-                    "data": "2E",
-                    "offset": 381287
+                    "data": "2E"
                 }
             },
             {
                 "name": "Qubell",
                 "patch": {
+                    "offset": 381287,
                     "dllName": "jubeat.dll",
-                    "data": "28",
-                    "offset": 381287
+                    "data": "28"
                 }
             },
             {
                 "name": "Shutter",
                 "patch": {
+                    "offset": 381287,
                     "dllName": "jubeat.dll",
-                    "data": "04",
-                    "offset": 381287
+                    "data": "04"
                 }
             }
         ]

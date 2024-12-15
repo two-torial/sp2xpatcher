@@ -496,6 +496,7 @@ Patches for which we don't know the corresponding game version.
 | L44 | jubeat.dll | 2024-04-22 | [L44-66209c08_202760](patches/L44-66209c08_202760.json) |
 | L44 | jubeat.dll | 2024-06-03 | [L44-6657df47_203700](patches/L44-6657df47_203700.json) |
 | L44 | jubeat.dll | 2024-07-30 | [L44-66a0e9be_203700](patches/L44-66a0e9be_203700.json) |
+| L44 | jubeat.dll | 2024-11-27 | [L44-67331a16_20f050](patches/L44-67331a16_20f050.json) |
 </details>
 
 ## pop'n music (popn)
