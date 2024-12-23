@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2024-11-26 21:05:09",
+        "lastUpdated": "2024-12-23 15:43:47",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -373,49 +373,122 @@
         ]
     },
     {
-        "type": "union",
-        "name": "Reroute FREE PLAY Text",
-        "description": "Reroute FREE PLAY Text to show something different.",
-        "caution": "Requires FREE PLAY enabled in the test menu.",
+        "type": "number",
+        "name": "Set Video Recording Quality (Constant QP I Frame)",
+        "description": "Lower values increase quality at the cost of file size.\nDefault: 25\nSuggestion for Network use: 20\nSuggestion for Local use: 16",
         "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "offset": 5896223,
-                    "dllName": "bm2dx.dll",
-                    "data": "4D2D6500"
-                }
-            },
-            {
-                "name": "Song Title/Ticker information",
-                "patch": {
-                    "offset": 5896223,
-                    "dllName": "bm2dx.dll",
-                    "data": "5991B206"
-                }
-            },
-            {
-                "name": "Hide",
-                "patch": {
-                    "offset": 5896223,
-                    "dllName": "bm2dx.dll",
-                    "data": "A1EF7400"
-                }
-            }
-        ]
+        "patch": {
+            "dllName": "bm2dx.dll",
+            "offset": 5569032,
+            "min": -1,
+            "max": 51,
+            "size": 4
+        }
     },
     {
-        "type": "memory",
-        "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
-        "description": "Reroute PASELI: ****** Text to show Song Title/Ticker Information.",
+        "type": "number",
+        "name": "Set Video Recording Quality (Constant QP P Frame)",
+        "description": "Lower values increase quality at the cost of file size.\nDefault: 28\nSuggestion for Network use: 23\nSuggestion for Local use: 19",
+        "gameCode": "LDJ",
+        "patch": {
+            "dllName": "bm2dx.dll",
+            "offset": 5569002,
+            "min": -1,
+            "max": 51,
+            "size": 4
+        }
+    },
+    {
+        "type": "number",
+        "name": "Set Video Recording Quality (Constant QP B Frame)",
+        "caution": "Lower values increase quality at the cost of file size.\nDefault: 31\nSuggestion for Network use: 25\nSuggestion for Local use: 21",
+        "gameCode": "LDJ",
+        "patch": {
+            "dllName": "bm2dx.dll",
+            "offset": 5569010,
+            "min": -1,
+            "max": 51,
+            "size": 4
+        }
+    },
+    {
+        "type": "union",
+        "name": "Set Audio Recording Output AAC Bitrate",
+        "description": "Sets the audio recording bitrate.",
+        "caution": "Values other than default (160 kbps) may cause the game to crash. Try recording locally before actually playing with a non-default value.",
         "gameCode": "LDJ",
         "patches": [
             {
-                "offset": 5896541,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "B72C6500",
-                "dataEnabled": "1B90B206"
+                "name": "64 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "4000"
+                }
+            },
+            {
+                "name": "96 kbps ",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "6000"
+                }
+            },
+            {
+                "name": "128 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "8000"
+                }
+            },
+            {
+                "name": "160 kbps (Default)",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "A000"
+                }
+            },
+            {
+                "name": "196 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "C400"
+                }
+            },
+            {
+                "name": "224 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "E000"
+                }
+            },
+            {
+                "name": "256 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "0001"
+                }
+            },
+            {
+                "name": "288 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "2001"
+                }
+            },
+            {
+                "name": "320 kbps",
+                "patch": {
+                    "offset": 10492916,
+                    "dllName": "bm2dx.dll",
+                    "data": "4001"
+                }
             }
         ]
     },
@@ -672,6 +745,53 @@
                     "dllName": "bm2dx.dll",
                     "data": "08"
                 }
+            }
+        ]
+    },
+    {
+        "type": "union",
+        "name": "Reroute FREE PLAY Text",
+        "description": "Reroute FREE PLAY Text to show something different.",
+        "caution": "Requires FREE PLAY enabled in the test menu.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 5896223,
+                    "dllName": "bm2dx.dll",
+                    "data": "4D2D6500"
+                }
+            },
+            {
+                "name": "Song Title/Ticker information",
+                "patch": {
+                    "offset": 5896223,
+                    "dllName": "bm2dx.dll",
+                    "data": "5991B206"
+                }
+            },
+            {
+                "name": "Hide",
+                "patch": {
+                    "offset": 5896223,
+                    "dllName": "bm2dx.dll",
+                    "data": "A1EF7400"
+                }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
+        "description": "Reroute PASELI: ****** Text to show Song Title/Ticker Information.",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 5896541,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "B72C6500",
+                "dataEnabled": "1B90B206"
             }
         ]
     },
