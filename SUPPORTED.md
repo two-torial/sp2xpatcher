@@ -603,6 +603,7 @@ Patches for which we don't know the corresponding game version.
 | PAN | nostalgia.dll | 2024-01-31 | [PAN-65af9ebb_e49b0](patches/PAN-65af9ebb_e49b0.json) |
 | PAN | nostalgia.dll | 2024-03-27 | [PAN-65fd521c_e49b0](patches/PAN-65fd521c_e49b0.json) |
 | PAN | nostalgia.dll | 2024-06-12 | [PAN-66613a78_e49b0](patches/PAN-66613a78_e49b0.json) |
+| PAN | nostalgia.dll | 2024-10-22 | [PAN-67079513_e49c0](patches/PAN-67079513_e49c0.json) |
 </details>
 
 ## REFLEC BEAT
