@@ -339,6 +339,7 @@ Patches for which we don't know the corresponding game version.
 | REC | superstep.dll | 2023-04-18 | [REC-6436048a_52b820](patches/REC-6436048a_52b820.json) |
 | REC | superstep.dll | 2023-06-13 | [REC-6481728b_536180](patches/REC-6481728b_536180.json) |
 | REC | superstep.dll | 2023-07-26 | [REC-64b9c7bd_53d248](patches/REC-64b9c7bd_53d248.json) |
+| REC | superstep.dll | 2024-07-30 | [REC-66a0937a_5b3228](patches/REC-66a0937a_5b3228.json) |
 </details>
 
 ## Gitadora
