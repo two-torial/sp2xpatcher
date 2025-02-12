@@ -2,40 +2,8 @@
     {
         "gameCode": "LDJ",
         "version": "2024-11-26 (010)",
-        "lastUpdated": "2024-11-28 21:03:17",
+        "lastUpdated": "2025-02-12 19:45:23",
         "source": "https://sp2x.two-torial.xyz/"
-    },
-    {
-        "name": "Force Audio Output Mode",
-        "description": "Forces the game to use a specific audio protocol.",
-        "gameCode": "LDJ",
-        "type": "union",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "offset": 10512675,
-                    "dllName": "bm2dx.dll",
-                    "data": "E868DCECFF83780803"
-                }
-            },
-            {
-                "name": "WASAPI",
-                "patch": {
-                    "offset": 10512675,
-                    "dllName": "bm2dx.dll",
-                    "data": "BB00000000EB169090"
-                }
-            },
-            {
-                "name": "ASIO",
-                "patch": {
-                    "offset": 10512675,
-                    "dllName": "bm2dx.dll",
-                    "data": "BB01000000EB169090"
-                }
-            }
-        ]
     },
     {
         "name": "Shared Mode WASAPI",
@@ -231,6 +199,21 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "750B",
                 "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Disable Category Selection",
+        "description": "Disables the category selection feature that appears in the upper right corner of song select.",
+        "caution": "You will be stuck on what you previously had selected. If you want to see everything, first choose ALL and exit a credit properly, then enable this.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 12564496,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "5F",
+                "dataEnabled": "00"
             }
         ]
     },
@@ -486,6 +469,38 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "32C0",
                 "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Force Audio Output Mode",
+        "description": "Forces the game to use a specific audio protocol.",
+        "gameCode": "LDJ",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 10512675,
+                    "dllName": "bm2dx.dll",
+                    "data": "E868DCECFF83780803"
+                }
+            },
+            {
+                "name": "WASAPI",
+                "patch": {
+                    "offset": 10512675,
+                    "dllName": "bm2dx.dll",
+                    "data": "BB00000000EB169090"
+                }
+            },
+            {
+                "name": "ASIO",
+                "patch": {
+                    "offset": 10512675,
+                    "dllName": "bm2dx.dll",
+                    "data": "BB01000000EB169090"
+                }
             }
         ]
     },

@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-12-10 (010)",
-        "lastUpdated": "2024-12-15 13:29:51",
+        "lastUpdated": "2025-02-12 19:45:23",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -199,6 +199,21 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "750B",
                 "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Disable Category Selection",
+        "description": "Disables the category selection feature that appears in the upper right corner of song select.",
+        "caution": "You will be stuck on what you previously had selected. If you want to see everything, first choose ALL and exit a credit properly, then enable this.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 12659520,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "5F",
+                "dataEnabled": "00"
             }
         ]
     },

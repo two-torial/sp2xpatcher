@@ -2,47 +2,15 @@
     {
         "gameCode": "LDJ",
         "version": "2024-11-05 (012)",
-        "lastUpdated": "2024-11-08 16:44:13",
+        "lastUpdated": "2025-02-12 19:45:23",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
-        "type": "union",
-        "name": "Force Audio Output Mode",
-        "description": "Forces the game to use a specific audio protocol.",
-        "gameCode": "LDJ",
-        "patches": [
-            {
-                "name": "Default",
-                "patch": {
-                    "offset": 9344627,
-                    "dllName": "bm2dx.dll",
-                    "data": "E828E2ECFF83780803"
-                }
-            },
-            {
-                "name": "WASAPI",
-                "patch": {
-                    "offset": 9344627,
-                    "dllName": "bm2dx.dll",
-                    "data": "BB00000000EB169090"
-                }
-            },
-            {
-                "name": "ASIO",
-                "patch": {
-                    "offset": 9344627,
-                    "dllName": "bm2dx.dll",
-                    "data": "BB01000000EB169090"
-                }
-            }
-        ]
-    },
-    {
-        "type": "memory",
         "name": "Shared Mode WASAPI",
         "description": "Allows non-exclusive WASAPI audio.",
         "caution": "Requires \"Force Audio Output Mode\" to WASAPI. Requires 48000Hz sample rate. Will slightly increase audio latency.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 4607131,
@@ -53,10 +21,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Increase Game Volume",
         "description": "Increases game volume as it can be a bit low on home setups by default.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 9275541,
@@ -67,10 +35,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Force TDJ Mode",
         "description": "Forces the game to run as TDJ (010, 120Hz) instead of LDJ (012, 60Hz).",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 9136514,
@@ -81,10 +49,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Standard/Menu Timer Freeze",
         "description": "Freezes all non-premium area timers.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8291671,
@@ -95,10 +63,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Premium Free Timer Freeze",
         "description": "Freezes all premium area timers.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7521149,
@@ -109,11 +77,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Video Purchase Timer Freeze",
         "description": "Freezes the subscreen countdown on the transition from result to music select.",
         "caution": "Only useful with a TDJ (010) dll.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8665613,
@@ -124,10 +92,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "CS-style Song Start Delay",
         "description": "Lets you pause at the start of a song by holding Start.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7937337,
@@ -138,10 +106,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "All Notes Preview 12s",
         "description": "Always shows note previews at the start of a song, no matter the level.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7886541,
@@ -158,10 +126,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Unscramble Touch Screen Keypad in TDJ",
         "description": "Unscrambles the touchscreen's Keypad in TDJ.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8745173,
@@ -178,10 +146,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Skip Decide Screen",
         "description": "Skips the splash animation that appears upon starting a song.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 5096528,
@@ -192,10 +160,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Quick Retry",
         "description": "Makes retrying a song quicker.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7348352,
@@ -206,11 +174,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Quicker Quick Retry",
         "description": "Makes retrying a song even quicker. Shortens the duration of the 'Stage Failed' animation.",
         "caution": "To be used along with \"Quick Retry\".",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7934064,
@@ -221,10 +189,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Mute Navigator Voices",
         "description": "Mutes voices you hear when carding in/out of the game.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8350639,
@@ -235,10 +203,25 @@
         ]
     },
     {
+        "name": "Disable Category Selection",
+        "description": "Disables the category selection feature that appears in the upper right corner of song select.",
+        "caution": "You will be stuck on what you previously had selected. If you want to see everything, first choose ALL and exit a credit properly, then enable this.",
+        "gameCode": "LDJ",
         "type": "memory",
+        "patches": [
+            {
+                "offset": 11334976,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "5F",
+                "dataEnabled": "00"
+            }
+        ]
+    },
+    {
         "name": "Disable News Sound",
         "description": "Disables news sounds.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 11835200,
@@ -249,10 +232,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Disable Background Movies",
         "description": "Disables background movies from playing during gameplay.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8199804,
@@ -269,11 +252,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Disable Recording Lock",
         "description": "Allows ALL songs to be recorded in-game.",
         "caution": "Only useful with a TDJ (010) dll.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7348191,
@@ -284,11 +267,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Faster Video Uploads",
         "description": "Makes video upload put request 1000 times faster in theory, by expanding InternetWriteFile() body chunk size to 0x3200000.",
         "caution": "Only useful with a TDJ (010) dll.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 9325868,
@@ -299,11 +282,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Force 120 FPS Recording Output .mp4",
         "description": "Forces the game to record at 120 FPS.",
         "caution": "Only useful with a TDJ (010) dll. Also make sure your hardware and network support this!",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 12344648,
@@ -314,11 +297,11 @@
         ]
     },
     {
-        "type": "union",
         "name": "Reroute FREE PLAY Text",
         "description": "Reroute FREE PLAY Text to show something different.",
         "caution": "Requires FREE PLAY enabled in the test menu.",
         "gameCode": "LDJ",
+        "type": "union",
         "patches": [
             {
                 "name": "Default",
@@ -347,10 +330,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Reroute PASELI: ****** Text To Song Title/Ticker Information",
         "description": "Reroute PASELI: ****** Text to Song Title/Ticker Information.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 4989485,
@@ -361,10 +344,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide All Bottom Text",
         "description": "Hides all text typically found in the bottom corners of the screen such as \"PASELI\" or \"FREE PLAY\".",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 11260176,
@@ -375,10 +358,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide Time Limit Display on Results Screen",
         "description": "Hides the time limit display on results screen.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7978883,
@@ -389,10 +372,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide Background Color Banners on Song List",
         "description": "Hides all \"listb_\" elements.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 11303461,
@@ -433,10 +416,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide Measure Lines",
         "description": "Hides measure lines during gameplay.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7041206,
@@ -447,10 +430,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide Judge Combo Count",
         "description": "Hides the Combo Count during gameplay.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8343842,
@@ -461,10 +444,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Dark Gameplay Mode",
         "description": "Makes a lot of gameplay UI elements completely black.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7882492,
@@ -475,11 +458,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Unlock All Songs and Charts",
         "description": "Unlocks all songs and charts.",
         "caution": "ONLY for offline testing purposes. DO NOT use on online networks, you could get banned as they handle this server-side.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7495370,
@@ -490,11 +473,43 @@
         ]
     },
     {
-        "type": "memory",
+        "name": "Force Audio Output Mode",
+        "description": "Forces the game to use a specific audio protocol.",
+        "gameCode": "LDJ",
+        "type": "union",
+        "patches": [
+            {
+                "name": "Default",
+                "patch": {
+                    "offset": 9344627,
+                    "dllName": "bm2dx.dll",
+                    "data": "E828E2ECFF83780803"
+                }
+            },
+            {
+                "name": "WASAPI",
+                "patch": {
+                    "offset": 9344627,
+                    "dllName": "bm2dx.dll",
+                    "data": "BB00000000EB169090"
+                }
+            },
+            {
+                "name": "ASIO",
+                "patch": {
+                    "offset": 9344627,
+                    "dllName": "bm2dx.dll",
+                    "data": "BB01000000EB169090"
+                }
+            }
+        ]
+    },
+    {
         "name": "Force Max V-Discs",
         "description": "Forces your V-Discs to be maxed out.",
         "caution": "May(?) cause issues on online networks, use at your own risk.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 4997955,
@@ -505,10 +520,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Remove Camera Boot Delay",
         "description": "Removes the camera delay at boot.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8108621,
@@ -525,10 +540,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Bypass Lightning Monitor Error",
         "description": "Bypasses a monitor-related error in Lightning mode.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8062056,
@@ -539,11 +554,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Bypass CAMERA DEVICE ERROR Prompt",
         "description": "Bypasses CAMERA DEVICE ERROR prompt, in case you're having issues.",
         "caution": "Shouldn't be needed on spice2x. Use \"-iidxdisablecams\" or \"-iidxtdjcamhook\" with a webcam instead.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8112747,
@@ -554,10 +569,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Show Lightning Model Folder in LDJ",
         "description": "Shows the Lightning Model Folder normally exclusive to TDJ, in LDJ.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7330612,
@@ -568,10 +583,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Force LDJ Software Video Decoder",
         "description": "Forces LDJ Software Video Decoder for all boot modes, could help on systems that can't load videos properly.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8546273,
@@ -582,11 +597,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Force LDJ Custom Timing/Adapter FPS",
         "description": "Forces Custom Timing/Adapter FPS in LDJ.",
         "caution": "Enable this if \"Custom LDJ Timing/Adapter FPS\" is not default. May cause desync. Consider \"Force TDJ/LDJ Mode\" patches instead.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 7024611,
@@ -603,11 +618,11 @@
         ]
     },
     {
-        "type": "union",
         "name": "Choose LDJ Custom Timing/Adapter FPS",
         "description": "Sets the Timing/Adapter FPS in LDJ.",
         "caution": "Requires \"Force Custom Timing/Adapter in LDJ\" to be enabled. May cause desync. Consider \"Force TDJ/LDJ Mode\" patches instead.",
         "gameCode": "LDJ",
+        "type": "union",
         "patches": [
             {
                 "name": "60 FPS (Default)",
@@ -628,11 +643,11 @@
         ]
     },
     {
-        "type": "union",
         "name": "Choose Fullscreen Monitor Check FPS Target",
         "description": "Sets the Monitor Check FPS Target.",
         "caution": "May cause desync. Consider \"Force TDJ/LDJ Mode\" patches instead.",
         "gameCode": "LDJ",
+        "type": "union",
         "patches": [
             {
                 "name": "60 FPS",
@@ -653,11 +668,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Debug Mode",
         "description": "While in game, press F1 to enable menu. (Disables Profile/Score saving)",
         "caution": "Ignore if you're not sure know what this does.",
         "gameCode": "LDJ",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8116544,
