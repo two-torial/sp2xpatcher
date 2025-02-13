@@ -2,13 +2,13 @@
     {
         "gameCode": "LDJ",
         "version": "2024-10-09 (012)",
-        "lastUpdated": "2025-02-12 19:45:23",
+        "lastUpdated": "2025-02-13 08:05:59",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
         "name": "Shared Mode WASAPI",
-        "description": "Allows non-exclusive WASAPI audio.",
-        "caution": "Requires \"Force Audio Output Mode\" to WASAPI. Requires 48000Hz sample rate. Will slightly increase audio latency.",
+        "description": "Allows for non-exclusive WASAPI audio.",
+        "caution": "Requires 48000Hz sample rate. Will slightly increase audio latency. Try combining this with the Low Latency Shared Audio option from spice2x.",
         "gameCode": "LDJ",
         "type": "memory",
         "patches": [
