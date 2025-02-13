@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-06-04",
-        "lastUpdated": "2024-07-10 19:19:36",
+        "lastUpdated": "2025-02-13 08:04:59",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -106,15 +106,7 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "04",
                 "dataEnabled": "00"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Shared mode WASAPI Valkyrie",
-        "description": "",
-        "gameCode": "KFC",
-        "patches": [
+            },
             {
                 "offset": 5323944,
                 "dllName": "soundvoltex.dll",

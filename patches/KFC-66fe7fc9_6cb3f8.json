@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-10-08",
-        "lastUpdated": "2024-11-05 11:07:56",
+        "lastUpdated": "2025-02-13 08:04:59",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -56,8 +56,8 @@
     {
         "type": "memory",
         "name": "Shared mode WASAPI",
-        "description": "Allows non-exclusive WASAPI audio in Nemsys mode.",
-        "caution": "ONLY For Nemsys (F spec). Might require 48000Hz sample rate. Will slightly increase audio latency.",
+        "description": "Allows for non-exclusive WASAPI audio.",
+        "caution": "Requires 48000Hz sample rate. Will slightly increase audio latency. Try combining this with the Low Latency Shared Audio option from spice2x.",
         "gameCode": "KFC",
         "patches": [
             {
@@ -65,16 +65,7 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "04",
                 "dataEnabled": "00"
-            }
-        ]
-    },
-    {
-        "type": "memory",
-        "name": "Shared mode WASAPI Valkyrie",
-        "description": "Allows non-exclusive WASAPI audio in Valkyrie mode.",
-        "caution": "ONLY For Valkyrie (G spec). Might require 48000Hz sample rate. Will slightly increase audio latency.",
-        "gameCode": "KFC",
-        "patches": [
+            },
             {
                 "offset": 5700552,
                 "dllName": "soundvoltex.dll",
