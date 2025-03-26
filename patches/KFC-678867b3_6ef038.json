@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2025-01-21",
-        "lastUpdated": "2025-02-13 08:04:59",
+        "lastUpdated": "2025-03-26 10:25:35",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -483,6 +483,20 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "8705",
                 "dataEnabled": "A70C"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Headphones",
+        "description": "Assumes headphones are always connected, allowing for volume control. Useful for cabinets.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5747622,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F10060F114760",
+                "dataEnabled": "C7476001000000"
             }
         ]
     }

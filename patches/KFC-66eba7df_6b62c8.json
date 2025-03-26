@@ -2,14 +2,14 @@
     {
         "gameCode": "KFC",
         "version": "2024-09-24",
-        "lastUpdated": "2025-02-13 08:04:59",
+        "lastUpdated": "2025-03-26 10:25:35",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
-        "type": "union",
         "name": "Game FPS Target",
         "description": "Forces the game to run at a specific FPS target.",
         "gameCode": "KFC",
+        "type": "union",
         "patches": [
             {
                 "name": "60 FPS (Default)",
@@ -30,10 +30,10 @@
         ]
     },
     {
-        "type": "union",
         "name": "Note FPS Target",
         "description": "Forces the game's notes to run at a specific FPS target.",
         "gameCode": "KFC",
+        "type": "union",
         "patches": [
             {
                 "name": "60 FPS (Default)",
@@ -54,11 +54,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Shared mode WASAPI",
         "description": "Allows for non-exclusive WASAPI audio.",
         "caution": "Requires 48000Hz sample rate. Will slightly increase audio latency. Try combining this with the Low Latency Shared Audio option from spice2x.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 5623713,
@@ -75,10 +75,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide premium guide banner",
         "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 3376575,
@@ -89,10 +89,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Hide all bottom text",
         "description": "Hides all text typically found in the bottom corners of the screen such as \"PASELI\" or \"FREE PLAY\".",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 8159496,
@@ -169,10 +169,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Standard/Menu Timer Freeze",
         "description": "Freezes all non-premium area timers.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 1587317,
@@ -183,10 +183,10 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Premium Free Timer Freeze",
         "description": "Freezes all premium area timers.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 4280722,
@@ -209,10 +209,10 @@
         ]
     },
     {
-        "type": "union",
         "name": "Premium Time Length",
         "description": "Time at which the Premium timer starts. If you have it frozen, that'll be the time shown at all times",
         "gameCode": "KFC",
+        "type": "union",
         "patches": [
             {
                 "name": "00:00",
@@ -329,10 +329,10 @@
         ]
     },
     {
-        "type": "union",
         "name": "Fake Region",
         "description": "Forces the game to run as a specific region without altering language, which allows for region-specific content locking. Use Japan for everything to be unlocked.",
         "gameCode": "KFC",
+        "type": "union",
         "patches": [
             {
                 "name": "Default",
@@ -385,11 +385,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "ASIO 2 Channels Mode",
         "description": "Use 2 channels instead of 8. Useful for some audio cards.",
         "caution": "ONLY for ASIO audio users.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 5623914,
@@ -400,11 +400,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Disable power change",
         "description": "Prevents the game from changing power settings.",
         "caution": "Typically not required with spice2x.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 3150990,
@@ -415,11 +415,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Disable monitor change",
         "description": "Prevents the game from changing monitor settings.",
         "caution": "Typically not required with spice2x.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 3151142,
@@ -430,11 +430,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Disable Subscreen in Valkyrie mode",
         "description": "Forcefully disables the subscreen.",
         "caution": "ONLY for Valkyrie (G spec). Consider using spice2x's \"-sdvxnosub\" option instead.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 5086894,
@@ -445,11 +445,11 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Valkyrie Mode 60Hz",
         "description": "Allows the game to run at 60Hz.",
         "caution": "ONLY for Valkyrie (G Spec). Might require \"Force BIO2 (KFC) IO in Valkyrie mode\" to work.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 3151181,
@@ -472,17 +472,31 @@
         ]
     },
     {
-        "type": "memory",
         "name": "Force BIO2 (KFC) IO in Valkyrie mode",
         "description": "Forces the game to use BIO2 IO in Valkyrie mode.",
         "caution": "Can be useful for arcade cabinets. If you don't know why you need this, ignore it.",
         "gameCode": "KFC",
+        "type": "memory",
         "patches": [
             {
                 "offset": 5387125,
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "8705",
                 "dataEnabled": "A70C"
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Headphones",
+        "description": "Assumes headphones are always connected, allowing for volume control. Useful for cabinets.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5541510,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "0F10060F114760",
+                "dataEnabled": "C7476001000000"
             }
         ]
     }
