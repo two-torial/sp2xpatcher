@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-11-26 (010)",
-        "lastUpdated": "2025-02-13 08:05:59",
+        "lastUpdated": "2025-03-26 10:20:37",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -469,6 +469,46 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "32C0",
                 "dataEnabled": "B001"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Step Up Level Adjustment",
+        "description": "Unlocks Step Up level adjustment without requiring 8th Dan.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8515960,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F4DDD",
+                "dataEnabled": "8BDD90"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Step Up Dan Practice Folders",
+        "description": "Unlocks Step Up dan practice folders.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8382240,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F84B0000000",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 8382248,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "0F8EA8000000",
+                "dataEnabled": "909090909090"
+            },
+            {
+                "offset": 8896629,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7427",
+                "dataEnabled": "9090"
             }
         ]
     },
