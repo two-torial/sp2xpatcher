@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-12-23",
-        "lastUpdated": "2025-03-26 10:25:35",
+        "lastUpdated": "2025-04-21 08:27:48",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -381,6 +381,62 @@
                     "dllName": "soundvoltex.dll",
                     "data": "B8040000008905FE5B7F009090"
                 }
+            }
+        ]
+    },
+    {
+        "name": "Force English Sort Options",
+        "description": "Forces the game to use english sort options within the FX-R menu in song select.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 142620,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15C6571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 142649,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B15A9571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 142678,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B158C571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 142707,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B156F571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 142736,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B1552571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 142771,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B152F571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 142806,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "8B150C571801",
+                "dataEnabled": "BA0100000090"
+            },
+            {
+                "offset": 9179900,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "B930B330A23087730698",
+                "dataEnabled": "530063006F0072006500"
             }
         ]
     },
