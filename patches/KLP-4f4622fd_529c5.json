@@ -1,0 +1,42 @@
+[
+    {
+        "gameCode": "KLP",
+        "version": "2012-10-01",
+        "lastUpdated": "2025-05-09 09:15:00",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Fix tutorial hang",
+        "description": "Enable this if you get stuck in a white screen after initial tutorial",
+        "gameCode": "KLP",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 492264,
+                "dllName": "lpac.dll",
+                "dataDisabled": "0F95C0",
+                "dataEnabled": "0F94C0"
+            }
+        ]
+    },
+    {
+        "name": "Higher res eagate photo uploads",
+        "description": "Increases the resolution from 270x480 to 720x1280",
+        "gameCode": "KLP",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1082775,
+                "dllName": "lpac.dll",
+                "dataDisabled": "68E0010000680E01",
+                "dataEnabled": "680005000068D002"
+            },
+            {
+                "offset": 1082846,
+                "dllName": "lpac.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]

@@ -664,3 +664,12 @@ Patches for which we don't know the corresponding game version.
 |----------|----------|---------|------------|
 | MBR | reflecbeat.dll | 2019-12-11 | [MBR-5de9b843_3335c](patches/MBR-5de9b843_3335c.json) |
 </details>
+
+## Love Plus Arcade
+
+<details><summary>Love Plus Arcade: Colorful Clip</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| KLP | lpac.dll | 2012-10-01 | [KLP-4f4622fd_529c5](patches/KLP-4f4622fd_529c5.json) |
+</details>
