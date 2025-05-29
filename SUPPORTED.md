@@ -336,6 +336,7 @@ Patches for which we don't know the corresponding game version.
 | MDX-001 | gamemdx.dll | 2024-09-10 | [MDX-66d95989_1bc399](patches/MDX-66d95989_1bc399.json) |
 | MDX-001 | gamemdx.dll | 2024-10-15 | [MDX-670636e7_1bd9b9](patches/MDX-670636e7_1bd9b9.json) |
 | MDX-001 | gamemdx.dll | 2024-11-27 | [MDX-6743f773_1bdb19](patches/MDX-6743f773_1bdb19.json) |
+| MDX-001 | gamemdx.dll | 2025-03-31 | [MDX-67e285f0_1dea79](patches/MDX-67e285f0_1dea79.json) |
 </details>
 
 ## Dancerush Stardom (DRS)
