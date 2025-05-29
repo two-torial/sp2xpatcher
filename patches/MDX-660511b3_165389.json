@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2024-04-02 (001)",
-        "lastUpdated": "2024-07-10 19:19:37",
+        "lastUpdated": "2025-05-29 15:50:29",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -717,6 +717,20 @@
                     "data": "68010000",
                     "offset": 6184
                 }
+            }
+        ]
+    },
+    {
+        "name": "Force Enable Dan Courses",
+        "description": "Allows playing Dan class courses on regular cabinets",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 733030,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
             }
         ]
     }
