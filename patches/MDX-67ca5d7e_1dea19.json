@@ -1,0 +1,91 @@
+[
+    {
+        "gameCode": "MDX",
+        "version": "2025-03-11 (001)",
+        "lastUpdated": "2025-06-23 15:57:35",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "Freezes all timers.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 206120,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Disable Konami Song and Skip Konami Logo",
+        "description": "Disables the Konami jingle and its animation when starting the game.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2858236,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6C",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Fake Premium Free",
+        "description": "Fakes a Premium Free-like mode.",
+        "caution": "Make sure your network supports and allows this before enabling! BUG: ghost score pacemaker indicator doesn't reload in the same round if a new best is achieved.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 163321,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "01",
+                "dataEnabled": "89"
+            }
+        ]
+    },
+    {
+        "name": "Hide all bottom text",
+        "description": "Hides all text typically found in the bottom corners of the screen such as \"CREDITS\", \"TOKEN\", \"PASELI\", \"FREE PLAY\", etc..",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2353212,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "4556454E54204D4F444500004652454520504C41590000005300000020000000544F4B454E000000434F494E00000000257325733A2532642F2532640000000043524544495425733A25326400000000303030303000000030303030303000002A2A2A2A2A2A0000504153454C493A202573202B20257300504153454C493A2025730000455854524120504153454C493A20257300000000504153454C493A204E4F5420415641494C41424C450000004C4F43414C204D4F444500004F46464C494E45204D4F4445000000004D41494E54454E414E434500434845434B494E4700000000434845434B494E472E000000434845434B494E472E2E0000434845434B494E472E2E2E004F4E4C494E4500004552524F520000004E4F5420415641494C41424C45",
+                "dataEnabled": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            }
+        ]
+    },
+    {
+        "name": "Disable Background Movies",
+        "description": "Disables background movies from playing during gameplay.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2856406,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
+            },
+            {
+                "offset": 2858097,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
+            },
+            {
+                "offset": 2873621,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "6D",
+                "dataEnabled": "5F"
+            }
+        ]
+    }
+]
