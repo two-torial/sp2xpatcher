@@ -2,8 +2,28 @@
     {
         "gameCode": "MDX",
         "version": "2025-06-10 (001)",
-        "lastUpdated": "2025-06-23 15:57:35",
+        "lastUpdated": "2025-07-16 09:59:29",
         "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Mute Announcer",
+        "description": "Mutes the announcer and cheering voices.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 290547,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 2994351,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "76",
+                "dataEnabled": "62"
+            }
+        ]
     },
     {
         "name": "Timer Freeze",
