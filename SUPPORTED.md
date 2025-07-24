@@ -168,6 +168,9 @@ Patches for which we don't know the corresponding game version.
 | LDJ-010 | bm2dx.dll | 2024-12-10 | [LDJ-67510579_a9170c](patches/LDJ-67510579_a9170c.json) |
 | LDJ-012 | bm2dx.dll | 2024-12-10 | [LDJ-675109fd_9c486c](patches/LDJ-675109fd_9c486c.json) |
 | LDJ-010 | bm2dx.dll | 2025-01-14 | [LDJ-677dd783_a954cc](patches/LDJ-677dd783_a954cc.json) |
+| LDJ-010 | bm2dx.dll | 2025-04-15 | [LDJ-67f71180_aade1c](patches/LDJ-67f71180_aade1c.json) |
+| LDJ-010 | bm2dx.dll | 2025-05-13 | [LDJ-681c1d04_af238c](patches/LDJ-681c1d04_af238c.json) |
+| LDJ-010 | bm2dx.dll | 2025-06-02 | [LDJ-68357507_af76dc](patches/LDJ-68357507_af76dc.json) |
 </details>
 
 ## Sound Voltex (SDVX)
