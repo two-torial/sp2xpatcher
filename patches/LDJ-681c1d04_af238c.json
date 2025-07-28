@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2025-05-13 (010)",
-        "lastUpdated": "2025-07-24 17:49:01",
+        "lastUpdated": "2025-07-28 09:29:00",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -619,6 +619,99 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "750A",
                 "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Force LDJ LED Ticker Speed",
+        "description": "Forces the legacy cabinets LED Ticker to run at a normal speed even if the game runs at 120hz.",
+        "caution": "Useless for home play.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9389477,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78",
+                "dataEnabled": "F0"
+            },
+            {
+                "offset": 9462531,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "78",
+                "dataEnabled": "F0"
+            },
+            {
+                "offset": 9389469,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "3F",
+                "dataEnabled": "3D"
+            },
+            {
+                "offset": 5730014,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCC",
+                "dataEnabled": "D1F9"
+            },
+            {
+                "offset": 9841870,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8B0D80425F0A",
+                "dataEnabled": "B92000000090"
+            },
+            {
+                "offset": 9390578,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "6A",
+                "dataEnabled": "67"
+            },
+            {
+                "offset": 9389405,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCCCC",
+                "dataEnabled": "8B713C"
+            },
+            {
+                "offset": 9389505,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8B4B3C",
+                "dataEnabled": "D1FE90"
+            },
+            {
+                "offset": 9389514,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "E903D1",
+                "dataEnabled": "EE01F2"
+            },
+            {
+                "offset": 9389530,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "2BC8",
+                "dataEnabled": "29C6"
+            },
+            {
+                "offset": 9389533,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "F9",
+                "dataEnabled": "FE"
+            },
+            {
+                "offset": 9846023,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "448B491841D1F9EB10"
+            },
+            {
+                "offset": 9846077,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "448B4318",
+                "dataEnabled": "458BC190"
+            },
+            {
+                "offset": 9846698,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "72",
+                "dataEnabled": "59"
             }
         ]
     },
