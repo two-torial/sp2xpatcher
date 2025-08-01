@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2025-05-27",
-        "lastUpdated": "2025-06-07 08:36:49",
+        "lastUpdated": "2025-08-01 21:26:08",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -71,6 +71,20 @@
                 "dllName": "soundvoltex.dll",
                 "dataDisabled": "07",
                 "dataEnabled": "00"
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "Uncensor album jackets (for K region only)",
+        "description": "",
+        "gameCode": "KFC",
+        "patches": [
+            {
+                "offset": 9086032,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "75"
             }
         ]
     },
