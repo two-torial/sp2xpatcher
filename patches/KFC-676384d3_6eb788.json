@@ -2,7 +2,7 @@
     {
         "gameCode": "KFC",
         "version": "2024-12-23",
-        "lastUpdated": "2025-04-21 08:27:48",
+        "lastUpdated": "2025-08-08 12:43:20",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -325,6 +325,20 @@
                     "dllName": "soundvoltex.dll",
                     "data": "00F01449E9040000"
                 }
+            }
+        ]
+    },
+    {
+        "name": "Uncensor All Jackets",
+        "description": "Uncensors all song jackets no matter the region by breaking the path to jacket masks.",
+        "gameCode": "KFC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8793000,
+                "dllName": "soundvoltex.dll",
+                "dataDisabled": "61",
+                "dataEnabled": "75"
             }
         ]
     },
