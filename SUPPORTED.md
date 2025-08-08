@@ -584,6 +584,15 @@ Patches for which we don't know the corresponding game version.
 | M39 | popn22.dll | 2024-07-31 | [M39-66978613_184bc0](patches/M39-66978613_184bc0.json) |
 </details>
 
+<details><summary>pop'n music Jam & Fizz</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M39 | popn22.dll | 2024-09-17 | [M39-66e13bf6_184bc0](patches/M39-66e13bf6_184bc0.json) |
+| M39 | popn22.dll | 2024-09-25 | [M39-66e28576_1851e0](patches/M39-66e28576_1851e0.json) |
+| M39 | popn22.dll | 2024-10-29 | [M39-67176248_188f20](patches/M39-67176248_188f20.json) |
+</details>
+
 ## MÚSECA
 
 <details><summary>MÚSECA</summary>

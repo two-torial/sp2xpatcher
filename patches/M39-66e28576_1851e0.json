@@ -1,7 +1,7 @@
 [
     {
         "gameCode": "M39",
-        "version": "2024-07-31",
+        "version": "2024-09-25",
         "lastUpdated": "2025-08-08 11:17:15",
         "source": "https://sp2x.two-torial.xyz/"
     },
@@ -12,7 +12,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2208540,
+                "offset": 2211000,
                 "dllName": "popn22.dll",
                 "dataDisabled": "653A2F",
                 "dataEnabled": "646576"
@@ -26,7 +26,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 1235740,
+                "offset": 1236412,
                 "dllName": "popn22.dll",
                 "dataDisabled": "85C07596",
                 "dataEnabled": "90909090"
@@ -40,7 +40,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 1247008,
+                "offset": 1247680,
                 "dllName": "popn22.dll",
                 "dataDisabled": "83",
                 "dataEnabled": "C3"
@@ -54,7 +54,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 1042576,
+                "offset": 1041472,
                 "dllName": "popn22.dll",
                 "dataDisabled": "8B00C3CC",
                 "dataEnabled": "31C040C3"
@@ -68,7 +68,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 878012,
+                "offset": 876812,
                 "dllName": "popn22.dll",
                 "dataDisabled": "0F85",
                 "dataEnabled": "90E9"
@@ -83,19 +83,19 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 161547,
+                "offset": 162491,
                 "dllName": "popn22.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "EB"
             },
             {
-                "offset": 161511,
+                "offset": 162455,
                 "dllName": "popn22.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
             },
             {
-                "offset": 511553,
+                "offset": 506451,
                 "dllName": "popn22.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "EB"
@@ -110,13 +110,13 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 1005659,
+                "offset": 1004655,
                 "dllName": "popn22.dll",
-                "dataDisabled": "74E7",
+                "dataDisabled": "74E5",
                 "dataEnabled": "9090"
             },
             {
-                "offset": 1005692,
+                "offset": 1004705,
                 "dllName": "popn22.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "EB"
@@ -131,7 +131,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 974175,
+                "offset": 973103,
                 "dllName": "popn22.dll",
                 "dataDisabled": "7522",
                 "dataEnabled": "9090"
@@ -146,7 +146,7 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 945306,
+                "offset": 944218,
                 "dllName": "popn22.dll",
                 "dataDisabled": "74",
                 "dataEnabled": "EB"
@@ -160,19 +160,19 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2170268,
+                "offset": 2172604,
                 "dllName": "popn22.dll",
                 "dataDisabled": "434F4C4F5220434845434B0043",
                 "dataEnabled": "43484152412056494557455200"
             },
             {
-                "offset": 153698,
+                "offset": 154610,
                 "dllName": "popn22.dll",
                 "dataDisabled": "AC0000",
                 "dataEnabled": "B0340C"
             },
             {
-                "offset": 153728,
+                "offset": 154640,
                 "dllName": "popn22.dll",
                 "dataDisabled": "DCFEFFFF",
                 "dataEnabled": "4C270A00"
@@ -186,19 +186,19 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 2172816,
+                "offset": 2175152,
                 "dllName": "popn22.dll",
                 "dataDisabled": "53435245454E20434845434B",
                 "dataEnabled": "4D5553494320494E464F0000"
             },
             {
-                "offset": 153330,
+                "offset": 154242,
                 "dllName": "popn22.dll",
                 "dataDisabled": "8C0000",
                 "dataEnabled": "B0340C"
             },
             {
-                "offset": 153360,
+                "offset": 154272,
                 "dllName": "popn22.dll",
                 "dataDisabled": "FCFEFFFF",
                 "dataEnabled": "CC1E0900"
