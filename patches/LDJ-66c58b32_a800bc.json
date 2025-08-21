@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2024-08-26 (010)",
-        "lastUpdated": "2025-03-26 10:20:06",
+        "lastUpdated": "2025-08-21 08:31:52",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -501,121 +501,129 @@
             {
                 "name": "Default",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "E8D5F5FFFF"
+                    "data": "E8D5F5FFFF",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "Standard",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8F0250000"
+                    "data": "B8F0250000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "Free",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B890260000"
+                    "data": "B890260000",
+                    "offset": 8946598
+                }
+            },
+            {
+                "name": "Hazard",
+                "patch": {
+                    "dllName": "bm2dx.dll",
+                    "data": "B830270000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "Premium Free",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8D0270000"
+                    "data": "B8D0270000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "Class",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B870280000"
+                    "data": "B870280000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "Step Up",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B810290000"
+                    "data": "B810290000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "Arena",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8C0960000"
+                    "data": "B8C0960000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "BPL Battle",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8E0990000"
+                    "data": "B8E0990000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "MY POLIS DESIGNER - Map 1",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B800A20000"
+                    "data": "B800A20000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "MY POLIS DESIGNER - Map 2",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B850A20000"
+                    "data": "B850A20000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "MY POLIS DESIGNER - Map 3",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8A0A20000"
+                    "data": "B8A0A20000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "MY POLIS DESIGNER - Map Final",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8F0A20000"
+                    "data": "B8F0A20000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "EPOLIS SINGULARITY - System I",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B8E0A80000"
+                    "data": "B8E0A80000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "EPOLIS SINGULARITY - System II",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B880A90000"
+                    "data": "B880A90000",
+                    "offset": 8946598
                 }
             },
             {
                 "name": "EPOLIS RESTORATION",
                 "patch": {
-                    "offset": 8946598,
                     "dllName": "bm2dx.dll",
-                    "data": "B870AA0000"
+                    "data": "B870AA0000",
+                    "offset": 8946598
                 }
             }
         ]
