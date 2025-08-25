@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2025-06-10 (001)",
-        "lastUpdated": "2025-07-16 09:59:29",
+        "lastUpdated": "2025-08-25 06:13:53",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -107,5 +107,18 @@
                 "dataEnabled": "5F"
             }
         ]
+    },
+    {
+        "name": "Sound Offset",
+        "description": "Default = 87",
+        "gameCode": "MDX",
+        "type": "number",
+        "patch": {
+            "dllName": "gamemdx.dll",
+            "offset": 59966,
+            "min": 0,
+            "max": 1000,
+            "size": 4
+        }
     }
 ]
