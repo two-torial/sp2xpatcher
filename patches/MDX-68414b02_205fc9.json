@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2025-06-10 (001)",
-        "lastUpdated": "2025-08-25 06:13:53",
+        "lastUpdated": "2025-08-26 19:39:46",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -40,8 +40,67 @@
         ]
     },
     {
-        "name": "Disable Konami Song and Skip Konami Logo",
-        "description": "Disables the Konami jingle and its animation when starting the game.",
+        "name": "Center arrows for single player",
+        "description": "Centers the arrows for single player.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 366957,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 367172,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "7505",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 367709,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "83C40C8D4C2420",
+                "dataEnabled": "E9F196FAFF9090"
+            },
+            {
+                "offset": 13139,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "83C40C8D4C242036C701EF010000E9FE680500"
+            },
+            {
+                "offset": 367602,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "83C40C8D442420",
+                "dataEnabled": "E9DD14FBFF9090"
+            },
+            {
+                "offset": 45268,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "dataEnabled": "83C40C8D44242036C700EF010000E912EB0400"
+            }
+        ]
+    },
+    {
+        "name": "Skip 'NOW LOADING ...' on boot",
+        "description": "Skips the 'NOW LOADING ...' text on boot.",
+        "caution": "Skips CheckStepDataActor, so music select screen will display 0 BPM for every song.",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 152781,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip Konami jingle and logo",
+        "description": "Skips the Konami jingle and its animation when starting the game.",
         "gameCode": "MDX",
         "type": "memory",
         "patches": [
