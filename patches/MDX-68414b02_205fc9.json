@@ -122,11 +122,11 @@
         }
     },
     {
-        "name": "Cabinet type timing offset",
-        "description": "Default = 1",
+        "name": "Cabinet Type Timing Offset",
+        "description": "Default = 1 (LCD 945 p3io timing?)",
         "gameCode": "MDX",
         "type": "union",
-        "patch": [
+        "patches": [
             {
                 "name": "Default",
                 "patch": {
@@ -136,7 +136,7 @@
                 }
             },
             {
-                "name": "Force CRT 945 p3io timing",
+                "name": "Cabinet Type 0 (CRT 945 p3io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B800000000",
@@ -144,7 +144,7 @@
                 }
             },
             {
-                "name": "Force LCD 945 p3io timing",
+                "name": "Cabinet Type 1 (LCD 945 p3io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B801000000",
@@ -152,7 +152,7 @@
                 }
             },
             {
-                "name": "Force LCD HM64 p4io timing",
+                "name": "Cabinet Type 2 (LCD HM64 p4io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B802000000",
@@ -160,7 +160,7 @@
                 }
             },
             {
-                "name": "Force CRT ADE-6291 p3io timing",
+                "name": "Cabinet Type 3 (CRT ADE-6291 p3io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B803000000",
@@ -168,7 +168,7 @@
                 }
             },
             {
-                "name": "Force LCD ADE-6291 p3io timing",
+                "name": "Cabinet Type 4 (LCD ADE-6291 p3io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B804000000",
@@ -176,7 +176,7 @@
                 }
             },
             {
-                "name": "Force LCD ADE-6291 p4io timing",
+                "name": "Cabinet Type 5 (LCD ADE-6291 p4io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B805000000",
@@ -184,7 +184,7 @@
                 }
             },
             {
-                "name": "Force LCD ADE-6291 bio2 timing",
+                "name": "Cabinet Type 6 (LCD ADE-6291 bio2 timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B806000000",
