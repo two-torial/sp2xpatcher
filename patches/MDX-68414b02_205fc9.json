@@ -152,7 +152,7 @@
                 }
             },
             {
-                "name": "Cabinet Type 2 (LCD HM64 p4io timing?)",
+                "name": "Cabinet Type 2 (LCD HM65 p4io timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B802000000",
@@ -176,7 +176,7 @@
                 }
             },
             {
-                "name": "Cabinet Type 5 (LCD ADE-6291 p4io timing?)",
+                "name": "Cabinet Type 5 (LCD ADE-6291 p4io white timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B805000000",
@@ -184,10 +184,26 @@
                 }
             },
             {
-                "name": "Cabinet Type 6 (LCD ADE-6291 bio2 timing?)",
+                "name": "Cabinet Type 6 (LCD ADE-6291 bio2 gold timing?)",
                 "patch": {
                     "dllName": "gamemdx.dll",
                     "data": "B806000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Cabinet Type 7 (LCD X10 bio2 timing?)",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B807000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Cabinet Type 8 (LCD ADE-6291 bio2 white timing?)",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B808000000",
                     "offset": 152343
                 }
             }
