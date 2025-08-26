@@ -120,5 +120,77 @@
             "max": 1000,
             "size": 4
         }
+    },
+    {
+        "name": "Cabinet type timing offset",
+        "description": "Default = 1",
+        "gameCode": "MDX",
+        "type": "union",
+        "patch": [
+            {
+                "name": "Default",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "E80496FEFF",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force CRT 945 p3io timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B800000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force LCD 945 p3io timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B801000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force LCD HM64 p4io timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B802000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force CRT ADE-6291 p3io timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B803000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force LCD ADE-6291 p3io timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B804000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force LCD ADE-6291 p4io timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B805000000",
+                    "offset": 152343
+                }
+            },
+            {
+                "name": "Force LCD ADE-6291 bio2 timing",
+                "patch": {
+                    "dllName": "gamemdx.dll",
+                    "data": "B806000000",
+                    "offset": 152343
+                }
+            }
+        ]
     }
 ]
