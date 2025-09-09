@@ -1,0 +1,89 @@
+[
+    {
+        "gameCode": "REC",
+        "version": "2024-12-14",
+        "lastUpdated": "2025-09-09 12:28:45",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "Freezes the in-game timer.",
+        "caution": "",
+        "gameCode": "REC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 3656234,
+                "dllName": "superstep.dll",
+                "dataDisabled": "89430C",
+                "dataEnabled": "909090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs",
+        "description": "Unlocks all songs.",
+        "caution": "",
+        "gameCode": "REC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8476232,
+                "dllName": "superstep.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 8476280,
+                "dllName": "superstep.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "01"
+            },
+            {
+                "offset": 8482185,
+                "dllName": "superstep.dll",
+                "dataDisabled": "7507",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8482190,
+                "dllName": "superstep.dll",
+                "dataDisabled": "00",
+                "dataEnabled": "03"
+            },
+            {
+                "offset": 9834597,
+                "dllName": "superstep.dll",
+                "dataDisabled": "66",
+                "dataEnabled": "62"
+            }
+        ]
+    },
+    {
+        "name": "Hide Bottom Text",
+        "description": "Hides text such as EVENT MODE, PASELI, COIN, CREDIT.",
+        "caution": "",
+        "gameCode": "REC",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 8233763,
+                "dllName": "superstep.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            },
+            {
+                "offset": 8234411,
+                "dllName": "superstep.dll",
+                "dataDisabled": "744F",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 8234416,
+                "dllName": "superstep.dll",
+                "dataDisabled": "0F84",
+                "dataEnabled": "90E9"
+            }
+        ]
+    }
+]
