@@ -652,6 +652,7 @@ Patches for which we don't know the corresponding game version.
 | M39 | popn22.dll | 2024-09-17 | [M39-66e13bf6_184bc0](patches/M39-66e13bf6_184bc0.json) |
 | M39 | popn22.dll | 2024-09-25 | [M39-66e28576_1851e0](patches/M39-66e28576_1851e0.json) |
 | M39 | popn22.dll | 2024-10-29 | [M39-67176248_188f20](patches/M39-67176248_188f20.json) |
+| M39 | popn22.dll | 2025-06-03 | [M39-68358bae_191380](patches/M39-68358bae_191380.json) |
 
 </details>
 
