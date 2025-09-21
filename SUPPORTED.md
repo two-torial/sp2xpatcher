@@ -193,6 +193,14 @@ Patches for which we don't know the corresponding game version.
 
 </details>
 
+<details><summary>beatmania IIDX 33 Sparkle Shower</summary></details>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| LDJ-010 | bm2dx.dll | 2025-09-17 | [LDJ-68c117b0_aeecec](patches/LDJ-68c117b0_aeecec.json) |
+
+</details>
+
 ## Sound Voltex (SDVX)
 
 <details><summary>SOUND VOLTEX II -infinite infection-</summary>
