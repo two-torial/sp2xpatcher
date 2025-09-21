@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2025-09-17 (010)",
-        "lastUpdated": "2025-09-21 17:02:00",
+        "lastUpdated": "2025-09-21 18:45:34",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -47,6 +47,21 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "03",
                 "dataEnabled": "02"
+            }
+        ]
+    },
+    {
+        "name": "Standard/Menu Timer Freeze",
+        "description": "Freezes all non-premium area timers.",
+        "caution": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9798360,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "84",
+                "dataEnabled": "81"
             }
         ]
     },
@@ -175,9 +190,9 @@
         "type": "memory",
         "patches": [
             {
-                "offset": 8428799,
+                "offset": 8428800,
                 "dllName": "bm2dx.dll",
-                "dataDisabled": "C90F84930000",
+                "dataDisabled": "0F8493000000",
                 "dataEnabled": "31C090909090"
             },
             {
