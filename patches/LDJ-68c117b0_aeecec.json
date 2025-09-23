@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2025-09-17 (010)",
-        "lastUpdated": "2025-09-21 18:45:34",
+        "lastUpdated": "2025-09-23 22:00:32",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -138,6 +138,21 @@
         ]
     },
     {
+        "name": "Skip Decide Screen",
+        "description": "Skips the splash animation that appears upon starting a song.",
+        "caution": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 5974064,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "488BC455",
+                "dataEnabled": "488BC1C3"
+            }
+        ]
+    },
+    {
         "name": "Quick Retry",
         "description": "Makes retrying a song quicker.",
         "caution": "",
@@ -149,6 +164,36 @@
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "40534883EC20",
                 "dataEnabled": "B001C3909090"
+            }
+        ]
+    },
+    {
+        "name": "Quicker Quick Retry",
+        "description": "Makes retrying a song even quicker. Shortens the duration of the 'Stage Failed' animation.",
+        "caution": "To be used along with \"Quick Retry\".",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9449664,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7C79",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Mute Navigator Voices",
+        "description": "Mutes voices you hear when carding in/out of the game.",
+        "caution": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9860719,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "750B",
+                "dataEnabled": "9090"
             }
         ]
     },
