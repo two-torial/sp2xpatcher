@@ -697,56 +697,6 @@
         ]
     },
     {
-        "name": "Omnimix",
-        "description": "",
-        "gameCode": "LDJ",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 6695456,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7473",
-                "dataEnabled": "EB30"
-            },
-            {
-                "offset": 6695509,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "41",
-                "dataEnabled": "58"
-            },
-            {
-                "offset": 6705391,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "74",
-                "dataEnabled": "EB"
-            },
-            {
-                "offset": 6705414,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7F19",
-                "dataEnabled": "9090"
-            },
-            {
-                "offset": 10129895,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "61",
-                "dataEnabled": "6F"
-            },
-            {
-                "offset": 10848611,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "64617461",
-                "dataEnabled": "6F6D6E69"
-            },
-            {
-                "offset": 5838797,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "E83E180300",
-                "dataEnabled": "B801000000"
-            }
-        ]
-    },
-    {
         "name": "Disable Recording Lock",
         "description": "Allows all songs to be recorded in-game",
         "gameCode": "LDJ",

@@ -746,37 +746,5 @@
                 }
             }
         ]
-    },
-    {
-        "name": "Omnimix",
-        "description": "",
-        "gameCode": "LDJ",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 7239238,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "C3CCCCCCCC",
-                "dataEnabled": "C6470558C3"
-            },
-            {
-                "offset": 7134086,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "7F19",
-                "dataEnabled": "9090"
-            },
-            {
-                "offset": 9374567,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "61",
-                "dataEnabled": "6F"
-            },
-            {
-                "offset": 10082227,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "64617461",
-                "dataEnabled": "6F6D6E69"
-            }
-        ]
     }
 ]
