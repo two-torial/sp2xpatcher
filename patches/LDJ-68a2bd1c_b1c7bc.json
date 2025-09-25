@@ -2,8 +2,23 @@
     {
         "gameCode": "LDJ",
         "version": "2025-08-25 (010)",
-        "lastUpdated": "2025-09-10 18:53:32",
+        "lastUpdated": "2025-09-25 10:13:00",
         "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "ASIO Compatibility Fix",
+        "description": "Fixes a bug in bm2dx that causes incompatibility with many ASIO drivers.",
+        "caution": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4692404,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FF5008",
+                "dataEnabled": "909090"
+            }
+        ]
     },
     {
         "name": "Shared Mode WASAPI",
@@ -540,20 +555,6 @@
                     "dllName": "bm2dx.dll",
                     "data": "BB01000000EB169090"
                 }
-            }
-        ]
-    },
-    {
-        "name": "ASIO Compatibility Fix",
-        "description": "Fixes bug in bm2dx that causes incompatibility with many ASIO drivers.",
-        "gameCode": "LDJ",
-        "type": "memory",
-        "patches": [
-            {
-                "offset": 4692394,
-                "dllName": "bm2dx.dll",
-                "dataDisabled": "FF5008488B4B08488B01FF5008",
-                "dataEnabled":  "FF5008488B4B08488B01909090"
             }
         ]
     },
