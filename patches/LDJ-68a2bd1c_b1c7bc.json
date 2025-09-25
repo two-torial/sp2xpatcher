@@ -544,6 +544,20 @@
         ]
     },
     {
+        "name": "ASIO Compatibility Fix",
+        "description": "Fixes bug in bm2dx that causes incompatibility with many ASIO drivers.",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4692394,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "FF5008488B4B08488B01FF5008",
+                "dataEnabled":  "FF5008488B4B08488B01909090"
+            }
+        ]
+    },
+    {
         "name": "Force Max V-Discs",
         "description": "Forces your V-Discs to be maxed out.",
         "caution": "May(?) cause issues on online networks, use at your own risk.",
