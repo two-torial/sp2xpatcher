@@ -193,7 +193,7 @@ Patches for which we don't know the corresponding game version.
 
 </details>
 
-<details><summary>beatmania IIDX 33 Sparkle Shower</summary></details>
+<details><summary>beatmania IIDX 33 Sparkle Shower</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
@@ -486,6 +486,16 @@ Patches for which we don't know the corresponding game version.
 | M32 | game.dll | 2023-12-19 | [M32-6571527d_15fce8](patches/M32-6571527d_15fce8.json) |
 | M32 | game.dll | 2024-01-16 | [M32-6595ffbf_161d88](patches/M32-6595ffbf_161d88.json) |
 | M32 | game.dll | 2024-02-20 | [M32-65c44dda_162048](patches/M32-65c44dda_162048.json) |
+
+</details>
+
+<details><summary>Gitadora Galaxy Wave</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | boot.dll | 2025-02-12 | [M32-67a47761_2fdc](patches/M32-67a47761_2fdc.json) |
+| M32 | game.dll | 2025-02-12 | [M32-67a4777e_16f5d8](patches/M32-67a4777e_16f5d8.json) |
+| M32 | libshare-pj.dll | 2025-02-12 | [M32-67a4775e_66de0](patches/M32-67a4775e_66de0.json) |
 
 </details>
 

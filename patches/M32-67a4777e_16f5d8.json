@@ -1,0 +1,309 @@
+[
+    {
+        "gameCode": "M32",
+        "version": "2025-02-12",
+        "lastUpdated": "2025-09-27 16:07:48",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Timer Freeze",
+        "description": "",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1017023,
+                "dllName": "game.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Premium Timer Freeze",
+        "description": "",
+        "caution": "Scores will only save on exiting Premium Time, and only up to 20 songs.",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1149842,
+                "dllName": "game.dll",
+                "dataDisabled": "FFC9",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Premium Time 15",
+        "description": "",
+        "caution": "Scores will only save on exiting Premium Time, and only up to 20 songs. Recommended to keep this under 45 minutes.",
+        "gameCode": "M32",
+        "type": "union",
+        "patches": [
+            {
+                "name": "00:00",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "06000000"
+                }
+            },
+            {
+                "name": "00:01",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "3C000000"
+                }
+            },
+            {
+                "name": "04:20",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "F03C0000"
+                }
+            },
+            {
+                "name": "13:37",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "7CBF0000"
+                }
+            },
+            {
+                "name": "57:30",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "98280300"
+                }
+            },
+            {
+                "name": "69:00",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "50CA0300"
+                }
+            },
+            {
+                "name": "10 Minutes",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "A08C0000"
+                }
+            },
+            {
+                "name": "15 Minutes (Default)",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "F0D20000"
+                }
+            },
+            {
+                "name": "20 Minutes",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "40190100"
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "E0A50100"
+                }
+            },
+            {
+                "name": "45 Minutes",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "D0780200"
+                }
+            },
+            {
+                "name": "60 Minutes",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "C04B0300"
+                }
+            },
+            {
+                "name": "90 Minutes",
+                "patch": {
+                    "offset": 104602,
+                    "dllName": "game.dll",
+                    "data": "A0F10400"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Premium Time 10",
+        "description": "",
+        "caution": "Scores will only save on exiting Premium Time, and only up to 20 songs. Recommended to keep this under 45 minutes.",
+        "gameCode": "M32",
+        "type": "union",
+        "patches": [
+            {
+                "name": "00:00",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "06000000"
+                }
+            },
+            {
+                "name": "00:01",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "3C000000"
+                }
+            },
+            {
+                "name": "04:20",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "F03C0000"
+                }
+            },
+            {
+                "name": "13:37",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "7CBF0000"
+                }
+            },
+            {
+                "name": "57:30",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "98280300"
+                }
+            },
+            {
+                "name": "69:00",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "50CA0300"
+                }
+            },
+            {
+                "name": "10 Minutes (Default)",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "A08C0000"
+                }
+            },
+            {
+                "name": "15 Minutes",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "F0D20000"
+                }
+            },
+            {
+                "name": "20 Minutes",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "40190100"
+                }
+            },
+            {
+                "name": "30 Minutes",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "E0A50100"
+                }
+            },
+            {
+                "name": "45 Minutes",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "D0780200"
+                }
+            },
+            {
+                "name": "60 Minutes",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "C04B0300"
+                }
+            },
+            {
+                "name": "90 Minutes",
+                "patch": {
+                    "offset": 104667,
+                    "dllName": "game.dll",
+                    "data": "A0F10400"
+                }
+            }
+        ]
+    },
+    {
+        "name": "Skip Tutorial",
+        "description": "",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 954154,
+                "dllName": "game.dll",
+                "dataDisabled": "0F87",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Enable Long Music",
+        "description": "",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1229892,
+                "dllName": "game.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Skip 'NOW DATA INITIALIZING'",
+        "description": "",
+        "caution": "Useful for testing only",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 215421,
+                "dllName": "game.dll",
+                "dataDisabled": "0F8474010000",
+                "dataEnabled": "909090909090"
+            }
+        ]
+    }
+]

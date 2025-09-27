@@ -1,0 +1,29 @@
+[
+    {
+        "gameCode": "M32",
+        "version": "2025-02-12",
+        "lastUpdated": "2025-09-27 16:07:48",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "60 FPS patch",
+        "description": "Prevents the game from locking to 58 FPS on Win 10/11",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 257853,
+                "dllName": "libshare-pj.dll",
+                "dataDisabled": "73",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 257905,
+                "dllName": "libshare-pj.dll",
+                "dataDisabled": "73",
+                "dataEnabled": "EB"
+            }
+        ]
+    }
+]
