@@ -193,7 +193,7 @@ Patches for which we don't know the corresponding game version.
 
 </details>
 
-<details><summary>beatmania IIDX 33 Sparkle Shower</summary></details>
+<details><summary>beatmania IIDX 33 Sparkle Shower</summary>
 
 | Codename | Filename | Version | Identifier |
 |----------|----------|---------|------------|
