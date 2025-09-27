@@ -489,6 +489,16 @@ Patches for which we don't know the corresponding game version.
 
 </details>
 
+<details><summary>Gitadora Galaxy Wave</summary>
+
+| Codename | Filename | Version | Identifier |
+|----------|----------|---------|------------|
+| M32 | boot.dll | 2025-02-12 | [M32-67a47761_2fdc](patches/M32-67a47761_2fdc.json) |
+| M32 | game.dll | 2025-02-12 | [M32-67a4777e_16f5d8](patches/M32-67a4777e_16f5d8.json) |
+| M32 | libshare-pj.dll | 2025-02-12 | [M32-67a4775e_66de0](patches/M32-67a4775e_66de0.json) |
+
+</details>
+
 ## Jubeat
 
 <details><summary>Jubeat Knit</summary>

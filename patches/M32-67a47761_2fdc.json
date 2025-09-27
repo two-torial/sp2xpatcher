@@ -1,0 +1,23 @@
+[
+    {
+        "gameCode": "M32",
+        "version": "2025-02-12",
+        "lastUpdated": "2025-09-27 16:07:48",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "Prevent CACHE/ and TMP/ folders creation",
+        "description": "",
+        "caution": "",
+        "gameCode": "M32",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 4361,
+                "dllName": "boot.dll",
+                "dataDisabled": "33D2",
+                "dataEnabled": "EB1F"
+            }
+        ]
+    }
+]
