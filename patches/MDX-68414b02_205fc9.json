@@ -2,7 +2,7 @@
     {
         "gameCode": "MDX",
         "version": "2025-06-10 (001)",
-        "lastUpdated": "2025-08-26 19:39:46",
+        "lastUpdated": "2025-09-29 13:55:46",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -179,5 +179,51 @@
             "max": 1000,
             "size": 4
         }
+    },
+	{
+        "name": "Fix 'Real Speed' Calculations",
+        "description": "Calculates 'Real Speed' scroll based on Core BPM instead of Max BPM",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1589493,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "30",
+                "dataEnabled": "6C"
+            }
+        ]
+    },
+	{
+        "name": "Force Platinum Pass Features",
+        "description": "Force enables Platinum Pass features for all players, regardless of server profile settings",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 63833,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8A8670123C10",
+                "dataEnabled": "B00190909090"
+            },
+            {
+                "offset": 63947,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8A8672123C10",
+                "dataEnabled": "B00090909090"
+            },
+            {
+                "offset": 3784844,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "5B35",
+                "dataEnabled": "0000"
+            },
+            {
+                "offset": 3784856,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "CD35",
+                "dataEnabled": "0000"
+            }
+        ]
     }
 ]
