@@ -625,6 +625,21 @@
         ]
     },
     {
+        "name": "Show BPL Battle in LDJ",
+        "description": "Shows the BPL Battle mode in LDJ mode, normally exclusive to TDJ.",
+        "caution": "",
+        "gameCode": "LDJ",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 9452887,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7430",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
         "name": "Show Lightning Model Folder in LDJ",
         "description": "Shows the Lightning Model Folder normally exclusive to TDJ, in LDJ.",
         "caution": "",
@@ -815,6 +830,103 @@
                     "dllName": "bm2dx.dll",
                     "data": "7800"
                 }
+            }
+        ]
+    },
+    {
+        "type": "memory",
+        "name": "TDJonLDJ",
+        "description": "",
+        "gameCode": "LDJ",
+        "patches": [
+            {
+                "offset": 11032701,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "8E",
+                "dataEnabled": "8F"
+            },
+            {
+
+                "offset": 11048162,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "7E",
+                "dataEnabled": "7F"
+            },
+            {
+
+                "offset": 10007996,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
+            },
+            {
+
+                "offset": 11023728,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+
+                "offset": 11049835,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "44",
+                "dataEnabled": "45"
+            },
+            {
+
+                "offset": 11049917,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "74"
+            },
+            {
+
+                "offset": 9798360,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+                "offset": 11047062,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+
+                "offset": 11046678,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+
+                "offset": 11046782,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+
+                "offset": 11047393,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+
+                "offset": 11023024,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
+            },
+            {
+
+                "offset": 11025390,
+                "dllName": "bm2dx.dll",
+                "dataDisabled": "02",
+                "dataEnabled": "03"
             }
         ]
     },
