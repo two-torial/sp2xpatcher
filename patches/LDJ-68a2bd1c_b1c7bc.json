@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2025-08-25 (010)",
-        "lastUpdated": "2025-09-25 10:13:00",
+        "lastUpdated": "2025-09-30 09:25:36",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -846,42 +846,36 @@
                 "dataEnabled": "8F"
             },
             {
-
                 "offset": 11048162,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "7E",
                 "dataEnabled": "7F"
             },
             {
-
                 "offset": 10007996,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "74"
             },
             {
-
                 "offset": 11023728,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
                 "dataEnabled": "03"
             },
             {
-
                 "offset": 11049835,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "44",
                 "dataEnabled": "45"
             },
             {
-
                 "offset": 11049917,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "75",
                 "dataEnabled": "74"
             },
             {
-
                 "offset": 9798360,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
@@ -894,35 +888,30 @@
                 "dataEnabled": "03"
             },
             {
-
                 "offset": 11046678,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
                 "dataEnabled": "03"
             },
             {
-
                 "offset": 11046782,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
                 "dataEnabled": "03"
             },
             {
-
                 "offset": 11047393,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
                 "dataEnabled": "03"
             },
             {
-
                 "offset": 11023024,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
                 "dataEnabled": "03"
             },
             {
-
                 "offset": 11025390,
                 "dllName": "bm2dx.dll",
                 "dataDisabled": "02",
