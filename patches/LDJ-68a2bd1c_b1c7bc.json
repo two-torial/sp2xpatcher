@@ -2,7 +2,7 @@
     {
         "gameCode": "LDJ",
         "version": "2025-08-25 (010)",
-        "lastUpdated": "2025-09-30 16:59:07",
+        "lastUpdated": "2025-10-03 12:25:18",
         "source": "https://sp2x.two-torial.xyz/"
     },
     {
@@ -821,7 +821,8 @@
     {
         "type": "memory",
         "name": "TDJonLDJ",
-        "description": "",
+        "description": "Lets you run TDJ mode on legacy cabinets.",
+        "caution": "FOR CABS ONLY.",
         "gameCode": "LDJ",
         "patches": [
             {
