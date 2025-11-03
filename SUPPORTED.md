@@ -283,6 +283,7 @@ Patches for which we don't know the corresponding game version.
 | KFC | soundvoltex.dll | 2025-05-27 | [KFC-682d7b94_720788](patches/KFC-682d7b94_720788.json) |
 | KFC | soundvoltex.dll | 2025-06-24 | [KFC-6854de88_726ee8](patches/KFC-6854de88_726ee8.json) |
 | KFC | soundvoltex.dll | 2025-10-07 | [KFC-68ddcede_74af68](patches/KFC-68ddcede_74af68.json) |
+| KFC | soundvoltex.dll | 2025-10-21 | [KFC-68ef9455_74afb8](patches/KFC-68ef9455_74afb8.json) |
 
 </details>
 
