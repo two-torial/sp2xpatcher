@@ -200,6 +200,7 @@ Patches for which we don't know the corresponding game version.
 | LDJ-010 | bm2dx.dll | 2025-09-17 | [LDJ-68c117b0_aeecec](patches/LDJ-68c117b0_aeecec.json) |
 | LDJ-010 | bm2dx.dll | 2025-10-07 | [LDJ-68e31540_af22ac](patches/LDJ-68e31540_af22ac.json) |
 | LDJ-012 | bm2dx.dll | 2025-10-07 | [LDJ-68e31899_a2533c](patches/LDJ-68e31899_a2533c.json) |
+| LDJ-010 | bm2dx.dll | 2025-11-11 | [LDJ-690d9a2b_aa5b3c](patches/LDJ-690d9a2b_aa5b3c.json) |
 | LDJ-012 | bm2dx.dll | 2025-11-11 | [LDJ-690d9d6f_9d8bcc](patches/LDJ-690d9d6f_9d8bcc.json) |
 
 </details>
