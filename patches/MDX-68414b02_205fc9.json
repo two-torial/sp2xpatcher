@@ -83,6 +83,26 @@
             }
         ]
     },
+	{
+        "name": "Optimize 'NOW LOADING' Screen",
+        "description": "Optimizes the 'NOW LOADING' screen on boot, significantly reducing load time (song metadata in-game remains intact)",
+        "gameCode": "MDX",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 174982,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "8BE55DC38B",
+                "dataEnabled": "E9C5EA2200"
+            },
+            {
+                "offset": 2463312,
+                "dllName": "gamemdx.dll",
+                "dataDisabled": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                "dataEnabled": "8BE55D565753E8000000005B8B4C24148B41408D34408B796C8B3CB785FF742A8D3C7F01FF8B83850437008B40048B44F8183C08740C84C074083C06770C3C0572085F5E5BE9560CDDFF5F5E5BC3"
+            }
+        ]
+    },
     {
         "name": "Skip 'NOW LOADING ...' on boot",
         "description": "Skips the 'NOW LOADING ...' text on boot.",
