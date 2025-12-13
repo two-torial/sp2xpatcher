@@ -1,0 +1,215 @@
+[
+    {
+        "gameCode": "M39",
+        "version": "2025-09-24",
+        "lastUpdated": "2025-12-13 09:31:14",
+        "source": "https://sp2x.two-torial.xyz/"
+    },
+    {
+        "name": "E: Drive Fix",
+        "description": "",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2274816,
+                "dllName": "popn22.dll",
+                "dataDisabled": "653A2F",
+                "dataEnabled": "646576"
+            }
+        ]
+    },
+    {
+        "name": "HDMI Audio Fix",
+        "description": "",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1289676,
+                "dllName": "popn22.dll",
+                "dataDisabled": "85C07596",
+                "dataEnabled": "90909090"
+            }
+        ]
+    },
+    {
+        "name": "Prevent Windows volume change on boot",
+        "description": "Prevents the game from setting your Windows volume to 100%.",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1300944,
+                "dllName": "popn22.dll",
+                "dataDisabled": "83",
+                "dataEnabled": "C3"
+            }
+        ]
+    },
+    {
+        "name": "Boot to Event Mode",
+        "description": "Boots into event mode.",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1086560,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8B00C3CC",
+                "dataEnabled": "31C040C3"
+            }
+        ]
+    },
+    {
+        "name": "Remove Timer",
+        "description": "Removes the timer",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 919916,
+                "dllName": "popn22.dll",
+                "dataDisabled": "0F85",
+                "dataEnabled": "90E9"
+            }
+        ]
+    },
+    {
+        "name": "Skip Tutorials",
+        "description": "Skips menu and long note tutorials.",
+        "caution": "May(?) cause issues on online networks, use at your own risk.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 165051,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 165015,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            },
+            {
+                "offset": 546099,
+                "dllName": "popn22.dll",
+                "dataDisabled": "75",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock All Songs and Charts",
+        "description": "Unlocks all songs and charts.",
+        "caution": "BE CAREFUL using this with online networks, you could get banned as they may handle this server-side.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1043359,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74E5",
+                "dataEnabled": "9090"
+            },
+            {
+                "offset": 1043409,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Deco Parts",
+        "description": "Unlocks all deco parts.",
+        "caution": "BE CAREFUL using this with online networks, you could get banned as they may handle this server-side.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 1016079,
+                "dllName": "popn22.dll",
+                "dataDisabled": "7522",
+                "dataEnabled": "9090"
+            }
+        ]
+    },
+    {
+        "name": "Unlock Characters",
+        "description": "Unlocks all characters.",
+        "caution": "BE CAREFUL using this with online networks, you could get banned as they may handle this server-side.",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 987274,
+                "dllName": "popn22.dll",
+                "dataDisabled": "74",
+                "dataEnabled": "EB"
+            }
+        ]
+    },
+    {
+        "name": "Replace COLOR CHECK test menu with debug CHARA VIEWER",
+        "description": "Press service button to exit.",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2236092,
+                "dllName": "popn22.dll",
+                "dataDisabled": "434F4C4F5220434845434B0043",
+                "dataEnabled": "43484152412056494557455200"
+            },
+            {
+                "offset": 157058,
+                "dllName": "popn22.dll",
+                "dataDisabled": "AC0000",
+                "dataEnabled": "B0340C"
+            },
+            {
+                "offset": 157088,
+                "dllName": "popn22.dll",
+                "dataDisabled": "DCFEFFFF",
+                "dataEnabled": "4C270A00"
+            }
+        ]
+    },
+    {
+        "name": "Replace SCREEN CHECK test menu with debug MUSIC INFO CHECKER",
+        "description": "Press service button to exit.",
+        "caution": "",
+        "gameCode": "M39",
+        "type": "memory",
+        "patches": [
+            {
+                "offset": 2238632,
+                "dllName": "popn22.dll",
+                "dataDisabled": "53435245454E20434845434B",
+                "dataEnabled": "4D5553494320494E464F0000"
+            },
+            {
+                "offset": 156690,
+                "dllName": "popn22.dll",
+                "dataDisabled": "8C0000",
+                "dataEnabled": "B0340C"
+            },
+            {
+                "offset": 156720,
+                "dllName": "popn22.dll",
+                "dataDisabled": "FCFEFFFF",
+                "dataEnabled": "CC1E0900"
+            }
+        ]
+    }
+]
